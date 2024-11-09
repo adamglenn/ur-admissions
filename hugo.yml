@@ -1,0 +1,15 @@
+baseURL: 'https://www.wvu.edu/admissions-and-aid'
+languageCode: 'en-us'
+title: 'West Virginia University - Admissions'
+timeZone: America/New_York
+
+disableKinds:
+  - taxonomy
+  - term
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
