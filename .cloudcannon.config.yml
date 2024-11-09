@@ -1,0 +1,156 @@
+paths:
+  data: data
+  collections: content
+  includes: layouts
+  layouts: layouts
+  static: assets
+  uploads: assets/uploads
+  source: ''
+  archetypes: archetypes
+  assets: assets
+  content: content
+  pages: content
+  publish: public
+  config: ''
+collections_config:
+  pages:
+    _enabled_editors:
+      - visual
+    path: content
+    description: Pages description
+    output: true
+    parse_branch_index: true
+    disable_add: false
+    disable_add_folder: false
+    disable_add_file_actions: false
+    schemas:
+      page:
+        path: .cloudcannon/schemas/page.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        new_preview_url: /
+_enabled_editors:
+  - visual
+  - content
+  - data
+_inputs:
+  publish_date:
+    type: date
+    instance_value: NOW
+  type:
+    type: auto
+    hidden: true
+    cascade: true
+_editables:
+  content:
+    allow_custom_markup: false
+    remove_custom_markup: false
+    bold: true
+    bulletedlist: true
+    code: true
+    copyformatting: true
+    embed: true
+    format: p h2 h3 h4 h5 h6
+    horizontalrule: true
+    image: true
+    image_size_attributes: true
+    indent: true
+    italic: true
+    link: true
+    numberedlist: true
+    outdent: true
+    redo: true
+    removeformat: true
+    snippet: true
+    strike: true
+    styles: /assets/scss/custom/_content.scss
+    subscript: true
+    superscript: true
+    table: true
+    underline: true
+    undo: true
+data_config: true
+timezone: US/Eastern
+_snippets:
+  figure:
+    template: hugo_shortcode_named_args
+    inline: false
+    picker_preview:
+      gallery:
+        image: .cloudcannon/shortcode_previews/figure.webp
+        icon: image
+      text: Figure
+      icon: image
+      subtext: An image with an optional caption below
+    preview:
+      view: gallery
+      gallery:
+        image:
+          - key: image_source
+      text:
+        - key: image_alt
+        - Image has no alternative text
+      icon: image
+      metadata:
+        - icon: folder
+          text:
+            - key: image_source
+        - icon: closed_caption
+          text:
+            - key: caption
+    definitions:
+      shortcode_name: figure
+      named_args:
+        - editor_key: image_source
+          type: string
+          optional: false
+        - editor_key: image_alt
+          type: string
+          optional: false
+        - editor_key: caption
+          type: string
+          optional: true
+    _inputs:
+      image_source:
+        type: image
+        cascade: true
+      caption:
+        type: textarea
+        cascade: true
+  blockquote:
+    template: hugo_shortcode_named_args
+    inline: false
+    picker_preview:
+      gallery:
+        image: .cloudcannon/shortcode_previews/blockquote.webp
+        icon: format_quote
+      text: Blockquote
+      icon: format_quote
+    preview:
+      text:
+        - key: quote
+        - Quote
+      icon: format_quote
+      metadata:
+        - text:
+            - key: author
+          icon: account_box
+    definitions:
+      shortcode_name: blockquote
+      named_args:
+        - editor_key: quote
+          type: string
+          optional: false
+        - editor_key: author
+          type: string
+          optional: false
+    _inputs:
+      quote:
+        type: textarea
+        cascade: true
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_figure

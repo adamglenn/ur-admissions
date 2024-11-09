@@ -1,0 +1,6 @@
+github.com/adamglenn/wvu-ds-v3-bookshop-components v0.0.0-20241105163323-05f6cb925d0f h1:fDhm0ZEZg2Jde9pbznmhJcP45J5w+LjkTGcEM1T4KKA=
+github.com/adamglenn/wvu-ds-v3-bookshop-components v0.0.0-20241105163323-05f6cb925d0f/go.mod h1:zFwPmcsce0VBt0umkcqtJeFqTw7YMiiXMoOpADjVwAE=
+github.com/cloudcannon/bookshop/hugo/v3 v3.12.0 h1:4MZs5mgAYiZINA/wC9bUfUH+if/0FqQ6/vkmPCvpqvk=
+github.com/cloudcannon/bookshop/hugo/v3 v3.12.0/go.mod h1:s7mIonDhtsLcn10ZKuVXyqd6BDHI8vT1WQhZw8rPfY8=
+github.com/wvuweb/wvu-ds-v3-hugo v0.0.0-20241014173456-fd0b4360bd6c h1:Vy3mdHAOmNSRDuOpRndt2XUmb+eecAFqWIkoZ76hnQY=
+github.com/wvuweb/wvu-ds-v3-hugo v0.0.0-20241014173456-fd0b4360bd6c/go.mod h1:liM90vRp0qx3Spgh3xcrKIs3AsLwwYK47zS9mo2XWwc=
