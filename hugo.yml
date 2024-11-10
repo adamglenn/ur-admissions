@@ -1,6 +1,6 @@
 baseURL: ''
 languageCode: 'en-us'
-title: 'West Virginia University - Admissions'
+title: 'Admissions'
 timeZone: America/New_York
 
 disableKinds:
@@ -25,3 +25,6 @@ module:
         target: layouts/partials/bookshop/
       - source: component-library
         target: assets/bookshop/
+  replacements: 
+    - github.com/wvuweb/wvu-ds-v3-hugo -> ../../wvu-ds-v3-hugo/
+    - github.com/adamglenn/wvu-ds-v3-bookshop-components -> ../../wvu-ds-v3-bookshop-components/
