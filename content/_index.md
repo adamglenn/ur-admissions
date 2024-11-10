@@ -30,4 +30,21 @@ content_blocks:
     layout:
       align: left
       vertical_space: py-8
+  - _bookshop_name: section/hero
+    background_image: ''
+    alt_text:
+    heading: Test
+    body:
+      - ''
+    ctas:
+      - url: ''
+        text: ''
+    postscript_links:
+      - url: ''
+        text: ''
+    config:
+      is_main: true
+    layout:
+      align: ''
+      vertical_space: ''
 ---
