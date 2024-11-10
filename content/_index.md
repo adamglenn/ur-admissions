@@ -2,10 +2,7 @@
 title: Home
 content_blocks:
   - _bookshop_name: section/hero
-    background_image: >-
-      https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
-    alt_text:
-    heading: True Beauty Test
+    heading: True Beauty
     body:
       - >-
         When you’re in West Virginia, a breathtaking view is always a few steps
@@ -27,12 +24,13 @@ content_blocks:
         text: Apply to grad school
     config:
       is_main: true
+    background_image: >-
+      https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
+    alt_text:
     layout:
       align: left
       vertical_space: py-8
   - _bookshop_name: section/hero
-    background_image: ''
-    alt_text:
     heading: Test
     body:
       - ''
@@ -44,6 +42,8 @@ content_blocks:
         text: ''
     config:
       is_main: true
+    background_image: ''
+    alt_text:
     layout:
       align: ''
       vertical_space: ''
