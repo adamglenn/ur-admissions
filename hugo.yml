@@ -17,7 +17,7 @@ module:
     extended: true
     min: 0.125
   imports:
-    - path: components.local
+    # - path: components.local
     - path: github.com/wvuweb/wvu-ds-v3-hugo
     - path: github.com/cloudcannon/bookshop/hugo/v3
     # - path: github.com/adamglenn/wvu-ds-v3-bookshop-components
@@ -26,7 +26,7 @@ module:
     #     target: layouts/partials/bookshop/
     #   - source: component-library
     #     target: assets/bookshop/
-  replacements:
-    - components.local -> ../component-library
-  #   - github.com/wvuweb/wvu-ds-v3-hugo -> ../../wvu-ds-v3-hugo/
-  #   - github.com/adamglenn/wvu-ds-v3-bookshop-components -> ../../wvu-ds-v3-bookshop-components/
+  # replacements:
+    # - components.local -> ../component-library
+    # - github.com/wvuweb/wvu-ds-v3-hugo -> ../../wvu-ds-v3-hugo/
+    # - github.com/adamglenn/wvu-ds-v3-bookshop-components -> ../../wvu-ds-v3-bookshop-components/
