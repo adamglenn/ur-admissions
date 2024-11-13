@@ -1,4 +1,14 @@
 {{ define "main" }}
-  {{ partial "bookshop_bindings" `.Params.content_blocks` }}
-  {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+  {{ if .Params.pageType }}
+    {{ if eq .Params.pageType 'article' }}
+      {{ partial "bookshop_bindings" `.Params.article_blocks` }}
+      {{ partial "bookshop_partial" (slice "page" .Params.article_blocks) }}
+    {{ else }}
+      {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+      {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+    {{ end }}
+  {{ else }}
+    {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+    {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+  {{ end }}
 {{ end }}
