@@ -1,11 +1,10 @@
-_schema: _schema
 paths:
-  static: static
-  uploads: static/uploads
   data: data
   collections: content
   includes: layouts
   layouts: layouts
+  static: assets
+  uploads: assets/uploads
   source: ''
   archetypes: archetypes
   assets: assets
@@ -15,1116 +14,143 @@ paths:
   config: ''
 collections_config:
   pages:
+    _enabled_editors:
+      - visual
     path: content
-    icon: notes
+    description: Pages description
     output: true
-    filter: strict
     parse_branch_index: true
     disable_add: false
     disable_add_folder: false
-    disable_file_actions: false
-_structures:
-  column_blocks:
-    style: select
-    values: []
-  content_blocks:
-    style: select
-    values: []
-  toppers:
-    style: select
-    values: []
+    disable_add_file_actions: false
+    schemas:
+      page:
+        path: .cloudcannon/schemas/page.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        new_preview_url: /
+_enabled_editors:
+  - visual
+  - content
+  - data
+_inputs:
+  publish_date:
+    type: date
+    instance_value: NOW
+  type:
+    type: auto
+    hidden: true
+    cascade: true
+_editables:
+  content:
+    allow_custom_markup: false
+    remove_custom_markup: false
+    bold: true
+    bulletedlist: true
+    code: true
+    copyformatting: true
+    embed: true
+    format: p h2 h3 h4 h5 h6
+    horizontalrule: true
+    image: true
+    image_size_attributes: true
+    indent: true
+    italic: true
+    link: true
+    numberedlist: true
+    outdent: true
+    redo: true
+    removeformat: true
+    snippet: true
+    strike: true
+    styles: /assets/scss/custom/_content.scss
+    subscript: true
+    superscript: true
+    table: true
+    underline: true
+    undo: true
+data_config: true
+timezone: US/Eastern
 _snippets:
-  hugo_summary_divider:
-    inline: true
-    snippet: <!--more-->
-    preview:
-      text: Summary Divider
-      icon: summarize
-      view: inline
-    picker_preview:
-      subtext: Marker to show which content to include in the article summary.
-  hugo_highlight:
-    inline: false
-    template: hugo_paired_shortcode_positional_args
-    definitions:
-      shortcode_name: highlight
-      positional_args:
-        - editor_key: language
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-      content_key: content
-    preview:
-      text: Highlight
-      subtext:
-        - key: language
-        - Code block with syntax highlighting.
-      icon: code
-    _inputs:
-      content:
-        type: code
-        cascade: true
-      language:
-        type: select
-        options:
-          value_key: value
-          text_key: name
-          values:
-            - name: ABAP
-              value: abap
-            - name: ABNF
-              value: abnf
-            - name: ActionScript
-              value: as
-            - name: ActionScript 3
-              value: as3
-            - name: Ada
-              value: ada
-            - name: AL
-              value: al
-            - name: Angular2
-              value: ng2
-            - name: ANTLR
-              value: antlr
-            - name: ApacheConf
-              value: apacheconf
-            - name: APL
-              value: apl
-            - name: AppleScript
-              value: applescript
-            - name: Arduino
-              value: arduino
-            - name: ArmAsm
-              value: armasm
-            - name: Awk
-              value: awk
-            - name: Ballerina
-              value: ballerina
-            - name: Base Makefile
-              value: make
-            - name: Bash
-              value: bash
-            - name: BashSession
-              value: bash-session
-            - name: Batchfile
-              value: bat
-            - name: BibTeX
-              value: bib
-            - name: Bicep
-              value: bicep
-            - name: BlitzBasic
-              value: blitzbasic
-            - name: BNF
-              value: bnf
-            - name: C
-              value: c
-            - name: C#
-              value: csharp
-            - name: C++
-              value: cpp
-            - name: Caddyfile
-              value: caddyfile
-            - name: Caddyfile Directives
-              value: caddyfile-directives
-            - name: Cap'n Proto
-              value: capnp
-            - name: Cassandra CQL
-              value: cassandra
-            - name: Ceylon
-              value: ceylon
-            - name: CFEngine3
-              value: cfengine3
-            - name: CFStatement
-              value: cfs
-            - name: ChaiScript
-              value: chai
-            - name: Cheetah
-              value: cheetah
-            - name: Clojure
-              value: clojure
-            - name: CMake
-              value: cmake
-            - name: COBOL
-              value: cobol
-            - name: CoffeeScript
-              value: coffee-script
-            - name: Common Lisp
-              value: common-lisp
-            - name: Coq
-              value: coq
-            - name: Crystal
-              value: cr
-            - name: CSS
-              value: css
-            - name: Cython
-              value: cython
-            - name: D
-              value: d
-            - name: Dart
-              value: dart
-            - name: Diff
-              value: diff
-            - name: Django/Jinja
-              value: django
-            - name: Docker
-              value: docker
-            - name: DTD
-              value: dtd
-            - name: Dylan
-              value: dylan
-            - name: EBNF
-              value: ebnf
-            - name: Elixir
-              value: elixir
-            - name: Elm
-              value: elm
-            - name: EmacsLisp
-              value: emacs
-            - name: Erlang
-              value: erlang
-            - name: Factor
-              value: factor
-            - name: Fennel
-              value: fennel
-            - name: Fish
-              value: fish
-            - name: Forth
-              value: forth
-            - name: Fortran
-              value: fortran
-            - name: FortranFixed
-              value: fortranfixed
-            - name: FSharp
-              value: fsharp
-            - name: GAS
-              value: gas
-            - name: GDScript
-              value: gdscript
-            - name: Genshi
-              value: genshi
-            - name: Gherkin
-              value: cucumber
-            - name: GLSL
-              value: glsl
-            - name: Gnuplot
-              value: gnuplot
-            - name: Go
-              value: go
-            - name: Go HTML Template
-              value: go-html-template
-            - name: Go Text Template
-              value: go-text-template
-            - name: GraphQL
-              value: graphql
-            - name: Groff
-              value: groff
-            - name: Groovy
-              value: groovy
-            - name: Handlebars
-              value: handlebars
-            - name: Haskell
-              value: haskell
-            - name: Haxe
-              value: hx
-            - name: HCL
-              value: hcl
-            - name: Hexdump
-              value: hexdump
-            - name: HLB
-              value: hlb
-            - name: HTML
-              value: html
-            - name: HTTP
-              value: http
-            - name: Hy
-              value: hylang
-            - name: Idris
-              value: idris
-            - name: Igor
-              value: igor
-            - name: INI
-              value: ini
-            - name: Io
-              value: io
-            - name: J
-              value: j
-            - name: Java
-              value: java
-            - name: JavaScript
-              value: js
-            - name: JSON
-              value: json
-            - name: Julia
-              value: julia
-            - name: Jungle
-              value: jungle
-            - name: Kotlin
-              value: kotlin
-            - name: Lighttpd configuration file
-              value: lighty
-            - name: LLVM
-              value: llvm
-            - name: Lua
-              value: lua
-            - name: Mako
-              value: mako
-            - name: Markdown
-              value: md
-            - name: Mason
-              value: mason
-            - name: Mathematica
-              value: mathematica
-            - name: Matlab
-              value: matlab
-            - name: Mcfunction
-              value: mcfunction
-            - name: Meson
-              value: meson
-            - name: Metal
-              value: metal
-            - name: MiniZinc
-              value: minizinc
-            - name: MLIR
-              value: mlir
-            - name: Modula-2
-              value: modula2
-            - name: MonkeyC
-              value: monkeyc
-            - name: MorrowindScript
-              value: morrowind
-            - name: Myghty
-              value: myghty
-            - name: MySQL
-              value: mysql
-            - name: NASM
-              value: nasm
-            - name: Newspeak
-              value: newspeak
-            - name: Nginx configuration file
-              value: nginx
-            - name: Nim
-              value: nim
-            - name: Nix
-              value: nixos
-            - name: Objective-C
-              value: objective-c
-            - name: OCaml
-              value: ocaml
-            - name: Octave
-              value: octave
-            - name: OnesEnterprise
-              value: ones
-            - name: OpenEdge ABL
-              value: openedge
-            - name: OpenSCAD
-              value: openscad
-            - name: Org Mode
-              value: org
-            - name: PacmanConf
-              value: pacmanconf
-            - name: Perl
-              value: perl
-            - name: PHP
-              value: php
-            - name: PHTML
-              value: phtml
-            - name: Pig
-              value: pig
-            - name: PkgConfig
-              value: pkgconfig
-            - name: PL/pgSQL
-              value: plpgsql
-            - name: Plaintext
-              value: text
-            - name: Plutus Core
-              value: plutus-core
-            - name: Pony
-              value: pony
-            - name: PostgreSQL SQL dialect
-              value: postgresql
-            - name: PostScript
-              value: postscript
-            - name: POVRay
-              value: pov
-            - name: PowerQuery
-              value: powerquery
-            - name: PowerShell
-              value: powershell
-            - name: Prolog
-              value: prolog
-            - name: PromQL
-              value: promql
-            - name: Protocol Buffer
-              value: protobuf
-            - name: Puppet
-              value: puppet
-            - name: Python
-              value: python
-            - name: Python 2
-              value: python2
-            - name: QBasic
-              value: qbasic
-            - name: QML
-              value: qml
-            - name: R
-              value: splus
-            - name: Racket
-              value: racket
-            - name: Ragel
-              value: ragel
-            - name: Raku
-              value: perl6
-            - name: React
-              value: jsx
-            - name: ReasonML
-              value: reason
-            - name: Reg
-              value: registry
-            - name: ReStructuredText
-              value: rst
-            - name: Rexx
-              value: rexx
-            - name: Ruby
-              value: rb
-            - name: Rust
-              value: rust
-            - name: SAS
-              value: sas
-            - name: Sass
-              value: sass
-            - name: Scala
-              value: scala
-            - name: Scheme
-              value: scheme
-            - name: Scilab
-              value: scilab
-            - name: SCSS
-              value: scss
-            - name: Sieve
-              value: sieve
-            - name: Smalltalk
-              value: smalltalk
-            - name: Smarty
-              value: smarty
-            - name: Snobol
-              value: snobol
-            - name: Solidity
-              value: sol
-            - name: SPARQL
-              value: sparql
-            - name: SQL
-              value: sql
-            - name: SquidConf
-              value: squidconf
-            - name: Standard ML
-              value: sml
-            - name: Stylus
-              value: stylus
-            - name: Svelte
-              value: svelte
-            - name: Swift
-              value: swift
-            - name: SYSTEMD
-              value: systemd
-            - name: System Verilog
-              value: systemverilog
-            - name: TableGen
-              value: tablegen
-            - name: TASM
-              value: tasm
-            - name: Tcl
-              value: tcl
-            - name: Tcsh
-              value: tcsh
-            - name: Termcap
-              value: termcap
-            - name: Terminfo
-              value: terminfo
-            - name: Terraform
-              value: terraform
-            - name: TeX
-              value: tex
-            - name: Thrift
-              value: thrift
-            - name: TOML
-              value: toml
-            - name: TradingView
-              value: tradingview
-            - name: Transact-SQL
-              value: tsql
-            - name: Turing
-              value: turing
-            - name: Turtle
-              value: turtle
-            - name: Twig
-              value: twig
-            - name: TypeScript
-              value: ts
-            - name: TypoScript
-              value: typoscript
-            - name: TypoScriptCssData
-              value: typoscriptcssdata
-            - name: TypoScriptHtmlData
-              value: typoscripthtmldata
-            - name: V
-              value: v
-            - name: V shell
-              value: vsh
-            - name: VB.net
-              value: vb.net
-            - name: Verilog
-              value: verilog
-            - name: VHDL
-              value: vhdl
-            - name: VimL
-              value: vim
-            - name: Vue
-              value: vue
-            - name: Whiley
-              value: whiley
-            - name: XML
-              value: xml
-            - name: Xorg
-              value: xorg.conf
-            - name: YAML
-              value: yaml
-            - name: YANG
-              value: yang
-            - name: Zed
-              value: zed
-            - name: Zig
-              value: zig
-        cascade: true
-  hugo_figure:
+  figure:
     template: hugo_shortcode_named_args
     inline: false
+    picker_preview:
+      gallery:
+        image: .cloudcannon/shortcode_previews/figure.webp
+        icon: image
+      text: Figure
+      icon: image
+      subtext: An image with an optional caption below
     preview:
-      text:
-        - key: title
-        - key: alt_text
-        - Figure
-      subtext:
-        - key: caption
-        - Full-width image with an optional caption below.
+      view: gallery
       gallery:
         image:
-          - key: src
-        text: No preview available
-        fit: contain
+          - key: image_source
+      text:
+        - key: image_alt
+        - Image has no alternative text
+      icon: image
       metadata:
         - icon: folder
           text:
-            - key: src
-        - icon: link
+            - key: image_source
+        - icon: closed_caption
           text:
-            - key: link
-      icon: image
-      image:
-        - key: src
-      view: gallery
-    _inputs:
-      title:
-        type: auto
-        comment: Image title.
-        cascade: true
-      src:
-        type: image
-        comment: The image to display.
-        cascade: true
-        text: Source
-      link:
-        type: url
-        comment: URL for the image to link to.
-        cascade: true
-      target:
-        type: auto
-        comment: Target attribute for the image link.
-        hidden: '!link'
-        cascade: true
-      rel:
-        type: auto
-        comment: Rel attribute for the image link.
-        hidden: '!link'
-        cascade: true
-      attr:
-        type: text
-        comment: Image attribution text.
-        cascade: true
-        text: Attribution
-      attrlink:
-        type: url
-        comment: URL for the attribution to link to.
-        cascade: true
-        text: Attribution Link
-      caption:
-        type: text
-        comment: Image caption.
-        cascade: true
-      alt:
-        type: auto
-        comment: Alternate text if the image cannot be displayed.
-        cascade: true
-        text: Alt Text
-      class:
-        type: auto
-        comment: Class attribute of the HTML figure tag.
-        cascade: true
-      width:
-        type: auto
-        comment: Width attribute of the image.
-        cascade: true
-      height:
-        type: auto
-        comment: Height attribute of the image.
-        cascade: true
+            - key: caption
     definitions:
       shortcode_name: figure
       named_args:
-        - editor_key: src
-          optional: true
-          remove_empty: true
+        - editor_key: image_source
           type: string
-          implied_boolean: false
-        - editor_key: title
-          optional: true
-          remove_empty: true
+          optional: false
+        - editor_key: image_alt
           type: string
-          implied_boolean: false
-        - editor_key: alt
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
+          optional: false
         - editor_key: caption
-          optional: true
-          remove_empty: true
           type: string
-          implied_boolean: false
-        - editor_key: link
           optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: target
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: rel
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: attr
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: attrlink
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: class
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: width
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-        - editor_key: height
-          optional: true
-          remove_empty: true
-          type: string
-          implied_boolean: false
-  hugo_gist:
-    template: hugo_shortcode_positional_args
-    inline: false
-    preview:
-      text: Gist
-      subtext:
-        - key: username
-        - GitHub Gist embed.
-      icon: integration_instructions
     _inputs:
-      username:
-        type: auto
-        comment: Name of the user that owns the Gist.
+      image_source:
+        type: image
         cascade: true
-      id:
-        type: auto
-        comment: ID of the Gist to embed.
+      caption:
+        type: textarea
         cascade: true
-        text: Gist ID
-      file:
-        type: auto
-        comment: Name of the file to embed, if the Gist contains multiple.
-        cascade: true
-        text: Filename
-    definitions:
-      shortcode_name: gist
-      positional_args:
-        - editor_key: username
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-        - editor_key: id
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-        - editor_key: file
-          type: string
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-  hugo_param:
-    template: hugo_shortcode_positional_args
-    inline: true
-    preview:
-      text: Param
-      icon: data_object
-      view: inline
-    picker_preview:
-      subtext: Front matter parameter.
-    _inputs:
-      param:
-        type: auto
-        comment: The frontmatter parameter to display.
-        cascade: true
-    definitions:
-      shortcode_name: param
-      positional_args:
-        - editor_key: param
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-  hugo_ref:
-    template: hugo_shortcode_named_args
-    inline: true
-    preview:
-      text: Reference
-      icon: link
-      view: inline
-    picker_preview:
-      subtext: Link to another page.
-    _inputs:
-      path:
-        type: text
-        comment: Name of the document to reference.
-        cascade: true
-        text: Reference
-      lang:
-        type: auto
-        comment: Which language version of the document to reference.
-        cascade: true
-        text: Language
-      outputFormat:
-        type: auto
-        comment: Which format of the document to reference.
-        cascade: true
-        text: Output Format
-    definitions:
-      shortcode_name: ref
-      named_args:
-        - editor_key: path
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-        - editor_key: lang
-          type: string
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-        - editor_key: outputFormat
-          type: string
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-    alternate_formats:
-      - template: hugo_shortcode_positional_args
-        definitions:
-          shortcode_name: ref
-          positional_args:
-            - editor_key: path
-              type: string
-  hugo_relref:
-    template: hugo_shortcode_named_args
-    inline: true
-    preview:
-      text: Relative Reference
-      icon: link
-      view: inline
-    picker_preview:
-      subtext: Relative link to another page.
-    _inputs:
-      path:
-        type: text
-        comment: Name of the page to reference
-        cascade: true
-        text: Reference
-      lang:
-        type: auto
-        comment: Which language version of the document to reference.
-        cascade: true
-        text: Language
-      outputFormat:
-        type: auto
-        comment: Which format of the document to reference.
-        cascade: true
-        text: Output Format
-    definitions:
-      shortcode_name: relref
-      named_args:
-        - editor_key: path
-          type: string
-          remove_empty: false
-          optional: false
-          implied_boolean: false
-        - editor_key: lang
-          type: string
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-        - editor_key: outputFormat
-          type: string
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-    alternate_formats:
-      - template: hugo_shortcode_positional_args
-        definitions:
-          shortcode_name: relref
-          positional_args:
-            - editor_key: path
-              type: string
-  hugo_tweet:
+  blockquote:
     template: hugo_shortcode_named_args
     inline: false
-    preview:
-      text: Tweet
-      subtext:
-        - key: user
-        - Twitter tweet embed.
-      icon: message
-    _inputs:
-      user:
-        type: auto
-        comment: Name of the user that made the tweet.
-        cascade: true
-        text: Username
-      id:
-        type: auto
-        comment: ID of the tweet to embed.
-        cascade: true
-        text: Tweet ID
-    definitions:
-      shortcode_name: tweet
-      named_args:
-        - editor_key: user
-          type: string
-          optional: false
-          remove_empty: false
-          implied_boolean: false
-        - editor_key: id
-          type: string
-          optional: false
-          remove_empty: false
-          implied_boolean: false
-  hugo_vimeo:
-    template: hugo_shortcode_named_args
-    inline: false
+    picker_preview:
+      gallery:
+        image: .cloudcannon/shortcode_previews/blockquote.webp
+        icon: format_quote
+      text: Blockquote
+      icon: format_quote
     preview:
       text:
-        - key: title
-        - Vimeo
-      subtext:
-        - key: id
-        - Vimeo video embed.
-      icon: videocam
-    _inputs:
-      id:
-        type: auto
-        comment: ID of the Vimeo video to embed.
-        cascade: true
-      title:
-        type: auto
-        comment: Title of the video embed for accessibility.
-        cascade: true
-      class:
-        type: auto
-        comment: HTML class of the embedded video.
-        cascade: true
-    alternate_formats:
-      - template: hugo_shortcode_positional_args
-        definitions:
-          shortcode_name: vimeo
-          positional_args:
-            - editor_key: id
+        - key: quote
+        - Quote
+      icon: format_quote
+      metadata:
+        - text:
+            - key: author
+          icon: account_box
     definitions:
-      shortcode_name: vimeo
+      shortcode_name: blockquote
       named_args:
-        - editor_key: id
+        - editor_key: quote
+          type: string
           optional: false
+        - editor_key: author
           type: string
-          remove_empty: false
-          implied_boolean: false
-        - editor_key: class
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-        - editor_key: title
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-  hugo_youtube:
-    template: hugo_shortcode_named_args
-    inline: false
-    preview:
-      text:
-        - key: title
-        - YouTube
-      subtext:
-        - key: id
-        - YouTube video embed.
-      icon: smart_display
-    _inputs:
-      autoplay:
-        type: select
-        options:
-          value_key: value
-          text_key: name
-          values:
-            - name: 'false'
-              value: ''
-            - name: 'true'
-              value: 'true'
-        comment: Automatically start video playback.
-        cascade: true
-      id:
-        type: auto
-        comment: ID of the YouTube video to embed.
-        cascade: true
-      title:
-        type: auto
-        comment: Title of the video embed for accessibility.
-        cascade: true
-      class:
-        type: auto
-        comment: HTML class of the embedded video.
-        cascade: true
-    definitions:
-      shortcode_name: youtube
-      named_args:
-        - editor_key: id
           optional: false
-          type: string
-          remove_empty: false
-          implied_boolean: false
-        - editor_key: autoplay
-          optional: true
-          remove_empty: true
-          allowed_values:
-            - 'true'
-          type: string
-          implied_boolean: false
-        - editor_key: title
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-        - editor_key: class
-          optional: true
-          remove_empty: true
-          implied_boolean: false
-    alternate_formats:
-      - template: hugo_shortcode_positional_args
-        definitions:
-          shortcode_name: youtube
-          positional_args:
-            - editor_key: id
-  _cc_hugo_unknown_paired:
-    hidden: true
-    snippet: '{{< [[name]] [[args]] >}}[[content]]{{< /[[name]] >}}'
-    preview:
-      text: Unknown Shortcode
-      subtext:
-        - key: name
-      icon: question_mark
     _inputs:
-      name:
-        type: auto
-        hidden: true
+      quote:
+        type: textarea
         cascade: true
-      content:
-        type: auto
-        hidden: true
-        cascade: true
-      arguments:
-        type: auto
-        hidden: true
-        cascade: true
-    params:
-      name:
-        parser: argument
-        options:
-          model:
-            editor_key: name
-          format:
-            string_boundary:
-              - ''
-            forbidden_tokens:
-              - /
-              - '>}}'
-              - '%}}'
-      args:
-        parser: content
-        options:
-          editor_key: arguments
-          trim_text: true
-          allow_nested: false
-          raw: true
-          models: {}
-      content:
-        parser: content
-        options:
-          editor_key: content
-          models: {}
-  _cc_hugo_unknown:
-    hidden: true
-    snippet: '{{< [[name]] [[args]] >}}'
-    preview:
-      text: Unknown Shortcode
-      subtext:
-        - key: name
-      icon: question_mark
-    _inputs:
-      name:
-        type: auto
-        hidden: true
-        cascade: true
-      content:
-        type: auto
-        hidden: true
-        cascade: true
-      arguments:
-        type: auto
-        hidden: true
-        cascade: true
-    params:
-      name:
-        parser: argument
-        options:
-          model:
-            editor_key: name
-          format:
-            string_boundary:
-              - ''
-            forbidden_tokens:
-              - /
-              - '>}}'
-              - '%}}'
-      args:
-        parser: content
-        options:
-          editor_key: arguments
-          trim_text: true
-          allow_nested: false
-          raw: true
-          models: {}
-  _cc_hugo_unknown_paired_processed:
-    hidden: true
-    snippet: '{{% [[name]] [[args]] %}}[[content]]{{% /[[name]] %}}'
-    preview:
-      text: Unknown Shortcode
-      subtext:
-        - key: name
-      icon: question_mark
-    _inputs:
-      name:
-        type: auto
-        hidden: true
-        cascade: true
-      content:
-        type: auto
-        hidden: true
-        cascade: true
-      arguments:
-        type: auto
-        hidden: true
-        cascade: true
-    params:
-      name:
-        parser: argument
-        options:
-          model:
-            editor_key: name
-          format:
-            string_boundary:
-              - ''
-            forbidden_tokens:
-              - /
-              - '>}}'
-              - '%}}'
-      args:
-        parser: content
-        options:
-          editor_key: arguments
-          trim_text: true
-          allow_nested: false
-          raw: true
-          models: {}
-      content:
-        parser: content
-        options:
-          editor_key: content
-          models: {}
-  _cc_hugo_unknown_processed:
-    hidden: true
-    snippet: '{{% [[name]] [[args]] %}}'
-    preview:
-      text: Unknown Shortcode
-      subtext:
-        - key: name
-      icon: question_mark
-    _inputs:
-      name:
-        type: auto
-        hidden: true
-        cascade: true
-      content:
-        type: auto
-        hidden: true
-        cascade: true
-      arguments:
-        type: auto
-        hidden: true
-        cascade: true
-    params:
-      name:
-        parser: argument
-        options:
-          model:
-            editor_key: name
-          format:
-            string_boundary:
-              - ''
-            forbidden_tokens:
-              - /
-              - '>}}'
-              - '%}}'
-      args:
-        parser: content
-        options:
-          editor_key: arguments
-          trim_text: true
-          allow_nested: false
-          raw: true
-          models: {}
-timezone: America/New_York
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_figure
