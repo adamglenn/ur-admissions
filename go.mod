@@ -1,4 +1,4 @@
-module github.com/adamglenn/ur-admissions
+module site.local
 
 go 1.22.2
 
