@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ partial "bookshop_bindings" `.Params.topper._bookshop_name` }}
   {{ partial "bookshop_partial" (slice "topper" .) }}
 
   {{ partial "bookshop_bindings" `.Params.content_blocks` }}
