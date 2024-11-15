@@ -1,7 +1,7 @@
 ---
 title: Test Page
 topper:
-  _bookshop_name: topper/default
+  _bookshop_name: topper/hero
 content_blocks:
   - _bookshop_name: section/hero
     heading: My Hero
