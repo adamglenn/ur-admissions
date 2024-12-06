@@ -39,6 +39,15 @@ _inputs:
   publish_date:
     type: date
     instance_value: NOW
+  topper:
+    name:
+      type: select
+      options:
+        values:
+          - Default
+          - Hero
+          - Hero - Big Search
+          - Hero w/Icons
   type:
     type: auto
     hidden: true
