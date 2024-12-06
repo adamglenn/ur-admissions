@@ -26,7 +26,7 @@ module:
     #     target: layouts/partials/bookshop/
     #   - source: component-library
     #     target: assets/bookshop/
-  # replacements:
-  #   - components.local -> ../component-library
+  replacements:
+    - components.local -> ../component-library
   #   - github.com/wvuweb/wvu-ds-v3-hugo -> ../../wvu-ds-v3-hugo/
   #   - github.com/adamglenn/wvu-ds-v3-bookshop-components -> ../../wvu-ds-v3-bookshop-components/
