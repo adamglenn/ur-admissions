@@ -2,6 +2,9 @@
 title: Home
 content_blocks:
   - _bookshop_name: section/hero
+    background_image: >-
+      https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
+    alt_text:
     heading: True Beauty
     body:
       - >-
@@ -13,38 +16,29 @@ content_blocks:
         request information — it’s always a great day to become a Mountaineer!
         There’s a place for you here, and we’ll help you find it!
     ctas:
-      - url: https://go.wvu.edu/4g93h
-        text: Watch Commercial
-      - url: https://go.wvu.edu/4g8t5-83124
-        text: Request Information
+      - text: Watch Commercial
+        url: https://go.wvu.edu/4g93h
+        icon: arrow-circle-right
+      - text: Request Information
+        url: https://go.wvu.edu/4g8t5-83124
+        icon: arrow-circle-right
     postscript_links:
-      - url: https://admissions.wvu.edu/how-to-apply
-        text: Apply as an undergraduate
-      - url: https://graduateadmissions.wvu.edu/how-to-apply
-        text: Apply to grad school
+      - text: Apply as an undergraduate
+        url: https://admissions.wvu.edu/how-to-apply
+      - text: Apply to grad school
+        url: https://graduateadmissions.wvu.edu/how-to-apply
     config:
       is_main: true
-    background_image: >-
-      https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
-    alt_text:
     layout:
       align: left
       vertical_space: py-8
-  - _bookshop_name: section/hero
-    heading: Test
-    body:
-      - ''
-    ctas:
-      - url: ''
-        text: ''
-    postscript_links:
-      - url: ''
-        text: ''
-    config:
-      is_main: true
-    background_image: ''
-    alt_text:
-    layout:
-      align: ''
-      vertical_space: ''
+  - _bookshop_name: section/icon-bar
+    text: Hello World!
+    items:
+      - icon: book
+        text: Text
+        url:
+      - icon: book
+        text: Another Item
+        url: /test
 ---
