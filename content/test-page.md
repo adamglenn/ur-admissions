@@ -2,7 +2,7 @@
 title: Test Page
 topper:
   name: Hero - Big Search
-  heading: Heading
+  heading: Heading Test
   subheading: Subheading.
   styles:
     section:
