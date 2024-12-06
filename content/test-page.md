@@ -1,13 +1,13 @@
 ---
 title: Test Page
 topper:
-  - _bookshop_name: topper/hero-big-search
-    heading: Heading
-    subheading: Subheading.
-    styles:
-      section:
-        background_c: bg-wvu-gold
-        text_c: text-wvu-blue
+  name: Hero - Big Search
+  heading: Heading
+  subheading: Subheading.
+  styles:
+    section:
+      background_c: bg-wvu-gold
+      text_c: text-wvu-blue
 content_blocks:
   - _bookshop_name: section/hero
     heading: My Hero
