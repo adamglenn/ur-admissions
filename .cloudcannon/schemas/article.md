@@ -2,10 +2,11 @@
 title:
 description:
 topper:
-  topper_type:
-byline:
-  - name:
-  - title:
+  topper_type: Article Hero
+  byline:
+    - name:
+      title:
+      ref:
 article_blocks:
 type: article
 ---

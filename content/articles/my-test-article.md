@@ -6,7 +6,7 @@ topper:
   topper_type:
 byline:
   - name:
-  - title:
+    title:
 article_blocks:
 type: article
 ---
