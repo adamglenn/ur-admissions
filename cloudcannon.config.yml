@@ -31,6 +31,24 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         new_preview_url: /
+  articles:
+    _enabled_editors:
+      - visual
+    path: content/articles
+    description: Articles description
+    output: true
+    parse_branch_index: true
+    disable_add: false
+    disable_add_folder: false
+    disable_add_file_actions: false
+    schemas:
+      article:
+        path: .cloudcannon/schemas/article.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        new_preview_url: /
 _enabled_editors:
   - visual
   - content
