@@ -1,7 +1,7 @@
 ---
 _schema: article
 title: My Test Article
-description:
+description: Description.
 topper:
   topper_type: Hero
 byline:
