@@ -1,7 +1,8 @@
 ---
 title:
 description:
-topper: 
+topper:
+  topper_type:
 byline:
   - name:
   - title:
