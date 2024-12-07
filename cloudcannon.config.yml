@@ -63,6 +63,7 @@ _inputs:
       values:
         - Default
         - Hero
+        - Article Hero
         - Hero - Big Search
         - Hero w/Icons
   type:

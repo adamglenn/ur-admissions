@@ -3,10 +3,10 @@ _schema: article
 title: My Test Article
 description: Description.
 topper:
-  topper_type: Hero
-byline:
-  - name:
-    title:
+  topper_type: Article Hero
+  byline:
+    - name:
+      title:
 article_blocks:
   - _bookshop_name: section/backpage
     main:
