@@ -16,6 +16,12 @@ content_blocks:
     postscript_links:
     config:
       is_main: true
+  - _bookshop_name: section/quicklinks
+    heading: Quicklinks
+    links:
+      - text: Link 1
+        ref:
+        url: /url
   - _bookshop_name: section/backpage
     main:
       - _bookshop_name: detail/rich-text
