@@ -14,7 +14,7 @@ content_blocks:
       - name: Clarence Moore
         headline: Why WVU?
         show: 2024-09-18T00:00:00Z
-        thumbnail:
+        thumbnail: /uploads/clarence-moore.jpg
         thumbnail_alt: Clarence Moore profile picture
         subline: 2024 Law graduate from Moreno Valley, California
         quote: >
