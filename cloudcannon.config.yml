@@ -95,7 +95,7 @@ _inputs:
         - Article Hero
         - Hero - Big Search
         - Hero w/Icons
-  hide:
+  show:
     type: datetime
   type:
     type: auto
