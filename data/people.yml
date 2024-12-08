@@ -1,12 +1,2 @@
-- name: Person A
-  people_type: student
-  first_name: Person
-  last_name: A
-  quote: Quote
-  hometown: Morgantown, WV
-- name: Person B
-  people_type: student
-  first_name: Person
-  last_name: A
-  quote: Quote
-  hometown: Morgantown, WV
+- Person A
+- Person B

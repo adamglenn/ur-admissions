@@ -82,6 +82,7 @@ _inputs:
   people:
     type: select
     options:
+      allow_empty: true
       values: data.people
   publish_date:
     type: date
