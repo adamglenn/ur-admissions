@@ -79,8 +79,8 @@ _enabled_editors:
 _inputs:
   people:
     type: select
-      options:
-        values: data.people
+    options:
+      values: data.people
   publish_date:
     type: date
     instance_value: NOW
