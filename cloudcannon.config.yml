@@ -77,6 +77,8 @@ _enabled_editors:
   - content
   - data
 _inputs:
+  hide:
+    type: datetime
   people:
     type: select
     options:
@@ -93,6 +95,8 @@ _inputs:
         - Article Hero
         - Hero - Big Search
         - Hero w/Icons
+  hide:
+    type: datetime
   type:
     type: auto
     hidden: true
