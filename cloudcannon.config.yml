@@ -56,6 +56,21 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         new_preview_url: /
+  data:
+    path: data
+    description: Data that is used to populate multiple areas throughout the site
+    output: false
+    icon: data_usage
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: false
+  people:
+    path: data/people.yml
+    description: Data for people
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
 _enabled_editors:
   - visual
   - content

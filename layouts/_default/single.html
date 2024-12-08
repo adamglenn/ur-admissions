@@ -1,4 +1,6 @@
 {{ define "main" }}
+  Test.
+  {{ .Content }}
   {{ partial "bookshop_bindings" `.Params.topper` }}
   {{ partial "bookshop_partial" (slice "topper" .Params.topper) }}
 
