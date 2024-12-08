@@ -71,11 +71,16 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
+collections_config_override: true
 _enabled_editors:
   - visual
   - content
   - data
 _inputs:
+  person:
+    type: select
+    options:
+      values: collections.people
   publish_date:
     type: date
     instance_value: NOW
