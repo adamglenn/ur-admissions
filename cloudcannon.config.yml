@@ -129,9 +129,7 @@ _editables:
     table: true
     underline: true
     undo: true
-data_config:
-  people:
-    path: data/people.yml
+data_config: true
 timezone: US/Eastern
 _snippets:
   figure:
