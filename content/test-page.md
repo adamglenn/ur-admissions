@@ -46,10 +46,10 @@ content_blocks:
   - _bookshop_name: section/profile
     profiles:
       - person:
-        name: Firstname Lastname
+        name: Adam Glenn
         heading: Heading
         quote: Quote.
-        thumbnail: /uploads/clarence-moore.jpg
+        thumbnail:
         thumbnail_alt:
         also_see: []
         show: '2024-09-01'
