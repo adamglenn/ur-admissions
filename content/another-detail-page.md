@@ -7,5 +7,9 @@ topper:
 detail_blocks:
   - _bookshop_name: detail/rich-text
     text: Text.
+  - _bookshop_name: detail/accordion
+    panels:
+      - title: Panel 1 Title
+        text: Panel 1 text.
 type: detail
 ---
