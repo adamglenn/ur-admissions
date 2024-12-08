@@ -43,15 +43,4 @@ content_blocks:
         description: Video description.
         video_id: EMhV-NvxrAo
     sidebar: []
-  - _bookshop_name: section/profile
-    profiles:
-      - person:
-        name: Firstname Lastname
-        heading: Heading
-        quote: Quote.
-        thumbnail: /uploads/clarence-moore.jpg
-        thumbnail_alt:
-        also_see: []
-        show: '2024-09-01'
-        hide: '2030-09-01'
 ---
