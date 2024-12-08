@@ -80,7 +80,7 @@ _inputs:
   hide:
     type: datetime
   people:
-    type: select
+    type: object
     options:
       allow_empty: true
       values: collections.people
