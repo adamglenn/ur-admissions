@@ -31,6 +31,13 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         new_preview_url: /
+      detail_page:
+        path: .cloudcannon/schemas/detail-page.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        new_preview_url: /
   articles:
     _enabled_editors:
       - visual
