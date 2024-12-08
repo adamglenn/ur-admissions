@@ -77,10 +77,6 @@ _enabled_editors:
   - content
   - data
 _inputs:
-  person:
-    type: select
-    options:
-      values: collections.people
   publish_date:
     type: date
     instance_value: NOW
@@ -125,9 +121,7 @@ _editables:
     table: true
     underline: true
     undo: true
-data_config:
-  people:
-    path: data/people.yml
+data_config: true
 timezone: US/Eastern
 _snippets:
   figure:
