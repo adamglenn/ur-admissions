@@ -1,4 +1,0 @@
-rm go.sum
-rm go.mod
-
-hugo mod get github.com/cloudcannon/bookshop/hugo/v3
