@@ -18,9 +18,10 @@ content_blocks:
         thumbnail_alt: Clarence Moore profile picture
         subline: 2024 Law graduate from Moreno Valley, California
         quote: >
-          WVU Law recognizes the value of diversity in the legal profession, which
-          is important to me. Also, WVU Law houses the West Virginia Innocence
-          Project and I wanted to attend a law school with that option.
+          WVU Law recognizes the value of diversity in the legal profession,
+          which is important to me. Also, WVU Law houses the West Virginia
+          Innocence Project and I wanted to attend a law school with that
+          option.
         also_see:
           - ref: law_school
   - _bookshop_name: section/hero
@@ -63,7 +64,7 @@ content_blocks:
         name: Firstname Lastname
         heading: Heading
         quote: Quote.
-        thumbnail:
+        thumbnail: /uploads/clarence-moore.jpg
         thumbnail_alt:
         also_see: []
         show: '2024-09-01'
