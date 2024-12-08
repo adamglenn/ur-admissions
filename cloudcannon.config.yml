@@ -79,7 +79,7 @@ _enabled_editors:
 _inputs:
   hide:
     type: datetime
-  people:
+  person:
     type: object
     options:
       allow_empty: true
