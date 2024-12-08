@@ -83,7 +83,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: collections.people
+      values: data.people
   publish_date:
     type: date
     instance_value: NOW
