@@ -82,7 +82,7 @@ _inputs:
   person:
     type: object
     options:
-      allow_empty: true
+      subtype: object
       values: collections.people
   publish_date:
     type: date
