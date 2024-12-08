@@ -80,9 +80,9 @@ _inputs:
   hide:
     type: datetime
   person:
-    type: object
+    type: select
     options:
-      subtype: object
+      allow_empty: true
       values: collections.people
   publish_date:
     type: date
