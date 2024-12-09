@@ -41,4 +41,13 @@ content_blocks:
       - icon: book
         text: Another Item
         url: /test
+  - _bookshop_name: section/quicklinks
+    heading: Quicklinks
+    links:
+      - text: Text
+        ref:
+        url: /url
+  - _bookshop_name: section/profiles-collection
+    profiles:
+      - person: Clarence Moore
 ---
