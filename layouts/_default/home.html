@@ -1,4 +1,9 @@
 {{ define "main" }}
-  {{ partial "bookshop_bindings" `.Params.content_blocks` }}
-  {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+  {{ if .Params.detail_blocks }}
+    {{ partial "bookshop_bindings" `.Params.detail_blocks` }}
+    {{ partial "bookshop_partial" (slice "page" .Params.detail_blocks) }}
+  {{ else }}
+    {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+    {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+  {{ end }}
 {{ end }}
