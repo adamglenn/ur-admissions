@@ -104,6 +104,9 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
+_structures:
+  content_blocks:
+    style: modal
 _editables:
   content:
     allow_custom_markup: false
