@@ -2,7 +2,9 @@
 title:
 description:
 topper:
-  topper_type:
+  topper_type: Default
+  heading: Heading
+  subheading: Subheading
 content_blocks:
   - _bookshop_name: section/backpage
     main:
