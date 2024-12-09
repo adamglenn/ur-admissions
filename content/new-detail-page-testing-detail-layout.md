@@ -13,4 +13,6 @@ main:
 sidebar:
   - _bookshop_name: column/stat
     pre: Text.
+  - _bookshop_name: column/stat
+    pre: Test.
 ---
