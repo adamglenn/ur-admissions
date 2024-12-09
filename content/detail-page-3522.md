@@ -3,7 +3,9 @@ _schema: detail_page
 title: Detail Page 3522
 description:
 topper:
-  topper_type: Hero - Big Search
+  topper_type: Hero w/Icons
+  heading: Heading
+  subheading: Subheading
 content_blocks:
   - _bookshop_name: section/backpage
     main:
