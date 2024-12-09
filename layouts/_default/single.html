@@ -3,8 +3,23 @@
   {{ partial "bookshop_partial" (slice "topper" .Params.topper) }}
 
   {{ if .Params.detail_blocks }}
-    {{ partial "bookshop_bindings" `.Params.detail_blocks` }}
-    {{ partial "bookshop_partial" (slice "page" .Params.detail_blocks) }}
+    <main class="py-6 wvu-backpage-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5">
+            Menu goes here.
+          </div>
+          <div class="col-xl-10 mx-xl-auto">
+            {{ partial "bookshop_bindings" `.Params.detail_blocks` }}
+            {{ partial "bookshop_partial" (slice "page" .Params.detail_blocks) }}
+          </div>
+          <div class="col-xl-5">
+            {{ partial "bookshop_bindings" `.Params.column_blocks` }}
+            {{ partial "bookshop_partial" (slice "page" .Params.column_blocks) }}
+          </div>
+        </div>
+      </div>
+    </main>
   {{ else }}
     {{ partial "bookshop_bindings" `.Params.content_blocks` }}
     {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
