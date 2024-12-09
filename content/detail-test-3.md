@@ -1,7 +1,7 @@
 ---
 _schema: detail_page
 title: Detail Test 3
-layout: detail
+type: detail
 description:
 topper:
   topper_type: Default
