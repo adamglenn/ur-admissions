@@ -3,8 +3,8 @@ _schema: detail_page
 title: Detail Page 3522
 description:
 topper:
-  topper_type: Default
-  heading:
+  topper_type: Hero w/Icons
+  heading: My Heading
   subheading: Subheading
 content_blocks:
   - _bookshop_name: section/backpage
