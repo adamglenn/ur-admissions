@@ -107,6 +107,8 @@ _inputs:
 _structures:
   content_blocks:
     style: modal
+  detail_blocks:
+    style: modal
 _editables:
   content:
     allow_custom_markup: false
