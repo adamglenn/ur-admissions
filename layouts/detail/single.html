@@ -6,13 +6,13 @@
           Menu goes here.
         </div>
         <div class="col-xl-10 mx-xl-auto">
-          {{ with .main }}
+          {{ with .Params.main }}
             {{ partial "bookshop_bindings" `.Params.main` }}
             {{ partial "bookshop_partial" (slice "page" .Params.main) }}
           {{ end }}
         </div>
         <div class="col-xl-5">
-          {{ with .sidebar }}
+          {{ with .Params.sidebar }}
             {{ partial "bookshop_bindings" `.Params.sidebar` }}
             {{ partial "bookshop_partial" (slice "page" .Params.sidebar) }}
           {{ end }}
