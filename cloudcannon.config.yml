@@ -37,7 +37,6 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        new_preview_url: /
   articles:
     _enabled_editors:
       - visual
@@ -71,7 +70,6 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-collections_config_override: true
 _enabled_editors:
   - visual
   - content
