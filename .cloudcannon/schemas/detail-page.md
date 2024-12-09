@@ -1,6 +1,6 @@
 ---
 title:
-type: detail
+layout: detail
 description:
 topper:
   topper_type: Default
