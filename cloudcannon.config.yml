@@ -37,6 +37,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
+        new_preview_url: /detail-preview
   articles:
     _enabled_editors:
       - visual
