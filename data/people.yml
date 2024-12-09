@@ -1,12 +1,18 @@
-- name: Person A
+- name: Clarence Moore
+  headline: Why WVU?
   people_type: student
-  first_name: Person
-  last_name: A
-  quote: Quote
-  hometown: Morgantown, WV
-- name: Person B
+  first_name: Clarence
+  last_name: Moore
+  thumbnail: /uploads/clarence_moore.jpg
+  subline: 2024 Law graduate
+  quote: WVU Law recognizes the value of diversity in the legal profession, which is important to me. Also, WVU Law houses the West Virginia Innocence Project and I wanted to attend a law school with that option.
+  hometown: Moreno Valley, California
+- name: Jillian Blair
+  headline: Why WVU?
   people_type: student
-  first_name: Person
-  last_name: A
-  quote: Quote
-  hometown: Morgantown, WV
+  first_name: Jillian
+  last_name: Blair
+  thumbnail: /uploads/jillian-cutout.webp
+  subline: 2024 Environmental and Energy Resources Management graduate
+  quote: My most valuable experience [at WVU] would be the relationships I’ve been able to make within the Davis College. I certainly don’t know everyone, but at the same time, I feel as if there aren’t any strangers here. It was the kindred spirit of Davis that convinced me to go on a study abroad trip to Belize with 13 other Davis students, not knowing a single one of them. I came out of it with the most incredible memories and friendships.
+  hometown: Wheeling, WV

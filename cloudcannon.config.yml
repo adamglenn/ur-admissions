@@ -87,6 +87,8 @@ _inputs:
   publish_date:
     type: date
     instance_value: NOW
+  show_author_bios:
+    type: switch
   topper_type:
     type: select
     options:
