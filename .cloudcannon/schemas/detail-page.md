@@ -9,5 +9,4 @@ detail_blocks:
 column_blocks:
   - _bookshop_name: column/stat
     pre: Text.
-type: detail
 ---
