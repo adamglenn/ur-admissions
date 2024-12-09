@@ -8,5 +8,7 @@ detail_blocks:
     main:
       - _bookshop_name: detail/rich-text
         text: Text.
-    sidebar: []
+    sidebar:
+      - _bookshop_name: detail/rich-text
+        text: Text.
 ---
