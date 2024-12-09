@@ -7,14 +7,14 @@
         </div>
         <div class="col-xl-10 mx-xl-auto">
           {{ with .main }}
-            {{ partial "bookshop_bindings" `.` }}
-            {{ partial "bookshop_partial" (slice "page" .) }}
+            {{ partial "bookshop_bindings" `.Params.main` }}
+            {{ partial "bookshop_partial" (slice "page" .Params.main) }}
           {{ end }}
         </div>
         <div class="col-xl-5">
           {{ with .sidebar }}
-            {{ partial "bookshop_bindings" `.` }}
-            {{ partial "bookshop_partial" (slice "page" .) }}
+            {{ partial "bookshop_bindings" `.Params.sidebar` }}
+            {{ partial "bookshop_partial" (slice "page" .Params.sidebar) }}
           {{ end }}
         </div>
       </div>
