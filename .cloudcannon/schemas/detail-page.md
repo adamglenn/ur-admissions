@@ -1,5 +1,6 @@
 ---
 title:
+layout: detail
 type: detail
 description:
 topper:
