@@ -3,10 +3,10 @@ title:
 description:
 topper:
   topper_type: Default
-main:
+detail_blocks:
   - _bookshop_name: detail/rich-text
     text: Text.
-sidebar:
+column_blocks:
   - _bookshop_name: detail/rich-text
     text: Text.
 type: detail
