@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ partial "bookshop_bindings" `.Params.topper` }}
-  {{ partial "bookshop_partial" (slice "topper" .Params.topper) }}
+  {{ partial "bookshop_partial" (slice "topper" (dict "topper" .Params.topper "title" .Params.title)) }}
 
   {{ if .Params.detail_blocks }}
     {{ partial "bookshop_bindings" `.Params.detail_blocks` }}
