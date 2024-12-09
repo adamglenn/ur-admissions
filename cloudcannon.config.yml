@@ -104,6 +104,8 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
+  layout:
+    hidden: true
 _structures:
   content_blocks:
     style: modal

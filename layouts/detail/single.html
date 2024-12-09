@@ -6,12 +6,12 @@
           Menu goes here.
         </div>
         <div class="col-xl-10 mx-xl-auto">
-          {{ partial "bookshop_bindings" `.Params.detail_blocks` }}
-          {{ partial "bookshop_partial" (slice "page" .Params.detail_blocks) }}
+          {{ partial "bookshop_bindings" `.Params.main` }}
+          {{ partial "bookshop_partial" (slice "page" .Params.main) }}
         </div>
         <div class="col-xl-5">
-          {{ partial "bookshop_bindings" `.Params.column_blocks` }}
-          {{ partial "bookshop_partial" (slice "page" .Params.column_blocks) }}
+          {{ partial "bookshop_bindings" `.Params.sidebar` }}
+          {{ partial "bookshop_partial" (slice "page" .Params.sidebar) }}
         </div>
       </div>
     </div>
