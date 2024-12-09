@@ -1,7 +1,7 @@
 ---
 _schema: detail_page
 title: New Detail Page testing detail layout
-layout: detail
+type: detail
 description:
 topper:
   topper_type: Default
