@@ -4,7 +4,7 @@ title: Detail Page 3522
 description:
 topper:
   topper_type: Default
-  heading: Heading
+  heading:
   subheading: Subheading
 content_blocks:
   - _bookshop_name: section/backpage
