@@ -47,7 +47,4 @@ content_blocks:
       - text: Text
         ref:
         url: /url
-  - _bookshop_name: section/profiles-collection
-    profiles:
-      - person: Clarence Moore
 ---
