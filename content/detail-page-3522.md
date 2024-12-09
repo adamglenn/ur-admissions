@@ -3,7 +3,7 @@ _schema: detail_page
 title: Detail Page 3522
 description:
 topper:
-  topper_type: Hero w/Icons
+  topper_type: Default
   heading: Heading
   subheading: Subheading
 content_blocks:
