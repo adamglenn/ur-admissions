@@ -1,5 +1,5 @@
 {{ define "main" }}
-  Detail template.
+  Detail single layout
   {{ partial "bookshop_bindings" `(dict "topper" .Params.topper "title" .Params.title)` }}
   {{ partial "bookshop_partial" (slice "topper" (dict "topper" .Params.topper "title" .Params.title)) }}
   <main class="py-6 wvu-backpage-main">
