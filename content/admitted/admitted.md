@@ -4,11 +4,10 @@ title: Admitted
 description:
 topper:
   topper_type: Hero w/Icons
-  background_image:
+  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
   heading: Heading
   subheading: Subheading.
-  items: []
 content_blocks:
   - _bookshop_name: section/page-collection-vertical-sticky
     heading: Heading
