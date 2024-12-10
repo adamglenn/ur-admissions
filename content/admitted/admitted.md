@@ -20,8 +20,10 @@ content_blocks:
     styles:
       panels:
       item_headings:
-  - _bookshop_name: section/profiles-collection
-    profiles:
+  - _bookshop_name: section/testimonials
+    testimonials:
       - person: Clarence Moore
       - person: Jillian Blair
+      - person: Quinn Hopen
+      - person: Frank Dux
 ---
