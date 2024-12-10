@@ -1,7 +1,7 @@
 ---
 title:
 description:
+topper_type:
 topper:
-  topper_type:
 content_blocks:
 ---

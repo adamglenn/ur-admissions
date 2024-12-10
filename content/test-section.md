@@ -3,8 +3,8 @@ _schema: detail_page
 title: Test Section
 type: detail
 description:
+topper_type: Default
 topper:
-  topper_type: Default
   heading: Heading
   subheading: Subheading
 detail_blocks:

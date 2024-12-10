@@ -3,8 +3,8 @@ title:
 description:
 authors:
   - author:
+topper_type: Article Hero
 topper:
-  topper_type: Article Hero
   show_byline: true
 show_author_bios: true
 article_blocks:

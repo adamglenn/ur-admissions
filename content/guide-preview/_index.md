@@ -1,7 +1,7 @@
 ---
 title: Page Title
+topper_type: Hero
 topper:
-  topper_type: Hero
   heading: Heading
   subheading: Subheading
 content_blocks:

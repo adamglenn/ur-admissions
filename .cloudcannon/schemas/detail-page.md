@@ -2,8 +2,10 @@
 title:
 type: detail
 description:
+topper_type: Default
 topper:
-  topper_type: Default
+  background_image:
+  alt_text:
   heading: Heading
   subheading: Subheading
 detail_blocks:
