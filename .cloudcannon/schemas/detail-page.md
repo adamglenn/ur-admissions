@@ -1,5 +1,5 @@
 ---
-title: Page Title
+title:
 type: detail
 description:
 topper:

@@ -1,5 +1,5 @@
 ---
-title: Detail Preview
+title: Page Title
 type: detail
 topper:
   topper_type: Default
