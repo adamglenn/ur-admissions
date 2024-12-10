@@ -31,3 +31,24 @@ module:
     - components.local -> ../component-library
     # - github.com/wvuweb/wvu-ds-v3-hugo -> ../../wvu-ds-v3-hugo/
     # - github.com/adamglenn/wvu-ds-v3-bookshop-components -> ../../wvu-ds-v3-bookshop-components/
+
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: How to Apply
+      pageRef: /how-to-apply
+      weight: 20
+    - name: Academics
+      pageRef: /academics
+      weight: 30
+    - name: Cost and Aid
+      pageRef: /cost-and-aid
+      weight: 40
+    - name: Forms and Procedures
+      pageRef: /forms-and-procedures
+      weight: 50
+    - name: Admitted Students
+      pageRef: /admitted-students
+      weight: 60
