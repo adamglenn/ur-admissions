@@ -4,7 +4,7 @@ description:
 authors:
   - author:
 topper:
-  name: Article Hero
+  topper_type: Article Hero
   show_byline: true
 show_author_bios: true
 article_blocks:

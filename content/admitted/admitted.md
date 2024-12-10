@@ -3,7 +3,7 @@ _schema: guide_page
 title: Admitted
 description:
 topper:
-  name: Hero w/Icons
+  topper_type: Hero w/Icons
   background_image:
   alt_text:
   heading: Heading

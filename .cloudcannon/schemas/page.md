@@ -2,6 +2,6 @@
 title:
 description:
 topper:
-  name: Default
+  topper_type: Default
 content_blocks:
 ---

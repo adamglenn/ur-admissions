@@ -3,7 +3,7 @@ title:
 type: detail
 description:
 topper:
-  name: Hero
+  topper_type: Hero
   heading: Heading
   subheading: Subheading
 detail_blocks:

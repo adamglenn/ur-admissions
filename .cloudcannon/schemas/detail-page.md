@@ -3,7 +3,7 @@ title:
 type: detail
 description:
 topper:
-  name: Hero
+  topper_type: Hero
   background_image:
   alt_text:
   heading: Heading

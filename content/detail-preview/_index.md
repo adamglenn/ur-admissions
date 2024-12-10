@@ -2,7 +2,7 @@
 title: Page Title
 type: detail
 topper:
-  name: Default
+  topper_type: Default
   heading: Heading
   subheading: Subheading
 detail_blocks:

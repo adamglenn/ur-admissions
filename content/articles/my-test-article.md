@@ -3,7 +3,7 @@ _schema: article
 title: My Test Article
 description: Description.
 topper:
-  name: Article Hero
+  topper_type: Article Hero
   byline:
     - name:
       title:
