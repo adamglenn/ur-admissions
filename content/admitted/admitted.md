@@ -20,4 +20,8 @@ content_blocks:
     styles:
       panels:
       item_headings:
+  - _bookshop_name: section/profiles-collection
+    profiles:
+      - person: Clarence Moore
+      - person: Jillian Blair
 ---
