@@ -2,7 +2,7 @@
 title: Page Title
 type: detail
 topper:
-  _bookshop_name: Default
+  name: Default
   heading: Heading
   subheading: Subheading
 detail_blocks:

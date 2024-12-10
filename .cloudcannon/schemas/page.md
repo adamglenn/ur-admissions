@@ -2,6 +2,6 @@
 title:
 description:
 topper:
-  _bookshop_name: Default
+  name: Default
 content_blocks:
 ---

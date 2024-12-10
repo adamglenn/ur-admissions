@@ -4,7 +4,7 @@ description:
 authors:
   - author:
 topper:
-  _bookshop_name: topper/article-hero
+  name: Article Hero
   show_byline: true
 show_author_bios: true
 article_blocks:

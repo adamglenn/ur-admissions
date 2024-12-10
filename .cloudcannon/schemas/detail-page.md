@@ -3,7 +3,7 @@ title:
 type: detail
 description:
 topper:
-  _bookshop_name: topper/hero
+  name: Hero
   background_image:
   alt_text:
   heading: Heading
