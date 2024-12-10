@@ -3,9 +3,12 @@ _schema: guide_page
 title: Admitted
 description:
 topper:
-  _bookshop_name: Hero
+  _bookshop_name: topper/hero-w-icons
+  background_image:
+  alt_text:
   heading: Heading
-  subheading: Subheading
+  subheading: Subheading.
+  items: []
 content_blocks:
   - _bookshop_name: section/page-collection-vertical-sticky
     heading: Heading
