@@ -3,7 +3,7 @@ _schema: guide_page
 title: Admitted
 description:
 topper:
-  topper_type: Hero w/Icons
+  topper_type: Hero
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
   heading: Heading
