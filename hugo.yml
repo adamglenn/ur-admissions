@@ -2,6 +2,7 @@ baseURL: 'https://admissions.wvu.edu'
 languageCode: 'en-us'
 title: 'Admissions'
 timeZone: America/New_York
+staticDir: assets
 
 disableKinds:
   - taxonomy
