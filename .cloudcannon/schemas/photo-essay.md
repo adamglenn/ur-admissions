@@ -1,13 +1,12 @@
 ---
-_schema: article
-title: Test 3
+title:
 description:
+authors:
+  - author:
 topper:
   topper_type: Article Hero
-  byline:
-    - name:
-      title:
-      ref:
+  show_byline: true
+show_author_bios: true
 article_blocks:
   - _bookshop_name: section/backpage
     main:

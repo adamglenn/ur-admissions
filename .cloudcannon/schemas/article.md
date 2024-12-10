@@ -2,16 +2,10 @@
 title:
 description:
 authors:
-  - name:
-    title:
-    link:
-      url:
+  - author:
 topper:
-  topper_type: Article Hero
-  byline:
-    - name:
-      title:
-      ref:
+  topper_type: Article Default
+  show_byline: true
 show_author_bios: true
 article_blocks:
   - _bookshop_name: section/backpage
