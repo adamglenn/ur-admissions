@@ -1,7 +1,7 @@
 ---
 title:
 description:
-topper_type:
 topper:
+  _bookshop_name: Default
 content_blocks:
 ---

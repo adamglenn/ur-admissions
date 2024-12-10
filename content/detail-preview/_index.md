@@ -1,8 +1,8 @@
 ---
 title: Page Title
 type: detail
-topper_type: Default
 topper:
+  _bookshop_name: Default
   heading: Heading
   subheading: Subheading
 detail_blocks:

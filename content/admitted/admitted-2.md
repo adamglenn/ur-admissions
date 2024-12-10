@@ -2,8 +2,8 @@
 _schema: guide_page
 title: Admitted 2
 description:
-topper_type: Hero
 topper:
+  _bookshop_name: Hero
   heading: Congrats! You’re In.
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time

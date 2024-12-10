@@ -3,8 +3,8 @@ title:
 description:
 authors:
   - author:
-topper_type: Article Default
 topper:
+  _bookshop_name: topper/article-hero
   show_byline: true
 show_author_bios: true
 article_blocks:

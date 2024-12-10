@@ -2,8 +2,8 @@
 title:
 type: detail
 description:
-topper_type: Default
 topper:
+  _bookshop_name: topper/hero
   background_image:
   alt_text:
   heading: Heading

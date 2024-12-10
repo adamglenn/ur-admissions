@@ -2,8 +2,8 @@
 title:
 type: detail
 description:
-topper_type: Default
 topper:
+  _bookshop_name: Hero
   heading: Heading
   subheading: Subheading
 detail_blocks:
