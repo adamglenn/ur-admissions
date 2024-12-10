@@ -4,11 +4,13 @@ title: Admitted 2
 description:
 topper:
   topper_type: Hero
-  heading: Heading
-  subheading: Subheading
+  heading: Congrats! You’re In.
+  subheading: >-
+    Now that you’ve received official notification of your acceptance, it’s time
+    to get down to business.
 content_blocks:
   - _bookshop_name: section/page-collection-vertical-sticky
-    heading: Admitted Students
+    heading: Select Your Admission Type
     items:
       - title: First-Time Freshmen
         text: >-
