@@ -29,21 +29,21 @@ collections_config:
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
-        remove_extra_inputs: false
+        remove_extra_inputs: true
         new_preview_url: /
       detail_page:
         path: .cloudcannon/schemas/detail-page.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
-        remove_extra_inputs: false
+        remove_extra_inputs: true
         new_preview_url: /detail-preview
       guide_page:
         path: .cloudcannon/schemas/guide-page.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
-        remove_extra_inputs: false
+        remove_extra_inputs: true
         new_preview_url: /guide-preview
   articles:
     _enabled_editors:
