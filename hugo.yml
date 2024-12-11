@@ -50,5 +50,5 @@ menus:
       pageRef: /forms-and-procedures
       weight: 50
     - name: Admitted Students
-      pageRef: /admitted-students
+      pageRef: /admitted
       weight: 60
