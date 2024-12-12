@@ -10,6 +10,16 @@ topper:
   subheading: Now that you’ve received official notification of your acceptance, it’s time to get down to business.
   layout:
     margin: buffer-bottom
+  styles:
+    background_c: wvu-gradient-wvu-blue-blue-blue-light
+    background_layers:
+      img:
+        blend_mode: wvu-bg-blend-mode-luminosity
+        opacity: 10
+    breadcrumbs:
+      c: text-white
+    heading:
+      c: text-wvu-gold
 content_blocks:
   - _bookshop_name: section/page-collection-vertical-sticky
     heading: To begin your enrollment at West Virginia University, please select your admission type.
@@ -32,6 +42,11 @@ content_blocks:
       section:
         margin: pull-up
     styles:
+      background_layers:
+        pattern:
+          option: wvu-bg-topo-map
+          c: wvu-gradient-wvu-blue-blue-blue-light
+          opacity: 5
       panels:
       item_headings:
   - _bookshop_name: section/poster-split
