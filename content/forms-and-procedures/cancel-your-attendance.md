@@ -4,7 +4,7 @@ title: Cancel Your Attendance
 type: detail
 description:
 topper:
-  topper_type: Hero
+  topper_type: Default
   background_image:
   alt_text:
   heading: Heading
