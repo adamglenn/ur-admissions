@@ -11,6 +11,9 @@ topper:
   subheading: >-
     Searching for documents? We’ve gathered all the ones you need to become a
     Mountaineer.
+  styles:
+    breadcrumbs:
+      c: text-white
 detail_blocks:
   - _bookshop_name: detail/rich-text
     text: >-

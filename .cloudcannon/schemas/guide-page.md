@@ -7,5 +7,8 @@ topper:
   alt_text:
   heading: Heading
   subheading: Subheading
+  styles:
+    breadcrumbs:
+      c:
 content_blocks:
 ---

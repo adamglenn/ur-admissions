@@ -24,4 +24,11 @@ content_blocks:
         items:
           - text: Admission Requirements
             url:
+  - _bookshop_name: section/button-group
+    heading: Interested in talking to someone about WVU?
+    buttons:
+      - text: Connect with Your Admissions Counselor
+        url:
+      - text: Contact WVU Admissions
+        url:
 ---

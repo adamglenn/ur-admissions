@@ -8,6 +8,9 @@ topper:
   alt_text:
   heading: Heading
   subheading: Subheading
+  styles:
+    breadcrumbs:
+      c:
 detail_blocks:
   - _bookshop_name: detail/rich-text
     text: Text.
