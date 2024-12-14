@@ -10,18 +10,18 @@ topper:
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
-  layout:
-    margin: buffer-bottom
   styles:
+    breadcrumbs:
+      c: text-white
     background_c: wvu-gradient-wvu-blue-blue-blue-light
     background_layers:
       img:
         blend_mode: wvu-bg-blend-mode-luminosity
         opacity: 10
-    breadcrumbs:
-      c: text-white
     heading:
       c: text-wvu-gold
+  layout:
+    margin: buffer-bottom
 content_blocks:
   - _bookshop_name: section/page-collection-vertical-sticky
     heading: >-
@@ -113,5 +113,5 @@ content_blocks:
       section:
         margin: default
   - _bookshop_name: my-custom-component
-    heading: My Custom Heading
+    heading: My Custom Heading 2
 ---
