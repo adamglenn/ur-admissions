@@ -112,6 +112,15 @@ content_blocks:
     layout:
       section:
         margin: default
+  - _bookshop_name: quicklinks
+    heading: Quicklinks
+    links:
+      - text: Text DS
+        ref:
+        url: /url
+    layout:
+      section:
+        margin: default
   - _bookshop_name: my-custom-component
     heading: My Custom Heading 2
 ---
