@@ -9,7 +9,7 @@ topper:
   heading: Heading
   subheading: Subheading
 content_blocks:
-  - _bookshop_name: section/quicklinks
+  - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links:
       - text: Text
@@ -18,7 +18,7 @@ content_blocks:
     layout:
       section:
         margin: default
-  - _bookshop_name: section/poster
+  - _bookshop_name: design-system/section/poster
     background_image:
     alt_text:
     heading:

@@ -6,7 +6,7 @@ description:
 topper:
   topper_type: Default
 detail_blocks:
-  - _bookshop_name: detail/rich-text
+  - _bookshop_name: design-system/detail/rich-text
     text: >-
       WVU may grant Academic Forgiveness to some undergraduate students who were
       not successful in their first attempt at higher education.
@@ -74,7 +74,7 @@ detail_blocks:
       * Students applying for Academic Forgiveness must meet with an academic
       advisor within the academic department they plan to enter.
 column_blocks:
-  - _bookshop_name: column/jump-links
+  - _bookshop_name: design-system/column/jump-links
     items:
       - text: Policy
         anchor: policy

@@ -6,7 +6,7 @@ description:
 topper:
   topper_type: Default
 detail_blocks:
-  - _bookshop_name: detail/rich-text
+  - _bookshop_name: design-system/detail/rich-text
     text: >-
       ## **Eligibility**
 

@@ -23,7 +23,7 @@ topper:
   layout:
     margin: buffer-bottom
 content_blocks:
-  - _bookshop_name: section/page-collection-vertical-sticky
+  - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: >-
       To begin your enrollment at West Virginia University, please select your
       admission type.
@@ -54,7 +54,7 @@ content_blocks:
           option: wvu-bg-topo-map
           c: wvu-gradient-wvu-blue-blue-blue-light
           opacity: 5
-  - _bookshop_name: section/poster-split
+  - _bookshop_name: design-system/section/poster-split
     background_image: /uploads/hero-admitted-students-31212scomposite.jpg
     alt_text:
     heading:
@@ -73,7 +73,7 @@ content_blocks:
     lead: >-
       Welcome to your Class of 2028 hub. Here, you will find everything you need
       to start your journey as a Mountaineer.
-  - _bookshop_name: section/quicklinks
+  - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links:
       - text: First-Time Freshmen

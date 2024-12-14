@@ -1,7 +1,7 @@
 ---
 title: Home
 content_blocks:
-  - _bookshop_name: section/hero
+  - _bookshop_name: design-system/section/hero
     background_image: >-
       https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
     alt_text:
@@ -32,7 +32,7 @@ content_blocks:
     layout:
       align: left
       vertical_space: py-8
-  - _bookshop_name: section/icon-bar
+  - _bookshop_name: design-system/section/icon-bar
     text: Hello World!
     items:
       - icon: book
@@ -41,12 +41,12 @@ content_blocks:
       - icon: book
         text: Another Item
         url: /test
-  - _bookshop_name: section/quicklinks
+  - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links:
       - text: Text
         ref:
         url: /url
-  - _bookshop_name: section/profiles-collection
+  - _bookshop_name: design-system/section/profiles-collection
     profiles: []
 ---

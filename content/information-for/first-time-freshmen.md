@@ -8,7 +8,7 @@ topper:
   heading: First-Time Freshmen
   subheading: Forge the future you want at West Virginia University.
 content_blocks:
-  - _bookshop_name: section/link-lists
+  - _bookshop_name: design-system/section/link-lists
     lists:
       - topic: Just researching?
         description: Let us tell you more being a Mountaineer. Complete the Request Information form, and we’ll be in touch.
@@ -24,7 +24,7 @@ content_blocks:
         items:
           - text: Admission Requirements
             url:
-  - _bookshop_name: section/button-group
+  - _bookshop_name: design-system/section/button-group
     heading: Interested in talking to someone about WVU?
     buttons:
       - text: Connect with Your Admissions Counselor

@@ -11,7 +11,7 @@ topper:
       c:
 show_author_bios: true
 article_blocks:
-  - _bookshop_name: section/backpage
+  - _bookshop_name: design-system/section/backpage
     main:
       - _bookshop_name: detail/rich-text
         text: Text.

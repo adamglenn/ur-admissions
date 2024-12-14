@@ -9,7 +9,7 @@ topper:
   heading: Get the facts you need.
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
 content_blocks:
-  - _bookshop_name: section/page-collection
+  - _bookshop_name: design-system/section/page-collection
     items:
       - title: First-Time Freshmen
         text: You are a current high school senior, have a TASC/GED or haven't attended college since graduating.
