@@ -17,6 +17,7 @@
   {{ with .Site.GetPage "default-content" "default-content/index.md" }}
     Test Data: {{ . }}
     Content Blocks {{ .Params.content_blocks }}
+    {{ partial "bookshop_bindings" `.Params.column_blocks` }}
     {{ partial "bookshop_partial" (slice "default_content" .Params.content_blocks) }}
   {{ end }}
 
