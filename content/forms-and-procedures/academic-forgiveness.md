@@ -1,6 +1,6 @@
 ---
 _schema: detail
-title: Academic Forgiveness Test
+title: Academic Forgiveness
 type: detail
 description:
 topper:
