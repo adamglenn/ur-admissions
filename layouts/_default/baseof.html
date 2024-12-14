@@ -22,6 +22,7 @@
     {{ range .Params.content_blocks }}
       In range {{ . }}
       {{ if eq ._bookshop_name "section/quicklinks" }}
+        Quicklinks true {{ . }}
         {{ partial "bookshop" (slice "section/quicklinks" (dict "live_render" false "heading" .heading "links" .links)) }}
       {{ end }}
     {{ end }}
