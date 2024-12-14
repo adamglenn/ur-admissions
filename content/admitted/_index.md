@@ -113,5 +113,5 @@ content_blocks:
       section:
         margin: default
   - _bookshop_name: my-custom-component
-    heading: My Heading
+    heading: My Custom Heading
 ---
