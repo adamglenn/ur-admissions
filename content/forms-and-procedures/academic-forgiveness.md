@@ -1,6 +1,6 @@
 ---
 _schema: detail
-title: Academic Forgiveness
+title: Academic Forgiveness Test
 type: detail
 description:
 topper:
@@ -91,4 +91,14 @@ column_blocks:
         factoid: 98%
         post: Post factoid text
         source: Source
+    config:
+      source:
+        disable: false
+    styles:
+      container:
+        margin_bottom: mb-4
+      factoid:
+        font: wvu-shout
+        size: display-1
+        color: text-wvu-gold
 ---
