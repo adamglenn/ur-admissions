@@ -13,7 +13,7 @@ show_author_bios: true
 article_blocks:
   - _bookshop_name: design-system/section/backpage
     main:
-      - _bookshop_name: detail/rich-text
+      - _bookshop_name: design-system/detail/rich-text
         text: Text.
     sidebar: []
 type: article

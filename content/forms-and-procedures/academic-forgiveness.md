@@ -80,7 +80,7 @@ column_blocks:
         anchor: policy
       - text: Procedure
         anchor: procedure
-  - _bookshop_name: column/factoids
+  - _bookshop_name: design-system/column/factoids
     heading: By the Numbers
     items:
       - pre: Pre factoid text
