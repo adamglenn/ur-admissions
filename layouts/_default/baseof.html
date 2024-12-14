@@ -14,19 +14,7 @@
 
   {{ block "main" . }}{{ end }}
 
-  {{ with .Site.GetPage "default-content" "default-content/index.md" }}
-    Test Data: {{ . }}
-    Content Blocks {{ .Params.content_blocks }}
-
-    {{ range .Params.content_blocks }}
-      In range {{ . }}
-      {{ if eq ._bookshop_name "section/quicklinks" }}
-        Quicklinks true {{ .heading }}
-        {{ partial "bookshop_bindings" `(dict "heading" .heading "links" .links)` }}
-        {{ partial "bookshop" (slice "section/quicklinks" (dict "live_render" false "heading" .heading "links" .links)) }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  {{ partial "default-content" . }}
 
   {{ partial "footer.html" . }}
 
