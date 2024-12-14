@@ -112,12 +112,9 @@ content_blocks:
     layout:
       section:
         margin: default
-  - _bookshop_name: quicklinks
+  - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
-    links:
-      - text: Text DS
-        ref:
-        url: /url
+    links: []
     layout:
       section:
         margin: default
