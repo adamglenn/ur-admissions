@@ -1,6 +1,0 @@
-_schema: sitewide_quicklinks
-_bookshop_name: design-system/section/quicklinks
-heading: Sitewide Quicklinks Test
-links:
-  - text: Sitewide link 1
-    url:
