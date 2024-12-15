@@ -84,7 +84,7 @@ collections_config:
         schema: student
     schemas:
       student:
-        path: schemas/student.yml
+        path: .cloudcannon/schemas/student.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
