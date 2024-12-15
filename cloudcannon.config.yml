@@ -133,6 +133,11 @@ _inputs:
     cascade: true
   layout:
     hidden: true
+  sitewide_section:
+    type: select
+    options:
+      allow_empty: true
+      values: data.sitewide-components
 _structures:
   content_blocks:
     style: modal
