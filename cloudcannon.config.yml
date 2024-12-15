@@ -79,7 +79,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   folks:
-    path: data/folks.yml
+    path: data/folks
     add_options:
       - name: Add Student
         schema: student
