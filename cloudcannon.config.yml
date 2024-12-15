@@ -78,6 +78,13 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
+  folks:
+    add_options:
+      - name: Add Student
+        schema: student
+    schemas:
+      student:
+        path: schemas/student.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
