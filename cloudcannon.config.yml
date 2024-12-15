@@ -78,16 +78,6 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-  # folks:
-  #   path: data
-  #   description: Data for folks
-  #   schemas:
-  #     faculty:
-  #       path: schemas/faculty.yml
-  #     staff:
-  #       path: schemas/staff.yml
-  #     students:
-  #       path: schemas/students.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
@@ -102,15 +92,6 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-collection_groups:
-  - heading: Pages
-    collections:
-      - pages
-      - articles
-      - profiles
-  - heading: Data
-    collections:
-      - data
 _enabled_editors:
   - visual
   - content
