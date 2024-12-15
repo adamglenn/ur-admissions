@@ -129,5 +129,5 @@ content_blocks:
   - _bookshop_name: my-custom-component
     heading: My Custom Heading 2
   - _bookshop_name: design-system/section/sitewide-section/sitewide-seciton
-    sitewide_section:
+    sitewide_section: test-sitewide-quicklinks
 ---
