@@ -86,7 +86,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      sitewide_quicklinks:
+      faculty:
         path: .cloudcannon/schemas/faculty.yml
         reorder_inputs: true
         hide_extra_inputs: false
@@ -100,7 +100,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      sitewide_quicklinks:
+      staff:
         path: .cloudcannon/schemas/staff.yml
         reorder_inputs: true
         hide_extra_inputs: false
@@ -114,7 +114,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      sitewide_quicklinks:
+      students:
         path: .cloudcannon/schemas/students.yml
         reorder_inputs: true
         hide_extra_inputs: false
@@ -128,7 +128,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      sitewide_quicklinks:
+      places_and_spaces:
         path: .cloudcannon/schemas/places-and-spaces.yml
         reorder_inputs: true
         hide_extra_inputs: false
