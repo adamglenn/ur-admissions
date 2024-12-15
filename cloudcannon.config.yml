@@ -78,6 +78,62 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
+  faculty:
+    path: data/faculty.yml
+    description: Data for faculty
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+    schemas:
+      sitewide_quicklinks:
+        path: .cloudcannon/schemas/faculty.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+  staff:
+    path: data/staff.yml
+    description: Data for staff
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+    schemas:
+      sitewide_quicklinks:
+        path: .cloudcannon/schemas/staff.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+  students:
+    path: data/students.yml
+    description: Data for students
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+    schemas:
+      sitewide_quicklinks:
+        path: .cloudcannon/schemas/students.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+  places-and-spaces:
+    path: data/places-and-spaces.yml
+    description: Data for places and spaces
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+    schemas:
+      sitewide_quicklinks:
+        path: .cloudcannon/schemas/places-and-spaces.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
   footer:
     path: data/footer.yml
     description: Footer
@@ -99,6 +155,24 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+collection_groups:
+  - heading: Pages
+    collections:
+      - pages
+      - articles
+      - profiles
+  - heading: People
+    collections:
+      - people
+      - faculty
+      - staff
+      - students
+  - heading: Places and Spaces
+    collection:
+      - places-and-spaces
+  - heading: Data
+    collections:
+      - data
 _enabled_editors:
   - visual
   - content
