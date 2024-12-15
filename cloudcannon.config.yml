@@ -161,15 +161,6 @@ collection_groups:
       - pages
       - articles
       - profiles
-  - heading: People
-    collections:
-      - people
-      - faculty
-      - staff
-      - students
-  - heading: Places and Spaces
-    collection:
-      - places-and-spaces
   - heading: Data
     collections:
       - data
