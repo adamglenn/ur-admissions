@@ -63,14 +63,14 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: /
-  # data:
-  #   path: data
-  #   description: Data that is used to populate multiple areas throughout the site
-  #   output: false
-  #   icon: data_usage
-  #   disable_add: true
-  #   disable_add_folder: true
-  #   disable_file_actions: false
+  data:
+    path: data
+    description: Data that is used to populate multiple areas throughout the site
+    output: false
+    icon: data_usage
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: false
   people:
     path: data/people.yml
     description: Data for people
@@ -78,23 +78,16 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-  folks:
-    path: data
-    description: Data for folks
-    schemas:
-      faculty:
-        path: schemas/faculty.yml
-      staff:
-        path: schemas/staff.yml
-      students:
-        path: schemas/students.yml
-  footer:
-    path: data/footer.yml
-    description: Footer
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
+  # folks:
+  #   path: data
+  #   description: Data for folks
+  #   schemas:
+  #     faculty:
+  #       path: schemas/faculty.yml
+  #     staff:
+  #       path: schemas/staff.yml
+  #     students:
+  #       path: schemas/students.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
