@@ -55,7 +55,7 @@ content_blocks:
           c: wvu-gradient-wvu-blue-blue-blue-light
           opacity: 5
   - _bookshop_name: design-system/section/poster-split
-    background_image: /uploads/hero-admitted-students-31212scomposite.jpg
+    background_image: /uploads/hero-social-swag.jpg
     alt_text:
     heading:
       - Class of 2028

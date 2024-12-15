@@ -4,10 +4,13 @@ title: Admitted 2
 description:
 topper:
   topper_type: Hero
+  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   heading: Congrats! You’re In.
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
+  styles:
+    breadcrumbs: {}
 content_blocks:
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: Select Your Admission Type
