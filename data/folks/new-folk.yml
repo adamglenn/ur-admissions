@@ -1,0 +1,18 @@
+- name: Patrick White
+  first_name: Patrick
+  last_name: White
+  hometown: Baton Rouge, LA
+  major: Communications
+  graduation_year: '2007'
+- name: Steve Slaton
+  first_name: Steve
+  last_name: Slaton
+  hometown: Hyattsville, MD
+  major: Athletic Coaching
+  graduation_year: '2006'
+- name: Owen Schmitt
+  first_name: Owen
+  last_name: Schmitt
+  hometown: Fairfax, VA
+  major: Biology
+  graduation_year: '2006'
