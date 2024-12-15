@@ -118,16 +118,16 @@ content_blocks:
     layout:
       section:
         margin: default
-  - _bookshop_name: quicklinks
-    heading: Quicklinks
-    links: []
-    layout:
-      section:
-        margin: default
-  - _bookshop_name: my-custom-component
-    heading: Heading
-  - _bookshop_name: my-custom-component
-    heading: My Custom Heading 2
-  - _bookshop_name: design-system/section/sitewide-section
-    sitewide_section: test-sitewide-quicklinks
+  # - _bookshop_name: quicklinks
+  #   heading: Quicklinks
+  #   links: []
+  #   layout:
+  #     section:
+  #       margin: default
+  # - _bookshop_name: my-custom-component
+  #   heading: Heading
+  # - _bookshop_name: my-custom-component
+  #   heading: My Custom Heading 2
+  # - _bookshop_name: design-system/section/sitewide-section
+  #   sitewide_section: test-sitewide-quicklinks
 ---

@@ -7,6 +7,11 @@ topper:
   alt_text:
   heading: First-Time Freshmen
   subheading: Forge the future you want at West Virginia University.
+  layout:
+    margin: buffer-bottom
+  styles:
+    breadcrumbs:
+      c: text-white
 content_blocks:
   - _bookshop_name: design-system/section/link-lists
     heading: Heading
@@ -29,6 +34,9 @@ content_blocks:
             url:
     config:
       is_main: true
+    layout:
+      section:
+        margin: pull-up
   - _bookshop_name: design-system/section/button-group
     heading: Interested in talking to someone about WVU?
     body:
