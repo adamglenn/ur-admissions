@@ -1,0 +1,7 @@
+_schema: sitewide_quicklinks
+title: Test Sitewide Quicklinks
+_bookshop_name: design-system/section/quicklinks
+heading: Sitewide Quicklinks Heading
+links:
+  - text: Sitewide link 1
+    url:
