@@ -78,62 +78,16 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-  faculty:
-    path: data/faculty.yml
-    description: Data for faculty
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
+  folks:
+    path: data
+    description: Data for folks
     schemas:
       faculty:
-        path: .cloudcannon/schemas/faculty.yml
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-  staff:
-    path: data/staff.yml
-    description: Data for staff
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
-    schemas:
+        path: schemas/faculty.yml
       staff:
-        path: .cloudcannon/schemas/staff.yml
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-  students:
-    path: data/students.yml
-    description: Data for students
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
-    schemas:
+        path: schemas/staff.yml
       students:
-        path: .cloudcannon/schemas/students.yml
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-  places-and-spaces:
-    path: data/places-and-spaces.yml
-    description: Data for places and spaces
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
-    schemas:
-      places_and_spaces:
-        path: .cloudcannon/schemas/places-and-spaces.yml
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
+        path: schemas/students.yml
   footer:
     path: data/footer.yml
     description: Footer

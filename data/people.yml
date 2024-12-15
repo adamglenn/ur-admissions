@@ -1,6 +1,5 @@
 - name: Clarence Moore
   headline: Why WVU?
-  people_type: student
   first_name: Clarence
   last_name: Moore
   thumbnail: /uploads/clarence_moore.jpg
@@ -9,7 +8,6 @@
   hometown: Moreno Valley, California
 - name: Jillian Blair
   headline: Why WVU?
-  people_type: student
   first_name: Jillian
   last_name: Blair
   thumbnail: /uploads/jillian-cutout.webp
@@ -18,7 +16,6 @@
   hometown: Wheeling, WV
 - name: Quinn Hopen
   headline: She is Awesome
-  people_type: student
   first_name: Quinn
   last_name: Hopen
   thumbnail: /uploads/quinn_hopen.jpg
@@ -27,7 +24,6 @@
   hometown: Sutton, WV
 - name: Frank Dux
   headline: Why WVU?
-  people_type: student
   first_name: Frank
   last_name: Dux
   thumbnail: /uploads/jillian-cutout.webp
