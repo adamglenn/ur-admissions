@@ -93,7 +93,7 @@ collections_config:
       staff:
         path: .cloudcannon/schemas/staff.yml
       student:
-        path: .cloudcannon/schemas/students.yml
+        path: .cloudcannon/schemas/student.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
