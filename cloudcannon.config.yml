@@ -81,11 +81,19 @@ collections_config:
   folks:
     path: data/folks
     add_options:
-      - name: Add Student
+      - name: Faculty
+        schema: faculty
+      - name: Staff
+        schema: staff
+      - name: Students
         schema: student
     schemas:
+      faculty:
+        path: .cloudcannon/schemas/faculty.yml
+      staff:
+        path: .cloudcannon/schemas/staff.yml
       student:
-        path: .cloudcannon/schemas/student.yml
+        path: .cloudcannon/schemas/students.yml
   sitewide_components:
     path: data/sitewide-components
     description: Sitewide components
