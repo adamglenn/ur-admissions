@@ -1,6 +1,6 @@
 ---
 title:
-page_id:
+id:
 type: detail
 description:
 topper:

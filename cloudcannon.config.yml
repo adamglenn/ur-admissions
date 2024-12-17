@@ -115,7 +115,7 @@ _enabled_editors:
 _inputs:
   hide:
     type: datetime
-  page_id:
+  id:
     hidden: true
     instance_value: UUID
   person:
@@ -150,7 +150,6 @@ _inputs:
     options:
       allow_empty: true
       values: data.site_pages.[*]
-      value_key: page_id
   sitewide_section:
     type: select
     options:
