@@ -1,0 +1,7 @@
+_schema: sitewide_quicklinks
+title: Default Quicklinks
+_bookshop_name: design-system/section/quicklinks
+heading: Default Quicklinks
+links:
+  - text: Default Link 1
+    url:
