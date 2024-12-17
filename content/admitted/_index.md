@@ -109,16 +109,37 @@ content_blocks:
       - text: Readmitted Students
         ref:
         url: /url
+    layout:
+      section:
+        margin: default
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links: []
+    layout:
+      section:
+        margin: default
   - _bookshop_name: quicklinks
     heading: Quicklinks
     links: []
+    layout:
+      section: {}
   - _bookshop_name: my-custom-component
     heading: Heading
   - _bookshop_name: my-custom-component
     heading: My Custom Heading 2
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: another-sitewide-quicklinks
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    items:
+      - title:
+        text: Item 1 text.
+        site_page: 9e558b82-dbaf-4139-a376-0c6d882bc879
+        url:
+    lead: Lead text.
+    layout:
+      margin_y:
+    styles:
+      panels:
+      item_headings:
 ---
