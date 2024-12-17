@@ -71,7 +71,7 @@ content_blocks:
         text: Item 1 text.
         site_page:
         url:
-      - title: Item 1 Title
+      - title:
         text: Item 1 text.
         site_page: Information For
         url:
