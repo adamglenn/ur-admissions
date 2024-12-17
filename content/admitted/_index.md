@@ -144,6 +144,10 @@ content_blocks:
         text: Item 1 text.
         site_page: Page With ID
         url:
+      - title:
+        text: Item 1 text.
+        site_page: 9e558b82-dbaf-4139-a376-0c6d882bc879
+        url:
     lead: Lead text.
     layout:
       margin_y:
