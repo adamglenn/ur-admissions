@@ -61,4 +61,18 @@ content_blocks:
     styles:
       panels:
       item_headings:
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        button:
+          site_page: forms-and-procedures
+          url:
+    lead: Lead text.
+    layout:
+      margin_y:
+    styles:
+      panels:
+      item_headings:
 ---
