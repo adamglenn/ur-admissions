@@ -152,7 +152,7 @@ _inputs:
       preview:
         text:
           - key: title
-      values: data.site_pages.admitted
+      values: data.site_pages
       value_key: id
   sitewide_section:
     type: select

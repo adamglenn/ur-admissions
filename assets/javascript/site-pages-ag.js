@@ -3,19 +3,19 @@ var path = require('path');
 const yaml = require('js-yaml');
 const fm = require('front-matter')
 
-let pages = []
+let collections = []
 var walk = function(dir, done) {
     fs.readdir(dir, function(err, list) {
         if (err) return done(err);
         var pending = list.length;
-        if (!pending) return done(null, pages);
+        if (!pending) return done(null, collections);
         list.forEach(function(file) {
             file = path.resolve(dir, file);
             fs.stat(file, function(err, stat) {
                 if (stat && stat.isDirectory()) {
                     walk(file, function(err, res) {
-                        pages[Object.keys(res)[0]] = Object.values(res)[0]; // Assign collection directly
-                        if (!--pending) done(null, pages);
+                        collections[Object.keys(res)[0]] = Object.values(res)[0]; // Assign collection directly
+                        if (!--pending) done(null, collections);
                     });
                 } else {
                     let local_path = (file.replace(/^.*\/content\/(.*?)\.md$/, '/$1')).replace("_index", "");
@@ -44,15 +44,15 @@ var walk = function(dir, done) {
                     let collection_name = path.basename(dir); // Get directory name as collection name
                     if (doc.attributes.title != "Components") {
                       if (file.toLowerCase().endsWith("_index.md")) {
-                        pages.push(obj);
+                        collections.push(obj);
                       } else {
-                          if (!pages[collection_name]) {
-                            pages[collection_name] = []; // Initialize collection if not exists
+                          if (!collections[collection_name]) {
+                            collections[collection_name] = []; // Initialize collection if not exists
                           }
-                          pages.push(obj);
+                          collections.push(obj);
                       }
                   }
-                    if (!--pending) done(null, pages);
+                    if (!--pending) done(null, collections);
                 }
             });
         });
