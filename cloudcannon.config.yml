@@ -150,6 +150,7 @@ _inputs:
     options:
       allow_empty: true
       values: data.site_pages.[*]
+      value_key: id
   sitewide_section:
     type: select
     options:
