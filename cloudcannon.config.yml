@@ -151,7 +151,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.sitewide-components
+      values: data.sitewide_components.title
 _structures:
   content_blocks:
     style: modal
