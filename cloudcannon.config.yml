@@ -95,7 +95,7 @@ collections_config:
       student:
         path: .cloudcannon/schemas/student.yml
   sitewide_components:
-    path: data/sitewide-components
+    path: data/sitewide_components
     description: Sitewide components
     output: false
     disable_add: false
@@ -103,7 +103,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       sitewide_quicklinks:
-        path: .cloudcannon/schemas/sitewide_quicklinks.yml
+        path: .cloudcannon/schemas/sitewide-quicklinks.yml
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
