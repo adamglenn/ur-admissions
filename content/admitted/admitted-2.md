@@ -64,7 +64,7 @@ content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     items:
-      - title: Item 1 Title
+      - title: Test Title
         text: Item 1 text.
         button:
           site_page: forms-and-procedures
