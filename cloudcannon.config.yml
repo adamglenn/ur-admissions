@@ -116,6 +116,7 @@ _inputs:
   hide:
     type: datetime
   page_id:
+    hidden: true
     instance_value: UUID
   person:
     type: select
