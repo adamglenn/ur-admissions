@@ -150,9 +150,9 @@ _inputs:
     options:
       allow_empty: true
       values: data.site_pages.[*].page_id
-    preview:
-      text:
-        - key: title
+      preview:
+        text:
+          - key: title
   sitewide_section:
     type: select
     options:
