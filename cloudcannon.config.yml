@@ -156,7 +156,7 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
 preview:
-  page_id:
+  site_page:
     - key: title
 _structures:
   content_blocks:
