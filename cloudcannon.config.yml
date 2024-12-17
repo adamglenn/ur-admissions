@@ -115,6 +115,8 @@ _enabled_editors:
 _inputs:
   hide:
     type: datetime
+  page_id:
+    instance_value: UUID
   person:
     type: select
     options:
