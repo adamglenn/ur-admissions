@@ -149,7 +149,9 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.site_pages.[*]
+      values:
+        - title: data.site_pages.[*].title
+        - page_id: data.site_pages.[*].page_id
       value_key: page_id
   sitewide_section:
     type: select
