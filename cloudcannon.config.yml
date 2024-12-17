@@ -146,7 +146,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.site-pages
+      values: data.site-pages[1]
   sitewide_section:
     type: select
     options:
