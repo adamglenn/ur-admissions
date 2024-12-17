@@ -15,9 +15,6 @@ content_blocks:
       - text: Text
         ref:
         url: /url
-    layout:
-      section:
-        margin: default
   - _bookshop_name: design-system/section/poster
     background_image:
     alt_text:

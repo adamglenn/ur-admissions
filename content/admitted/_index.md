@@ -109,21 +109,12 @@ content_blocks:
       - text: Readmitted Students
         ref:
         url: /url
-    layout:
-      section:
-        margin: default
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links: []
-    layout:
-      section:
-        margin: default
   - _bookshop_name: quicklinks
     heading: Quicklinks
     links: []
-    layout:
-      section:
-        margin: default
   - _bookshop_name: my-custom-component
     heading: Heading
   - _bookshop_name: my-custom-component

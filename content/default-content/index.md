@@ -8,5 +8,5 @@ content_blocks:
         url: /test
     layout:
       section:
-        margin: default
+        margin:
 ---
