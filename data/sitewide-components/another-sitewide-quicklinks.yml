@@ -1,0 +1,7 @@
+_schema: sitewide_quicklinks
+title: Another Sitewide Quicklinks
+_bookshop_name: design-system/section/quicklinks
+heading: Another Sitewide Quicklinks Heading
+links:
+  - text: Another sitewide link
+    url:
