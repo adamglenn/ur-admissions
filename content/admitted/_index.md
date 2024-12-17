@@ -148,6 +148,10 @@ content_blocks:
         text: Item 1 text.
         site_page: Page With ID
         url:
+      - title:
+        text: Item 1 text.
+        site_page: Page With ID
+        url:
     lead: Lead text.
     layout:
       margin_y:
