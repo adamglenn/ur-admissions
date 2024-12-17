@@ -155,6 +155,9 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
+preview:
+  page_id:
+    - key: title
 _structures:
   content_blocks:
     style: modal
