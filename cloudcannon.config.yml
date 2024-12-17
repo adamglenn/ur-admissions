@@ -149,10 +149,10 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.site_pages.[*].page_id
       preview:
         text:
           - key: title
+      values: data.site_pages.[*].page_id
   sitewide_section:
     type: select
     options:
