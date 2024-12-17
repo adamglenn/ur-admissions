@@ -149,6 +149,9 @@ _inputs:
     type: select
     options:
       allow_empty: true
+      preview:
+        text:
+          - key: title
       values: data.site_pages.[*]
       value_key: id
   sitewide_section:
