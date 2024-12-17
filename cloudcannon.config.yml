@@ -151,7 +151,7 @@ _inputs:
       allow_empty: true
       preview:
         text:
-          key: title
+          - key: title
       values: data.site_pages.[*].page_id
   sitewide_section:
     type: select
