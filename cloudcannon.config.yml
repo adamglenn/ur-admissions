@@ -142,6 +142,11 @@ _inputs:
     cascade: true
   layout:
     hidden: true
+  site_page:
+    type: select
+    options:
+      allow_empty: true
+      values: data.site-pages.json
   sitewide_section:
     type: select
     options:

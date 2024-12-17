@@ -1,5 +1,5 @@
 {
-  "name": "ur-admissions-w-components",
+  "name": "ur-admissions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,18 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamglenn/ur-admissions-w-components.git"
+    "url": "git+https://github.com/adamglenn/ur-admissions.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamglenn/ur-admissions-w-components/issues"
+    "url": "https://github.com/adamglenn/ur-admissions/issues"
   },
-  "homepage": "https://github.com/adamglenn/ur-admissions-w-components#readme",
+  "homepage": "https://github.com/adamglenn/ur-admissions#readme",
   "dependencies": {
     "@bookshop/browser": "3.12.0",
     "@bookshop/generate": "3.12.0",
-    "@bookshop/hugo-engine": "3.12.0"
+    "@bookshop/hugo-engine": "3.12.0",
+    "front-matter": "^4.0.2"
   }
 }
