@@ -131,7 +131,11 @@ content_blocks:
     sitewide_section: another-sitewide-quicklinks
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
-    items: []
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        site_page: Page With ID
+        url:
     lead: Lead text.
     layout:
       margin_y:
