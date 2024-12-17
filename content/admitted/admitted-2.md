@@ -66,9 +66,6 @@ content_blocks:
     items:
       - title: Test Title
         text: Item 1 text.
-        button:
-          site_page: forms-and-procedures
-          url:
     lead: Lead text.
     layout:
       margin_y:
