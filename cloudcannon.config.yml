@@ -150,14 +150,14 @@ _inputs:
     options:
       allow_empty: true
       values: data.site_pages.[*].page_id
+    preview:
+      text:
+        - key: title
   sitewide_section:
     type: select
     options:
       allow_empty: true
       values: data.sitewide_components
-preview:
-  site_page:
-    - key: title
 _structures:
   content_blocks:
     style: modal
