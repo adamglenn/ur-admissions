@@ -64,8 +64,9 @@ content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     items:
-      - title: Test Title
+      - title:
         text: Item 1 text.
+        site_page: Admitted
     lead: Lead text.
     layout:
       margin_y:
