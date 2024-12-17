@@ -68,7 +68,7 @@ walk("./content", function(err, results) {
         }
       });
 
-    fs.writeFile('./data/site-pages.json', JSON.stringify(results), err => {
+    fs.writeFile('./data/site_pages.json', JSON.stringify(results), err => {
       if (err) {
         console.error(err);
       } else {
