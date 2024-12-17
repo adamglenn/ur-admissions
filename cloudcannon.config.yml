@@ -152,7 +152,7 @@ _inputs:
       preview:
         text:
           - key: title
-      values: data.site_pages.[*]
+      values: data.site_pages.[*].title
       value_key: page_id
   sitewide_section:
     type: select
