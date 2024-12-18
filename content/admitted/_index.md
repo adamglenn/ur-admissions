@@ -129,6 +129,9 @@ content_blocks:
     heading: My Custom Heading 2
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: another-sitewide-quicklinks
+  - _bookshop_name: design-system/section/profiles-collection
+    profiles:
+      - person: Clarence Moore
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     items:
