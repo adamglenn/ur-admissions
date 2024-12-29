@@ -6,7 +6,8 @@ topper:
   topper_type: Hero
   background_image:
   alt_text:
-  heading: Heading
+  heading:
+    - text: Heading
   subheading: Subheading
 content_blocks:
   - _bookshop_name: design-system/section/quicklinks

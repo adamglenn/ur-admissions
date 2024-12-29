@@ -5,7 +5,8 @@ description:
 topper:
   topper_type: Hero
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
-  heading: Congrats! You’re In.
+  heading:
+    - text: Congrats! You’re In.
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.

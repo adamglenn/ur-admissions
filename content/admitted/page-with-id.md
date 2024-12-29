@@ -8,7 +8,8 @@ topper:
   topper_type: Default
   background_image:
   alt_text:
-  heading: Heading
+  heading:
+    - text: Heading
   subheading: Subheading
   styles:
     breadcrumbs:

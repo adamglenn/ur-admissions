@@ -1,10 +1,12 @@
 ---
 title:
+id:
 type: detail
 description:
 topper:
   topper_type: Hero
-  heading: Heading
+  heading:
+    - text: Heading
   subheading: Subheading
   styles:
     breadcrumbs:

@@ -4,10 +4,18 @@ title: Information For
 description:
 topper:
   topper_type: Hero
-  background_image:
+  background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
-  heading: Get the facts you need.
+  heading:
+    - text: Get the facts
+    - text: you need.
+      style:
+        highlight: container
+        background_c: bg-wvu-accent--sunset
+        text_c: text-dark
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
+  layout:
+    margin: buffer-bottom
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     items:
@@ -27,4 +35,7 @@ content_blocks:
         text: You have served or are serving in the United States Armed Forces.
         button:
           url:
+    layout:
+      section:
+        margin: pull-up
 ---

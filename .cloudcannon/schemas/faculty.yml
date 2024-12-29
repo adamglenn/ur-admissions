@@ -1,11 +1,12 @@
 - name:
+  id:
   first_name:
   last_name:
   position:
+    - Position
   organization:
-  contact:
-    phone:
-    email:
-  office:
-    building:
-    room_number:
+  phone:
+  email:
+  building:
+  room_number:
+  map_link:

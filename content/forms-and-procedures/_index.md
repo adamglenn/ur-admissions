@@ -7,7 +7,8 @@ topper:
   topper_type: Hero
   background_image:
   alt_text:
-  heading: Take the Next Step of Your Journey
+  heading:
+    - text: Take the Next Step of Your Journey
   subheading: >-
     Searching for documents? We’ve gathered all the ones you need to become a
     Mountaineer.

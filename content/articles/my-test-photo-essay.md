@@ -1,25 +1,22 @@
 ---
-_schema: article
-title: My Test Article
+_schema: photo-essay
+title: My Test Photo Essay
 authors:
   - author: jwtepoufahsmsdf
 description: Description.
 publish_date: 2022-06-08T22:20:51-04:00
 topper:
   topper_type: Article Hero
-  byline:
-    - name:
-      title:
 image:
   src: /uploads/hero-social-swag.jpg
   alt: 
-article_blocks:
+photo_essay_blocks:
   - _bookshop_name: design-system/section/backpage
     main:
       - _bookshop_name: design-system/detail/rich-text
         text: Text.
     sidebar: []
-type: articles
+  - _bookshop_name: design-system/section/full-bleed-photo
+    src: /uploads/hero-social-swag.jpg
+type: photo-essay
 ---
-
-My content. f

@@ -1,9 +1,11 @@
 ---
 title:
 id:
+type: detail
+faculty_member:
 description:
 topper:
-  topper_type: Hero
+  topper_type: Default
   background_image:
   alt_text:
   heading:
@@ -12,5 +14,8 @@ topper:
   styles:
     breadcrumbs:
       c:
-content_blocks:
+detail_blocks:
+  - _bookshop_name: design-system/detail/rich-text
+    text: Text.
+column_blocks:
 ---

@@ -1,6 +1,8 @@
 ---
 title:
+id:
 description:
+publish_date:
 authors:
   - author:
 topper:
@@ -10,7 +12,7 @@ topper:
     breadcrumbs:
       c:
 show_author_bios: true
-article_blocks:
+photo_essay_blocks:
   - _bookshop_name: design-system/section/backpage
     main:
       - _bookshop_name: design-system/detail/rich-text

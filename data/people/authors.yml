@@ -1,0 +1,10 @@
+- name: Adam Glenn
+  id: jwtepoufahsmsdf
+  first_name: Adam
+  last_name: Glenn
+  image:
+    src: /uploads/clarence-moore.jpg
+    alt:
+  position:
+    - Adjunct Professor
+  organization:

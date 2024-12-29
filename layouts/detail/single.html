@@ -1,10 +1,11 @@
 {{ define "main" }}
-  {{ partial "bookshop_bindings" `(dict "topper" .Params.topper "title" .Params.title "ancestors" .Ancestors)` }}
-  {{ partial "bookshop_partial" (slice "topper" (dict "topper" .Params.topper "title" .Params.title "ancestors" .Ancestors)) }}
+  {{ partial "bookshop_bindings" `(dict "topper" .Params.topper "title" .Params.title)` }}
+  {{ partial "bookshop_partial" (slice "topper" (dict "topper" .Params.topper "title" .Params.title)) }}
   <main class="py-6 wvu-backpage-main">
     <div class="container">
       <div class="row">
         <div class="col-xl-5">
+          <h2 class="wvu-shout h6 wvu-text-letter-spacing-lg mb-4">{{ .Section | humanize }}</h2>
           {{ partial "section-menu" . }}
         </div>
         <div class="col-xl-10 mx-xl-auto">

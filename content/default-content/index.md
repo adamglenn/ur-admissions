@@ -6,6 +6,8 @@ content_blocks:
     links:
       - text: Default Link 1
         url: /test
+    config:
+      edit_mode_only: true
     layout:
       section:
         margin:

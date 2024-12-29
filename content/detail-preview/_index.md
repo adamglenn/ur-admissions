@@ -3,7 +3,8 @@ title: Page Title
 type: detail
 topper:
   topper_type: Default
-  heading: Heading
+  heading:
+    - text: Heading
   subheading: Subheading
 detail_blocks:
   - _bookshop_name: design-system/detail/rich-text

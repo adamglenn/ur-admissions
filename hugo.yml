@@ -47,6 +47,17 @@ menus:
     - name: Forms and Procedures
       pageRef: /forms-and-procedures
       weight: 50
+    - name: Information For
+      pageRef: /information-for
+      weight: 60
     - name: Admitted Students
       pageRef: /admitted
-      weight: 60
+      weight: 70
+    - name: Check Your Status
+      parent: How to Apply
+      pageRef: /how-to-apply/check-your-status
+      weight: 80
+    - name: First-Time Freshmen
+      parent: How to Apply
+      pageReg: /how-to-apply/first-time-freshmen
+      weight: 90

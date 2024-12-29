@@ -5,7 +5,8 @@ topper:
   topper_type: Hero
   background_image: /uploads/hero-info-ftf-student-computer.jpg
   alt_text:
-  heading: First-Time Freshmen
+  heading:
+    - text: First-Time Freshmen
   subheading: Forge the future you want at West Virginia University.
   layout:
     margin: buffer-bottom

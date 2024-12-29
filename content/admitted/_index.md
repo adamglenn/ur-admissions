@@ -6,7 +6,13 @@ topper:
   topper_type: Hero
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
-  heading: Congrats! You’re in.
+  heading:
+    - text: Congrats!
+    - text: You’re in.
+      style:
+        highlight: container
+        background_c: bg-wvu-gold
+        text_c: text-wvu-accent--blue
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
@@ -73,73 +79,6 @@ content_blocks:
     lead: >-
       Welcome to your Class of 2028 hub. Here, you will find everything you need
       to start your journey as a Mountaineer.
-  - _bookshop_name: design-system/section/quicklinks
-    heading: Quicklinks
-    links:
-      - text: First-Time Freshmen
-        ref:
-        url: /url
-      - text: High School Counselors
-        ref:
-        url: /url
-      - text: Current Students
-        ref:
-        url: /url
-      - text: International Students
-        ref:
-        url: /url
-      - text: Parents and Families
-        ref:
-        url: /url
-      - text: Graduate Students
-        ref:
-        url: /url
-      - text: Transfer Students
-        ref:
-        url: /url
-      - text: Admitted Students
-        ref:
-        url: /url
-      - text: Online Students
-        ref:
-        url: /url
-      - text: Veterans
-        ref:
-        url: /url
-      - text: Readmitted Students
-        ref:
-        url: /url
-    layout:
-      section:
-        margin: default
-  - _bookshop_name: design-system/section/quicklinks
-    heading: Quicklinks
-    links: []
-    layout:
-      section:
-        margin: default
-  - _bookshop_name: quicklinks
-    heading: Quicklinks
-    links: []
-    layout:
-      section: {}
-  - _bookshop_name: my-custom-component
-    heading: Heading
-  - _bookshop_name: my-custom-component
-    heading: My Custom Heading 2
   - _bookshop_name: design-system/section/sitewide-section
-    sitewide_section: another-sitewide-quicklinks
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    items:
-      - title:
-        text: Item 1 text.
-        site_page: 9e558b82-dbaf-4139-a376-0c6d882bc879
-        url:
-    lead: Lead text.
-    layout:
-      margin_y:
-    styles:
-      panels:
-      item_headings:
+    sitewide_section: information-for
 ---

@@ -79,7 +79,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   folks:
-    path: data/folks
+    path: data/people
     add_options:
       - name: Faculty
         schema: faculty
@@ -108,11 +108,68 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+# collection_groups:
+#   - heading: Site Pages
+#     collections:
+#       - pages
+#   - heading: Articles
+#     collections:
+#       - articles
+#   - heading: Collections
+#     collections:
+#       - links
+#       - partners
+#       - people
+#       - places and spaces
+#       - programs
+#   - heading: Site Config
+#     collections:
+#       - site_config
+#   - heading: Data
+#     collections:
+#       - data
 _enabled_editors:
   - visual
   - content
   - data
+_select_data:
+  brand_colors:
+    - name: WVU Gold
+      class: wvu-gold 
+    - name: WVU Blue
+      class: wvu-blue
+    - name: Accent - Blue
+      class: wvu-accent--blue
+    - name: Accent - Dark Blue
+      class: wvu-accent--blue-dark
+    - name: Accent - Light Blue
+      class: wvu-accent--blue-light
+    - name: Accent - Yellow
+      class: wvu-accent--yellow
+    - name: Accent - Old Gold
+      class: wvu-accent--old-gold
+    - name: Accent - Sunset
+      class: wvu-accent--sunset
+    - name: Neutral - Off-White
+      class: wvu-neutral--off-white
+    - name: Neutral - Warm Gray Light
+      class: wvu-neutral--warm-gray-light
+    - name: Neutral - Warm Gray Medium
+      class: wvu-neutral--warm-gray-medium
+    - name: Neutral - Warm Gray Dark
+      class: wvu-neutral--warm-gray-dark
+    - name: Neutral - Cream
+      class: wvu-neutral--cream
+    - name: Neutral - Tan
+      class: wvu-neutral--tan
 _inputs:
+  color:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - _select_data.brand_colors
+      value_key: class
   hide:
     type: datetime
   id:
@@ -160,6 +217,12 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
 _structures:
+  background_layers:
+    values:
+      - label: Background Color
+        value:
+          color:
+    background_c: 
   content_blocks:
     style: modal
   detail_blocks:

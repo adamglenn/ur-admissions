@@ -7,7 +7,8 @@ topper:
   topper_type: Default
   background_image:
   alt_text:
-  heading: Heading
+  heading:
+    - text: Heading
   subheading: Subheading
 detail_blocks:
   - _bookshop_name: design-system/detail/rich-text

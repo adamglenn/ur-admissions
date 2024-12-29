@@ -1,6 +1,8 @@
 ---
 title:
+id:
 description:
+publish_date:
 authors:
   - author:
 topper:
@@ -16,5 +18,5 @@ article_blocks:
       - _bookshop_name: design-system/detail/rich-text
         text: Text.
     sidebar: []
-type: article
+type: articles
 ---
