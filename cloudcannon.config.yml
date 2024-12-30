@@ -216,6 +216,8 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
+  tags:
+    type: multiselect
 _structures:
   background_layers:
     values:

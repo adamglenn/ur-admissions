@@ -4,7 +4,7 @@ title: My Test Photo Essay
 authors:
   - author: jwtepoufahsmsdf
 description: Description.
-publish_date: 2022-06-08T22:20:51-04:00
+publishDate: 2022-06-08T22:20:51-04:00
 topper:
   topper_type: Article Hero
 image:

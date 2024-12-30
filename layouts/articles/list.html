@@ -6,7 +6,7 @@
   
   <div class="py-6">
     <div class="container">
-      {{ range sort (where .Site.RegularPages "Section" .Section) ".Params.publish_date" "desc" }}
+      {{ range sort (where .Site.RegularPages "Section" .Section) ".Params.publishDate" "desc" }}
         {{ $authors := slice }}
         {{ if .Params.authors }}
           {{ $authors = .Params.authors }}

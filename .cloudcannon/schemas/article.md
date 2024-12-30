@@ -2,7 +2,7 @@
 title:
 id:
 description:
-publish_date:
+publishDate:
 authors:
   - author:
 topper:

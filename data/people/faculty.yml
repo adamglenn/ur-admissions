@@ -1,6 +1,10 @@
 - name: Sarah Glenn
+  id: sarah_glenn
   first_name: Sarah
   last_name: Glenn
+  image:
+    src: /uploads/clarence-moore.jpg
+    alt: Test
   position:
     - Adjunct Professor
   organization:

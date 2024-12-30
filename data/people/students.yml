@@ -1,18 +1,27 @@
 - name: Patrick White
+  id: patrick_white
   first_name: Patrick
   last_name: White
+  image: /uploads/clarence-moore.jpg
   hometown: Baton Rouge, LA
-  major: Communications
+  majors:
+    - Communications
   graduation_year: '2007'
 - name: Steve Slaton
+  id: steve_slaton
   first_name: Steve
   last_name: Slaton
+  image:
   hometown: Hyattsville, MD
-  major: Athletic Coaching
+  majors:
+    - Athletic Coaching
   graduation_year: '2006'
 - name: Owen Schmitt
+  id: owen_schmitt
   first_name: Owen
   last_name: Schmitt
+  image:
   hometown: Fairfax, VA
-  major: Biology
+  majors:
+    - Biology
   graduation_year: '2006'
