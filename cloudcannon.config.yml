@@ -219,6 +219,8 @@ _inputs:
   tags:
     type: multiselect
     options:
+      allow_create: true
+      allow_empty: true
       values:
         - featured
 _structures:
