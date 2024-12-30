@@ -218,6 +218,8 @@ _inputs:
       values: data.sitewide_components
   tags:
     type: multiselect
+    options:
+      - featured
 _structures:
   background_layers:
     values:
