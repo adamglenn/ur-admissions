@@ -219,7 +219,8 @@ _inputs:
   tags:
     type: multiselect
     options:
-      - featured
+      values:
+        - featured
 _structures:
   background_layers:
     values:
