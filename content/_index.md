@@ -47,11 +47,18 @@ content_blocks:
       - text: Text
         ref:
         url: /url
+    config: {}
+    layout:
+      section:
+        margin: default
   - _bookshop_name: design-system/section/profiles-collection
     profiles: []
   - _bookshop_name: design-system/section/calendar-events
-    event_feed: |
-      <div id="localist-widget-32933618" class="localist-widget"></div><script defer type="text/javascript" src="https://cal.wvu.edu/widget/view?schools=wvu&departments=athletics&days=31&num=3&experience=inperson&container=localist-widget-32933618&template=design-system-v3-section"></script>
+    heading: Heading
+    event_feed: >
+      <div id="localist-widget-32933618" class="localist-widget"></div><script
+      defer type="text/javascript"
+      src="https://cal.wvu.edu/widget/view?schools=wvu&departments=athletics&days=31&num=3&experience=inperson&container=localist-widget-32933618&template=design-system-v3-section"></script>
   - _bookshop_name: design-system/section/columns-2-1
     column_a:
       - _bookshop_name:
