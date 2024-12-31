@@ -39,6 +39,7 @@ var walk = function(dir, done) {
                         contact_details: doc.attributes.contact_details,
                         excerpt: doc.body.slice(0, doc.body.indexOf("\n")),
                         content: doc.body,
+                        tags: doc.attributes.tags,
                         type: doc.attributes.type
                     }
                     let collection_name = path.basename(dir); // Get directory name as collection name
