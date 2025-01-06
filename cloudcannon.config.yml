@@ -170,11 +170,15 @@ _inputs:
       values:
         - _select_data.brand_colors
       value_key: class
+  excerpt:
+    type: markdown
   hide:
     type: datetime
   id:
     hidden: true
     instance_value: UUID
+  limit:
+    type: number
   person:
     type: select
     options:

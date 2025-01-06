@@ -2,6 +2,7 @@
 title:
 id:
 description:
+excerpt:
 publishDate:
 authors:
   - author:

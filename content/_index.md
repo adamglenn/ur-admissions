@@ -32,6 +32,10 @@ content_blocks:
     layout:
       align: left
       vertical_space: py-8
+    styles:
+      background_layers:
+        tint:
+          opacity: 01
   - _bookshop_name: design-system/section/icon-bar
     text: Hello World!
     items:
@@ -50,7 +54,7 @@ content_blocks:
     config: {}
     layout:
       section:
-        margin: default
+        margin: buffer-both
   - _bookshop_name: design-system/section/profiles-collection
     profiles: []
   - _bookshop_name: design-system/section/calendar-events
@@ -76,7 +80,12 @@ content_blocks:
         heading: Upcoming Events
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
-      - _bookshop_name:
+      - _bookshop_name: design-system/column/contacts
+        heading: Contacts
+        items:
+          - sarah_glenn
+          - sarah_glenn
+          - sarah_glenn
     column_b:
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
@@ -93,11 +102,11 @@ content_blocks:
         person: patrick_white
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
-      - _bookshop_name:
+      - _bookshop_name: design-system/column/top-story
+        heading: Top Story
+        tags:
+          - top-story
     column_b:
-      - _bookshop_name: design-system/column_sm/poster
-        heading: By the Numbers
-        items:
       - _bookshop_name: design-system/column_sm/article-collection
         heading: Latest Articles
         tags:
@@ -107,4 +116,13 @@ content_blocks:
         heading: Contacts
         items:
           - sarah_glenn
+  - _bookshop_name: design-system/section/youtube-shorts
+    heading: Shorts
+    shorts:
+      - title: Title
+        video_id: wi046uYb_cQ
+      - title: Title
+        video_id: wi046uYb_cQ
+      - title: Title
+        video_id: wi046uYb_cQ
 ---

@@ -74,7 +74,7 @@ detail_blocks:
       * Students applying for Academic Forgiveness must meet with an academic
       advisor within the academic department they plan to enter.
 column_blocks:
-  - _bookshop_name: design-system/column/jump-links
+  - _bookshop_name: design-system/column_sm/jump-links
     items:
       - text: Policy
         anchor: policy

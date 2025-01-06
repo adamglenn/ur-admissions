@@ -3,19 +3,19 @@ var path = require('path');
 const yaml = require('js-yaml');
 const fm = require('front-matter')
 
-let collections = []
+let pages = []
 var walk = function(dir, done) {
     fs.readdir(dir, function(err, list) {
         if (err) return done(err);
         var pending = list.length;
-        if (!pending) return done(null, collections);
+        if (!pending) return done(null, pages);
         list.forEach(function(file) {
             file = path.resolve(dir, file);
             fs.stat(file, function(err, stat) {
                 if (stat && stat.isDirectory()) {
                     walk(file, function(err, res) {
-                        collections[Object.keys(res)[0]] = Object.values(res)[0]; // Assign collection directly
-                        if (!--pending) done(null, collections);
+                        pages[Object.keys(res)[0]] = Object.values(res)[0]; // Assign collection directly
+                        if (!--pending) done(null, pages);
                     });
                 } else {
                     let local_path = (file.replace(/^.*\/content\/(.*?)\.md$/, '/$1')).replace("_index", "");
@@ -39,20 +39,22 @@ var walk = function(dir, done) {
                         contact_details: doc.attributes.contact_details,
                         excerpt: doc.body.slice(0, doc.body.indexOf("\n")),
                         content: doc.body,
+                        image: doc.attributes.image,
+                        tags: doc.attributes.tags,
                         type: doc.attributes.type
                     }
                     let collection_name = path.basename(dir); // Get directory name as collection name
                     if (doc.attributes.title != "Components") {
                       if (file.toLowerCase().endsWith("_index.md")) {
-                        collections.push(obj);
+                        pages.push(obj);
                       } else {
-                          if (!collections[collection_name]) {
-                            collections[collection_name] = []; // Initialize collection if not exists
+                          if (!pages[collection_name]) {
+                            pages[collection_name] = []; // Initialize collection if not exists
                           }
-                          collections.push(obj);
+                          pages.push(obj);
                       }
                   }
-                    if (!--pending) done(null, collections);
+                    if (!--pending) done(null, pages);
                 }
             });
         });
