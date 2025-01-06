@@ -3,7 +3,7 @@ title: Home
 content_blocks:
   - _bookshop_name: design-system/section/hero
     background_image: >-
-      https://images.ctfassets.net/udw4veezvy46/6KkeDhWUYAVGV5oHOLYFx4/a500bff1b955ed44f8647317638ed636/mountaineer-40067-S-BFP-0754-XX-_1_.jpg?w=2200&q=60
+      https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
     alt_text:
     heading: True Beauty
     body:
@@ -35,7 +35,7 @@ content_blocks:
     styles:
       background_layers:
         tint:
-          opacity: 01
+          opacity: 1
   - _bookshop_name: design-system/section/icon-bar
     text: Hello World!
     items:
@@ -111,6 +111,7 @@ content_blocks:
         heading: Latest Articles
         tags:
           - featured
+        limit: 5
     column_c:
       - _bookshop_name: design-system/column_sm/contacts
         heading: Contacts
@@ -121,8 +122,11 @@ content_blocks:
     shorts:
       - title: Title
         video_id: wi046uYb_cQ
+        ratio: 9x16
       - title: Title
         video_id: wi046uYb_cQ
+        ratio: 9x16
       - title: Title
         video_id: wi046uYb_cQ
+        ratio: 9x16
 ---
