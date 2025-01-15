@@ -121,20 +121,18 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-# collection_groups:
-#   - heading: Site Pages
-#     collections:
-#       - pages
-#   - heading: Articles
-#     collections:
-#       - articles
-#   - heading: Collections
-#     collections:
-#       - links
-#       - partners
-#       - people
-#       - places and spaces
-#       - programs
+collection_groups:
+  - heading: Site Pages
+    collections:
+      - pages
+      - articles
+  - heading: Collections
+    collections:
+      - links
+      # - partners
+      - folks
+      - places_and_spaces
+      # - programs
 #   - heading: Site Config
 #     collections:
 #       - site_config
