@@ -215,6 +215,11 @@ _inputs:
     instance_value: NOW
   show_author_bios:
     type: switch
+  student:
+    type: select
+    options:
+      allow_empty: true
+      values: data.people.students
   topper_type:
     type: select
     options:
