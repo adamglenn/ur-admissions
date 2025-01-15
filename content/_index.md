@@ -95,8 +95,13 @@ content_blocks:
             size: display-1
             color: text-wvu-gold
     column_c:
-      - _bookshop_name: design-system/column_sm/calendar-events
-        heading: Upcoming Events
+      - _bookshop_name: design-system/column_sm/student-profile
+        student: patrick_white
+        super_heading:
+          label:
+          text:
+        heading:
+        subheading:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
       - _bookshop_name: design-system/column/contacts
@@ -110,10 +115,10 @@ content_blocks:
         heading: By the Numbers
     column_c:
       - _bookshop_name: design-system/column_sm/student-profile
-        heading: Profile
         super_heading:
           label: My Label
           text: My Text
+        heading: Profile
         person: patrick_white
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
