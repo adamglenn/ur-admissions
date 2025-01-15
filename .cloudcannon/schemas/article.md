@@ -9,7 +9,7 @@ authors:
 topper:
   topper_type: Article Hero
   show_byline: true
-    styles:
+  styles:
     breadcrumbs:
       c:
 show_author_bios: true
