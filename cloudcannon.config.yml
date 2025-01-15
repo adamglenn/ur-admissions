@@ -103,6 +103,15 @@ collections_config:
     schemas:
       links:
         path: .cloudcannon/schemas/links.yml
+  partners:
+    path: data/partners.yml
+    add_options:
+      - name: Partner
+        schema: partners
+    icon: handshake
+    schemas:
+      partners:
+        path: .cloudcannon/schemas/partners.yml
   places_and_spaces:
     path: data/places_and_spaces
     add_options:
