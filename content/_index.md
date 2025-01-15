@@ -113,8 +113,13 @@ content_blocks:
         heading: By the Numbers
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
+      - _bookshop_name: design-system/column_sm/calendar-events
+        heading: Events
+        subheading:
+        event_feed:
     column_c:
       - _bookshop_name: design-system/column_sm/student-profile
+        student: patrick_white
         super_heading:
           label: My Label
           text: My Text
