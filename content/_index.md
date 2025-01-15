@@ -72,6 +72,10 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
       - _bookshop_name:
+      - _bookshop_name: design-system/column/youtube-video
+        title: Video Title
+        description: Video description.
+        video_id: EMhV-NvxrAo
     column_b:
       - _bookshop_name: design-system/column_sm/factoids
         heading: By the Numbers
