@@ -3,7 +3,8 @@ title: Home
 content_blocks:
   - _bookshop_name: design-system/section/hero
     background_image: >-
-      https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
+      https://cloudcannondam.volutus.wvu.edu/admissions-test/38989 S AHR 0372
+      XX.jpg
     alt_text:
     heading: True Beauty
     body:
