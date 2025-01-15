@@ -85,11 +85,6 @@ content_blocks:
         heading: Contacts
         people:
           - person: sarah_glenn
-        items:
-          - sarah_glenn
-          - sarah_glenn
-          - sarah_glenn
-          - ''
     column_b:
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
@@ -119,8 +114,8 @@ content_blocks:
     column_c:
       - _bookshop_name: design-system/column_sm/contacts
         heading: Contacts
-        items:
-          - sarah_glenn
+        people:
+          - person: sarah_glenn
   - _bookshop_name: design-system/section/youtube-shorts
     heading: Shorts
     shorts:

@@ -94,6 +94,19 @@ collections_config:
         path: .cloudcannon/schemas/staff.yml
       student:
         path: .cloudcannon/schemas/student.yml
+  links:
+    path: data/links
+    schemas:
+      links:
+        path: .cloudcannon/schemas/links.yml
+  places_and_spaces:
+    path: data/places_and_spaces
+    add_options:
+      - name: Facility
+        schema: facility
+    schemas:
+      facility:
+        path: .cloudcannon/schemas/facilities.yml
   sitewide_components:
     path: data/sitewide_components
     description: Sitewide components
