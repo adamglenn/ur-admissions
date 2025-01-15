@@ -264,12 +264,12 @@ _structures:
     style: modal
   detail_blocks:
     style: modal
-  factoids:
-    values:
-      - pre:
-        stat:
-        post:
-        source:
+  # factoids:
+  #   values:
+  #     - pre:
+  #       stat:
+  #       post:
+  #       source:
 _editables:
   content:
     allow_custom_markup: false
