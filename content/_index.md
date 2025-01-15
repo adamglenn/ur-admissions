@@ -75,7 +75,6 @@ content_blocks:
     column_b:
       - _bookshop_name: design-system/column_sm/factoids
         heading: By the Numbers
-        items:
     column_c:
       - _bookshop_name: design-system/column_sm/calendar-events
         heading: Upcoming Events
@@ -88,10 +87,8 @@ content_blocks:
     column_b:
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
-        items:
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
-        items:
     column_c:
       - _bookshop_name: design-system/column_sm/student-profile
         heading: Profile
