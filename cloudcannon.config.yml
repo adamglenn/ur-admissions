@@ -50,6 +50,7 @@ collections_config:
       - visual
     path: content/articles
     description: Articles description
+    icon: edit
     output: true
     parse_branch_index: true
     disable_add: false
@@ -78,6 +79,7 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
+    icon: group
   folks:
     path: data/people
     add_options:
@@ -87,6 +89,7 @@ collections_config:
         schema: staff
       - name: Students
         schema: student
+    icon: group
     schemas:
       faculty:
         path: .cloudcannon/schemas/faculty.yml
@@ -95,6 +98,7 @@ collections_config:
       student:
         path: .cloudcannon/schemas/student.yml
   links:
+    icon: link
     path: data/links.yml
     schemas:
       links:
@@ -104,6 +108,7 @@ collections_config:
     add_options:
       - name: Facility
         schema: facility
+    icon: location_on
     schemas:
       facility:
         path: .cloudcannon/schemas/facilities.yml
