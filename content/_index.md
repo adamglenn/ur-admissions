@@ -83,10 +83,13 @@ content_blocks:
     column_a:
       - _bookshop_name: design-system/column/contacts
         heading: Contacts
+        people:
+          - person: sarah_glenn
         items:
           - sarah_glenn
           - sarah_glenn
           - sarah_glenn
+          - ''
     column_b:
       - _bookshop_name: design-system/column_sm/poster
         heading: By the Numbers
