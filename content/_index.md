@@ -75,6 +75,25 @@ content_blocks:
     column_b:
       - _bookshop_name: design-system/column_sm/factoids
         heading: By the Numbers
+        items:
+          - pre: According to Niche
+            stat: 93%
+            post: job placement rate (two years after graduation)
+            source:
+          - pre: According to Adam
+            stat: 93%
+            post: of statistics are made up.
+            source:
+        config:
+          source:
+            disable: false
+        styles:
+          container:
+            margin_bottom: mb-4
+          factoid:
+            font: wvu-shout
+            size: display-1
+            color: text-wvu-gold
     column_c:
       - _bookshop_name: design-system/column_sm/calendar-events
         heading: Upcoming Events
