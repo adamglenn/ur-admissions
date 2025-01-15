@@ -95,7 +95,7 @@ collections_config:
       student:
         path: .cloudcannon/schemas/student.yml
   links:
-    path: data/links
+    path: data/links.yml
     schemas:
       links:
         path: .cloudcannon/schemas/links.yml
