@@ -145,6 +145,7 @@ collection_groups:
       - links
       # - partners
       - folks
+      - partners
       - places_and_spaces
       # - programs
 #   - heading: Site Config
