@@ -210,6 +210,8 @@ _inputs:
   image:
     type: object
     options:
+      context:
+        icon: add_a_photo
       structures: _structures.image
   limit:
     type: number
