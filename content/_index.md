@@ -6,7 +6,7 @@ content_blocks:
       https://cloudcannondam.volutus.wvu.edu/admissions-test/38989 S AHR 0372
       XX.jpg
     alt_text:
-    heading: True Beauty
+    heading: True Beauty Test
     body:
       - >-
         When you’re in West Virginia, a breathtaking view is always a few steps
@@ -68,55 +68,6 @@ content_blocks:
       <div id="localist-widget-32933618" class="localist-widget"></div><script
       defer type="text/javascript"
       src="https://cal.wvu.edu/widget/view?schools=wvu&departments=athletics&days=31&num=3&experience=inperson&container=localist-widget-32933618&template=design-system-v3-section"></script>
-  - _bookshop_name: design-system/section/columns-2-1
-    column_a:
-      - _bookshop_name: design-system/column/factoids
-        heading: By the Numbers
-        items:
-          - pre: According to Niche
-            stat: 93%
-            post: job placement rate (two years after graduation)
-            source:
-          - pre: According to Adam
-            stat: 100%
-            post: of WVU websites are awesome.
-            source: Test
-        config:
-          source:
-            disable: false
-        styles:
-          container:
-            margin_bottom: mb-4
-          factoid:
-            font: wvu-shout
-            size: display-1
-            color: text-wvu-gold
-          divider:
-    column_b:
-      - _bookshop_name:
-  - _bookshop_name: design-system/section/columns-2-1-1
-    column_a:
-      - _bookshop_name: design-system/column/contacts
-        heading: Contacts
-        people:
-          - person: sarah_glenn
-    column_b:
-      - _bookshop_name: design-system/column_sm/poster
-        heading: By the Numbers
-      - _bookshop_name: design-system/column_sm/poster
-        heading: By the Numbers
-      - _bookshop_name: design-system/column_sm/calendar-events
-        heading: Events
-        subheading:
-        event_feed:
-    column_c:
-      - _bookshop_name: design-system/column_sm/student-profile
-        student: patrick_white
-        super_heading:
-          label: My Label
-          text: My Text
-        heading: Profile
-        person: patrick_white
   - _bookshop_name: design-system/section/alternating-grid
     heading:
     subheading:
