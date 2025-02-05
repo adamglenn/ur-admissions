@@ -28,6 +28,10 @@ content_blocks:
         url: https://admissions.wvu.edu/how-to-apply
       - text: Apply to grad school
         url: https://graduateadmissions.wvu.edu/how-to-apply
+      - ref:
+        text:
+        icon:
+        url:
     config:
       is_main: true
     layout:
@@ -167,18 +171,6 @@ content_blocks:
         heading: Contacts
         people:
           - person: sarah_glenn
-  - _bookshop_name: design-system/section/youtube-shorts
-    heading: Shorts
-    shorts:
-      - title: Title
-        video_id: wi046uYb_cQ
-        ratio: 9x16
-      - title: Title
-        video_id: wi046uYb_cQ
-        ratio: 9x16
-      - title: Title
-        video_id: wi046uYb_cQ
-        ratio: 9x16
   - _bookshop_name: design-system/section/alternating-grid
     heading:
     subheading:
