@@ -179,4 +179,21 @@ content_blocks:
       - title: Title
         video_id: wi046uYb_cQ
         ratio: 9x16
+  - _bookshop_name: design-system/section/alternating-grid
+    heading:
+    subheading:
+    items:
+      - heading: My Grid Item
+        image:
+          src:
+          alt:
+        text:
+        ctas:
+          - ref:
+            text:
+            icon:
+            url:
+    postscript:
+      text:
+      postscript_links:
 ---
