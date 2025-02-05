@@ -10,4 +10,5 @@ detail_blocks:
   - _bookshop_name: design-system/detail/rich-text
     text: Text.
 column_blocks:
+_unlisted: true
 ---
