@@ -203,6 +203,10 @@ _inputs:
   id:
     hidden: true
     instance_value: UUID
+  image:
+    type: object
+    options:
+      structures: _structures.image
   limit:
     type: number
   person:
@@ -210,6 +214,10 @@ _inputs:
     options:
       allow_empty: true
       values: data.people
+  postscript_links:
+    type: array
+    options:
+      structures: _structures.links
   publish_date:
     type: date
     instance_value: NOW
@@ -231,6 +239,8 @@ _inputs:
         - Hero w/Icons
   show:
     type: datetime
+  src:
+    type: image
   type:
     type: auto
     hidden: true
@@ -275,6 +285,18 @@ _structures:
   #       stat:
   #       post:
   #       source:
+  image:
+    values:
+      - value:
+          src:
+          alt:
+  links:
+    values:
+      - value:
+          ref:
+          text:
+          icon:
+          url:
 _editables:
   content:
     allow_custom_markup: false
