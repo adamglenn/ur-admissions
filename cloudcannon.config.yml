@@ -80,6 +80,9 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     icon: group
+  default_content:
+    icon:
+    path: data/default_content
   folks:
     path: data/people
     add_options:
@@ -97,18 +100,12 @@ collections_config:
         path: .cloudcannon/schemas/staff.yml
       student:
         path: .cloudcannon/schemas/student.yml
-  footer:
-    icon:
-    path: data/footer.yml
   links:
     icon: link
     path: data/links.yml
     schemas:
       links:
         path: .cloudcannon/schemas/links.yml
-  masthead:
-    icon:
-    path: data/masthead.yml
   partners:
     path: data/partners.yml
     add_options:
@@ -163,8 +160,7 @@ collection_groups:
   - heading: Site
     collections:
       - site_config
-      - masthead
-      - footer
+      - default_content
 #   - heading: Site Config
 #     collections:
 #       - site_config
