@@ -2,3 +2,6 @@ address:
   - text:
     icon:
     url:
+chatbot:
+  status:
+  url:
