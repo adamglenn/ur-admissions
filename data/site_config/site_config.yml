@@ -1,7 +1,12 @@
 address:
-  - text:
-    icon:
-    url:
+  phone:
+    - text:
+      phone_n:
+  email:
+    - text:
+      address:
+  location:
+    - text:
 chatbot:
   status:
   url:

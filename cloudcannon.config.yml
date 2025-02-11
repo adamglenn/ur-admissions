@@ -210,6 +210,8 @@ _inputs:
     type: array
     options:
       structures: _structures.links
+  edit_mode_only:
+    type: switch
   excerpt:
     type: markdown
   hide:
