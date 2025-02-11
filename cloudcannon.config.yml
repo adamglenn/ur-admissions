@@ -97,12 +97,18 @@ collections_config:
         path: .cloudcannon/schemas/staff.yml
       student:
         path: .cloudcannon/schemas/student.yml
+  masthead:
+    icon:
+    path: data/footer.yml
   links:
     icon: link
     path: data/links.yml
     schemas:
       links:
         path: .cloudcannon/schemas/links.yml
+  masthead:
+    icon:
+    path: data/masthead.yml
   partners:
     path: data/partners.yml
     add_options:
@@ -121,6 +127,12 @@ collections_config:
     schemas:
       facility:
         path: .cloudcannon/schemas/facilities.yml
+  social_media:
+    icon:
+    path: data/social_media.yml
+  site_config:
+    icon:
+    path: data/site_config.yml
   sitewide_components:
     path: data/sitewide_components
     description: Sitewide components
@@ -136,7 +148,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
 collection_groups:
-  - heading: Site Pages
+  - heading: Pages
     collections:
       - pages
       - articles
@@ -148,6 +160,11 @@ collection_groups:
       - partners
       - places_and_spaces
       # - programs
+  - heading: Site
+    collections:
+      - site_config
+      - masthead
+      - footer
 #   - heading: Site Config
 #     collections:
 #       - site_config

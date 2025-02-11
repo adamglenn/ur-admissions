@@ -1,0 +1,20 @@
+masthead_title:
+  value:
+  custom:
+    - Line 1
+  alternate_logo:
+co_branding:
+  status:
+  text:
+    - Line 1
+college_link:
+  title:
+  url:
+ctas:
+  status:
+  items:
+    - text: Apply
+      url:
+chatbot:
+  status:
+  url:
