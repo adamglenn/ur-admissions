@@ -124,11 +124,8 @@ collections_config:
     schemas:
       facility:
         path: .cloudcannon/schemas/facilities.yml
-  social_media:
-    icon:
-    path: data/social_media.yml
   site_config:
-    icon:
+    icon: settings
     path: data/site_config
   sitewide_components:
     path: data/sitewide_components
