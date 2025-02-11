@@ -97,7 +97,7 @@ collections_config:
         path: .cloudcannon/schemas/staff.yml
       student:
         path: .cloudcannon/schemas/student.yml
-  masthead:
+  footer:
     icon:
     path: data/footer.yml
   links:
