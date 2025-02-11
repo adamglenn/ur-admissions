@@ -153,9 +153,8 @@ collection_groups:
   - heading: Collections
     collections:
       - links
-      # - partners
-      - folks
       - partners
+      - people
       - places_and_spaces
       # - programs
   - heading: Site
