@@ -225,6 +225,8 @@ _inputs:
       structures: _structures.image
   limit:
     type: number
+  message:
+    type: markdown
   person:
     type: select
     options:
