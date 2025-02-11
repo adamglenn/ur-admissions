@@ -72,30 +72,34 @@ collections_config:
     disable_add: true
     disable_add_folder: true
     disable_file_actions: false
-  people:
-    path: data/people.yml
-    description: Data for people
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
-    icon: group
+  # people:
+  #   path: data/people.yml
+  #   description: Data for people
+  #   output: false
+  #   disable_add: false
+  #   disable_add_folder: true
+  #   disable_file_actions: false
+  #   icon: group
   default_content:
     icon:
     path: data/default_content
-  folks:
+  people:
     path: data/people
     add_options:
-      - name: Faculty
+      - name: Faculty Member
         schema: faculty
-      - name: Staff
+      - name: Speaker
+        schema: speaker
+      - name: Staff Member
         schema: staff
-      - name: Students
+      - name: Student
         schema: student
     icon: group
     schemas:
       faculty:
         path: .cloudcannon/schemas/faculty.yml
+      speaker:
+        path: .cloudcannon/schemas/speaker.yml
       staff:
         path: .cloudcannon/schemas/staff.yml
       student:
