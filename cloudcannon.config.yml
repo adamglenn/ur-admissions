@@ -129,6 +129,9 @@ collections_config:
       facility:
         path: .cloudcannon/schemas/facilities.yml
   site_config:
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
     icon: settings
     path: data/site_config
   sitewide_components:
