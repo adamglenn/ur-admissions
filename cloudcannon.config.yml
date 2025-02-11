@@ -132,7 +132,7 @@ collections_config:
     path: data/social_media.yml
   site_config:
     icon:
-    path: data/site_config.yml
+    path: data/site_config
   sitewide_components:
     path: data/sitewide_components
     description: Sitewide components
