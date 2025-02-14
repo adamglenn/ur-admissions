@@ -256,7 +256,7 @@ _inputs:
       values: data.people.students
   topper_test:
     type: object
-    option:
+    options:
       structures: _structures.topper_structure
   topper_type:
     type: select
