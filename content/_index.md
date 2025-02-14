@@ -33,7 +33,7 @@ content_blocks:
         icon:
         url:
     config:
-      edit_mode_only: true
+      edit_mode_only: false
       is_main: true
     layout:
       align: left

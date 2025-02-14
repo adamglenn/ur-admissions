@@ -254,6 +254,10 @@ _inputs:
     options:
       allow_empty: true
       values: data.people.students
+  topper_test:
+    type: object
+    option:
+      structures: _structures.topper_structure
   topper_type:
     type: select
     options:
@@ -323,6 +327,18 @@ _structures:
           text:
           icon:
           url:
+  topper_structure:
+    values:
+      - label: Hero
+        value:
+          heading:
+          subheading:
+          placeholder:
+      - label: Hero Big Search
+        value:
+          heading:
+          subheading:
+          placeholder:
 _editables:
   content:
     allow_custom_markup: false

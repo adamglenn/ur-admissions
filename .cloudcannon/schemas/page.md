@@ -2,6 +2,7 @@
 title:
 id:
 description:
+topper_test:
 topper:
   topper_type: Default
   styles:
