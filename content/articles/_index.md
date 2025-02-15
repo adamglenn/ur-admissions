@@ -1,5 +1,5 @@
 ---
 title: Articles
 topper:
-  topper_type: Default
+  topper_type: default
 ---

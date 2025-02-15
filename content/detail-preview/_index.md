@@ -2,7 +2,7 @@
 title: Page Title
 type: detail
 topper:
-  topper_type: Default
+  topper_type: default
   heading:
     - text: Heading
   subheading: Subheading

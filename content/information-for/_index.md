@@ -3,7 +3,7 @@ _schema: guide-page
 title: Information For
 description:
 topper:
-  topper_type: Hero
+  topper_type: hero
   background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:

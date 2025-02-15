@@ -3,7 +3,7 @@ _schema: guide_page
 title: Admitted 2
 description:
 topper:
-  topper_type: Hero
+  topper_type: hero
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   heading:
     - text: Congrats! You’re In.

@@ -2,7 +2,7 @@
 title:
 description:
 topper:
-  topper_type: Hero
+  topper_type: hero
   background_image: /uploads/hero-info-ftf-student-computer.jpg
   alt_text:
   heading:

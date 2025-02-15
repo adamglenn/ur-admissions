@@ -5,7 +5,7 @@ id: 1713449a-8217-4036-8737-4a3b1d904605
 type: detail
 description:
 topper:
-  topper_type: Default
+  topper_type: default
   background_image:
   alt_text:
   heading:

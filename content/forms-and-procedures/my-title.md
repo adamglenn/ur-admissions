@@ -3,7 +3,7 @@ _schema: guide_page
 title: My Title
 description:
 topper:
-  topper_type: Hero
+  topper_type: hero
   background_image:
   alt_text:
   heading:

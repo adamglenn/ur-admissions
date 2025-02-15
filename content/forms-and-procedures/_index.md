@@ -4,7 +4,7 @@ title: Forms and Procedures
 type: detail
 description: Test.
 topper:
-  topper_type: Hero
+  topper_type: hero
   background_image:
   alt_text:
   heading:

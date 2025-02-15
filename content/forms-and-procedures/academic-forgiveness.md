@@ -4,7 +4,7 @@ title: Academic Forgiveness
 type: detail
 description:
 topper:
-  topper_type: Default
+  topper_type: default
 detail_blocks:
   - _bookshop_name: design-system/detail/rich-text
     text: >-

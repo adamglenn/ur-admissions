@@ -7,7 +7,7 @@ description: Description.
 excerpt: Excerpt.
 publishDate: 2022-06-08T22:20:51-04:00
 topper:
-  topper_type: Article Hero
+  topper_type: article-hero
   byline:
     - name:
       title:
