@@ -4,7 +4,7 @@ id:
 type: detail
 description:
 topper:
-  topper_type: Hero
+  topper_type: hero
   heading:
     - text: Heading
   subheading: Subheading

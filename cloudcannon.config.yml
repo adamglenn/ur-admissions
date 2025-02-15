@@ -45,6 +45,15 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: /guide-preview
+      guide_page_index:
+        path: .cloudcannon/schemas/guide-page.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /guide-preview
+        create:
+          path: [relative_base_path]/_index.md
   articles:
     _enabled_editors:
       - visual
@@ -284,6 +293,20 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
+  styles_button:
+    hidden: true
+  styles_h1:
+    hidden: true
+  styles_h1_label:
+    hidden: true
+  styles_h2:
+    hidden: true
+  styles_h2_label:
+    hidden: true
+  styles_lead:
+    hidden: true
+  styles_section:
+    hidden: true
   tags:
     type: multiselect
     options:

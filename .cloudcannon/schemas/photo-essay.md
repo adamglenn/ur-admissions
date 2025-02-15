@@ -6,7 +6,7 @@ publish_date:
 authors:
   - author:
 topper:
-  topper_type: Article Hero
+  topper_type: article-hero
   show_byline: true
   styles:
     breadcrumbs:
