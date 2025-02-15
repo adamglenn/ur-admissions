@@ -51,7 +51,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: '[relative_base_path]/guide-preview'
+        new_preview_url: ./guide-preview
         create:
           path: '[relative_base_path]/_index.md'
   articles:
