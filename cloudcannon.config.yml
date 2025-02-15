@@ -320,26 +320,6 @@ _structures:
           text:
           icon:
           url:
-  topper:
-    values:
-      - label: Hero
-        value:
-          topper_type: hero
-          heading:
-          subheading:
-          placeholder:
-      - label: Hero Big Search
-        value:
-          topper_type: hero-big-search
-          heading:
-          subheading:
-          placeholder:
-      - label: Hero w/Icons
-        value:
-          topper_type: hero-w-icons
-          heading:
-          subheading:
-          placeholder:
 _editables:
   content:
     allow_custom_markup: false
