@@ -53,7 +53,7 @@ collections_config:
         remove_extra_inputs: false
         new_preview_url: /guide-preview
         create:
-          path: [relative_base_path]/_index.md
+          path: '[relative_base_path]/_index.md'
   articles:
     _enabled_editors:
       - visual
