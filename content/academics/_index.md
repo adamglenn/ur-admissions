@@ -1,7 +1,7 @@
 ---
 _schema: guide_page_index
 title: Academics
-id: 28a100c9-adb4-4e85-acce-8a6384aeaae4
+uuid: 28a100c9-adb4-4e85-acce-8a6384aeaae4
 description:
 topper:
   topper_type: hero

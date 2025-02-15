@@ -1,7 +1,7 @@
 ---
 _schema: detail_page
 title: Page With ID
-id: 9e558b82-dbaf-4139-a376-0c6d882bc879
+uuid: 9e558b82-dbaf-4139-a376-0c6d882bc879
 type: detail
 description:
 topper:

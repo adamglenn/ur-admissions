@@ -1,7 +1,7 @@
 ---
 _schema: detail_page
 title: My New Test Page
-id: 1713449a-8217-4036-8737-4a3b1d904605
+uuid: 1713449a-8217-4036-8737-4a3b1d904605
 type: detail
 description:
 topper:

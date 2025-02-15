@@ -1,7 +1,7 @@
 ---
 _schema: guide-page
 title: First-Time Freshmen
-id: aslfdjuntowsjdsfh
+uuid: aslfdjuntowsjdsfh
 type: detail
 description:
 topper:

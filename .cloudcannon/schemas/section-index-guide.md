@@ -1,6 +1,6 @@
 ---
 title:
-id:
+uuid:
 description:
 topper:
   topper_type: hero

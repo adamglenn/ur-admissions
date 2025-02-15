@@ -1,7 +1,7 @@
 ---
 _schema: detail-page
 title: How to Apply to WVU
-id:
+uuid:
 description:
 topper:
   topper_type: hero

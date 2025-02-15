@@ -1,6 +1,6 @@
 ---
 title:
-id:
+uuid:
 type: detail
 faculty_member:
 description:

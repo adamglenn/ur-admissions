@@ -1,6 +1,6 @@
 ---
 title:
-id:
+uuid:
 description:
 excerpt:
 publishDate:
