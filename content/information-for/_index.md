@@ -18,9 +18,12 @@ topper:
     margin: buffer-bottom
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
+    heading: Heading
     items:
       - title: First-Time Freshmen
-        text: You are a current high school senior, have a TASC/GED or haven't attended college since graduating.
+        text: >-
+          You are a current high school senior, have a TASC/GED or haven't
+          attended college since graduating.
         button:
           url:
       - title: International Students
@@ -35,7 +38,11 @@ content_blocks:
         text: You have served or are serving in the United States Armed Forces.
         button:
           url:
+    lead: Lead text.
+    config:
+      edit_mode_only: false
     layout:
       section:
         margin: pull-up
+    styles: {}
 ---
