@@ -254,19 +254,12 @@ _inputs:
     options:
       allow_empty: true
       values: data.people.students
-  topper_test:
+  topper:
     type: object
     options:
-      structures: _structures.topper_structure
+      structures: _structures.topper
   topper_type:
-    type: select
-    options:
-      values:
-        - Default
-        - Hero
-        - Article Hero
-        - Hero - Big Search
-        - Hero w/Icons
+    hidden: true
   show:
     type: datetime
   src:
@@ -327,15 +320,23 @@ _structures:
           text:
           icon:
           url:
-  topper_structure:
+  topper:
     values:
       - label: Hero
         value:
+          topper_type: hero
           heading:
           subheading:
           placeholder:
       - label: Hero Big Search
         value:
+          topper_type: hero-big-search
+          heading:
+          subheading:
+          placeholder:
+      - label: Hero w/Icons
+        value:
+          topper_type: hero-w-icons
           heading:
           subheading:
           placeholder:
