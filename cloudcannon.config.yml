@@ -44,7 +44,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: '[relative_base_path]/guide-preview'
+        new_preview_url: guide-preview
       guide_page_index:
         path: .cloudcannon/schemas/guide-page-index.md
         reorder_inputs: true
