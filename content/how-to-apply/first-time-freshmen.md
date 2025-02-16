@@ -15,9 +15,9 @@ topper:
     breadcrumbs:
       c:
 detail_blocks:
-  - _bookshop_name: design-system/detail/lead-text
+  - _bookshop_name: design-system/column/lead-text
     text: You are considered a first-time freshman if you are a current high school senior, have a high school equivalency diploma or haven't attended college since graduating from high school.
-  - _bookshop_name: design-system/detail/list-big-numbers
+  - _bookshop_name: design-system/column/list-big-numbers
     items:
       - text: >-
           Review the admission requirements for on-campus majors, including 9-12 grade coursework.
@@ -47,11 +47,11 @@ detail_blocks:
             - Contact WVU Admissions.
             - Contact your WVU admissions counselor.
 column_blocks:
-  - _bookshop_name: design-system/detail/alert
+  - _bookshop_name: design-system/column/alert
     heading: Check the Status of Your Application
     text: >-
       Students who submitted...
-  - _bookshop_name: design-system/detail/link-list-panels
+  - _bookshop_name: design-system/column/link-list-panels
     heading: Helpful Links
     list_description:
     items:
@@ -63,7 +63,7 @@ column_blocks:
         description:
         url: 
         icon: Link
-  - _bookshop_name: design-system/detail/link-list-panels
+  - _bookshop_name: design-system/column/link-list-panels
     heading: Related Documents
     list_description:
     items:

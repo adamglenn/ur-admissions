@@ -11,7 +11,7 @@ topper:
     - text: Heading
   subheading: Subheading
 detail_blocks:
-  - _bookshop_name: design-system/detail/rich-text
+  - _bookshop_name: design-system/column/rich-text
     text: >-
       ## **Student Cancellation System**
 

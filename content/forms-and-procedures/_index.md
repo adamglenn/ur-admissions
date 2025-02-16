@@ -16,7 +16,7 @@ topper:
     breadcrumbs:
       c: text-white
 detail_blocks:
-  - _bookshop_name: design-system/detail/rich-text
+  - _bookshop_name: design-system/column/rich-text
     text: >-
       ## Admissions Applications and Forms
 
@@ -24,7 +24,7 @@ detail_blocks:
       Undergraduate applicants are encouraged to use the online application. If
       you need a paper application, please email us at
       [AdmissionWVU@mail.wvu.edu](mailto:AdmissionWVU@mail.wvu.edu).
-  - _bookshop_name: design-system/detail/link-list-panels
+  - _bookshop_name: design-system/column/link-list-panels
     items:
       - text: Domestic Visiting Student Undergraduate Admission Application
         url: 
@@ -38,7 +38,7 @@ detail_blocks:
       - text: Senior Citizen Admission Application
         url:
         icon: PDF
-  - _bookshop_name: design-system/detail/rich-text
+  - _bookshop_name: design-system/column/rich-text
     text: >-
       ## **Procedures**
 
@@ -81,7 +81,7 @@ detail_blocks:
 
       * [High School Academic Transcript Request
       Form](https://admissions.wvu.edu/files/d/fa3d097f-007e-4781-91a3-3b534c5ac42b/high-school-academic-transcript-request-form.pdf)
-  - _bookshop_name: design-system/detail/link-list-panels
+  - _bookshop_name: design-system/column/link-list-panels
     items:
       - text: Academic Forgiveness
         url: 

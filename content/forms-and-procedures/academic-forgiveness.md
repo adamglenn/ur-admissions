@@ -6,7 +6,7 @@ description:
 topper:
   topper_type: default
 detail_blocks:
-  - _bookshop_name: design-system/detail/rich-text
+  - _bookshop_name: design-system/column/rich-text
     text: >-
       WVU may grant Academic Forgiveness to some undergraduate students who were
       not successful in their first attempt at higher education.
