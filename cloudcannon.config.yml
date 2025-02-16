@@ -299,10 +299,7 @@ _inputs:
       allow_empty: true
       values: data.people.students
   student_profile_topper:
-    type: object
     hidden: true
-    options:
-      structures: _structures.student_profile_topper
   topper:
     type: object
     options:
@@ -310,10 +307,7 @@ _inputs:
   topper_type:
     hidden: true
   typography:
-    type: select
-    options:
-      values: _select_data.typography_palettes
-      value_key: palette
+    hidden: true
   show:
     type: datetime
   src:
@@ -359,8 +353,6 @@ _inputs:
       allow_empty: true
       values:
         - featured
-  typography:
-    hidden: true
 _structures:
   background_layers:
     values:
