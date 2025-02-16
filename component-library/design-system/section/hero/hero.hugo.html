@@ -20,10 +20,10 @@
   <section id="{{ $id }}" class="position-relative {{ $stylesSection }}" aria-labelledby="{{ $ariaLabelledBy }}-label">
     {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "alt" $alt "layerStyles" $layerStyles)) }}
     <div class="container position-relative py-8 py-xxl-9">
-      This is my custom hero.
       <div class="row">
         <div class="col col-md-14 col-xl-12">
           <div class="wvu-z-index-content">
+            <p>This is my custom hero.</p>
             <h2 id="{{ $ariaLabelledBy }}-label" class="{{ $stylesH2 }} mb-3" data-text="{{ .heading }}">{{ .heading }}</h2>
 
             {{ if .lead }}
