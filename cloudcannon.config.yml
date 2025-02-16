@@ -229,6 +229,15 @@ _select_data:
       class: wvu-neutral--cream
     - name: Neutral - Tan
       class: wvu-neutral--tan
+  typography_palettes:
+    - name: WVU Experience
+      palette: wvu_experience
+    - name: Down to Business
+      palette: down_to_business
+    - name: Discovery
+      palette: discovery
+    - name: Nostalgic
+      palette: nostalgic
 _inputs:
   alert_message:
     type: markdown
@@ -299,6 +308,11 @@ _inputs:
       structures: _structures.topper
   topper_type:
     hidden: true
+  typography:
+    type: select
+    options:
+      values: _select_data.typography_palettes
+      value_key: palette
   show:
     type: datetime
   src:

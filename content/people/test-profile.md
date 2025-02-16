@@ -28,10 +28,11 @@ student_profile_topper:
     - text: Heading
   subheading: Subheading
   styles:
-    styles_breadcrumbs:
+    typography: wvu_experience
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
 config:
 ---

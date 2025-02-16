@@ -37,6 +37,7 @@ topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
 config:
 ---
