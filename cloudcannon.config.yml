@@ -337,6 +337,8 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
+  student_profile_topper:
+    hidden: true
   styles_button:
     hidden: true
   styles_h1:
@@ -358,6 +360,8 @@ _inputs:
       allow_empty: true
       values:
         - featured
+  typography:
+    hidden: true
 _structures:
   background_layers:
     values:
