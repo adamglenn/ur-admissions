@@ -186,6 +186,13 @@ _enabled_editors:
   - content
   - data
 _select_data:
+  alert_type:
+    - name: Danger
+      type: danger
+    - name: Info
+      type: info
+    - name: Warning
+      type: warning
   brand_colors:
     - name: WVU Gold
       class: wvu-gold 
@@ -216,6 +223,16 @@ _select_data:
     - name: Neutral - Tan
       class: wvu-neutral--tan
 _inputs:
+  alert_message:
+    type: markdown
+  alert_status:
+    type: switch
+  alert_type:
+    type: select
+    options:
+      values:
+        - _select_data.alert_type
+      value_key: type
   color:
     type: select
     options:

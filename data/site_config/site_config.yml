@@ -1,12 +1,14 @@
+alert:
+  alert_status:
+  alert_type:
+  alert_message:
 address:
   phone:
     - text:
-      phone_n:
+      digits:
   email:
     - text:
       address:
   location:
     - text:
-chatbot:
-  status:
-  url:
+chatbot_url:
