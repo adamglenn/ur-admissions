@@ -123,6 +123,8 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: /previews/student-profile/
+        create:
+          path: '/people/{last_name|slugify}-{first_name|slugify}.md'
   links:
     _enabled_editors:
       - data
