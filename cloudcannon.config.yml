@@ -282,6 +282,10 @@ _inputs:
     options:
       allow_empty: true
       values: data.people.students
+  student_profile_topper:
+    type: object
+    options:
+      structures: _structures.student_profile_topper
   topper:
     type: object
     options:
