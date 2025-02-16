@@ -300,6 +300,7 @@ _inputs:
       values: data.people.students
   student_profile_topper:
     type: object
+    hidden: true
     options:
       structures: _structures.student_profile_topper
   topper:
@@ -337,8 +338,6 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
-  student_profile_topper:
-    hidden: true
   styles_button:
     hidden: true
   styles_h1:
