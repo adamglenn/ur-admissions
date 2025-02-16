@@ -1,7 +1,7 @@
 ---
 title:
 type: student-profile
-topper:
+student_profile_topper:
   topper_type: student-profile
   heading:
     - text: Heading
