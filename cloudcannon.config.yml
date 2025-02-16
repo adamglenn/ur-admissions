@@ -111,7 +111,14 @@ collections_config:
     icon: group
     schemas:
       faculty:
-        path: .cloudcannon/schemas/faculty.yml
+        path: .cloudcannon/schemas/faculty-profile.md
+        reorder_inputs: false
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /previews/faculty-profile/
+        create:
+          path: '{last_name|slugify}-{first_name|slugify}.md'
       speaker:
         path: .cloudcannon/schemas/speaker.yml
       staff:

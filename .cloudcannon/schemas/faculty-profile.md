@@ -2,6 +2,15 @@
 title:
 uuid:
 type: faculty-profile
+faculty_profile_topper:
+  topper_type: default
+  background_image:
+  alt_text:
+  heading:
+    - text: Heading
+  subheading: Subheading
+  styles:
+    typography:
 name:
 first_name:
 last_name:
@@ -25,15 +34,6 @@ files:
   - name:
     file:
     icon:
-topper:
-  topper_type: default
-  background_image:
-  alt_text:
-  heading:
-    - text: Heading
-  subheading: Subheading
-  styles:
-    styles_breadcrumbs:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.

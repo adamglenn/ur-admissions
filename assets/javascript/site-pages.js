@@ -22,7 +22,7 @@ var walk = function(dir, done) {
                     let doc = fm(fs.readFileSync(file, 'utf8'));
                     let obj = {
                         title: doc.attributes.title,
-                        id: doc.attributes.id,
+                        uuid: doc.attributes.uuid,
                         path: local_path,
                         description: doc.attributes.description,
                         thumbnail_image: doc.attributes.thumbnail_image,

@@ -1,8 +1,8 @@
 ---
 title: Student Profile
 type: student-profile
-student_profile_topper:
-  topper_type: student-profile
+faculty_profile_topper:
+  topper_type: faculty-profile
   heading:
     - text: Heading
   subheading: Subheading
