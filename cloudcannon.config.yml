@@ -16,6 +16,7 @@ collections_config:
   pages:
     _enabled_editors:
       - visual
+      - data
     path: content
     description: Pages description
     output: true
@@ -54,16 +55,10 @@ collections_config:
         new_preview_url: /guide-preview/
         create:
           path: '[relative_base_path]/_index.md'
-      student_profile:
-        path: .cloudcannon/schemas/student-profile.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        new_preview_url: /previews/student-profile/
   articles:
     _enabled_editors:
       - visual
+      - data
     path: content/articles
     description: Articles description
     icon: edit
@@ -100,6 +95,9 @@ collections_config:
     icon: toolbar
     path: data/default_content
   people:
+    _enabled_editors:
+      - data
+      - visual
     path: content/people
     add_options:
       - name: Faculty Member
@@ -120,13 +118,22 @@ collections_config:
         path: .cloudcannon/schemas/staff.yml
       student:
         path: .cloudcannon/schemas/student-profile.md
+        reorder_inputs: false
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /previews/student-profile/
   links:
+    _enabled_editors:
+      - data
     icon: link
     path: data/links.yml
     schemas:
       links:
         path: .cloudcannon/schemas/links.yml
   partners:
+    _enabled_editors:
+      - data
     path: data/partners.yml
     add_options:
       - name: Partner
@@ -136,6 +143,8 @@ collections_config:
       partners:
         path: .cloudcannon/schemas/partners.yml
   places_and_spaces:
+    _enabled_editors:
+      - data
     path: data/places_and_spaces
     add_options:
       - name: Facility
@@ -145,6 +154,8 @@ collections_config:
       facility:
         path: .cloudcannon/schemas/facilities.yml
   site_config:
+    _enabled_editors:
+      - data
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
