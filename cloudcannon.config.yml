@@ -93,7 +93,7 @@ collections_config:
     icon: toolbar
     path: data/default_content
   people:
-    path: data/people
+    path: content/people
     add_options:
       - name: Faculty Member
         schema: faculty
@@ -112,7 +112,7 @@ collections_config:
       staff:
         path: .cloudcannon/schemas/staff.yml
       student:
-        path: .cloudcannon/schemas/student.yml
+        path: .cloudcannon/schemas/student-profile.md
   links:
     icon: link
     path: data/links.yml
