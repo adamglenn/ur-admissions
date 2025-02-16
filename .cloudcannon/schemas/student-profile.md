@@ -2,6 +2,15 @@
 title:
 uuid:
 type: student-profile
+student_profile_topper:
+  topper_type: student-profile
+  background_image:
+  alt_text:
+  heading:
+    - text: Heading
+  subheading: Subheading
+  styles:
+    typography:
 name:
 first_name:
 last_name:
@@ -19,15 +28,6 @@ minors:
 hometown:
 graduation_year:
 quote:
-student_profile_topper:
-  topper_type: student-profile
-  background_image:
-  alt_text:
-  heading:
-    - text: Heading
-  subheading: Subheading
-  styles:
-    typography:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
