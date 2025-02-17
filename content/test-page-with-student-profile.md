@@ -8,7 +8,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading Test Again
+    - text: Heading Test Again Again
   subheading: Subheading
   styles:
     breadcrumbs:
@@ -37,7 +37,7 @@ content_blocks:
         subheading:
         config:
           edit_mode_only: false
-          hide_collection_pages: false
+          hide_collection_pages: true
     config:
       edit_mode_only: false
     layout:
