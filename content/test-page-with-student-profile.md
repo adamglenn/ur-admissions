@@ -28,6 +28,16 @@ content_blocks:
         config:
           edit_mode_only: false
           hide_collection_pages: true
+      - _bookshop_name: design-system/column_sm/student-profile
+        student: a2c13034-c9a5-4acc-8a16-0519d915389f
+        super_heading:
+          label:
+          text:
+        heading:
+        subheading:
+        config:
+          edit_mode_only: false
+          hide_collection_pages: false
     config:
       edit_mode_only: false
     layout:
