@@ -19,7 +19,7 @@ content_blocks:
     column_b: []
     column_c:
       - _bookshop_name: design-system/column_sm/student-profile
-        student:
+        student: a2c13034-c9a5-4acc-8a16-0519d915389f
         super_heading:
           label:
           text:
