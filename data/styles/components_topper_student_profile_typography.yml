@@ -1,12 +1,16 @@
 wvu_experience:
-  h1: oliviar-black text-uppercase mb-3
+  label: wvu-shout fs-3 bg-wvu-gold text-wvu-blue wvu-container-box-skewed wvu-container-box-skewed-3 wvu-container-box-skewed-shadow wvu-text-spacing-wide wvu-tilt-left
+  h1: oliviar-black text-uppercase mb-3 text-wvu-accent--blue
   hometown: wvu-shout wvu-text-letter-spacing-lg
 down_to_business:
+  label:
   h1: wvu-shout mb-3
   hometown: wvu-shout wvu-text-letter-spacing-lg
 discovery:
+  label:
   h1: wvu-shout mb-3
   hometown: wvu-shout wvu-text-letter-spacing-lg
 nostalgic:
+  label:
   h1: oliviar-black mb-3
   hometown: wvu-shout wvu-text-letter-spacing-lg

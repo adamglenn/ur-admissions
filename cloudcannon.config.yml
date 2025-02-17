@@ -314,7 +314,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.people.students
+      values: data.people_data[?(@._schema == 'student')]
   student_profile_topper:
     hidden: true
   topper:

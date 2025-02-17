@@ -11,7 +11,7 @@ student_profile_topper:
     - text: Heading
   subheading: Subheading
   styles:
-    typography:
+    typography: wvu_experience
 name: Clarence Moore
 first_name: Clarence
 last_name: Moore
@@ -20,15 +20,15 @@ image_lg:
     alt:
 profile_image:
 description:
-college:
+college: Eberly College of Arts and Sciences
 school:
 majors:
-  - title:
+  - title: Biochemistry
 minors:
-  - title:
-hometown:
-graduation_year:
-quote:
+  - title: Biology
+hometown: Baltimore, MD
+graduation_year: 2026
+quote: Here is my quote.
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
