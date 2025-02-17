@@ -46,7 +46,7 @@ detail_blocks:
 
             - Contact WVU Admissions.
             - Contact your WVU admissions counselor.
-column_blocks:
+detail_sidebar_blocks:
   - _bookshop_name: design-system/column/alert
     heading: Check the Status of Your Application
     text: >-

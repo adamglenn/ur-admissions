@@ -84,5 +84,5 @@ detail_blocks:
 
       * WVU Keyser – Potomac State College –
       [go2psc@mail.wvu.edu](mailto:go2psc@mail.wvu.edu)
-column_blocks:
+detail_sidebar_blocks:
 ---

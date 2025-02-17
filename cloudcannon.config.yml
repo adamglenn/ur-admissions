@@ -276,16 +276,34 @@ _inputs:
       values:
         - _select_data.brand_colors
       value_key: class
+  column_a:
+    type: object
+    option:
+      values: _structures.column_blocks
+  column_b:
+    type: object
+    option:
+      values: _structures.column_blocks_sm
+  column_c:
+    type: object
+    option:
+      values: _structures.column_blocks_sm
   ctas:
     type: array
     options:
       structures: _structures.links
+  detail_sidebar_blocks:
+    type: object
+    options:
+      structures: _structures.detail_sidebar_blocks
   edit_mode_only:
     type: switch
   excerpt:
     type: markdown
   hide:
     type: datetime
+  hide_collection_pages:
+    type: switch
   image:
     type: object
     context:

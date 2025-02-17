@@ -110,5 +110,5 @@ detail_blocks:
       * date of birth
 
       * high school or college you attend.
-column_blocks:
+detall_sidebar_blocks:
 ---
