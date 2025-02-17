@@ -40,6 +40,25 @@ content_blocks:
           color: text-wvu-gold
         divider:
     column_b:
+      _bookshop_name: design-system/column_sm/factoids
+      heading: By the Numbers
+      items:
+        - pre: According to Niche
+          stat: 93%
+          post: job placement rate (two years after graduation)
+          source:
+      config:
+        edit_mode_only: false
+        source:
+          disable: false
+      styles:
+        container:
+          margin_bottom: mb-4
+        factoid:
+          font: wvu-shout
+          size: display-1
+          color: text-wvu-gold
+        divider:
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
