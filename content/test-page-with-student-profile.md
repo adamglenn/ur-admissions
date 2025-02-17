@@ -8,7 +8,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
+    - text: Heading Test
   subheading: Subheading
   styles:
     breadcrumbs:
