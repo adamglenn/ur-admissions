@@ -279,15 +279,15 @@ _inputs:
   column_a:
     type: object
     option:
-      values: _structures.column_blocks
+      structures: _structures.column_blocks
   column_b:
     type: object
     option:
-      values: _structures.column_blocks_sm
+      structures: _structures.column_blocks_sm
   column_c:
     type: object
     option:
-      values: _structures.column_blocks_sm
+      structures: _structures.column_blocks_sm
   ctas:
     type: array
     options:
