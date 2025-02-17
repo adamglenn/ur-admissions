@@ -282,11 +282,11 @@ _inputs:
       structures: _structures.column_blocks
   column_b:
     type: object
-    option:
+    options:
       structures: _structures.column_blocks_sm
   column_c:
     type: object
-    option:
+    options:
       structures: _structures.column_blocks_sm
   ctas:
     type: array
