@@ -15,29 +15,9 @@ topper:
       c:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
-    column_a: []
-    column_b: []
+    column_a:
+    column_b:
     column_c:
-      - _bookshop_name: design-system/column_sm/student-profile
-        student: a2c13034-c9a5-4acc-8a16-0519d915389f
-        super_heading:
-          label:
-          text:
-        heading:
-        subheading:
-        config:
-          edit_mode_only: false
-          hide_collection_pages: true
-      - _bookshop_name: design-system/column_sm/student-profile
-        student: a2c13034-c9a5-4acc-8a16-0519d915389f
-        super_heading:
-          label:
-          text:
-        heading:
-        subheading:
-        config:
-          edit_mode_only: false
-          hide_collection_pages: true
     config:
       edit_mode_only: false
     layout:
