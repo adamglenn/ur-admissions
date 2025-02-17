@@ -23,6 +23,9 @@ var walk = function(dir, done) {
                     let obj = {
                         last_name: doc.attributes.last_name,
                         uuid: doc.attributes.uuid,
+                        schema: doc.attributes._schema,
+                        name: doc.attributes.name,
+                        hometown: doc.attributes.hometown,
                         path: local_path
                     }
                     let collection_name = path.basename(dir); // Get directory name as collection name
