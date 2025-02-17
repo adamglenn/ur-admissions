@@ -32,4 +32,5 @@ content_blocks:
       edit_mode_only: false
     layout:
     styles:
+      typography: wvu_experience
 ---
