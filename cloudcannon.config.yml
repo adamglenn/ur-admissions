@@ -278,7 +278,7 @@ _inputs:
       value_key: class
   column_a:
     type: object
-    option:
+    options:
       structures: _structures.column_blocks
   column_b:
     type: object
