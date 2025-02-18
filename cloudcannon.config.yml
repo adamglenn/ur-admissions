@@ -429,6 +429,8 @@ _inputs:
     options:
       allow_empty: true
       values: data.sitewide_components
+  styles:
+    hidden: true
   styles_button:
     hidden: true
   styles_h1:
