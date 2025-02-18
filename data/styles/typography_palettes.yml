@@ -1,0 +1,24 @@
+wvu_experience:
+  superheading: wvu-shout wvu-text-letter-spacing-lg
+  heading: oliviar-black text-uppercase
+  subheading:
+  lead:
+  body:
+down_to_business:
+  superheading: wvu-shout
+  heading: oliviar-black text-uppercase
+  subheading:
+  lead:
+  body:
+discovery:
+  superheading: wvu-shout wvu-text-letter-spacing-lg
+  heading: oliviar-black text-uppercase
+  subheading: iowan-old-style-black-italic
+  lead:
+  body:
+nostalgic:
+  superheading: wvu-shout wvu-text-letter-spacing-lg
+  heading: oliviar-black
+  subheading: oliviar-thin
+  lead:
+  body:

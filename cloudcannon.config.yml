@@ -116,7 +116,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /previews/faculty-profile/
+        new_preview_url: /live-editor-previews/faculty-profile/
         create:
           path: '{last_name|slugify}-{first_name|slugify}.md'
       speaker:
@@ -129,7 +129,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /previews/student-profile/
+        new_preview_url: /live-editor-previews/student-profile/
         create:
           path: '{last_name|slugify}-{first_name|slugify}.md'
   links:
@@ -154,7 +154,7 @@ collections_config:
   places_and_spaces:
     _enabled_editors:
       - data
-    path: data/places_and_spaces
+    path: content/places-and-spaces
     add_options:
       - name: Facility
         schema: facility
@@ -162,6 +162,11 @@ collections_config:
     schemas:
       facility:
         path: .cloudcannon/schemas/facilities.yml
+        reorder_inputs: false
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /live-editor-previews/place/
   site_config:
     _enabled_editors:
       - data
@@ -220,6 +225,18 @@ _select_data:
       type: info
     - name: Warning
       type: warning
+  blend_modes:
+    - name: Luminosity
+      class: wvu-bg-blend-mode-luminosity
+    - name: Lighten
+      class: wvu-bg-blend-mode-lighten
+  background_colors:
+    - name: WVU Gold
+      classes: bg-wvu-gold text-wvu-blue
+    - name: WVU Blue
+      classes: bg-wvu-blue text-white
+    - name: Accent - Blue
+      classes: bg-wvu-accent--blue text-white
   brand_colors:
     - name: WVU Gold
       class: wvu-gold 
@@ -249,6 +266,13 @@ _select_data:
       class: wvu-neutral--cream
     - name: Neutral - Tan
       class: wvu-neutral--tan
+  patterns:
+    - name: Topo Map
+      class: wvu-bg-topo-map
+    - name: WV Pattern Grid
+      class: wvu-bg-pattern-grid
+    - name: WV Pattern Grid - Zoomed
+      class: wvu-bg-pattern-grid-zoomed
   typography_palettes:
     - name: WVU Experience
       palette: wvu_experience
@@ -269,6 +293,15 @@ _inputs:
       values:
         - _select_data.alert_type
       value_key: type
+  background_c:
+    type: select
+    options:
+      values: _select_data.background_colors
+      value_key: classes
+  background_layers:
+    type: object
+    options:
+      structures: _structures.background_layers
   color:
     type: select
     options:
@@ -310,10 +343,34 @@ _inputs:
       icon: add_a_photo
     options:
       structures: _structures.image
+  img_blend_mode:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.blend_modes
+      value_key: class
+  img_opacity:
+    type: range
+    options:
+      min: 0
+      max: 1
+      step: .01
   limit:
     type: number
   message:
     type: markdown
+  pattern:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.patterns
+      value_key: class
+  pattern_opacity:
+    type: range
+    options:
+      min: 0
+      max: 1
+      step: .01
   person:
     type: select
     options:
@@ -335,6 +392,19 @@ _inputs:
       values: data.people_data[?(@.schema == 'student')]
   student_profile_topper:
     hidden: true
+  text_c:
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: class
+  texture:
+    type: switch
+  tint_opacity:
+    type: range
+    options:
+      min: 0
+      max: 1
+      step: .01
   topper:
     type: object
     options:
@@ -394,10 +464,15 @@ _inputs:
 _structures:
   background_layers:
     values:
-      - label: Background Color
+      - label: Background Layers
         value:
-          color:
-    background_c: 
+          img_blend_mode:
+          img_opacity:
+          pattern: 
+          pattern_c:
+          pattern_opacity:
+          tint_opacity:
+          texture:
   content_blocks:
     style: modal
   detail_blocks:

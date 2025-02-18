@@ -1,0 +1,64 @@
+wvu_experience:
+  section: bg-wvu-accent--blue text-white py-6
+  background_layers:
+    img:
+      blend_mode: wvu-bg-blend-mode-luminosity
+      opacity: .4
+    pattern:
+      option: wvu-bg-topo-map
+      color: bg-white
+      opacity: 2
+    tint_opacity:
+    texture: false
+  container: py-7
+  superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+  heading: display-4 oliviar-black text-uppercase
+  subheading: helvetica-neue-light h2
+down_to_business:
+  section: bg-white text-dark py-6
+  background_layers:
+    img:
+      blend_mode:
+      opacity:
+    pattern:
+      option: wvu-bg-topo-map
+      color: bg-white
+      opacity: 2
+    tint_opacity:
+    texture: false
+  container: py-7
+  superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+  heading: display-4 oliviar-black text-uppercase
+  subheading: helvetica-neue-light h2
+discovery:
+  section: bg-dark text-white py-6
+  background_layers:
+    img:
+      blend_mode:
+      opacity:
+    pattern:
+      option: wvu-bg-pattern-grid
+      color: bg-white
+      opacity: 2
+    tint_opacity:
+    texture: false
+  container: py-7
+  superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+  heading: display-4 wvu-shout
+  subheading: iowan-old-style-black-italic h2
+nostalgic:
+  section: bg-dark text-white py-6
+  background_layers:
+    img:
+      blend_mode: wvu-bg-blend-mode-lighten
+      opacity:
+    pattern:
+      option: wvu-bg-topo-map
+      color: bg-white
+      opacity: 2
+    tint_opacity:
+    texture: false
+  container: py-7
+  superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+  heading: display-4 oliviar-black
+  subheading: oliviar-thin h2
