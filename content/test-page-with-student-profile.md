@@ -22,10 +22,11 @@ topper:
     tint_opacity: 0.68
     texture: false
   styles:
-    container:
-    superheading:
-    heading:
-    subheading:
+    section: bg-wvu-accent--blue text-white py-6
+    container: py-7
+    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+    heading: display-4 oliviar-black text-uppercase
+    subheading: helvetica-neue-light h2
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:

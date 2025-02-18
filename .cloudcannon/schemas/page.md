@@ -12,6 +12,7 @@ topper:
     tint_opacity: 0.2
     texture: false
   styles:
+    section:
     container:
     superheading:
     heading:
