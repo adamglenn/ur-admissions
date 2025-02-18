@@ -332,6 +332,7 @@ _inputs:
   excerpt:
     type: markdown
   heading_c:
+    hidden: true
   hide:
     type: datetime
   hide_collection_pages:
