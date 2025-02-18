@@ -8,12 +8,12 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading Test Again Again
+    - text: Heading Test Again Again Again
   subheading: Subheading
   styles:
     breadcrumbs: {}
   vibe: wvu_experience
-  background_c: wvu-gradient-blue-light-blue text-white
+  background_c: bg-wvu-gold text-wvu-blue
   heading_c: wvu-gold
   background_layers:
     img_blend_mode: wvu-bg-blend-mode-luminosity
