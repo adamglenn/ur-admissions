@@ -5,23 +5,23 @@ uuid: ac12605f-a312-4758-be23-2e81329e0f27
 description:
 topper:
   topper_type: hero
-  background_image: >-
-    https://cloudcannondam.volutus.wvu.edu/admissions-test/38989 S AHR 0372
-    XX.jpg
+  background_image:
   alt_text:
   heading:
     - text: Heading Test Again Again
   subheading: Subheading
+  styles:
+    breadcrumbs: {}
   vibe: wvu_experience
   background_c: wvu-gradient-blue-light-blue text-white
   heading_c: wvu-gold
   background_layers:
     img_blend_mode: wvu-bg-blend-mode-luminosity
-    img_opacity: .4
+    img_opacity: 0.4
     pattern: wvu-bg-topo-map
     pattern_c: bg-white
-    pattern_opacity: .2
-    tint_opacity:
+    pattern_opacity: 0.2
+    tint_opacity: 0.68
     texture: false
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
