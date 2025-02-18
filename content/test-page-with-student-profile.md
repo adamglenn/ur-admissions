@@ -21,6 +21,11 @@ topper:
     pattern_opacity: 0.2
     tint_opacity: 0.68
     texture: false
+  styles:
+    container:
+    superheading:
+    heading:
+    subheading:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
