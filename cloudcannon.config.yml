@@ -300,6 +300,7 @@ _inputs:
       value_key: classes
   background_layers:
     type: object
+    hidden: true
     options:
       structures: _structures.background_layers
   color:
