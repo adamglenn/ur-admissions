@@ -31,7 +31,7 @@ content_blocks:
       items:
         - pre: According to Niche
           stat: 93%
-          post: job placement rate (two years after graduation)
+          post: test
           source:
         - pre: Test
           stat: '66'
