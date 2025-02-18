@@ -8,8 +8,10 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading Test Again Again Again
+    - text: Test
   subheading: Subheading
+  styles:
+    breadcrumbs: {}
   vibe: wvu_experience
   background_c: bg-wvu-gold text-wvu-blue
   heading_c: wvu-gold
