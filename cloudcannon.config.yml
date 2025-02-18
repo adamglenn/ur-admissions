@@ -294,10 +294,7 @@ _inputs:
         - _select_data.alert_type
       value_key: type
   background_c:
-    type: select
-    options:
-      values: _select_data.background_colors
-      value_key: classes
+    hidden: true
   background_layers:
     type: object
     hidden: true
@@ -334,6 +331,7 @@ _inputs:
     type: switch
   excerpt:
     type: markdown
+  heading_c:
   hide:
     type: datetime
   hide_collection_pages:
@@ -351,11 +349,7 @@ _inputs:
       values: _select_data.blend_modes
       value_key: class
   img_opacity:
-    type: range
-    options:
-      min: 0
-      max: 1
-      step: .01
+    hidden: true
   limit:
     type: number
   message:
@@ -367,11 +361,7 @@ _inputs:
       values: _select_data.patterns
       value_key: class
   pattern_opacity:
-    type: range
-    options:
-      min: 0
-      max: 1
-      step: .01
+    hidden: true
   person:
     type: select
     options:
@@ -462,6 +452,8 @@ _inputs:
   uuid:
     hidden: true
     instance_value: UUID
+  vibe:
+    hidden: true
 _structures:
   background_layers:
     values:
