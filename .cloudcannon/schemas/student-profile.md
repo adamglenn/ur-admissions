@@ -9,8 +9,6 @@ student_profile_topper:
   heading:
     - text: Heading
   subheading: Subheading
-  styles:
-    typography:
 name:
 first_name:
 last_name:

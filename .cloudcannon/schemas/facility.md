@@ -11,9 +11,6 @@ topper:
   heading:
     - text: Heading
   subheading: Subheading
-  styles:
-    breadcrumbs:
-      c:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.

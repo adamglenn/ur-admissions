@@ -9,7 +9,6 @@ topper:
   heading:
     - text: Heading
   subheading: Subheading
-  styles:
 content_blocks:
 type: profile
 ---

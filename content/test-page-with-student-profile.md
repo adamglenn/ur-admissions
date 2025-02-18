@@ -10,8 +10,6 @@ topper:
   heading:
     - text: Test
   subheading: Subheading
-  styles:
-    breadcrumbs: {}
   vibe: wvu_experience
   background_c: bg-wvu-gold text-wvu-blue
   heading_c: wvu-gold

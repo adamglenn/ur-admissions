@@ -9,8 +9,5 @@ topper:
   heading:
     - text: Heading
   subheading: Subheading
-  styles:
-    breadcrumbs:
-      c:
 content_blocks:
 ---
