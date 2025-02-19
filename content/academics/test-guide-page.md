@@ -1,0 +1,28 @@
+---
+_schema: guide_page
+title: Test Guide Page
+uuid: 87342491-329f-4ab6-8d28-ef2302855602
+description:
+topper:
+  topper_type: hero
+  background_image:
+  alt_text:
+  heading:
+    - text: Heading
+  subheading: Subheading
+  background_layers:
+    img_blend_mode:
+    img_opacity:
+    pattern:
+    pattern_c: bg-white
+    pattern_opacity: 0.2
+    tint_opacity: 0.7
+    texture: false
+  styles:
+    section: bg-wvu-accent--blue text-white py-6
+    container:
+    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+    heading: display-4 oliviar-black text-uppercase
+    subheading: helvetica-neue-light h2
+content_blocks:
+---
