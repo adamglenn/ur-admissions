@@ -16,18 +16,23 @@ topper:
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
+  vibe: down_to_business
+  background_c: bg-dark text-white
+  heading_c:
+  background_layers:
+    img_blend_mode:
+    img_opacity:
+    pattern: 
+    pattern_c: bg-white
+    pattern_opacity: .2
+    tint_opacity:
+    texture: false
   styles:
-    breadcrumbs:
-      c: text-white
-    background_c: wvu-gradient-wvu-blue-blue-blue-light
-    background_layers:
-      img:
-        blend_mode: wvu-bg-blend-mode-luminosity
-        opacity: 10
-    heading:
-      c: text-wvu-gold
-  layout:
-    margin: buffer-bottom
+    section: bg-wvu-accent--blue text-white py-7
+    container: pb-7
+    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+    heading: display-4 oliviar-black text-uppercase
+    subheading: helvetica-neue-light h2
 content_blocks:
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: >-
@@ -46,6 +51,30 @@ content_blocks:
           url:
       - title: International Students
         text: You are not a U.S. citizen or U.S. permanent resident.
+        button:
+          url:
+      - title: Change of Campus Students
+        text: >-
+          You attend a WVU divisional campus and want to transfer to the
+          Morgantown campus.
+        button:
+          url:
+      - title: Visiting Students
+        text: >-
+          You plan to take classes at WVU and use the credits toward graduation
+          at your home college or university outside the WVU system.
+        button:
+          url:
+      - title: Change of Major
+        text: >-
+          Admitted students may submit the Change of Major form to request a new
+          major.
+        button:
+          url:
+      - title: Change of Term
+        text: >-
+          You may request to have your enrollment term changed to another term
+          within one academic cycle.
         button:
           url:
     lead: Lead text.

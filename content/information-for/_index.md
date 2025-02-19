@@ -14,11 +14,26 @@ topper:
         background_c: bg-wvu-accent--sunset
         text_c: text-dark
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
-  layout:
-    margin: buffer-bottom
+  vibe: down_to_business
+  background_c: bg-dark text-white
+  heading_c:
+  background_layers:
+    img_blend_mode:
+    img_opacity:
+    pattern: 
+    pattern_c: bg-white
+    pattern_opacity: .2
+    tint_opacity:
+    texture: false
+  styles:
+    section: bg-wvu-accent--blue text-white py-7
+    container: pb-7
+    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
+    heading: display-4 oliviar-black text-uppercase
+    subheading: helvetica-neue-light h2
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: Heading
+    heading: 
     items:
       - title: First-Time Freshmen
         text: >-
@@ -38,11 +53,11 @@ content_blocks:
         text: You have served or are serving in the United States Armed Forces.
         button:
           url:
-    lead: Lead text.
+    lead:
     config:
       edit_mode_only: false
     layout:
       section:
-        margin: pull-up
+        margin: mt-n7
     styles: {}
 ---

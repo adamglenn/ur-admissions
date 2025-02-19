@@ -353,6 +353,11 @@ _inputs:
     hidden: true
   limit:
     type: number
+  menu:
+    type: select
+    options:
+      allow_empty: true
+      structures: data.menus
   message:
     type: markdown
   pattern:

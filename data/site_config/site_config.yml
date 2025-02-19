@@ -3,12 +3,11 @@ alert:
   alert_type:
   alert_message:
 address:
-  phone:
-    - text:
-      digits:
-  email:
-    - text:
-      address:
-  location:
-    - text:
+  - text:
+phone:
+  - text:
+    digits: (304) 123-4567
+email:
+  - text:
+    address:
 chatbot_url:

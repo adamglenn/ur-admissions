@@ -23,5 +23,8 @@ topper:
     superheading:
     heading:
     subheading:
+secondary_nav:
+  title:
+  menu:
 content_blocks:
 ---
