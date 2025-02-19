@@ -19,7 +19,7 @@ topper:
     tint_opacity: 0.7
     texture: false
   styles:
-    section: bg-wvu-accent--blue text-white py-6
+    section: bg-wvu-gold text-wvu-blue py-6
     container:
     superheading: h3 wvu-shout wvu-text-letter-spacing-lg
     heading: display-4 oliviar-black text-uppercase
