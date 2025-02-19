@@ -1,7 +1,0 @@
-{{ if or site.Params.env_bookshop_live (ne .config.edit_mode_only true) }}
-  <div class="p-4 bg-light">
-    {{ partial "bookshop" (slice "design-system/generic/youtube-video" .) }}
-    <h2 class="h4">{{ .title }}</h2>
-    <p class="mb-0">{{ .description }}</p>
-  </div>
-{{ end }}
