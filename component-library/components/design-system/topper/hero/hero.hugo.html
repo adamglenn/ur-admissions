@@ -1,0 +1,51 @@
+{{ $image := "" }}
+{{ $alt := "" }}
+{{ $sectionStyles := "" }}
+{{ $layerStyles := "" }}
+{{ $containerStyles := "" }}
+{{ $superheadingStyles := "" }}
+{{ $headingStyles := "" }}
+{{ $subheadingStyles := "" }}
+
+{{ with .topper.styles }}
+  {{ $sectionStyles = .section }}
+  {{ $containerStyles = .container }}
+  {{ $superheadingStyles = .superheading }}
+  {{ $headingStyles = .heading }}
+  {{ $subheadingStyles = .subheading }}
+{{ end }}
+
+{{ if .topper.background_image }}{{ $image = .topper.background_image }}{{ end }}
+{{ if .topper.alt_text }}{{ $alt = .topper.alt_text }}{{ end }}
+
+{{ if .config.id }}{{ $id = .config.id }}{{ end }}
+{{ if .config.aria_labelledby }}{{ $ariaLabelledBy = .config.aria_labelledby }}{{ end }}
+{{ if .topper.background_layers }}{{ $layerStyles = .topper.background_layers }}{{ end }}
+
+<header class="text-center {{ $sectionStyles }} position-relative">  
+  {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "alt" $alt "layerStyles" $layerStyles)) }}
+  <div class="container wvu-z-index-content {{ $containerStyles }}">
+    <div class="row">
+      <div class="col-xl-16 mx-xl-auto">
+        {{ if .topper.heading }}
+          <h1 class="{{ $superheadingStyles }}">{{ .title }}</h1>
+          <h2 id="" class="{{ $headingStyles }} mt-6">{{ partial "bookshop_partial" (slice "heading" (dict "heading" .topper.heading)) }}</h2>
+        {{ else }}
+          <h1 id="" class="{{ $headingStyles }}">{{ .title }}</h1>
+        {{ end }}
+        <p class="{{ $subheadingStyles }} mt-4">{{ .topper.subheading }}</p>
+        <div class="mt-4">
+          {{ .topper.body | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12 mx-auto">
+      <div class="row">
+        <div class="col-md-24">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

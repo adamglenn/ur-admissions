@@ -1,0 +1,96 @@
+{{ $peopleData := slice }}
+
+{{ $vibe := "wvu_experience" }}
+{{ $styles := slice }}
+
+{{ if .styles.vibe }}
+  {{ $vibe = .styles.vibe }}
+{{ end }}
+
+{{ if .styles.elements }}
+  {{ $styles = .styles.elements }}
+{{ end }}
+
+{{ if not site.Params.env_bookshop_live }}
+  {{ $vibes := site.Data.styles.components_column_sm_student_profile_vibes }}
+  {{ with $vibe }}
+    {{ with (index $vibes .) }}
+      {{ $styles = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if or site.Params.env_bookshop_live (ne .config.edit_mode_only true) }}
+
+  {{ if not site.Data }}
+    {{ partial "bookshop" (slice "design-system/generic/collection-tooltip" (dict "text" "This component will not display the collection pages inside the bookshop browser" ) ) }}
+  {{ else if and (site.Params.env_bookshop_live) (.config.hide_collection_pages) }}
+    {{ partial "bookshop" (slice "design-system/generic/collection-tooltip" (dict "text" "'Hide collection pages' is currently selected in this component to speed up the editing of other areas - to see the pages here uncheck 'hide collection pages'" ) ) }}
+  {{ else }}
+
+    {{ if not site.Params.env_bookshop_live }}
+      {{ $peopleData = where site.RegularPages "Section" "people" }}
+    {{ else }}
+      {{ $peopleData = site.Data.people_data }}
+    {{ end }}
+
+    {{ $superHeading := "" }}
+    {{ if .super_heading }}
+      {{ $superHeading = .super_heading }}
+    {{ end }}
+
+    {{ $student := .student }}
+    
+    {{ range $peopleData }}
+
+      {{ $item := slice }}
+
+      {{ if not site.Params.env_bookshop_live }}
+        {{ $item = .Params }}
+      {{ else }}
+        {{ $item = . }}
+      {{ end }}
+
+      {{ if $item.uuid }}
+        {{ if eq $item.uuid $student }}
+          <div class="{{ $styles.container }}">
+            <div class="row gx-0">
+              <div class="col-9">
+                <div class="{{ $styles.image_margin }}">
+                  <div class="ratio ratio-1x1 bg-light {{ $styles.image_container }}">
+                    {{ if $item.image }}
+                      {{ $alt := printf "%s%s" "Portrait of " .name }}
+                      {{ partial "bookshop" (slice "design-system/generic/img" (dict "src" .image "width" 960 "height" 960 "classes" "object-fit-cover" "alt" $alt)) }}
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+              <div class="col-15">
+                {{ if or $superHeading.label $superHeading.text }}
+                  <div class="{{ $styles.label }}">
+                    <p>
+                      <span class="d-block">{{ $superHeading.label }}</span>
+                      {{ $superHeading.text }}
+                    </p>
+                  </div>
+                {{ end }}
+                <div class="">
+                  <h3 class="wvu-shout {{ $styles.heading }}">{{ $item.name }}</h3>
+                  {{ with $item.hometown }}
+                    <p class="fs-5 {{ $styles.hometown }}">{{ . }}</p>
+                  {{ end }}
+                </div>
+              </div>
+              <div class="col-24 p-4">
+                {{ with $item.majors }}
+                  <p><span class="wvu-shout text-wvu-accent--yellow">Majors:</span> {{ range . }}{{ .title }}; {{ end }}</p>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}

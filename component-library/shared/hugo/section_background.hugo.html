@@ -1,0 +1,53 @@
+{{ $blendMode := "" }}
+{{ $opacity := "" }}
+{{ $pattern := "" }}
+{{ $patternColor := "" }}
+{{ $patternOpacity := "" }}
+{{ $tintOpacity := "" }}
+{{ $texture := false }}
+{{ $image := "" }}
+{{ $imageClasses := "object-fit-cover h-100 w-100" }}
+
+{{ if .layerStyles }}
+  {{ if .layerStyles.img_blend_mode }}
+    {{ $blendMode = .layerStyles.img_blend_mode }}
+  {{ end }}
+  {{ if .layerStyles.img_opacity }}
+    {{ $opacity = .layerStyles.img_opacity }}
+  {{ end }}
+  {{ if .layerStyles.pattern }}
+    {{ $pattern = .layerStyles.pattern }}
+  {{ end }}
+  {{ if .layerStyles.pattern_c }}
+    {{ $patternColor = .layerStyles.pattern_c }}
+  {{ end }}
+  {{ if .layerStyles.pattern_opacity }}
+    {{ $patternOpacity = .layerStyles.pattern_opacity }}
+  {{ end }}
+  {{ if .layerStyles.tint_opacity }}
+      {{ $tintOpacity = .layerStyles.tint_opacity }}
+  {{ end }}
+  {{ if .layerStyles.texture }}
+    {{ $texture = true }}
+  {{ end }}
+{{ end }}
+
+{{ $imageClasses = printf "%s%s%s" $imageClasses " " $blendMode }}
+
+<div class="wvu-bg-img">
+  {{ if .image }}
+    {{ partial "bookshop" (slice "design-system/generic/img" (dict "src" .image "width" 1920 "height" 1280 "classes" $imageClasses "opacity" $opacity "alt" .alt_text)) }}
+    {{ if eq $blendMode "" }}
+      <div class="position-absolute wvu-bg-tint w-100 h-100" style="opacity: {{ $tintOpacity }}"></div>
+    {{ end }}
+  {{ end }}
+  {{ if and .layerStyles .layerStyles.pattern (not .image) }}
+    <div class="{{ $pattern }} {{ $patternColor }} h-100 w-100" style="opacity: {{ $patternOpacity }}"></div>
+  {{ end }}
+  {{ if and $texture (not .image) }}
+    <div class="d-flex w-100 h-100 justify-content-between position-absolute">
+      <img class="align-self-end" src="/textures/halftone-grunge-dark.svg" width="400px" />
+      <img class="align-self-start" src="/textures/halftone-grunge-dark.svg" width="400px" style="transform: rotate(180deg);"/>
+    </div>
+  {{ end }}
+</div>

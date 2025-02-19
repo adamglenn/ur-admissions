@@ -1,0 +1,19 @@
+{{ $backgroundColor := "" }}
+{{ $textColor := "" }}
+{{ $style := "" }}
+{{ if .heading }}
+  {{ range .heading }}
+    {{ if and .style .style.highlight }}
+      {{ if eq .style.highlight "container" }}
+        {{ $style = "wvu-container-box-skewed wvu-container-box-skewed-1" }}
+      {{ end }}
+    {{ end }}
+    {{ if and .style .style.background_c }}
+      {{ $backgroundColor = .style.background_c }}
+    {{ end }}
+    {{ if and .style .style.text_c }}
+      {{ $textColor = .style.text_c }}
+    {{ end }}
+    <span class="position-relative {{ $style }} {{ $backgroundColor }} {{ $textColor }}"><span>{{ .text }}</span></span> 
+  {{ end }}
+{{ end }}

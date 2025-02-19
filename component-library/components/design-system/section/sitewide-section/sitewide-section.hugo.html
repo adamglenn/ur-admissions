@@ -1,0 +1,7 @@
+{{ $section := .sitewide_section }}
+{{ range site.Data.sitewide_components }}
+  {{ $title := .title | urlize }}
+  {{ if eq $section $title }}
+    {{ partial "bookshop" (slice ._bookshop_name .) }}
+  {{ end }}
+{{ end }}

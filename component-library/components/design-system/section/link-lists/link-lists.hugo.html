@@ -1,0 +1,58 @@
+{{ $sectionMargin := "py-7" }}
+{{ $layerStyles := "" }}
+
+{{ if .layout.section.margin }}
+  {{ $sectionMargin = .layout.section.margin }}
+{{ end }}
+
+{{ if .styles.background_layers }}{{ $layerStyles = .styles.background_layers }}{{ end }}
+
+{{ if or site.Params.env_bookshop_live (ne .config.edit_mode_only true) }}
+  <section class="c-link-lists {{ partial "bookshop_partial" (slice "section_margin" $sectionMargin) }} position-relative">
+    <div class="container">    
+      <div class="row">
+        <div class="col-xxl-18 mx-xxl-auto">
+          <div class="p-4 p-xl-5 p-xxl-6 bg-white wvu-z-index-content">
+            {{ range $index, $element := .lists }}
+              <div class="{{ if ne $index 0 }}border-top border-1 border-wvu-neutral--warm-gray-light py-5{{ else }}pb-5{{ end }}">
+                <div class="row">
+                  <div class="col-10 me-auto">
+                    <h2 class="oliviar-black text-wvu-blue">{{ .topic }}</h2>
+                    <p class="mb-0">{{ .description }}</p>
+                  </div>
+                  <div class="col-12">
+                    <ul class="wvu-ul-chevrons">
+                      {{ range .items }}
+                        <!-- Can this be a shared partial or separate component? -->
+                        {{ $sitePages := site.Data.site_pages }}
+            
+                        {{ $text := "" }}
+                        {{ $url := .url }}
+                        <!-- Needs re-written, along with site-pages.json -->
+                        {{ if .site_page }}
+                          {{ $sitePage := .site_page }}
+                          {{ range $sitePages }}
+                            {{ if eq $sitePage .uuid }}
+                              {{ $text = .title }}
+                              {{ $url = .path }}
+                            {{ end }}
+                          {{ end }}
+                        {{ end }}
+
+                        {{ if .text }}
+                          {{ $text = .text }}
+                        {{ end }}
+
+                        <li><a class="text-decoration-none text-wvu-neutral--warm-gray-dark" href="{{ $url }}">{{ $text }}</a></li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

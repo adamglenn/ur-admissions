@@ -1,0 +1,32 @@
+{{ if or site.Params.env_bookshop_live (ne .config.edit_mode_only true) }}
+  <section class="position-relative bg-white text-white py-8">
+    <div class="wvu-bg-img">
+      <div class="row position-absolute w-100 h-100">
+        <div class="col-6"><div class="wvu-bg-diagonal bg-wvu-accent--blue-light"></div></div>
+        <div class="col"><div class="wvu-bg-diagonal bg-wvu-blue"></div></div>
+      </div>
+    </div>
+    <div class="container wvu-z-index-content">
+      <div class="border border-1 border-white m-5">
+        <div class="row gx-0">
+          <div class="col-xxl-16">
+            <img class="img-fluid my-n5 mx-n5 position-relative" width="2100px" height="1400px" src="/img/09.jpg" style="z-index: -1;" />
+          </div>
+          <div class="col-xxl-8 ms-xxl-auto pe-5 mt-n1 d-flex flex-column">
+            <div class="mt-n2 position-absolute">
+              <p class="h6 wvu-shout bg-wvu-blue text-wvu-accent--sunset wvu-text-letter-spacing-lg p-4 ms-n4 mt-n5 mb-3 d-inline-block">Places and Spaces</p>
+            </div>
+            <div class="flex-grow-1 d-flex align-items-center">
+              <div>
+                <h2 class="display-3 wvu-shout mb-4 d-inline-block">Heading Goes Here</h2>
+                <p class="wvu-shout h2 wvu-container-box-skewed wvu-container-box-skewed-1 wvu-container-box-skewed-wvu-gold text-wvu-blue wvu-text-spacing-wide wvu-tilt-left"><span>Subheading Here</span></p>
+                <p class="fs-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <a class="btn btn-wvu-accent--blue-light" href="#">Call to Action <span class="fa-regular fa-arrow-circle-right"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
