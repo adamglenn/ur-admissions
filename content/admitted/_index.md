@@ -121,6 +121,9 @@ content_blocks:
         site_page: 9e558b82-dbaf-4139-a376-0c6d882bc879
         url:
     lead: Lead text.
+    config:
+      edit_mode_only: false
+      hide_collection_pages: true
     layout:
       margin_y:
     styles:
