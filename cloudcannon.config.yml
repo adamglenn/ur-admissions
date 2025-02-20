@@ -266,7 +266,38 @@ _select_data:
       class: wvu-neutral--cream
     - name: Neutral - Tan
       class: wvu-neutral--tan
+  color_palettes:
+    - name: WVU Gold
+      value: wvu_gold
+    - name: WVU Blue
+      value: wvu_blue
+    - name: Accent - Blue
+      value: wvu_accent_blue
+    - name: Accent - Dark Blue
+      value: wvu_accent_dark_blue
+    - name: Accent - Light Blue
+      value: wvu_accent_light_blue
+    - name: Accent - Yellow
+      value: wvu_accent_yellow
+    - name: Accent - Old Gold
+      value: wvu_accent_old_gold
+    - name: Accent - Sunset
+      value: wvu_accent_sunset
+    - name: Neutral - Off-White
+      value: wvu_neutral_off_white
+    - name: Neutral - Warm Gray Light
+      value: wvu_neutral_warm_gray_light
+    - name: Neutral - Warm Gray Medium
+      value: wvu_neutral_warm_gray_medium
+    - name: Neutral - Warm Gray Dark
+      value: wvu_neutral_warm_gray_dark
+    - name: Neutral - Cream
+      value: wvu_neutral_cream
+    - name: Neutral - Tan
+      value: wvu_neutral_tan
   container_margins:
+    - name: Default
+      class: ""
     - name: Buffer Top
       class: mt-6
     - name: Buffer Bottom
@@ -327,6 +358,11 @@ _inputs:
       values:
         - _select_data.brand_colors
       value_key: class
+  color_palette:
+    type: select
+    options:
+      values: _select_data.color_palettes
+      value_key: value
   column_a:
     type: object
     options:
@@ -380,7 +416,6 @@ _inputs:
   margin:
     type: select
     options:
-      allow_empty: true
       values: _select_data.container_margins
   menu:
     type: select
@@ -467,9 +502,7 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
   styles:
-    type: object
-    options:
-      values: _structures.styles
+    hidden: true
   styles_button:
     hidden: true
   styles_h1:
