@@ -426,7 +426,7 @@ _inputs:
   texture:
     type: switch
   tint_opacity:
-    type: range:
+    type: range
     options:
       min: 0.0
       max: 0.9
