@@ -466,13 +466,10 @@ _structures:
     values:
       - label: Background Layers
         value:
-          img_blend_mode:
           img_opacity:
-          pattern: 
           pattern_c:
           pattern_opacity:
           tint_opacity:
-          texture:
   content_blocks:
     style: modal
   detail_blocks:
