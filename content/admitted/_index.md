@@ -13,8 +13,6 @@ topper:
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
-  background_c: 
-  heading_c:
   vibe: discovery
   color_palette: wvu_blue_blue
   enable_blend: false
