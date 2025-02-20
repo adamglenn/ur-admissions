@@ -1,0 +1,15 @@
+wvu_blue:
+  section: bg-wvu-blue text-white
+  superheading: text-dark
+  heading: text-white
+  highlight: bg-wvu-accent--sunset text-dark
+wvu_gold:
+  section: bg-wvu-gold text-wvu-blue
+  superheading: text-dark
+  heading: text-white
+  highlight: bg-wvu-accent--sunset text-dark
+wvu_blue_blue:
+  section: wvu-gradient-wvu-blue-blue text-white
+  superheading: text-dark
+  heading: text-white
+  highlight: bg-wvu-accent--sunset text-dark

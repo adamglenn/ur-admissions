@@ -1,5 +1,5 @@
 wvu_experience:
-  superheading: wvu-shout wvu-text-letter-spacing-lg
+  superheading: wvu-shout wvu-text-letter-spacing-lg border border-1 border-white p-3 m-n3 d-inline-block
   heading: display-4 oliviar-black text-uppercase
   subheading: helvetica-neue-light
 down_to_business:

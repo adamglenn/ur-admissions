@@ -4,35 +4,23 @@ title: Admitted
 description:
 topper:
   topper_type: hero
-  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
+  background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
     - text: Congrats!
     - text: You’re in.
-      style:
-        highlight: container
-        background_c: bg-wvu-gold
-        text_c: text-wvu-accent--blue
+      highlight: true
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
-  vibe: down_to_business
-  background_c: bg-dark text-white
+  background_c: 
   heading_c:
-  background_layers:
-    img_blend_mode:
-    img_opacity:
-    pattern: 
-    pattern_c: bg-white
-    pattern_opacity: .2
-    tint_opacity:
-    texture: false
-  styles:
-    section: bg-wvu-accent--blue text-white py-7
-    container: pb-7
-    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
-    heading: display-4 oliviar-black text-uppercase
-    subheading: helvetica-neue-light h2
+  vibe: discovery
+  color_palette: wvu_blue_blue
+  enable_blend: false
+  enable_pattern: true
+  tint_opacity: 0.7
+  margin: mb-6
 content_blocks:
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: >-

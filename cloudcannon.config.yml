@@ -266,6 +266,17 @@ _select_data:
       class: wvu-neutral--cream
     - name: Neutral - Tan
       class: wvu-neutral--tan
+  container_margins:
+    - name: Buffer Top
+      class: mt-6
+    - name: Buffer Bottom
+      class: mb-6
+    - name: Buffer Both
+      class: my-6
+    - name: Pull Up
+      class: mt-n8
+    - name: Pull Down
+      class: mb-n8
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
@@ -332,6 +343,10 @@ _inputs:
     type: array
     options:
       structures: _structures.links
+  enable_blend:
+    type: switch
+  enable_pattern:
+    type: switch
   detail_sidebar_blocks:
     type: object
     options:
@@ -362,6 +377,11 @@ _inputs:
     hidden: true
   limit:
     type: number
+  margin:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.container_margins
   menu:
     type: select
     options:
@@ -406,7 +426,11 @@ _inputs:
   texture:
     type: switch
   tint_opacity:
-    hidden: true
+    type: range:
+    options:
+      min: 0.0
+      max: 0.9
+      step: 0.1
   topper:
     type: object
     options:
@@ -443,7 +467,9 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
   styles:
-    hidden: true
+    type: object:
+    options:
+    values: _structures.styles
   styles_button:
     hidden: true
   styles_h1:
@@ -504,6 +530,14 @@ _structures:
           text:
           icon:
           url:
+  styles:
+    values:
+      - value:
+          vibe:
+          enable_blend:
+          enable_pattern:
+          tint_opacity:
+          margin:
 _editables:
   content:
     allow_custom_markup: false
