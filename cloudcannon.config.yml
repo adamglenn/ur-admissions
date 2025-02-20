@@ -282,6 +282,15 @@ _select_data:
       palette: discovery
     - name: Nostalgic
       palette: nostalgic
+  vibes:
+    - name: Down to Business
+      value: down-to-business
+    - name: Discovery
+      value: discovery
+    - name: WVU Experience
+      value: wvu-experience
+    - name: Nostalgic
+      value: nostalgic
 _inputs:
   alert_message:
     type: markdown
@@ -460,7 +469,10 @@ _inputs:
     hidden: true
     instance_value: UUID
   vibe:
-    hidden: true
+    type: select
+    options:
+      values: _select_data.vibes
+      value_key: value
 _structures:
   background_layers:
     values:
