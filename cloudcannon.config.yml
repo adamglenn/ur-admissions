@@ -467,9 +467,9 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
   styles:
-    type: object:
+    type: object
     options:
-    values: _structures.styles
+      values: _structures.styles
   styles_button:
     hidden: true
   styles_h1:
