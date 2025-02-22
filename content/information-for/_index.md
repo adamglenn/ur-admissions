@@ -7,7 +7,7 @@ topper:
   background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
-    - text: Get the facts
+    - text: Get the facts, Jack.
     - text: you need.
       style:
         highlight: container
@@ -23,7 +23,7 @@ topper:
 cascade:
   secondary_nav:
     title: Information For
-    menu_id: fjdsafasit
+    menu_id: fjdsafasitk
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading:
