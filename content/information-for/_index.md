@@ -7,7 +7,7 @@ topper:
   background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
-    - text: Get the facts all the facts
+    - text: Get the facts
     - text: you need.
       style:
         highlight: container
