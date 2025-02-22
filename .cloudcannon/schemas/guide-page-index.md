@@ -18,7 +18,7 @@ topper:
 cascade:
   secondary_nav:
     title:
-    menu:
+    menu_id:
     background_c:
     label_c:
 content_blocks:

@@ -23,7 +23,7 @@ topper:
 cascade:
   secondary_nav:
     title: Information For
-    menu: fjdsafasit
+    menu_id: fjdsafasit
     background_c: bg-wvu-gold text-wvu-blue
     label_c: text-wvu-blue
 content_blocks:
