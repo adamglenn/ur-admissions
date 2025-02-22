@@ -8,10 +8,12 @@ topper:
   background_image:
   alt_text:
   subheading:
-  styles:
-    breadcrumbs:
-      c:
-    margin: buffer-bottom
+  vibe: down_to_business
+  color_palette: wvu_blue
+  enable_blend: false
+  enable_pattern: false
+  tint_opacity: 0.5
+  margin:
 content_blocks:
   - _bookshop_name: design-system/section/link-lists
     heading: Heading

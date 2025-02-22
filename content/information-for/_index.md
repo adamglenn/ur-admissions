@@ -15,22 +15,11 @@ topper:
         text_c: text-dark
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
   vibe: down_to_business
-  background_c: bg-dark text-white
-  heading_c:
-  background_layers:
-    img_blend_mode:
-    img_opacity:
-    pattern: 
-    pattern_c: bg-white
-    pattern_opacity: .2
-    tint_opacity:
-    texture: false
-  styles:
-    section: bg-wvu-accent--blue text-white py-7
-    container: pb-7
-    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
-    heading: display-4 oliviar-black text-uppercase
-    subheading: helvetica-neue-light h2
+  color_palette: wvu_blue
+  enable_blend: false
+  enable_pattern: false
+  tint_opacity: 0.5
+  margin:
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: 

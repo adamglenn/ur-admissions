@@ -12,21 +12,12 @@ topper:
   subheading: You’re admitted. Follow the steps below to become a Mountaineer.
   body: >-
     **Not a domestic first-time freshman?** Check the steps for [transfer](https://www.wvu.edu/admissions/admits/transfer) or [international](https://www.wvu.edu/admissions/admits/international) students.
-  vibe: wvu_experience
-  background_layers:
-    img_blend_mode:
-    img_opacity: 0.4
-    pattern: 
-    pattern_c: bg-white
-    pattern_opacity: 0.2
-    tint_opacity: 0.2
-    texture: false
-  styles:
-    section: bg-wvu-accent--blue text-white py-7
-    container: 
-    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
-    heading: display-4 oliviar-black text-uppercase
-    subheading: helvetica-neue-light h2
+  vibe: down_to_business
+  color_palette: wvu_blue
+  enable_blend: false
+  enable_pattern: false
+  tint_opacity: 0.5
+  margin:
 detail_blocks:
   - _bookshop_name: design-system/column/list-big-numbers
     items:

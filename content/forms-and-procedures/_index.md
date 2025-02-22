@@ -12,15 +12,12 @@ topper:
   subheading: >-
     Searching for documents? We’ve gathered all the ones you need to become a
     Mountaineer.
-  vibe: discovery
-  enable_pattern: true
+  vibe: down_to_business
+  color_palette: wvu_blue
   enable_blend: false
-  background_layers:
-    img_blend_mode:
-    img_opacity:
-    pattern_c: bg-white
-    pattern_opacity: 0.1
-    tint_opacity: 0.7
+  enable_pattern: false
+  tint_opacity: 0.5
+  margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-

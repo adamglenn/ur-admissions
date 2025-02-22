@@ -9,22 +9,17 @@ topper:
   heading:
     - text: Heading
   subheading: Subheading
-  background_layers:
-    img_blend_mode:
-    img_opacity: 0.4
-    pattern: 
-    pattern_c: bg-white
-    pattern_opacity: 0.2
-    tint_opacity: 0.2
-    texture: false
-  styles:
-    section:
-    container:
-    superheading:
-    heading:
-    subheading:
-secondary_nav:
-  title:
-  menu:
+  vibe: down_to_business
+  color_palette: wvu_blue
+  enable_blend: false
+  enable_pattern: false
+  tint_opacity: 0.5
+  margin:
+cascade:
+  secondary_nav:
+    title:
+    menu:
+  section_jumplinks:
+    menu:
 content_blocks:
 ---
