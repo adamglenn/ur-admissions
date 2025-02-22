@@ -7,7 +7,7 @@ topper:
   background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
-    - text: Get the facts
+    - text: Get the facts all the facts
     - text: you need.
       style:
         highlight: container
@@ -24,11 +24,11 @@ cascade:
   secondary_nav:
     title: Information For
     menu_id: fjdsafasit
-    background_c: bg-wvu-gold text-wvu-blue
+    background_c: wvu-gold
     label_c: text-wvu-blue
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: 
+    heading:
     items:
       - title: First-Time Freshmen
         text: >-
@@ -51,6 +51,7 @@ content_blocks:
     lead:
     config:
       edit_mode_only: false
+      hide_collection_pages: true
     layout:
       section:
         margin: mt-n7
