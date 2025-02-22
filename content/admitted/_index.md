@@ -13,12 +13,13 @@ topper:
   subheading: >-
     Now that you’ve received official notification of your acceptance, it’s time
     to get down to business.
-  vibe: discovery
-  color_palette: wvu_blue_blue
-  enable_blend: false
-  enable_pattern: true
-  tint_opacity: 0.7
-  margin: mb-6
+  styles:
+    vibe: down_to_business
+    color_palette: wvu_blue
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 content_blocks:
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: >-

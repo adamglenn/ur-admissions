@@ -12,12 +12,13 @@ topper:
   subheading: >-
     Searching for documents? We’ve gathered all the ones you need to become a
     Mountaineer.
-  vibe: down_to_business
-  color_palette: wvu_blue
-  enable_blend: false
-  enable_pattern: false
-  tint_opacity: 0.5
-  margin:
+  styles:
+    vibe: down_to_business
+    color_palette: wvu_blue
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-

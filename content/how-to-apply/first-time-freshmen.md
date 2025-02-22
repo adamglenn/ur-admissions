@@ -12,8 +12,6 @@ topper:
     - text: Heading
   subheading: Subheading
   styles:
-    breadcrumbs:
-      c:
 detail_blocks:
   - _bookshop_name: design-system/column/lead-text
     text: You are considered a first-time freshman if you are a current high school senior, have a high school equivalency diploma or haven't attended college since graduating from high school.
