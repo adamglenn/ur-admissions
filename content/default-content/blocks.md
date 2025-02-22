@@ -8,5 +8,4 @@ default_content_blocks:
         url: /test
     config:
       edit_mode_only: false
-_unlisted: true
 ---
