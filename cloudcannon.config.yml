@@ -353,12 +353,6 @@ _inputs:
       values: _select_data.background_colors
       value_key: class
     cascade: true
-  background_layers:
-    type: object
-    hidden: true
-    options:
-      structures: _structures.background_layers
-    cascade: true
   color:
     type: select
     options:
@@ -393,12 +387,6 @@ _inputs:
     options:
       structures: _structures.links
     cascade: true
-  enable_blend:
-    type: switch
-    cascade: true
-  enable_pattern:
-    type: switch
-    cascade: true
   detail_sidebar_blocks:
     type: object
     options:
@@ -426,14 +414,7 @@ _inputs:
     options:
       structures: _structures.image
     cascade: true
-  img_blend_mode:
-    type: select
-    options:
-      allow_empty: true
-      values: _select_data.blend_modes
-      value_key: class
-    cascade: true
-  img_opacity:
+  layout:
     hidden: true
     cascade: true
   limit:
@@ -453,16 +434,6 @@ _inputs:
   message:
     type: markdown
     cascade: true
-  pattern:
-    type: select
-    options:
-      allow_empty: true
-      values: _select_data.patterns
-      value_key: class
-    cascade: true
-  pattern_opacity:
-    hidden: true
-    cascade: true
   person:
     type: select
     options:
@@ -478,60 +449,11 @@ _inputs:
     type: date
     instance_value: NOW
     cascade: true
-  show_author_bios:
-    type: switch
-    cascade: true
-  student:
-    type: select
-    options:
-      allow_empty: true
-      values: data.people_data[?(@.schema == 'student')]
-    cascade: true
-  student_profile_topper:
-    hidden: true
-    cascade: true
-  text_c:
-    type: select
-    options:
-      values: _select_data.brand_colors
-      value_key: class
-    cascade: true
-  texture:
-    type: switch
-    cascade: true
-  tint_opacity:
-    type: range
-    options:
-      min: 0.0
-      max: 0.9
-      step: 0.1
-    cascade: true
-  topper:
-    type: object
-    options:
-      structures: _structures.topper
-    cascade: true
-  topper_type:
-    hidden: true
-    cascade: true
-  typography:
-    type: select
-    options:
-      values: _select_data.typography_palettes
-      value_key: palette
-    cascade: true
   show:
     type: datetime
     cascade: true
-  src:
-    type: image
-    cascade: true
-  type:
-    type: auto
-    hidden: true
-    cascade: true
-  layout:
-    hidden: true
+  show_author_bios:
+    type: switch
     cascade: true
   site_page:
     type: select
@@ -549,6 +471,18 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
     cascade: true
+  src:
+    type: image
+    cascade: true
+  student:
+    type: select
+    options:
+      allow_empty: true
+      values: data.people_data[?(@.schema == 'student')]
+    cascade: true
+  student_profile_topper:
+    hidden: true
+    cascade: true
   styles:
     hidden: true
     cascade: true
@@ -559,6 +493,19 @@ _inputs:
       allow_empty: true
       values:
         - featured
+    cascade: true
+  text_c:
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: class
+    cascade: true
+  topper_type:
+    hidden: true
+    cascade: true
+  type:
+    type: auto
+    hidden: true
     cascade: true
   uuid:
     hidden: true
@@ -571,24 +518,10 @@ _inputs:
       value_key: value
     cascade: true
 _structures:
-  background_layers:
-    values:
-      - label: Background Layers
-        value:
-          img_opacity:
-          pattern_c:
-          pattern_opacity:
-          tint_opacity:
   content_blocks:
     style: modal
   detail_blocks:
     style: modal
-  # factoids:
-  #   values:
-  #     - pre:
-  #       stat:
-  #       post:
-  #       source:
   image:
     values:
       - value:
@@ -601,14 +534,6 @@ _structures:
           text:
           icon:
           url:
-  styles:
-    values:
-      - value:
-          vibe:
-          enable_blend:
-          enable_pattern:
-          tint_opacity:
-          margin:
 _editables:
   content:
     allow_custom_markup: false
