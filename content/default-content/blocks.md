@@ -1,6 +1,6 @@
 ---
-title: Default Content
-content_blocks:
+title: Blocks
+default_content_blocks:
   - _bookshop_name: design-system/section/quicklinks
     heading: Default Content Quicklinks
     links:
@@ -8,4 +8,5 @@ content_blocks:
         url: /test
     config:
       edit_mode_only: false
+_unlisted: true
 ---
