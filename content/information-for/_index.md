@@ -20,6 +20,12 @@ topper:
   enable_pattern: false
   tint_opacity: 0.5
   margin:
+cascade:
+  secondary_nav:
+    title: Information For
+    menu: fjdsafasit
+    background_c: bg-wvu-gold text-wvu-blue
+    label_c: text-wvu-blue
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: 

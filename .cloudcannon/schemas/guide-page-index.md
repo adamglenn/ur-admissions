@@ -19,7 +19,7 @@ cascade:
   secondary_nav:
     title:
     menu:
-  section_jumplinks:
-    menu:
+    background_c:
+    label_c:
 content_blocks:
 ---
