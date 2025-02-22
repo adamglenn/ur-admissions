@@ -345,7 +345,10 @@ _inputs:
         - _select_data.alert_type
       value_key: type
   background_c:
-    hidden: true
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: class
   background_layers:
     type: object
     hidden: true
