@@ -530,7 +530,6 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
-    cascade: true
   layout:
     hidden: true
     cascade: true
