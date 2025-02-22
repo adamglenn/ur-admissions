@@ -85,7 +85,7 @@ collections_config:
     disable_file_actions: false
   default_content:
     icon: toolbar
-    path: default-content/
+    path: content/default-content/
   people:
     _enabled_editors:
       - data
