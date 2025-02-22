@@ -25,13 +25,13 @@ collections_config:
     disable_add_folder: false
     disable_add_file_actions: false
     schemas:
-      page:
-        path: .cloudcannon/schemas/page.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        new_preview_url: /
+      # page:
+      #   path: .cloudcannon/schemas/page.md
+      #   reorder_inputs: true
+      #   hide_extra_inputs: false
+      #   remove_empty_inputs: false
+      #   remove_extra_inputs: false
+      #   new_preview_url: /
       detail_page:
         path: .cloudcannon/schemas/detail-page.md
         reorder_inputs: true
@@ -83,14 +83,6 @@ collections_config:
     disable_add: true
     disable_add_folder: true
     disable_file_actions: false
-  # people:
-  #   path: data/people.yml
-  #   description: Data for people
-  #   output: false
-  #   disable_add: false
-  #   disable_add_folder: true
-  #   disable_file_actions: false
-  #   icon: group
   default_content:
     icon: toolbar
     path: data/default_content
@@ -201,7 +193,6 @@ collection_groups:
       - partners
       - people
       - places_and_spaces
-      # - programs
   - heading: Site
     collections:
       - site_config
