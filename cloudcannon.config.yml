@@ -336,24 +336,29 @@ _select_data:
 _inputs:
   alert_message:
     type: markdown
+    cascade: true
   alert_status:
     type: switch
+    cascade: true
   alert_type:
     type: select
     options:
       values:
         - _select_data.alert_type
       value_key: type
+    cascade: true
   background_c:
     type: select
     options:
       values: _select_data.background_colors
       value_key: class
+    cascade: true
   background_layers:
     type: object
     hidden: true
     options:
       structures: _structures.background_layers
+    cascade: true
   color:
     type: select
     options:
@@ -361,135 +366,174 @@ _inputs:
       values:
         - _select_data.brand_colors
       value_key: class
+    cascade: true
   color_palette:
     type: select
     options:
       values: _select_data.color_palettes
       value_key: value
+    cascade: true
   column_a:
     type: object
     options:
       structures: _structures.column_blocks
+    cascade: true
   column_b:
     type: object
     options:
       structures: _structures.column_blocks_sm
+    cascade: true
   column_c:
     type: object
     options:
       structures: _structures.column_blocks_sm
+    cascade: true
   ctas:
     type: array
     options:
       structures: _structures.links
+    cascade: true
   enable_blend:
     type: switch
+    cascade: true
   enable_pattern:
     type: switch
+    cascade: true
   detail_sidebar_blocks:
     type: object
     options:
       structures: _structures.detail_sidebar_blocks
+    cascade: true
   edit_mode_only:
     type: switch
+    cascade: true
   excerpt:
     type: markdown
+    cascade: true
   heading_c:
     hidden: true
+    cascade: true
   hide:
     type: datetime
+    cascade: true
   hide_collection_pages:
     type: switch
+    cascade: true
   image:
     type: object
     context:
       icon: add_a_photo
     options:
       structures: _structures.image
+    cascade: true
   img_blend_mode:
     type: select
     options:
       allow_empty: true
       values: _select_data.blend_modes
       value_key: class
+    cascade: true
   img_opacity:
     hidden: true
+    cascade: true
   limit:
     type: number
+    cascade: true
   margin:
     type: select
     options:
       values: _select_data.container_margins
+    cascade: true
   menu:
     type: select
     options:
       allow_empty: true
       structures: data.menus
+    cascade: true
   message:
     type: markdown
+    cascade: true
   pattern:
     type: select
     options:
       allow_empty: true
       values: _select_data.patterns
       value_key: class
+    cascade: true
   pattern_opacity:
     hidden: true
+    cascade: true
   person:
     type: select
     options:
       allow_empty: true
       values: data.people
+    cascade: true
   postscript_links:
     type: array
     options:
       structures: _structures.links
+    cascade: true
   publish_date:
     type: date
     instance_value: NOW
+    cascade: true
   show_author_bios:
     type: switch
+    cascade: true
   student:
     type: select
     options:
       allow_empty: true
       values: data.people_data[?(@.schema == 'student')]
+    cascade: true
   student_profile_topper:
     hidden: true
+    cascade: true
   text_c:
     type: select
     options:
       values: _select_data.brand_colors
       value_key: class
+    cascade: true
   texture:
     type: switch
+    cascade: true
   tint_opacity:
     type: range
     options:
       min: 0.0
       max: 0.9
       step: 0.1
+    cascade: true
   topper:
     type: object
     options:
       structures: _structures.topper
+    cascade: true
   topper_type:
     hidden: true
+    cascade: true
   typography:
     type: select
     options:
       values: _select_data.typography_palettes
       value_key: palette
+    cascade: true
   show:
     type: datetime
+    cascade: true
   src:
     type: image
+    cascade: true
   type:
     type: auto
     hidden: true
     cascade: true
+    cascade: true
   layout:
     hidden: true
+    cascade: true
   site_page:
     type: select
     options:
@@ -499,27 +543,16 @@ _inputs:
           - key: title
       values: data.site_pages
       value_key: id
+    cascade: true
   sitewide_section:
     type: select
     options:
       allow_empty: true
       values: data.sitewide_components
+    cascade: true
   styles:
     hidden: true
-  styles_button:
-    hidden: true
-  styles_h1:
-    hidden: true
-  styles_h1_label:
-    hidden: true
-  styles_h2:
-    hidden: true
-  styles_h2_label:
-    hidden: true
-  styles_lead:
-    hidden: true
-  styles_section:
-    hidden: true
+    cascade: true
   tags:
     type: multiselect
     options:
@@ -527,14 +560,17 @@ _inputs:
       allow_empty: true
       values:
         - featured
+    cascade: true
   uuid:
     hidden: true
     instance_value: UUID
+    cascade: true
   vibe:
     type: select
     options:
       values: _select_data.vibes
       value_key: value
+    cascade: true
 _structures:
   background_layers:
     values:
