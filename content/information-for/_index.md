@@ -24,8 +24,6 @@ cascade:
   secondary_nav:
     title: Information For
     menu_id: fjdsafasit
-    background_c: wvu-gold
-    label_c: text-wvu-blue
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading:

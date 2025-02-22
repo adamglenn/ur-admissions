@@ -347,7 +347,7 @@ _inputs:
   background_c:
     type: select
     options:
-      values: _select_data.brand_colors
+      values: _select_data.background_colors
       value_key: class
   background_layers:
     type: object

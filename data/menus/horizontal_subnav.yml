@@ -1,5 +1,7 @@
 title: Information For
 uuid: fjdsafasit
+background_c: bg-wvu-gold text-wvu-blue
+label_c: text-wvu-blue
 items:
   - name: Admissions Home
     pageRef: /
