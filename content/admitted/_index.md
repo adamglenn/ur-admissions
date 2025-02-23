@@ -21,6 +21,20 @@ topper:
     tint_opacity: 0.5
     margin:
 content_blocks:
+  - _bookshop_name: design-system/topper/hero
+    background_image:
+    alt_text:
+    heading:
+      - text: Heading
+        heading_style:
+    subheading: Subheading.
+    styles:
+      vibe: down_to_business
+      color_palette: wvu_blue
+      enable_blend: false
+      enable_pattern: false
+      tint_opacity: 0.5
+      margin:
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: >-
       To begin your enrollment at West Virginia University, please select your
@@ -58,6 +72,8 @@ content_blocks:
           within one academic cycle.
         url:
     lead: Lead text.
+    config:
+      edit_mode_only: false
     layout:
       section:
         margin: pull-up
@@ -84,6 +100,7 @@ content_blocks:
         icon: arrow-circle-right
     postscript_links: []
     config:
+      edit_mode_only: false
       is_main: true
     lead: >-
       Welcome to your Class of 2028 hub. Here, you will find everything you need
@@ -93,6 +110,8 @@ content_blocks:
   - _bookshop_name: design-system/section/profiles-collection
     profiles:
       - person: Clarence Moore
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     items:
