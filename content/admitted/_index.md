@@ -74,10 +74,8 @@ content_blocks:
           opacity: 5
   - _bookshop_name: design-system/section/poster-split
     name: poster-split
-    image:
-      src: /uploads/hero-social-swag.jpg
-      alt: Social media shwag
-    alt_text:
+    image: /uploads/hero-social-swag.jpg
+    alt_text: Social media shwag
     heading:
       - Heading Line 1
       - Heading Line 2
