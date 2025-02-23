@@ -6,7 +6,7 @@ content_blocks:
       https://cloudcannondam.volutus.wvu.edu/admissions-test/38989 S AHR 0372
       XX.jpg
     alt_text:
-    heading: True Beauty Test
+    heading: True Beauty Test Hero Test
     body:
       - >-
         When you’re in West Virginia, a breathtaking view is always a few steps
@@ -28,10 +28,6 @@ content_blocks:
         url: https://admissions.wvu.edu/how-to-apply
       - text: Apply to grad school
         url: https://graduateadmissions.wvu.edu/how-to-apply
-      - ref:
-        text:
-        icon:
-        url:
     config:
       edit_mode_only: false
       is_main: true
@@ -98,4 +94,6 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/sitewide-section
+    sitewide_section: another-sitewide-quicklinks
 ---
