@@ -72,4 +72,21 @@ content_blocks:
           option: wvu-bg-topo-map
           c: wvu-gradient-wvu-blue-blue-blue-light
           opacity: 5
+  - _bookshop_name: design-system/section/poster-split
+    name: poster-split
+    image:
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
 ---
