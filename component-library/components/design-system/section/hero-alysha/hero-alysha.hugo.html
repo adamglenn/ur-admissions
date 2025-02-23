@@ -25,7 +25,6 @@
 
                             
                             {{ if .body_text }}<p class="lead py-2">{{ .body_text }}</p>{{ end }}
-                            {{ if .button.text }}{{ partial "bookshop" (slice "generic/button" .button ) }}{{ end }}
                         </div>
                     </div>
                 {{ end }}
