@@ -35,13 +35,13 @@ content_blocks:
     config:
       edit_mode_only: false
       is_main: true
-    layout:
-      align: left
-      vertical_space: py-8
     styles:
       background_layers:
         tint:
           opacity: 1
+    layout:
+      align: left
+      vertical_space: py-8
   - _bookshop_name: design-system/section/icon-bar
     text: Hello World!
     items:
@@ -51,24 +51,34 @@ content_blocks:
       - icon: book
         text: Another Item
         url: /test
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links:
       - text: Text
         ref:
         url: /url
-    config: {}
+      - text: Text
+        ref:
+        url: /people/moore-clarence/
+    config:
+      edit_mode_only: false
     layout:
       section:
         margin: buffer-both
   - _bookshop_name: design-system/section/profiles-collection
     profiles: []
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/calendar-events
     heading: Heading
     event_feed: >
       <div id="localist-widget-32933618" class="localist-widget"></div><script
       defer type="text/javascript"
       src="https://cal.wvu.edu/widget/view?schools=wvu&departments=athletics&days=31&num=3&experience=inperson&container=localist-widget-32933618&template=design-system-v3-section"></script>
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/alternating-grid
     heading:
     subheading:
@@ -86,4 +96,6 @@ content_blocks:
     postscript:
       text:
       postscript_links:
+    config:
+      edit_mode_only: false
 ---
