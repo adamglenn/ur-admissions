@@ -3,6 +3,24 @@ title:
 uuid:
 type: guide
 description:
+topper:
+  topper_type: hero
+  name: hero-topper
+  label: ""
+  background_image: ""
+  alt_text: ""
+  heading:
+    - text: Heading
+      highlight: ""
+  subheading: Subheading.
+  body_text: ""
+  styles:
+    vibe: down_to_business
+    color_palette: wvu_blue
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 cascade:
   secondary_nav:
     title:

@@ -5,11 +5,15 @@ type: guide
 description:
 topper:
   topper_type: hero
-  background_image:
-  alt_text:
+  name: hero-topper
+  label: ""
+  background_image: ""
+  alt_text: ""
   heading:
     - text: Heading
-  subheading: Subheading
+      highlight: ""
+  subheading: Subheading.
+  body_text: ""
   styles:
     vibe: down_to_business
     color_palette: wvu_blue
