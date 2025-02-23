@@ -30,40 +30,33 @@ content_blocks:
         text: >-
           You are a current high school senior, have a TASC/GED or haven't
           attended college since graduating.
-        button:
-          url:
+        url:
       - title: Transfer Students
         text: You have already attended a college and now want to attend WVU.
-        button:
-          url:
+        url:
       - title: International Students
         text: You are not a U.S. citizen or U.S. permanent resident.
-        button:
-          url:
+        url:
       - title: Change of Campus Students
         text: >-
           You attend a WVU divisional campus and want to transfer to the
           Morgantown campus.
-        button:
-          url:
+        url:
       - title: Visiting Students
         text: >-
           You plan to take classes at WVU and use the credits toward graduation
           at your home college or university outside the WVU system.
-        button:
-          url:
+        url:
       - title: Change of Major
         text: >-
           Admitted students may submit the Change of Major form to request a new
           major.
-        button:
-          url:
+        url:
       - title: Change of Term
         text: >-
           You may request to have your enrollment term changed to another term
           within one academic cycle.
-        button:
-          url:
+        url:
     lead: Lead text.
     layout:
       section:

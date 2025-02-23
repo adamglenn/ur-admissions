@@ -485,6 +485,8 @@ _inputs:
       values:
         - featured
     cascade: true
+  text:
+    type: textarea
   text_c:
     type: select
     options:
