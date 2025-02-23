@@ -1,0 +1,48 @@
+{{ $image := "" }}
+{{ $alt := "" }}
+
+{{ $vibe := "down_to_business" }}
+
+{{ $styles := .styles }}
+
+{{ $layerStyles := "" }}
+{{ $containerStyles := "" }}
+
+{{ $typographySuperheading := "wvu-shout wvu-text-letter-spacing-lg" }}
+{{ $typographyHeading := "display-4 wvu-shout text-uppercase" }}
+{{ $typographySubheading := "helvetica-neue-light" }}
+
+{{ $colorSection := "bg-wvu-blue text-white" }}
+{{ $colorSuperHeading := "" }}
+{{ $colorHeading := "" }}
+{{ $colorHighlight := "bg-wvu-accent--sunset text-dark" }}
+
+
+
+{{ if .background_image }}{{ $image = .background_image }}{{ end }}
+{{ if .alt_text }}{{ $alt = .alt_text }}{{ end }}
+
+{{ if .config.id }}{{ $id = .config.id }}{{ end }}
+{{ if .config.aria_labelledby }}{{ $ariaLabelledBy = .config.aria_labelledby }}{{ end }}
+{{ if .background_layers }}{{ $layerStyles = .background_layers }}{{ end }}
+{{ if $styles.margin }}{{ $containerStyles = $styles.margin }}{{ end }}
+
+<header class="text-center {{ $colorSection }} py-7 position-relative">  
+  {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "alt" $alt "vibe" .vibe "layerStyles" $layerStyles "enableBlend" .enable_blend "enablePattern" .enable_pattern)) }}
+  <div class="container wvu-z-index-content {{ $containerStyles }}">
+    <div class="row">
+      <div class="col-xl-16 mx-xl-auto">
+        {{ if .heading }}
+          <h1 class="{{ $typographySuperheading }} h4">{{ .title }}</h1>
+          <h2 id="" class="{{ $typographyHeading }} {{ $colorHeading }} mt-6">{{ partial "bookshop_partial" (slice "heading" (dict "heading" .heading "colorHighlight" $colorHighlight)) }}</h2>
+        {{ else }}
+          <h1 id="" class="{{ $typographyHeading }}">{{ .title }}</h1>
+        {{ end }}
+        <p class="{{ $typographySubheading }} h3 mt-4">{{ .subheading }}</p>
+        <div class="mt-4">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,19 @@
+{{ $image := "" }}
+{{ $alt := "" }}
+{{ $layerStyles := "" }}
+
+{{ $title := "Page Title" }}
+
+{{ if .title }}
+  {{ $title = .title }}
+{{ end }}
+
+{{ if .topper.background_image }}{{ $image = .topper.background_image }}{{ end }}
+{{ if .topper.alt_text }}{{ $alt = .topper.alt_text }}{{ end }}
+
+<header class="pt-6 pb-5 position-relative bg-light">
+  {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "alt" $alt "layerStyles" $layerStyles)) }}
+  <div class="container wvu-z-index-content">
+    <h1 class="oliviar-black display-5 text-wvu-blue">{{ $title }}</h1>
+  </div>
+</header>

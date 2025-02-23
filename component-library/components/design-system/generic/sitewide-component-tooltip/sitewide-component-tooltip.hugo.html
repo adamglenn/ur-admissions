@@ -1,0 +1,20 @@
+{{ $backgroundColor := "" }}
+{{ $text := "Sitewide components won’t show in the Live Editor." }}
+
+{{ if .backgroundColor }}
+  {{ $backgroundColor = .backgroundColor }}
+{{ end }}
+
+{{ if .text }}
+  {{ $text = .text }}
+{{ end }}
+
+{{ if site.Params.env_bookshop_live }}
+  <div class="py-6 {{ $backgroundColor }}">
+    <div class="c-collection-labels-tooltip alert alert-warning p-2 my-4 mb-3 text-start">
+      <p class="mb-0">
+        {{ .text | safeHTML }}
+      </p>
+    </div>
+  </div>
+{{ end }}
