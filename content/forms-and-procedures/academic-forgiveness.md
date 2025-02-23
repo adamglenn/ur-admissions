@@ -8,8 +8,9 @@ topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-
-      WVU may grant Academic Forgiveness to some undergraduate students who were
-      not successful in their first attempt at higher education.
+      WVU [may grant Academic Forgiveness](/how-to-apply/first-time-freshmen/)
+      to some undergraduate students who were not successful in their first
+      attempt at higher education.
 
 
       ## **Policy**
@@ -80,6 +81,8 @@ detail_sidebar_blocks:
         anchor: policy
       - text: Procedure
         anchor: procedure
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/column_sm/factoids
     heading: By the Numbers
     items:
@@ -92,6 +95,7 @@ detail_sidebar_blocks:
         post: Post factoid text
         source: Source
     config:
+      edit_mode_only: false
       source:
         disable: false
     styles:
