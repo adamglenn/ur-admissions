@@ -1,5 +1,5 @@
 module.exports = {
-    engines: {
-        "@bookshop/hugo-engine": {}
-    }
+  engines: {
+      "@bookshop/hugo-engine": {}
+  }
 }
