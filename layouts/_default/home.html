@@ -1,9 +1,4 @@
 {{ define "main" }}
   {{ partial "bookshop_bindings" `.Params.content_blocks` }}
   {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
-  {{ if hugo.IsProduction }}
-    {{ with site.Data.default_content.blocks.default_content_blocks }}
-      {{ partial "bookshop_partial" (slice "page" .) }}
-    {{ end }}
-  {{ end }}
 {{ end }}
