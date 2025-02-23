@@ -1,7 +1,0 @@
-{{- $bootstrap := resources.Get "javascript/bootstrap.bundle.min.js" -}}
-
-{{- $scripts := slice $bootstrap | resources.Concat "js/main.js" -}}
-
-{{- $jsBundle := $scripts | js.Build -}} 
-{{ $jsBundle := $jsBundle | resources.Fingerprint }}
-<script defer src="{{ $jsBundle.RelPermalink }}"></script>
