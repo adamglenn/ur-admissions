@@ -73,44 +73,20 @@ content_blocks:
           c: wvu-gradient-wvu-blue-blue-blue-light
           opacity: 5
   - _bookshop_name: design-system/section/poster-split
-    image: /uploads/hero-social-swag.jpg
+    name: poster-split
+    image:
     alt_text:
     heading:
-      - Class of 2028 Test
-      - Social Center
+      - Heading Line 1
+      - Heading Line 2
     body:
       - Lede.
       - Body.
-    ctas:
-      - text: Digital Social Center
-        url:
-        icon: arrow-circle-right
+    ctas: []
     postscript_links: []
     config:
       edit_mode_only: false
       is_main: true
-    lead: >-
-      Welcome to your Class of 2028 hub. Here, you will find everything you need
-      to start your journey as a Mountaineer.
-  - _bookshop_name: design-system/section/profiles-collection
-    profiles:
-      - person: Clarence Moore
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    items:
-      - title:
-        text: Item 1 text.
-        site_page: 9e558b82-dbaf-4139-a376-0c6d882bc879
-        url:
-    lead: Lead text.
-    config:
-      edit_mode_only: false
-      hide_collection_pages: true
-    layout:
-      margin_y:
-    styles:
-      panels:
-      item_headings:
+      id:
+      aria_labelledby:
 ---
