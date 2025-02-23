@@ -53,10 +53,8 @@ content_blocks:
     heading: Quicklinks
     links:
       - text: Text
-        ref:
         url: /url
       - text: Text
-        ref:
         url: /people/moore-clarence/
     config:
       edit_mode_only: false
