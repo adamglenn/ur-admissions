@@ -1,0 +1,22 @@
+@media (min-width: 1720px) {
+  .wvu-bleed-start {
+    margin-left: calc((100vw - 1720px) / 2 * -1) $global-important;
+    padding-left: calc((100vw - 1720px) / 2) $global-important;
+  }
+  .wvu-bleed-end {
+    margin-right: calc((-100vw + 1720px) / 2) $global-important;
+    padding-right: calc((100vw - 1720px) / 2) $global-important;
+  }
+  .wvu-me-bleed {
+    margin-right: calc((-100vw + 1720px) / 2) $global-important;
+  }
+  .wvu-ms-bleed {
+    margin-left: calc((100vw - 1720px) / 2 * -1) $global-important;
+  }
+  .wvu-pe-bleed {
+    padding-right: calc((100vw - 1720px) / 2) $global-important;
+  }
+  .wvu-ps-bleed {
+    padding-left: calc((100vw - 1720px) / 2) $global-important;
+  }
+}

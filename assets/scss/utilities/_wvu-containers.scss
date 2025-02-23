@@ -1,0 +1,270 @@
+.wvu-container-box-skewed {
+  align-items: center $global-important;
+  // background-color: transparent $global-important;
+  display: inline-flex;
+  justify-content: center $global-important;
+  position: relative $global-important;
+  margin-bottom: $spacer $global-important;
+  // margin-left: -18px;
+  span {
+    display: inline-block;
+    // padding: $spacer $spacer $spacer $spacer * 1.5;
+    z-index: $wvu-z-index-container-content $global-important;
+  }
+  &:after {
+    background-color: inherit;
+    mask-position: center $global-important;
+    -webkit-mask-position: center $global-important;
+    mask-repeat: no-repeat $global-important;
+    -webkit-mask-repeat: no-repeat $global-important;
+    mask-size: cover $global-important;
+    -webkit-mask-size: cover $global-important;
+    content: '' $global-important;
+    margin: -0.25em -0.5em -0.25em -0.5em;
+    position: absolute $global-important;
+    z-index: -1 $global-important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.wvu-container-box-skewed-shadow {
+  &:before {
+    background-color: #ccc;
+    mask-position: center $global-important;
+    -webkit-mask-position: center $global-important;
+    mask-repeat: no-repeat $global-important;
+    -webkit-mask-repeat: no-repeat $global-important;
+    mask-size: cover $global-important;
+    -webkit-mask-size: cover $global-important;
+    content: '' $global-important;
+    margin: -0.25em -0.5em -0.25em -0.5em;
+    position: absolute $global-important;
+    z-index: -1 $global-important;
+    top: .25em;
+    bottom: -.25em;
+    left: -.25em;
+    right: .25em;
+  }
+}
+
+@each $name, $color in $custom-colors {
+  .wvu-container-box-skewed-#{$name} {
+    &:after {
+      background-color: $color $global-important;
+    }
+  }
+  .wvu-container-box-skewed-shadow-#{$name} {
+    &:before {
+      background-color: $color $global-important;
+    }
+  }
+}
+
+.wvu-container-box-skewed-wvu-accent--sunset {
+  &:before {
+    background-color: $wvu-accent--sunset $global-important;
+  }
+}
+
+.wvu-container-box-skewed-wvu-gold {
+  &:before {
+    background-color: $wvu-gold $global-important;
+  }
+}
+
+.wvu-container-box-skewed-white {
+  &:before {
+    background-color: white $global-important;
+  }
+}
+
+.wvu-container-box-skewed-wvu-accent--blue {
+  &:before {
+    background-color: $wvu-accent--blue $global-important;
+  }
+}
+
+.wvu-container-box-skewed-1 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-1) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-1) $global-important;
+  }
+  &:after {
+    mask-image: url($wvu-container-box-skewed-1) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-1) $global-important;
+  }
+}
+
+.wvu-container-box-skewed-2 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-2) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-2) $global-important;
+  }
+  &:after {
+    mask-image: url($wvu-container-box-skewed-2) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-2) $global-important;
+  }
+}
+
+.wvu-container-box-skewed-3 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-3) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-3) $global-important;
+  }
+  &:after {
+    mask-image: url($wvu-container-box-skewed-3) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-3) $global-important;
+  }
+}
+
+.wvu-container-box-skewed-4 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-4) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-4) $global-important;
+  }
+  &:after {
+    mask-image: url($wvu-container-box-skewed-4) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-4) $global-important;
+  }
+}
+
+.wvu-container-highlight {
+  align-items: center $global-important;
+  background-color: transparent $global-important;
+  display: inline-flex;
+  justify-content: center $global-important;
+  position: relative $global-important;
+  span {
+    display: inline-block;
+    // padding: 0 $spacer 0 $spacer * 1.5;
+    position: relative;
+    z-index: $wvu-z-index-container-content $global-important;
+  }
+  &:before {
+    background-color: $wvu-accent--sunset;
+    mask-position: center $global-important;
+    -webkit-mask-position: center $global-important;
+    mask-repeat: no-repeat $global-important;
+    -webkit-mask-repeat: no-repeat $global-important;
+    mask-size: cover $global-important;
+    -webkit-mask-size: cover $global-important;
+    content: '' $global-important;
+    margin: -0.15em -0.25em -0.15em -0.25em;
+    position: absolute $global-important;
+    z-index: -1 $global-important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.wvu-container-highlight-1 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-1) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-1) $global-important;
+  }
+}
+
+.wvu-container-highlight-2 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-2) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-2) $global-important;
+  }
+}
+
+.wvu-container-highlight-3 {
+  &:before {
+    mask-image: url($wvu-container-box-skewed-3) $global-important;
+    -webkit-mask-image: url($wvu-container-box-skewed-3) $global-important;
+  }
+}
+
+.wvu-container-box-angle {
+  border: 1px solid white;
+  &:before {
+    border-top: 1.86px solid white;
+    border-left: 1px solid white;
+    content: '' $global-important;
+    display: inline-block $global-important;
+    height: 100% $global-important;
+    padding: 0 18px 0 0 $global-important;
+    position: absolute $global-important;
+    transform: skew(0, 135deg) $global-important;
+    left: -17px $global-important;
+    top: 8px $global-important;
+  }
+  &:after {
+    border-bottom: 1px solid white;
+    border-right: 1.86px solid white;
+    bottom: -18px $global-important;
+    content: '' $global-important;
+    padding: 17px 0 0 0 $global-important;
+    position: absolute $global-important;
+    transform: skew(-45deg) $global-important;
+    right: 8px $global-important;
+    width: 100% $global-important;
+  }
+}
+
+@each $name, $color in $custom-colors {
+  .wvu-container-box-angle-#{$name} {
+    border: 1px solid $color $global-important;
+    &:before {
+      border-top: 1.86px solid $color $global-important;
+      border-left: 1px solid $color $global-important;
+    }
+    &:after {
+      border-bottom: 1px solid $color $global-important;
+      border-right: 1.86px solid $color $global-important;
+    }
+  }
+}
+
+.wvu-container-box-angle-fill {
+  border: 1px solid white;
+  &:before {
+    background-color: white;
+    border-top: 1.86px solid white;
+    border-left: 1px solid white;
+    content: '' $global-important;
+    display: inline-block $global-important;
+    height: 100% $global-important;
+    padding: 0 18px 0 0 $global-important;
+    position: absolute $global-important;
+    transform: skew(0, 135deg) $global-important;
+    left: -17px $global-important;
+    top: 8px $global-important;
+  }
+  &:after {
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-right: 1.86px solid white;
+    bottom: -18px $global-important;
+    content: '' $global-important;
+    padding: 17px 0 0 0 $global-important;
+    position: absolute $global-important;
+    transform: skew(-45deg) $global-important;
+    right: 8px $global-important;
+    width: 100% $global-important;
+  }
+}
+
+@each $name, $color in $custom-colors {
+  .wvu-container-box-angle-fill-#{$name} {
+    border: 1px solid $color $global-important;
+    &:before {
+      background-color: $color $global-important;
+      border-top: 1.86px solid $color $global-important;
+      border-left: 1px solid $color $global-important;
+    }
+    &:after {
+      background-color: $color $global-important;
+      border-bottom: 1px solid $color $global-important;
+      border-right: 1.86px solid $color $global-important;
+    }
+  }
+}
