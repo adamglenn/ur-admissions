@@ -1,18 +1,19 @@
 ---
 _schema: guide_page
 title: Admitted
+type: guide
 description:
 topper:
   topper_type: hero
   name: hero-topper
-  label: ""
-  background_image: ""
-  alt_text: ""
+  label: ''
+  background_image: ''
+  alt_text: ''
   heading:
-    - text: Heading
-      highlight: ""
+    - text: Heading Test
+      highlight: ''
   subheading: Subheading.
-  body_text: ""
+  body_text: ''
   styles:
     vibe: down_to_business
     color_palette: wvu_blue
