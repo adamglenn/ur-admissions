@@ -21,7 +21,7 @@
                 {{ if or .heading.text .body_text .button.text }}
                     <div class="{{ $heroBodyClasses }}">
                         <div class="wvu-z-index-content">
-                            {{ if .heading.text }}{{ partial "bookshop" (slice "generic/heading" (dict "text" .heading.text "name" (print .name "-label") "hierarchy" .heading.hierarchy "classes" "display-2 wvu-shout wvu-bar") ) }}{{ end }}
+                            {{ if .heading.text }}{{ partial "bookshop" (slice "design-system/generic/heading" (dict "text" .heading.text "name" (print .name "-label") "hierarchy" .heading.hierarchy "classes" "display-2 wvu-shout wvu-bar") ) }}{{ end }}
 
                             
                             {{ if .body_text }}<p class="lead py-2">{{ .body_text }}</p>{{ end }}
