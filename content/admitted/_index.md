@@ -10,7 +10,7 @@ topper:
   background_image: ''
   alt_text: ''
   heading:
-    - text: Heading Test
+    - text: Heading Test How fast can I type?
       highlight: ''
   subheading: Subheading.
   body_text: ''
@@ -76,7 +76,7 @@ content_blocks:
     background_image: /uploads/hero-social-swag.jpg
     alt_text:
     heading:
-      - Class of 2028
+      - Class of 2028 Test
       - Social Center
     body:
       - Lede.
@@ -92,8 +92,6 @@ content_blocks:
     lead: >-
       Welcome to your Class of 2028 hub. Here, you will find everything you need
       to start your journey as a Mountaineer.
-  - _bookshop_name: design-system/section/sitewide-section
-    sitewide_section: another-sitewide-quicklinks
   - _bookshop_name: design-system/section/profiles-collection
     profiles:
       - person: Clarence Moore
