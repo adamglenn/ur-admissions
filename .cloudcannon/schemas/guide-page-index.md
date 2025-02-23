@@ -1,6 +1,7 @@
 ---
 title:
 uuid:
+type: guide
 description:
 cascade:
   secondary_nav:
