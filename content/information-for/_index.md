@@ -53,23 +53,25 @@ content_blocks:
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
-      super_heading:
-        label:
-        text:
+      superheading:
       heading:
+      name: Firstname Lastname
       subheading:
+      hometown: Baltimore, MD
+      graduation_year: 2027
+      majors:
+        - Minor in Chemical Engineering
       config:
         edit_mode_only: false
         hide_collection_pages: true
       styles:
         vibe: wvu_experience
-        elements:
-          container:
-          image_margin:
-          image_container:
-          label:
-          heading:
-          hometown:
+        container:
+        image_margin:
+        image_container:
+        label:
+        heading:
+        hometown:
     config:
       edit_mode_only: false
     layout:

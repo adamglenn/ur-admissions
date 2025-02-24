@@ -1,7 +1,7 @@
 ---
 _schema: student
 title: Test Profile
-uuid:
+uuid: adfasf
 type: student-profile
 name: Firstname Lastname
 first_name: Lastname
