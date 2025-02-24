@@ -1,5 +1,6 @@
 ---
 _schema: guide-page
+type: guide
 title: Information For
 description:
 topper:
