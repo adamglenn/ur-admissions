@@ -10,10 +10,7 @@ topper:
   heading:
     - text: Get the facts
     - text: you need.
-      style:
-        highlight: container
-        background_c: bg-wvu-accent--sunset
-        text_c: text-dark
+      highlight: true
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
   styles:
     vibe: down_to_business
@@ -21,7 +18,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
-    margin:
+    margin: mb-6
 cascade:
   secondary_nav:
     title: Information For
@@ -34,28 +31,22 @@ content_blocks:
         text: >-
           You are a current high school senior, have a TASC/GED or haven't
           attended college since graduating.
-        button:
-          url:
+        url:
       - title: International Students
         text: You are interested in attending WVU as an international student.
-        button:
-          url:
+        url:
       - title: Transfer Students
         text: You are interested in transferring to WVU Morgantown.
-        button:
-          url:
+        url:
       - title: Veterans
         text: You have served or are serving in the United States Armed Forces.
-        button:
-          url:
+        url:
     lead:
     config:
       edit_mode_only: false
       hide_collection_pages: true
-    layout:
-      section:
-        margin: mt-n7
-    styles: {}
+    styles:
+      margin: mt-n7
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
     column_b:
