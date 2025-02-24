@@ -25,6 +25,8 @@ var walk = function(dir, done) {
                         uuid: doc.attributes.uuid,
                         schema: doc.attributes._schema,
                         name: doc.attributes.name,
+                        majors: doc.attributes.majors,
+                        graduation_year: doc.attributes.graduation_year,
                         hometown: doc.attributes.hometown,
                         path: local_path
                     }
