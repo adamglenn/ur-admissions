@@ -398,13 +398,6 @@ _inputs:
   hide_collection_pages:
     type: switch
     cascade: true
-  image:
-    type: object
-    context:
-      icon: add_a_photo
-    options:
-      structures: _structures.image
-    cascade: true
   layout:
     hidden: true
     cascade: true
