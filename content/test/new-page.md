@@ -64,4 +64,13 @@ content_blocks:
     config:
       edit_mode_only: false
       hide_collection_pages: true
+  - _bookshop_name: design-system/section/big-search
+    label: Label
+    heading: Big Search Heading
+    subheading: Subheading.
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
 ---
