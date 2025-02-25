@@ -25,9 +25,6 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid
     heading: Test Alternating Grid Component
-    image:
-    alt_text:
-    copy: ''
     items: []
     postscript:
       text:
