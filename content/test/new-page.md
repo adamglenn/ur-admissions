@@ -40,8 +40,20 @@ content_blocks:
         copy: Copy for item 2.
         ctas:
     postscript:
-      text:
       postscript_links:
+      text:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/alumni-profile
+    heading: Heading
+    name: Firstname Lastname
+    image: https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian-cutout.webp
+    label:
+      - Alumni
+      - Class of 2021
+    info:
+      - Morgantown, WV
+      - CEO, Big Company
     config:
       edit_mode_only: false
 ---
