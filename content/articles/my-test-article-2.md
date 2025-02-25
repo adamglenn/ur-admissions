@@ -15,11 +15,6 @@ image:
   src: /uploads/hero-social-swag.jpg
   alt: 
 article_blocks:
-  - _bookshop_name: design-system/section/backpage
-    main:
-      - _bookshop_name: design-system/column/rich-text
-        text: Text.
-    sidebar: []
 type: articles
 tags:
   - top-story

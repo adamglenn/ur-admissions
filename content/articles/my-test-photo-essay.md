@@ -11,11 +11,6 @@ image:
   src: /uploads/hero-social-swag.jpg
   alt: 
 photo_essay_blocks:
-  - _bookshop_name: design-system/section/backpage
-    main:
-      - _bookshop_name: design-system/column/rich-text
-        text: Text.
-    sidebar: []
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/hero-social-swag.jpg
 type: photo-essay
