@@ -25,7 +25,22 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid
     heading: Test Alternating Grid Component
-    items: []
+    items:
+      - heading: Item 1
+        image:
+          - src:
+            alt:
+        alt_text:
+        copy: Here is my copy.
+        ctas:
+          - text: Button
+            icon: hiking
+            url: https://www.wvu.edu
+      - heading: Item 2
+        image:
+        alt_text:
+        copy: Copy for item 2.
+        ctas:
     postscript:
       text:
       postscript_links:
