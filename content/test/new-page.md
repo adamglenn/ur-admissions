@@ -56,4 +56,12 @@ content_blocks:
       - CEO, Big Company
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/article-collection
+    heading: Article Collection Heading
+    tags:
+      - featured
+    limit: 5
+    config:
+      edit_mode_only: false
+      hide_collection_pages: true
 ---
