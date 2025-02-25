@@ -28,8 +28,6 @@ content_blocks:
     items:
       - heading: Item 1
         image:
-          - src:
-            alt:
         alt_text:
         copy: Here is my copy.
         ctas:
