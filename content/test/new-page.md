@@ -73,4 +73,19 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/button-group
+    heading: Heading
+    body:
+      - Lede.
+      - Body.
+    buttons:
+      - text: Call to Action
+        url: https://www.wvu.edu
+        icon: hammer
+      - text: Call to Action
+        url:
+        icon: boat
+    postscript: Here is my postscript.
+    config:
+      edit_mode_only: false
 ---
