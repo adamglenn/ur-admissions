@@ -27,16 +27,16 @@ content_blocks:
     heading: Test Alternating Grid Component
     items:
       - heading: Item 1
-        image:
-        alt_text:
+        image: /uploads/woodburn.webp
+        alt_text: Woodburn Hall
         copy: Here is my copy.
         ctas:
           - text: Button
             icon: hiking
             url: https://www.wvu.edu
       - heading: Item 2
-        image:
-        alt_text:
+        image: /uploads/hero-info-ftf-student-computer.jpg
+        alt_text: Student working on a computer
         copy: Copy for item 2.
         ctas:
     postscript:
