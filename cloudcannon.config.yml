@@ -506,11 +506,6 @@ _structures:
     style: modal
   detail_blocks:
     style: modal
-  image:
-    values:
-      - value:
-          src:
-          alt:
   links:
     values:
       - value:
