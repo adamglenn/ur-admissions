@@ -7,7 +7,7 @@ description:
 topper:
   topper_type: hero
   name: hero-topper
-  label: ''
+  label:
   background_image: ''
   alt_text: ''
   heading:
