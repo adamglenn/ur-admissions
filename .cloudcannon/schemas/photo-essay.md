@@ -7,6 +7,8 @@ authors:
   - author:
 topper:
   topper_type: article-hero
+  heading:
+  subheading:
   show_byline: true
   styles:
     vibe: down_to_business
@@ -17,5 +19,7 @@ topper:
     margin:
 show_author_bios: true
 photo_essay_blocks:
+  - _bookshop_name: design-system/section/rich-text
+    text:
 type: article
 ---
