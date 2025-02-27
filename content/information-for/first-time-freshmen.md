@@ -43,8 +43,6 @@ content_blocks:
   - _bookshop_name: design-system/section/button-group
     heading: Interested in talking to someone about WVU?
     body:
-      - Lede.
-      - Body.
     buttons:
       - text: Connect with Your Admissions Counselor
         url:

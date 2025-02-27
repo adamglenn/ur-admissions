@@ -2,6 +2,7 @@
 title:
 uuid:
 type: faculty-profile
+dir_include: true
 faculty_profile_topper:
   topper_type: default
   background_image:
@@ -32,7 +33,8 @@ phone:
 email:
   - email:
 building:
-  - address:
+  - name:
+    address:
     room:
     map_link:
 files:

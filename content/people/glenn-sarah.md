@@ -1,5 +1,6 @@
 ---
 _schema: faculty
+dir_include: true
 title:
 uuid: 454e0990-eb76-4fc5-9c36-2120a5d086e0
 type: faculty-profile
@@ -21,14 +22,15 @@ image_lg:
 profile_image:
 description:
 position:
-  - organization:
-    title:
+  - organization: Center for Career Development
+    title: Director
 phone:
   - number:
 email:
   - email:
 building:
-  - address:
+  - name:
+    address:
     room:
     map_link:
 files:

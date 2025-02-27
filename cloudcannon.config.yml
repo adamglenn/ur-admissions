@@ -373,11 +373,17 @@ _inputs:
     options:
       structures: _structures.column_blocks_sm
     cascade: true
+  copy:
+    type: markdown
+    options:
+      show_count: true
   ctas:
     type: array
     options:
       structures: _structures.links
     cascade: true
+  dir_include:
+    hidden: true
   detail_sidebar_blocks:
     type: object
     options:

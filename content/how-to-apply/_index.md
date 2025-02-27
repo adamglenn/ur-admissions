@@ -1,13 +1,20 @@
 ---
-_schema: detail-page
+_schema: guide_page
 title: How to Apply to WVU
+type: guide
 uuid:
 description:
 topper:
   topper_type: hero
-  background_image:
-  alt_text:
-  subheading:
+  name: hero-topper
+  label: ""
+  background_image: ""
+  alt_text: ""
+  heading:
+    - text: Heading
+      highlight: ""
+  subheading: Subheading.
+  body_text: ""
   styles:
     vibe: down_to_business
     color_palette: wvu_blue

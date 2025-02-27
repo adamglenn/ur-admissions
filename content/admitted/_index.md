@@ -80,8 +80,6 @@ content_blocks:
       - Heading Line 1
       - Heading Line 2
     body:
-      - Lede.
-      - Body.
     ctas: []
     postscript_links: []
     config:

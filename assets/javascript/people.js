@@ -21,11 +21,17 @@ var walk = function(dir, done) {
                     let local_path = (file.replace(/^.*\/content\/(.*?)\.md$/, '/$1')).replace("_index", "");
                     let doc = fm(fs.readFileSync(file, 'utf8'));
                     let obj = {
+                        building: doc.attributes.building,
                         last_name: doc.attributes.last_name,
+                        dir_include: doc.attributes.dir_include,
+                        email: doc.attributes.email,
                         uuid: doc.attributes.uuid,
                         schema: doc.attributes._schema,
                         name: doc.attributes.name,
+                        last_name: doc.attributes.last_name,
                         majors: doc.attributes.majors,
+                        phone: doc.attributes.phone,
+                        position: doc.attributes.position,
                         graduation_year: doc.attributes.graduation_year,
                         hometown: doc.attributes.hometown,
                         path: local_path
