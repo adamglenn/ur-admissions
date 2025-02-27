@@ -88,4 +88,13 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/calendar-events
+    heading: Heading
+    subheading: Test subheading.
+    event_feed:
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
 ---
