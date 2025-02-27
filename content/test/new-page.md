@@ -97,4 +97,29 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/hero-list
+    heading: Hero List Heading
+    body: Hero list body
+    ctas:
+      - text: My Text
+        icon: cat
+        url:
+    postscript_links:
+    config:
+      edit_mode_only: false
+      is_main: true
+  - _bookshop_name: design-system/section/icon-bar
+    text: Hello World!
+    items:
+      - icon: book
+        text: Text
+        url:
+      - icon: sandwich
+        text: Sandwich
+        url:
+      - icon: pizza
+        text: Pizza
+        url:
+    config:
+      edit_mode_only: false
 ---
