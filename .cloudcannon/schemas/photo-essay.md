@@ -2,10 +2,6 @@
 title:
 type: photo-essay
 uuid:
-description:
-publish_date:
-authors:
-  - author:
 article_topper:
   topper_type: article-hero
   image:
@@ -23,6 +19,10 @@ article_topper:
   config:
     edit_mode_only: false
     hide_collection_pages: true
+authors:
+  - author:
+publish_date:
+description:
 show_author_bios: true
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text

@@ -2,10 +2,6 @@
 _schema: photo-essay
 type: photo-essay
 title: My Test Photo Essay
-authors:
-  - author: jwtepoufahsmsdf
-description: Description.
-publishDate: 2022-06-08T22:20:51-04:00
 article_topper:
   topper_type: article-hero
   image:
@@ -23,6 +19,10 @@ article_topper:
   config:
     edit_mode_only: false
     hide_collection_pages: true
+authors:
+  - author: jwtepoufahsmsdf
+publishDate: 2022-06-08T22:20:51-04:00
+description: Description.
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text: >-
