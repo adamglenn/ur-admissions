@@ -29,5 +29,4 @@ photo_essay_blocks:
     src: /uploads/hero-social-swag.jpg
     config:
       edit_mode_only: false
-type: photo-essay
 ---
