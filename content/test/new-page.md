@@ -122,4 +122,21 @@ content_blocks:
         url:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/link-lists
+    background_image:
+    alt_text:
+    heading: Heading
+    subheading: Subheading
+    lists:
+      - topic: My Topic
+        description: My description.
+        items:
+          - site_page:
+            text: Link 1
+            url:
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
 ---
