@@ -1,5 +1,6 @@
 ---
 _schema: photo-essay
+type: photo-essay
 title: My Test Photo Essay
 authors:
   - author: jwtepoufahsmsdf
