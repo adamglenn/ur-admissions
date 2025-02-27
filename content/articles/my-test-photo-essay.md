@@ -6,7 +6,7 @@ authors:
   - author: jwtepoufahsmsdf
 description: Description.
 publishDate: 2022-06-08T22:20:51-04:00
-topper:
+article_topper:
   topper_type: article-hero
   image:
   image_alt:
