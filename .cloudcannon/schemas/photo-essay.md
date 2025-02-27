@@ -1,11 +1,12 @@
 ---
 title:
+type: photo-essay
 uuid:
 description:
 publish_date:
 authors:
   - author:
-topper:
+article_topper:
   topper_type: article-hero
   image:
   image_alt:
