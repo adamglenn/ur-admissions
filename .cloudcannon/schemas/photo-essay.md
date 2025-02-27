@@ -20,6 +20,9 @@ article_topper:
     enable_pattern: false
     tint_opacity: 0.5
     margin:
+  config:
+    edit_mode_only: false
+    hide_collection_pages: true
 show_author_bios: true
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
