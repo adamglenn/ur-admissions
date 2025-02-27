@@ -9,9 +9,13 @@ topper:
   topper_type: article-hero
 image:
   src: /uploads/hero-social-swag.jpg
-  alt: 
+  alt:
 photo_essay_blocks:
+  - _bookshop_name: design-system/section/rich-text
+    text: Here is my rich text.
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/hero-social-swag.jpg
+    config:
+      edit_mode_only: false
 type: photo-essay
 ---
