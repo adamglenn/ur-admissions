@@ -7,6 +7,8 @@ authors:
   - author:
 topper:
   topper_type: article-hero
+  image:
+  image_alt:
   heading:
   subheading:
   show_byline: true
