@@ -12,7 +12,9 @@ image:
   alt:
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
-    text: Here is my rich text.
+    text: >-
+      Here is my rich text. Here is some more rich text. Let's try some more.
+      And some more. And some more.
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/hero-social-swag.jpg
     config:
