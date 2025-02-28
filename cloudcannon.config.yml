@@ -86,6 +86,31 @@ collections_config:
   default_content:
     icon: toolbar
     path: content/default-content/
+  navigation_menus:
+    path: data/menus
+    description: Navigation menus you can use throughout the site.
+    icon: menu
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_add_file_actions: false
+    schemas:
+      horizontal_subnav:
+        path: .cloudcannon/schemas/horizontal-subnav.yml
+        reorder_inputs: true
+        hide_extra_inputs: true
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        create:
+          path: data/menus
+      primary_nav:
+        path: .cloudcannon/schemas/primary-nav.yml
+        reorder_inputs: true
+        hide_extra_inputs: true
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        create:
+          path: data/menus
   people:
     _enabled_editors:
       - data
@@ -190,6 +215,7 @@ collection_groups:
   - heading: Collections
     collections:
       - links
+      _ navigation_menus
       - partners
       - people
       - places_and_spaces
