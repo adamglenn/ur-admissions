@@ -215,12 +215,12 @@ collection_groups:
   - heading: Collections
     collections:
       - links
-      - navigation_menus
       - partners
       - people
       - places_and_spaces
   - heading: Site
     collections:
+      - navigation_menus
       - site_config
       - default_content
       - sitewide_components
