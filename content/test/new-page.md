@@ -15,10 +15,10 @@ topper:
       highlight: ''
     - text: Now
       highlight: ''
-  subheading: Subheading.
+  subheading: Subheading. Test how fast.
   body_text: ''
   styles:
-    vibe: down-to-business
+    vibe: nostalgic
     color_palette: wvu-blue
     enable_blend: false
     enable_pattern: false
