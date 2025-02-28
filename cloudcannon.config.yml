@@ -215,7 +215,7 @@ collection_groups:
   - heading: Collections
     collections:
       - links
-      _ navigation_menus
+      - navigation_menus
       - partners
       - people
       - places_and_spaces
