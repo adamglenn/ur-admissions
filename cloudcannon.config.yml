@@ -473,9 +473,6 @@ _inputs:
   student_profile_topper:
     hidden: true
     cascade: true
-  styles:
-    hidden: true
-    cascade: true
   tags:
     type: multiselect
     options:
