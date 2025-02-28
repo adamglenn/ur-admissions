@@ -1,6 +1,6 @@
 ---
 _schema: guide_page
-title:
+title: New Page
 uuid: 0c23cee6-5171-4aab-a361-5da8583ea4d6
 type: guide
 description:
@@ -11,13 +11,15 @@ topper:
   background_image: ''
   alt_text: ''
   heading:
-    - text: Heading
+    - text: It Starts
+      highlight: ''
+    - text: Now
       highlight: ''
   subheading: Subheading.
   body_text: ''
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette: wvu-blue
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

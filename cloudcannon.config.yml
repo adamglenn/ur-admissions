@@ -259,33 +259,33 @@ _select_data:
       class: wvu-neutral--tan
   color_palettes:
     - name: WVU Gold
-      value: wvu_gold
+      value: wvu-gold
     - name: WVU Blue
-      value: wvu_blue
+      value: wvu-blue
     - name: Accent - Blue
-      value: wvu_accent_blue
+      value: wvu-accent--blue
     - name: Accent - Dark Blue
-      value: wvu_accent_dark_blue
+      value: wvu-accent--blue-dark
     - name: Accent - Light Blue
-      value: wvu_accent_light_blue
+      value: wvu-accent--blue-light
     - name: Accent - Yellow
-      value: wvu_accent_yellow
+      value: wvu-accent--yellow
     - name: Accent - Old Gold
-      value: wvu_accent_old_gold
+      value: wvu-accent--old-gold
     - name: Accent - Sunset
-      value: wvu_accent_sunset
+      value: wvu-accent--sunset
     - name: Neutral - Off-White
-      value: wvu_neutral_off_white
+      value: wvu-neutral--off-white
     - name: Neutral - Warm Gray Light
-      value: wvu_neutral_warm_gray_light
+      value: wvu-neutral--warm-gray-light
     - name: Neutral - Warm Gray Medium
-      value: wvu_neutral_warm_gray_medium
+      value: wvu-neutral--warm-gray-medium
     - name: Neutral - Warm Gray Dark
-      value: wvu_neutral_warm_gray_dark
+      value: wvu-neutral--warm-gray-dark
     - name: Neutral - Cream
-      value: wvu_neutral_cream
+      value: wvu-neutral--cream
     - name: Neutral - Tan
-      value: wvu_neutral_tan
+      value: wvu-neutral--tan
   container_margins:
     - name: Default
       class: ""
