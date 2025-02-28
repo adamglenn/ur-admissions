@@ -317,11 +317,11 @@ _select_data:
       palette: nostalgic
   vibes:
     - name: Down to Business
-      value: down_to_business
+      value: down-to-business
     - name: Discovery
       value: discovery
     - name: WVU Experience
-      value: wvu_experience
+      value: wvu-experience
     - name: Nostalgic
       value: nostalgic
 _inputs:
