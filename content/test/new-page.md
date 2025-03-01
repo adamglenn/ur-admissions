@@ -100,31 +100,6 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/hero-list
-    heading: Hero List Heading
-    body: Hero list body
-    ctas:
-      - text: My Text
-        icon: cat
-        url:
-    postscript_links:
-    config:
-      edit_mode_only: false
-      is_main: true
-  - _bookshop_name: design-system/section/icon-bar
-    text: Hello World!
-    items:
-      - icon: book
-        text: Text
-        url:
-      - icon: sandwich
-        text: Sandwich
-        url:
-      - icon: pizza
-        text: Pizza
-        url:
-    config:
-      edit_mode_only: false
   - _bookshop_name: design-system/section/link-lists
     background_image:
     alt_text:
@@ -142,16 +117,24 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
-  - _bookshop_name: design-system/section/object-list
+  - _bookshop_name: design-system/section/cards-list
     heading: Hello World!
     subheading: Here is my subheading.
-    text: Here is my text.
+    label: My Label
     items:
       - image: >-
           https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
         image_alt: Social media stuff.
         heading: Item Heading
-        text:
+        item_text:
+        links:
+          - text: Call to Action
+            url:
+      - image: >-
+          https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
+        image_alt: Social media stuff.
+        heading: Item 2 Heading
+        item_text:
         links:
           - text: Call to Action
             url:
