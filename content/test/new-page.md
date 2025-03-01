@@ -140,4 +140,24 @@ content_blocks:
             url:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 2 Title
+        text: Item 1 text.
+        url:
+      - title: Item 3 Title
+        text: Item 1 text.
+        url:
+    lead: Lead text.
+    config:
+      edit_mode_only: false
+    styles:
+      panels:
+      item_headings:
+      margin:
 ---
