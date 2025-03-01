@@ -84,8 +84,8 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   default_content:
-    icon: toolbar
     path: content/default-content/
+    icon: toolbar
   navigation_menus:
     path: data/menus
     description: Navigation menus you can use throughout the site.

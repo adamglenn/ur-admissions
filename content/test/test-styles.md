@@ -13,10 +13,14 @@ topper:
   heading:
     - text: Heading
       highlight: ''
+    - text: highlight
+      highlight: true
+    - text: yeah.
+      highlight: 
   subheading: Subheading.
   body_text: ''
   styles:
-    vibe: wvu-experience
+    vibe: down-to-business
     color_palette: wvu-blue
     enable_blend: false
     enable_pattern: false
