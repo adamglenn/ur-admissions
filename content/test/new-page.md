@@ -160,4 +160,21 @@ content_blocks:
       panels:
       item_headings:
       margin:
+  - _bookshop_name: design-system/section/page-collection-vertical-sticky
+    heading: Heading Test
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+    lead: Lead text.
+    config:
+      edit_mode_only: false
+    layout:
+      margin_y:
+    styles:
+      panels:
+      item_headings:
 ---
