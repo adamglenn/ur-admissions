@@ -15,8 +15,8 @@ topper:
   subheading: Subheading.
   body_text: ""
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette: wvu-accent--blue-dark
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
