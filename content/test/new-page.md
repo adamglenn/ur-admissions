@@ -5,6 +5,7 @@ uuid: 0c23cee6-5171-4aab-a361-5da8583ea4d6
 type: guide
 description:
 topper:
+  _bookshop_name: design-system/topper/hero
   topper_type: hero
   name: hero-topper
   label:
@@ -141,4 +142,19 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
+  - _bookshop_name: design-system/section/object-list
+    heading: Hello World!
+    subheading: Here is my subheading.
+    text: Here is my text.
+    items:
+      - image: >-
+          https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
+        image_alt: Social media stuff.
+        heading: Item Heading
+        text:
+        links:
+          - text: Call to Action
+            url:
+    config:
+      edit_mode_only: false
 ---
