@@ -16,7 +16,7 @@ topper:
       highlight: ''
     - text: Now
       highlight: ''
-  subheading: Subheading. Test how fast.
+  subheading: Subheading.
   body_text: ''
   styles:
     vibe: nostalgic
@@ -125,7 +125,7 @@ content_blocks:
       - image: >-
           https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
         image_alt: Social media stuff.
-        heading: Item Heading
+        heading: Item 2 Heading
         item_text:
         links:
           - text: Call to Action
@@ -133,7 +133,7 @@ content_blocks:
       - image: >-
           https://cloudcannondam.volutus.wvu.edu/admissions-test/hero__social-swag.jpg
         image_alt: Social media stuff.
-        heading: Item 2 Heading
+        heading: Item Heading
         item_text:
         links:
           - text: Call to Action

@@ -2,12 +2,17 @@
 title:
 description:
 topper:
+  _bookshop_name: design-system/topper/hero
   topper_type: hero
+  name: hero-topper
+  label: ''
   background_image: /uploads/hero-info-ftf-student-computer.jpg
   alt_text:
   heading:
     - text: First-Time Freshmen
+      highlight: ''
   subheading: Forge the future you want at West Virginia University.
+  body_text: ''
   styles:
     vibe: down_to_business
     color_palette: wvu_blue
@@ -36,6 +41,7 @@ content_blocks:
           - text: Admission Requirements
             url:
     config:
+      edit_mode_only: false
       is_main: true
     layout:
       section:
@@ -50,6 +56,8 @@ content_blocks:
       - text: Contact WVU Admissions
         url:
         icon: arrow-circle-right
+    postscript: {}
     config:
+      edit_mode_only: false
       is_main: false
 ---
