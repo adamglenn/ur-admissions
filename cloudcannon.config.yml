@@ -13,6 +13,82 @@ paths:
   publish: public
   config: ''
 collections_config:
+  articles:
+    _enabled_editors:
+      - visual
+      - data
+    path: content/articles
+    description: Articles description
+    icon: edit
+    output: true
+    parse_branch_index: true
+    disable_add: false
+    disable_add_folder: false
+    disable_add_file_actions: false
+    schemas:
+      article:
+        path: .cloudcannon/schemas/article.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /
+  clubs_and_organizations:
+    _enabled_editors:
+      - visual
+      - data
+    path: content/clubs-and-organizations
+    description: Clubs and organizations.
+    icon:
+    output: true
+    parse_branch_index: true
+    disable_add: false
+    disable_add_folder: false
+    disable_add_file_actions: false
+    schemas:
+      clubs_and_organizations:
+        path: .cloudcannon/schemas/organization.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /
+  data:
+    path: data
+    description: Data that is used to populate multiple areas throughout the site
+    output: false
+    icon: data_usage
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: false
+  default_content:
+    path: content/default-content/
+    icon: toolbar
+  navigation_menus:
+    path: data/menus
+    description: Navigation menus you can use throughout the site.
+    icon: menu
+    output: false
+    disable_add: false
+    disable_add_folder: true
+    disable_add_file_actions: false
+    schemas:
+      horizontal_subnav:
+        path: .cloudcannon/schemas/horizontal-subnav.yml
+        reorder_inputs: true
+        hide_extra_inputs: true
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        create:
+          path: data/menus
+      primary_nav:
+        path: .cloudcannon/schemas/primary-nav.yml
+        reorder_inputs: true
+        hide_extra_inputs: true
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        create:
+          path: data/menus
   pages:
     _enabled_editors:
       - visual
@@ -55,62 +131,6 @@ collections_config:
         new_preview_url: guide-preview/
         create:
           path: '[relative_base_path]/_index.md'
-  articles:
-    _enabled_editors:
-      - visual
-      - data
-    path: content/articles
-    description: Articles description
-    icon: edit
-    output: true
-    parse_branch_index: true
-    disable_add: false
-    disable_add_folder: false
-    disable_add_file_actions: false
-    schemas:
-      article:
-        path: .cloudcannon/schemas/article.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        new_preview_url: /
-  data:
-    path: data
-    description: Data that is used to populate multiple areas throughout the site
-    output: false
-    icon: data_usage
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: false
-  default_content:
-    path: content/default-content/
-    icon: toolbar
-  navigation_menus:
-    path: data/menus
-    description: Navigation menus you can use throughout the site.
-    icon: menu
-    output: false
-    disable_add: false
-    disable_add_folder: true
-    disable_add_file_actions: false
-    schemas:
-      horizontal_subnav:
-        path: .cloudcannon/schemas/horizontal-subnav.yml
-        reorder_inputs: true
-        hide_extra_inputs: true
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        create:
-          path: data/menus
-      primary_nav:
-        path: .cloudcannon/schemas/primary-nav.yml
-        reorder_inputs: true
-        hide_extra_inputs: true
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        create:
-          path: data/menus
   people:
     _enabled_editors:
       - data
@@ -214,7 +234,7 @@ collection_groups:
       - articles
   - heading: Collections
     collections:
-      - links
+      - clubs_and_organizations
       - partners
       - people
       - places_and_spaces
