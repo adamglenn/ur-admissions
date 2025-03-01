@@ -177,4 +177,44 @@ content_blocks:
     styles:
       panels:
       item_headings:
+  - _bookshop_name: design-system/section/place
+    heading:
+    subheading:
+    text:
+    ctas: []
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/poster
+    background_image:
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main:
+      id:
+      aria_labelledby:
+  - _bookshop_name: design-system/section/poster-split
+    name: poster-split
+    poster_image:
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
 ---
