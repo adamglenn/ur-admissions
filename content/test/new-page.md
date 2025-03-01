@@ -16,7 +16,7 @@ topper:
       highlight: ''
     - text: Now
       highlight: ''
-  subheading: Subheading. Test how fast.
+  subheading: Subheading.
   body_text: ''
   styles:
     vibe: nostalgic
