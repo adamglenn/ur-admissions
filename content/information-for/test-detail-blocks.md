@@ -19,8 +19,24 @@ topper:
     pattern_opacity: 0.2
     tint_opacity:
     texture: false
+  topper_type: default
+  styles:
+    vibe: down_to_business
+    color_palette: wvu_blue
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text. How fast can I type? How fast can I type? Test type. How fast?
+  - _bookshop_name: design-system/column/accordion
+    panels:
+      - title: Panel 1 Title
+        panel_text: |-
+          Panel 1 text. Here is some text.
+
+          &nbsp;
+      - title: Panel 2 Title
+        panel_text: Panel 2 text.
 detail_sidebar_blocks:
 ---
