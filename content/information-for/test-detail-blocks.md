@@ -61,6 +61,15 @@ detail_blocks:
         description: Description of first thing.
         url: /
         icon: Link
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: >-
+          https://cloudcannondam.volutus.wvu.edu/admissions-test/hero-info-ftf-student-computer.jpg
+        alt_text:
+        caption:
+      - image: /uploads/woodburn.webp
+        alt_text:
+        caption:
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
