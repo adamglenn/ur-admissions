@@ -28,6 +28,17 @@ topper:
     tint_opacity: 0.5
     margin:
 content_blocks:
+  - _bookshop_name: design-system/section/jump-links
+    heading: Hello World!
+    items:
+      - text: Component 1
+        description: Description.
+        anchor: test
+      - text: Component 2
+        description: Description.
+        anchor:
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/button-group
     heading: Button Group Heading
     body:
