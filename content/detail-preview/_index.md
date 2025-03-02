@@ -3,12 +3,22 @@ title: Page Title
 type: detail
 topper:
   topper_type: default
+  label:
+  background_image:
+  alt_text:
   heading:
-    - text: Heading
-  subheading: Subheading
+  subheading:
+  body_text:
+  styles:
+    vibe: down-to-business
+    color_palette: wvu-accent--blue-dark
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+detail_sidebar_blocks:
 _unlisted: true
 ---
