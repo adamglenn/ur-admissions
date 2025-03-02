@@ -50,13 +50,21 @@ content_blocks:
   - _bookshop_name: design-system/section/alumni-profile
     heading: Heading
     name: Firstname Lastname
-    image: https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian-cutout.webp
+    image: /uploads/jillian.png
+    is_cutout: true
     label:
       - Alumni
       - Class of 2021
     info:
       - Morgantown, WV
       - CEO, Big Company
+    ctas:
+      - text: Call to Action
+        url:
+        icon:
+      - text: Call to Action
+        url:
+        icon: pizza
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/article-collection
@@ -178,10 +186,12 @@ content_blocks:
       panels:
       item_headings:
   - _bookshop_name: design-system/section/place
-    heading:
-    subheading:
-    text:
-    ctas: []
+    heading: Place Heading
+    subheading: Subheading goes here.
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    ctas:
+      - text: Call to Action
+        url:
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/poster
