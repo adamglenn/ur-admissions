@@ -8,7 +8,6 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
   subheading: Subheading
   styles:
     vibe: down_to_business
