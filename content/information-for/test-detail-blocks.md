@@ -5,26 +5,22 @@ uuid: 156356fd-49c4-4639-b93a-190839062bde
 type: detail
 description:
 topper:
-  _bookshop_name: design-system/topper/hero
-  topper_type: default
-  name: hero-topper
-  label: ''
-  background_image:
-  alt_text:
-  heading:
-    - text: Heading
-      highlight: ''
-  subheading: Subheading
-  body_text: ''
-  styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: 0.5
-    margin:
+  _bookshop_name: design-system/topper/default
+  heading: []
+  subheading: Subheading.
+  vibe: down_to_business
+  background_c: bg-light text-wvu-blue
+  heading_c:
+  background_layers:
+    img_blend_mode:
+    img_opacity: 0.4
+    pattern:
+    pattern_c: bg-white
+    pattern_opacity: 0.2
+    tint_opacity:
+    texture: false
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: Text. How fast can I type? How fast can I type? Test type. How fast?
 detail_sidebar_blocks:
 ---
