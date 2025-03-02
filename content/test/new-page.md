@@ -161,13 +161,13 @@ content_blocks:
       - title: Item 3 Title
         text: Item 1 text.
         url:
-    lead: Lead text.
     config:
       edit_mode_only: false
     styles:
       panels:
       item_headings:
       margin:
+    lead: Lead text.
   - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: Heading Test
     items:
@@ -188,14 +188,16 @@ content_blocks:
   - _bookshop_name: design-system/section/place
     heading: Place Heading
     subheading: Subheading goes here.
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
     ctas:
       - text: Call to Action
         url:
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/poster
-    background_image:
+    name: poster-split
     alt_text:
     heading:
       - Heading Line 1
@@ -210,6 +212,7 @@ content_blocks:
       is_main:
       id:
       aria_labelledby:
+    background_image:
   - _bookshop_name: design-system/section/poster-split
     name: poster-split
     poster_image:
@@ -227,4 +230,14 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
+  - _bookshop_name: design-system/section/testimonials
+    heading: Testimonials Heading
+    subheading: Subheading
+    testimonials:
+      - name: Firstname Lastname
+        title: Title
+        image:
+        quote: Here is my quote.
+    config:
+      edit_mode_only: false
 ---
