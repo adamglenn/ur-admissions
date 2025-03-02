@@ -44,8 +44,6 @@ detail_blocks:
     title: Video Title
     description: Video description. Test speed.
     video_id: EMhV-NvxrAo
-    config:
-      edit_mode_only: false
   - _bookshop_name: design-system/column/alert
     text: Text. Here is some text. How fast.
   - _bookshop_name: design-system/column/tabs
@@ -53,10 +51,8 @@ detail_blocks:
       - label: Tab 1
         text: Tab 1 text. More text.
 detail_sidebar_blocks:
-  _bookshop_name: design-system/column_sm/jump-links
-  items:
-    - text: Here is a heading.
-      anchor: '#here-is-a-heading'
-  config:
-    edit_mode_only: false
+  - _bookshop_name: design-system/column_sm/jump-links
+    items:
+      - text: Here is a heading.
+        anchor: 'here-is-a-heading'
 ---
