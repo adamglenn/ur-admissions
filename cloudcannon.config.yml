@@ -585,7 +585,7 @@ _editables:
     undo: true
 data_config: true
 timezone: US/Eastern
-# _snippets:
+_snippets:
 #   figure:
 #     template: hugo_shortcode_named_args
 #     inline: false
@@ -662,7 +662,5 @@ timezone: US/Eastern
 #       quote:
 #         type: textarea
 #         cascade: true
-# _snippets_imports:
-#   hugo:
-#     exclude:
-#       - hugo_figure
+_snippets_imports:
+  hugo: false
