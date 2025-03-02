@@ -662,7 +662,7 @@ timezone: US/Eastern
 #       quote:
 #         type: textarea
 #         cascade: true
-_snippets_imports:
-  hugo:
-    exclude:
-      - hugo_figure
+# _snippets_imports:
+#   hugo:
+#     exclude:
+#       - hugo_figure
