@@ -234,7 +234,8 @@ content_blocks:
     heading: Testimonials Heading
     subheading: Subheading
     testimonials:
-      - name: Firstname Lastname
+      - label:
+        name: Firstname Lastname
         title: Title
         image: https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian.png
         quote: Here is my quote.

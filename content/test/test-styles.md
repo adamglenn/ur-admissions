@@ -41,7 +41,8 @@ content_blocks:
     heading: Here is my Heading
     subheading: Here is my subheading
     testimonials:
-      - name: Firstname Lastname
+      - label:
+        name: Firstname Lastname
         title: Title
         image: >-
           https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian-cutout.webp
