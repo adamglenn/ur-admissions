@@ -8,7 +8,6 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
   subheading: Subheading
   styles:
     vibe: down_to_business
@@ -17,8 +16,12 @@ topper:
     enable_pattern: false
     tint_opacity: 0.5
     margin:
+cascade:
+  secondary_nav:
+    title:
+    menu_id:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+detail_sidebar_blocks:
 ---

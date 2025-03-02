@@ -14,7 +14,7 @@ topper:
   subheading: Forge the future you want at West Virginia University.
   body_text: ''
   styles:
-    vibe: down_to_business
+    vibe: down-to-business
     color_palette: wvu_blue
     enable_blend: false
     enable_pattern: false

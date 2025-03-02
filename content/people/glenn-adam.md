@@ -11,7 +11,7 @@ author_bio_topper:
     - text: Heading
   subheading: Subheading
   styles:
-    vibe: down_to_business
+    vibe: down-to-business
     color_palette: wvu_blue
     enable_blend: false
     enable_pattern: false

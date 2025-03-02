@@ -115,6 +115,15 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: detail-preview/
+      detail_page_index:
+        path: .cloudcannon/schemas/detail-page-index.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: detail-preview/
+        create:
+          path: '[relative_base_path]/_index.md'
       guide_page:
         path: .cloudcannon/schemas/guide-page.md
         reorder_inputs: true

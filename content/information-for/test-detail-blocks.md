@@ -8,7 +8,7 @@ topper:
   _bookshop_name: design-system/topper/default
   heading: []
   subheading: Subheading.
-  vibe: down_to_business
+  vibe: down-to-business
   background_c: bg-light text-wvu-blue
   heading_c:
   background_layers:
