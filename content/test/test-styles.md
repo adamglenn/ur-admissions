@@ -43,10 +43,24 @@ content_blocks:
     testimonials:
       - label:
         name: Firstname Lastname
-        title: Title
+        title: Title of job
         image: >-
           https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian-cutout.webp
         quote: Here is my quote.
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/youtube-shorts
+    heading: Shorts
+    shorts:
+      - title: My Short
+        video_id:
+        ratio: 9x16
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/video-feature
+    title: Video Title
+    description: Video description.
+    id: EMhV-NvxrAo
     config:
       edit_mode_only: false
 ---
