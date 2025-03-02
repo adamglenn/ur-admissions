@@ -37,4 +37,15 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/testimonials
+    heading: Here is my Heading
+    subheading: Here is my subheading
+    testimonials:
+      - name: Firstname Lastname
+        title: Title
+        image: >-
+          https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian-cutout.webp
+        quote: Here is my quote.
+    config:
+      edit_mode_only: false
 ---
