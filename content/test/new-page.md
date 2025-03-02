@@ -16,7 +16,7 @@ topper:
       highlight: ''
     - text: Now
       highlight: ''
-  subheading: Subheading.
+  subheading: Subheading. Test.
   body_text: ''
   styles:
     vibe: nostalgic
@@ -232,7 +232,7 @@ content_blocks:
       aria_labelledby:
   - _bookshop_name: design-system/section/testimonials
     heading: Testimonials Heading
-    subheading: Subheading
+    subheading: Subheading Test.
     testimonials:
       - label:
         name: Firstname Lastname
