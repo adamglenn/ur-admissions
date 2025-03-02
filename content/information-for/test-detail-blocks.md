@@ -28,7 +28,12 @@ topper:
     tint_opacity: 0.5
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text. How fast can I type? How fast can I type? Test type. How fast?
+    text: |-
+      Text. How fast can I type? How fast can I type? Test type. How fast?
+
+      ## Here is a heading.
+
+      Here is some more text.
   - _bookshop_name: design-system/column/accordion
     panels:
       - title: Panel 1 Title
