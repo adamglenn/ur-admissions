@@ -50,7 +50,7 @@ detail_blocks:
     text: Text. Here is some text. How fast.
   - _bookshop_name: design-system/column/tabs
     tabs:
-      - link: Tab 1
+      - label: Tab 1
         text: Tab 1 text. More text.
 detail_sidebar_blocks:
 ---
