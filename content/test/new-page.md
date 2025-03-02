@@ -236,7 +236,7 @@ content_blocks:
     testimonials:
       - name: Firstname Lastname
         title: Title
-        image:
+        image: https://cloudcannondam.volutus.wvu.edu/admissions-test/jillian.png
         quote: Here is my quote.
     config:
       edit_mode_only: false
