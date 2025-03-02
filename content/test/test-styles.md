@@ -5,6 +5,7 @@ uuid: bae56a0f-5e8e-4fab-be64-fdf8d95e973d
 type: guide
 description:
 topper:
+  _bookshop_name: design-system/topper/hero
   topper_type: hero
   name: hero-topper
   label: ''
@@ -14,9 +15,9 @@ topper:
     - text: Heading
       highlight: ''
     - text: highlight
-      highlight: true
+      highlight: ''
     - text: yeah.
-      highlight: 
+      highlight:
   subheading: Subheading.
   body_text: ''
   styles:
@@ -34,6 +35,16 @@ content_blocks:
     postscript:
       copy:
       postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/testimonials
+    heading: Here is my heading
+    subheading: Here is my subheading.
+    testimonials:
+      - name: Joe Schmoe
+        title: Title
+        image:
+        quote:
     config:
       edit_mode_only: false
 ---
