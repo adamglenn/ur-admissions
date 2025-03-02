@@ -37,14 +37,4 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/testimonials
-    heading: Here is my heading
-    subheading: Here is my subheading.
-    testimonials:
-      - name: Joe Schmoe
-        title: Title
-        image:
-        quote:
-    config:
-      edit_mode_only: false
 ---
