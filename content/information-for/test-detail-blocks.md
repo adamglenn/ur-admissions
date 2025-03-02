@@ -32,11 +32,14 @@ detail_blocks:
   - _bookshop_name: design-system/column/accordion
     panels:
       - title: Panel 1 Title
-        panel_text: |-
-          Panel 1 text. Here is some text.
-
-          &nbsp;
+        panel_text: Panel 1 text. Here is some text. Let's see how fast.
       - title: Panel 2 Title
         panel_text: Panel 2 text.
+  - _bookshop_name: design-system/column/youtube-video
+    title: Video Title
+    description: Video description. Test speed.
+    video_id: EMhV-NvxrAo
+    config:
+      edit_mode_only: false
 detail_sidebar_blocks:
 ---
