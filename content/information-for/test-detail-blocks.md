@@ -6,8 +6,15 @@ type: detail
 description:
 topper:
   _bookshop_name: design-system/topper/default
+  topper_type: default
   heading: []
   subheading: Subheading.
+  styles:
+    vibe: down_to_business
+    color_palette: wvu_blue
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
   vibe: down-to-business
   background_c: bg-light text-wvu-blue
   heading_c:
@@ -19,13 +26,6 @@ topper:
     pattern_opacity: 0.2
     tint_opacity:
     texture: false
-  topper_type: default
-  styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: 0.5
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-
@@ -53,6 +53,14 @@ detail_blocks:
     tabs:
       - label: Tab 1
         text: Tab 1 text. More text.
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: Here are files
+    list_description: Reference the following files.
+    items:
+      - text: First Thing
+        description: Description of first thing.
+        url: /
+        icon: Link
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
