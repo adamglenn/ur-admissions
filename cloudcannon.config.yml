@@ -430,11 +430,6 @@ _inputs:
     cascade: true
   dir_include:
     hidden: true
-  detail_sidebar_blocks:
-    type: object
-    options:
-      structures: _structures.detail_sidebar_blocks
-    cascade: true
   edit_mode_only:
     type: switch
     cascade: true
