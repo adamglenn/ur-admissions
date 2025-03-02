@@ -53,4 +53,10 @@ detail_blocks:
       - label: Tab 1
         text: Tab 1 text. More text.
 detail_sidebar_blocks:
+  _bookshop_name: design-system/column_sm/jump-links
+  items:
+    - text: Here is a heading.
+      anchor: '#here-is-a-heading'
+  config:
+    edit_mode_only: false
 ---
