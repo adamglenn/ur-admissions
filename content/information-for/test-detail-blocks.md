@@ -28,10 +28,13 @@ topper:
     tint_opacity: 0.5
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: |-
-      Text. How fast can I type? How fast can I type? Test type. How fast?
+    text: >-
+      Text. How fast can I type? How fast can I type? Test type. How fast? Is
+      this faster now?
+
 
       ## Here is a heading.
+
 
       Here is some more text.
   - _bookshop_name: design-system/column/accordion
@@ -54,5 +57,5 @@ detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
       - text: Here is a heading.
-        anchor: 'here-is-a-heading'
+        anchor: here-is-a-heading
 ---
