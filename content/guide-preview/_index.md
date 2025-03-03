@@ -3,23 +3,21 @@ title: Page Title
 type: guide
 topper:
   topper_type: hero
+  label:
+  background_image:
+  alt_text:
   heading:
-    - text: Heading
-  subheading: Subheading
-  background_layers:
-    img_blend_mode:
-    img_opacity:
-    pattern: 
-    pattern_c: bg-white
-    pattern_opacity: 0.2
-    tint_opacity: 0.7
-    texture: false
+    - text:
+      highlight:
+  subheading:
+  body_text:
   styles:
-    section: bg-wvu-accent--blue text-white py-6
-    container: 
-    superheading: h3 wvu-shout wvu-text-letter-spacing-lg
-    heading: display-4 oliviar-black text-uppercase
-    subheading: helvetica-neue-light h2
+    vibe: down-to-business
+    color_palette: wvu-accent--blue-dark
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 content_blocks:
 _unlisted: true
 ---
