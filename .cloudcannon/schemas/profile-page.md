@@ -3,7 +3,7 @@ title:
 uuid:
 description:
 topper:
-  topper_type: profile-hero
+  _bookshop_name: design-system/topper/student-profile
   background_image:
   alt_text:
   heading:

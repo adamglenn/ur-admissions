@@ -5,7 +5,7 @@ type: detail
 faculty_member:
 description:
 topper:
-  topper_type: default
+  _bookshop_name: design-system/topper/student-profile
   background_image:
   alt_text:
   heading:

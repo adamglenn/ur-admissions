@@ -4,7 +4,7 @@ uuid:
 type: detail
 description:
 topper:
-  topper_type: hero
+  _bookshop_name: design-system/topper/hero
   heading:
     - text: Heading
   subheading: Subheading

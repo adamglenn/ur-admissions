@@ -4,7 +4,7 @@ uuid:
 type: detail
 description:
 topper:
-  topper_type: default
+  _bookshop_name: design-system/topper/default
   background_image:
   alt_text:
   heading:

@@ -3,7 +3,7 @@ title:
 uuid:
 type: author
 author_bio_topper:
-  topper_type: author-bio
+  _bookshop_name: design-system/topper/student-profile
   background_image:
   alt_text:
   heading:

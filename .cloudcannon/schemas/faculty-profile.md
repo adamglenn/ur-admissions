@@ -4,7 +4,7 @@ uuid:
 type: faculty-profile
 dir_include: true
 faculty_profile_topper:
-  topper_type: default
+  _bookshop_name: design-system/topper/student-profile
   background_image:
   alt_text:
   heading:

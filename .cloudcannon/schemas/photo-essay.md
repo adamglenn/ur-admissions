@@ -3,7 +3,7 @@ title:
 type: photo-essay
 uuid:
 article_topper:
-  topper_type: article-hero
+  _bookshop_name: design-system/topper/article-hero
   image:
   image_alt:
   heading:

@@ -4,8 +4,7 @@ uuid:
 type: guide
 description:
 topper:
-  topper_type: hero
-  name: hero-topper
+  _bookshop_name: design-system/topper/hero
   label: ""
   background_image: ""
   alt_text: ""
