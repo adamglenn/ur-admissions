@@ -4,14 +4,12 @@ uuid:
 type: student-profile
 student_profile_topper:
   _bookshop_name: design-system/topper/student-profile
-  background_image:
-  alt_text:
+  label:
   heading:
-    - text: Heading
-  subheading: Subheading
+  subheading:
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

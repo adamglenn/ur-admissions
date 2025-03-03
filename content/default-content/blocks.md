@@ -1,8 +1,6 @@
 ---
 title: Blocks
 type: default-content
-topper:
-  topper_type: default
 default_content_blocks:
   - _bookshop_name: design-system/section/quicklinks
     heading: Default Content Quicklinks

@@ -2,7 +2,7 @@
 title: Page Title
 type: detail
 topper:
-  topper_type: default
+  _bookshop_name: design-system/topper/default
   label:
   background_image:
   alt_text:

@@ -6,23 +6,17 @@ type: guide
 description:
 topper:
   _bookshop_name: design-system/topper/hero
-  topper_type: hero
-  name: hero-topper
-  label: ''
-  background_image: ''
-  alt_text: ''
+  label:
+  background_image:
+  alt_text:
   heading:
-    - text: Heading
-      highlight: ''
-    - text: highlight
-      highlight: ''
-    - text: yeah.
+    - text:
       highlight:
   subheading: Subheading.
-  body_text: ''
+  body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu-blue
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

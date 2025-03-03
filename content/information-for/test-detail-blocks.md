@@ -6,26 +6,19 @@ type: detail
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  topper_type: default
-  heading: []
-  subheading: Subheading.
+  label:
+  background_image:
+  alt_text:
+  heading:
+  subheading:
+  body_text:
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
-  vibe: down-to-business
-  background_c: bg-light text-wvu-blue
-  heading_c:
-  background_layers:
-    img_blend_mode:
-    img_opacity: 0.4
-    pattern:
-    pattern_c: bg-white
-    pattern_opacity: 0.2
-    tint_opacity:
-    texture: false
+    margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-

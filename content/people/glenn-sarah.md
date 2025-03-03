@@ -5,14 +5,6 @@ title:
 uuid: 454e0990-eb76-4fc5-9c36-2120a5d086e0
 type: faculty-profile
 faculty_profile_topper:
-  topper_type: default
-  background_image:
-  alt_text:
-  heading:
-    - text: Heading
-  subheading: Subheading
-  styles:
-    typography:
 name: Sarah Glenn
 first_name: Sarah
 last_name: Glenn

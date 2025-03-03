@@ -3,22 +3,20 @@ title:
 type: photo-essay
 uuid:
 article_topper:
-  _bookshop_name: design-system/topper/article-hero
-  image:
-  image_alt:
+  label:
+  background_image:
+  alt_text:
   heading:
-  subheading:
+  subheading: Subheading.
   show_byline: true
+  body_text:
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
     margin:
-  config:
-    edit_mode_only: false
-    hide_collection_pages: true
 authors:
   - author:
 publish_date:

@@ -4,17 +4,20 @@ title: Forms and Procedures
 type: detail
 description: Test.
 topper:
-  topper_type: hero
-  background_image: 
+  _bookshop_name: design-system/topper/hero
+  label:
+  background_image:
   alt_text:
   heading:
     - text: Take the Next Step of Your Journey
+      highlight:
   subheading: >-
     Searching for documents? We’ve gathered all the ones you need to become a
     Mountaineer.
+  body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu_blue
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

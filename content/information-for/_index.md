@@ -4,21 +4,24 @@ type: guide
 title: Information For
 description:
 topper:
-  topper_type: hero
+  _bookshop_name: design-system/topper/hero
+  label:
   background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
     - text: Get the facts
+      highlight:
     - text: you need.
       highlight: true
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
+  body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu_blue
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
-    margin: mb-6
+    margin:
 cascade:
   secondary_nav:
     title: Information For

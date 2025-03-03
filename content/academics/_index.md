@@ -1,22 +1,20 @@
 ---
 _schema: guide_page_index
+type: guide
 title: Academics
 uuid: 28a100c9-adb4-4e85-acce-8a6384aeaae4
 description:
 topper:
-  topper_type: hero
-  name: hero-topper
-  label: ''
-  background_image: ''
-  alt_text: ''
+  _bookshop_name: design-system/topper/hero
+  label:
+  background_image:
+  alt_text:
   heading:
-    - text:
-      highlight: ''
   subheading: Subheading.
-  body_text: ''
+  body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu_blue
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

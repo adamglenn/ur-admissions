@@ -6,7 +6,6 @@ type: detail
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  topper_type: default
   background_image:
   alt_text:
   heading:

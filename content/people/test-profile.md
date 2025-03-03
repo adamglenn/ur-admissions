@@ -21,14 +21,16 @@ hometown: Brooklyn, NY
 graduation_year: '2027'
 quote:
 student_profile_topper:
-  topper_type: student-profile
-  background_image:
-  alt_text:
+  label:
   heading:
-    - text: Heading
-  subheading: Subheading
+  subheading:
   styles:
-    typography: wvu_experience
+    vibe: down-to-business
+    color_palette:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.

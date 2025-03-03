@@ -5,13 +5,22 @@ uuid: aslfdjuntowsjdsfh
 type: detail
 description:
 topper:
-  topper_type: Default
+  _bookshop_name: design-system/topper/hero
+  label:
   background_image:
   alt_text:
   heading:
-    - text: Heading
-  subheading: Subheading
+    - text:
+      highlight:
+  subheading: Subheading.
+  body_text:
   styles:
+    vibe: down-to-business
+    color_palette:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 detail_blocks:
   - _bookshop_name: design-system/column/lead-text
     text: >-

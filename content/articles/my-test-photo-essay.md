@@ -3,24 +3,23 @@ _schema: photo-essay
 type: photo-essay
 title: My Test Photo Essay
 article_topper:
-  topper_type: article-hero
-  image:
-  image_alt:
+  _bookshop_name: design-system/topper/article-hero
+  label:
+  background_image:
+  alt_text:
   heading:
-  subheading:
+  subheading: Subheading.
   show_byline: true
+  body_text:
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
     margin:
-  config:
-    edit_mode_only: false
-    hide_collection_pages: true
 authors:
-  - author: jwtepoufahsmsdf
+  - author: glenn-adam
 publishDate: 2022-06-08T22:20:51-04:00
 description: Description.
 photo_essay_blocks:

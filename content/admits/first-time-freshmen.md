@@ -1,20 +1,23 @@
 ---
 title: First-Time Freshmen
+_schema: detail_page
 uuid: aslfkfdfdjsl
 type: detail
 description:
 topper:
-  topper_type: hero
+  _bookshop_name: design-system/topper/hero
+  label:
   background_image:
   alt_text:
   heading:
     - text: Enroll as a First-Time Freshman
-  subheading: You’re admitted. Follow the steps below to become a Mountaineer.
-  body: >-
+      highlight:
+  subheading: Subheading.
+  body_text: >-
     **Not a domestic first-time freshman?** Check the steps for [transfer](https://www.wvu.edu/admissions/admits/transfer) or [international](https://www.wvu.edu/admissions/admits/international) students.
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

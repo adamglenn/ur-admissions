@@ -2,14 +2,25 @@
 _schema: article
 title: My Test Article
 authors:
-  - author: jwtepoufahsmsdf
+  - author: glenn-adam
 description: Description.
 publishDate: 2022-06-08T22:20:51-04:00
-topper:
-  topper_type: article-hero
-  byline:
-    - name:
-      title:
+article_topper:
+  _bookshop_name: design-system/topper/article-hero
+  label:
+  background_image:
+  alt_text:
+  heading:
+  subheading: Subheading.
+  show_byline: true
+  body_text:
+  styles:
+    vibe: down-to-business
+    color_palette:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 image:
   src: /uploads/hero-social-swag.jpg
   alt: 

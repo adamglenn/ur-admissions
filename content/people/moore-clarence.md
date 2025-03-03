@@ -4,14 +4,16 @@ title:
 uuid: a2c13034-c9a5-4acc-8a16-0519d915389f
 type: student-profile
 student_profile_topper:
-  topper_type: student-profile
-  background_image:
-  alt_text:
+  label:
   heading:
-    - text: Heading
-  subheading: Subheading
+  subheading:
   styles:
-    typography: wvu_experience
+    vibe: down-to-business
+    color_palette:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
+    margin:
 name: Clarence Moore
 first_name: Clarence
 last_name: Moore

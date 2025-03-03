@@ -1,21 +1,21 @@
 ---
+_schema: guide-page
+type: guide
 title:
 description:
 topper:
   _bookshop_name: design-system/topper/hero
-  topper_type: hero
-  name: hero-topper
-  label: ''
+  label:
   background_image: /uploads/hero-info-ftf-student-computer.jpg
   alt_text:
   heading:
     - text: First-Time Freshmen
-      highlight: ''
+      highlight:
   subheading: Forge the future you want at West Virginia University.
-  body_text: ''
+  body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu_blue
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
