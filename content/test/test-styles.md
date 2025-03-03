@@ -10,13 +10,13 @@ topper:
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
   heading: []
-  subheading: Subheading.
+  subheading: Subheading test.
   body_text:
   styles:
     vibe: down-to-business
     color_palette: wvu-blue
-    enable_blend: false
-    enable_pattern: false
+    enable_blend: true
+    enable_pattern: true
     tint_opacity: 0.5
     margin:
 content_blocks:
@@ -70,3 +70,6 @@ content_blocks:
     config:
       edit_mode_only: false
 ---
+
+
+da
