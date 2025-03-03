@@ -7,13 +7,13 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
+  background_image:
   alt_text:
   heading: []
-  subheading: Subheading test.
+  subheading: How fast can I type?
   body_text:
   styles:
-    vibe: down-to-business
+    vibe: nostalgic
     color_palette: wvu-blue
     enable_blend: true
     enable_pattern: true
@@ -70,6 +70,4 @@ content_blocks:
     config:
       edit_mode_only: false
 ---
-
-
 da
