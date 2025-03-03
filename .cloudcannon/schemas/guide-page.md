@@ -4,18 +4,19 @@ uuid:
 type: guide
 description:
 topper:
+  _bookshop_name: design-system/topper/hero
   topper_type: hero
   label:
   background_image:
   alt_text:
   heading:
-    - text: Heading
+    - text:
       highlight:
-  subheading: Subheading.
+  subheading:
   body_text:
   styles:
     vibe: down-to-business
-    color_palette: wvu-accent--blue-dark
+    color_palette:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
