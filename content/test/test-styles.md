@@ -7,7 +7,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
   heading: []
   subheading: How fast can I type?
