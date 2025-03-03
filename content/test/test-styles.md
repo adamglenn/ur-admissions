@@ -9,11 +9,13 @@ topper:
   label:
   background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
-  heading: []
+  heading:
+    - text: Here is My Heading
+      highlight:
   subheading: How fast can I type?
   body_text:
   styles:
-    vibe: nostalgic
+    vibe: down-to-business
     color_palette: wvu-blue
     enable_blend: true
     enable_pattern: true
