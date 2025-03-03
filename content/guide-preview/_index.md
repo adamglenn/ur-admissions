@@ -1,5 +1,6 @@
 ---
 title: Page Title
+type: guide
 topper:
   topper_type: hero
   heading:
