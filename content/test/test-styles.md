@@ -29,7 +29,10 @@ topper:
     margin:
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
-    heading: Hello World!
+    title: Hello World!
+    label_c:
+    background_c: bg-wvu-gold
+    text_c: text-wvu-blue
     items:
       - text: Component 1
         description: Description.
