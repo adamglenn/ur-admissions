@@ -7,16 +7,14 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
   alt_text:
-  heading:
-    - text:
-      highlight:
+  heading: []
   subheading: Subheading.
   body_text:
   styles:
     vibe: down-to-business
-    color_palette:
+    color_palette: wvu-blue
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
