@@ -13,7 +13,7 @@ topper:
     - text: Here is My Heading
       highlight:
   subheading: How fast can I type?
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c: bg-wvu-accent--sunset text-dark
@@ -21,7 +21,7 @@ topper:
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
-    margin:
+    margin: Buffer Bottom
     color_palette: wvu-blue
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
