@@ -2,7 +2,7 @@
 title: Page Title
 type: guide
 topper:
-  topper_type: hero
+  _bookshop_name: design-system/topper/hero
   label:
   background_image:
   alt_text:
