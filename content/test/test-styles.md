@@ -21,8 +21,7 @@ topper:
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
-    margin: Buffer Bottom
-    color_palette: wvu-blue
+    container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
     title: Hello World!
