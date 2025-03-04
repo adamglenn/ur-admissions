@@ -332,6 +332,8 @@ _select_data:
       class: mt-n8
     - name: Pull Down
       class: mb-n8
+    - name: Pull Both
+      class: py-n8
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
@@ -339,6 +341,13 @@ _select_data:
       class: wvu-bg-pattern-grid
     - name: WV Pattern Grid - Zoomed
       class: wvu-bg-pattern-grid-zoomed
+  topper_margins:
+    - name: Default
+      class: ""
+    - name: Buffer Bottom
+      class: mb-6
+    - name: Buffer Both
+      class: my-6
   typography_palettes:
     - name: WVU Experience
       palette: wvu_experience

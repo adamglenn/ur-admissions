@@ -20,6 +20,6 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
-    margin:
+    container_margin:
 content_blocks:
 ---
