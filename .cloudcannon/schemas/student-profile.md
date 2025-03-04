@@ -9,7 +9,8 @@ student_profile_topper:
   subheading:
   styles:
     vibe: down-to-business
-    color_palette:
+    background_c:
+    heading_c:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

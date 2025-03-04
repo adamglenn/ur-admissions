@@ -1,5 +1,5 @@
 ---
-title:
+title: New Page
 uuid:
 type: guide
 description:
@@ -15,7 +15,8 @@ topper:
   body_text: ""
   styles:
     vibe: down-to-business
-    color_palette: wvu-accent--blue-dark
+    background_c:
+    heading_c:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5

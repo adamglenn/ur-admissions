@@ -1,5 +1,5 @@
 ---
-title:
+title: New Page
 uuid:
 type: detail
 description:
@@ -8,10 +8,11 @@ topper:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading
+  subheading:
   styles:
-    vibe: down_to_business
-    color_palette: wvu_blue
+    vibe: down-to-business
+    background_c:
+    heading_c:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
