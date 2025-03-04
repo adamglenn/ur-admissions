@@ -395,6 +395,7 @@ _inputs:
     cascade: true
   background_c:
     type: select
+    label: Background Color
     options:
       values: _select_data.background_colors
       value_key: class
@@ -446,7 +447,10 @@ _inputs:
     type: markdown
     cascade: true
   heading_c:
-    hidden: true
+    type: select
+    label: Heading Color
+    options:
+      values: _select_data.brand_colors
     cascade: true
   hide:
     type: datetime

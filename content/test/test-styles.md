@@ -17,6 +17,8 @@ topper:
   styles:
     vibe: down-to-business
     color_palette: wvu-blue
+    background_c: bg-white text-dark
+    heading_c: text-wvu-blue
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
