@@ -16,8 +16,8 @@ topper:
   body_text:
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-blue text-white
-    heading_c: WVU Gold
+    background_c: bg-wvu-accent--sunset text-dark
+    heading_c: wvu-neutral--off-white
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
