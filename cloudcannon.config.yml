@@ -375,7 +375,7 @@ _inputs:
     type: select
     label: Background Color
     options:
-      values: _select_data.background_colors
+      values: _select_data.brand_colors
       value_key: background_classes
     cascade: true
   color:
