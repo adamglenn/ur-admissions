@@ -16,12 +16,12 @@ topper:
   body_text: ''
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-accent--sunset text-dark
-    heading_c: wvu-neutral--off-white
+    background_c: bg-wvu-gold text-wvu-blue
+    heading_c: wvu-accent--blue-dark
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
-    container_margin:
+    container_margin: mb-6
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
     title: Hello World!
