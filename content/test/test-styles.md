@@ -79,7 +79,7 @@ content_blocks:
         heading: By the Numbers
         items:
           - pre: According to Adam
-            stat: 96%
+            stat: 97%
             post: of statistics are made up.
             source: Adam Glenn
         config:
