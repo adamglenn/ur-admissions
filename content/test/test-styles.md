@@ -72,5 +72,26 @@ content_blocks:
     id: EMhV-NvxrAo
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+      column_blocks:
+        _bookshop_name: design-system/column/factoids
+        heading: By the Numbers
+        items:
+          - pre: According to Adam
+            stat: 96%
+            post: of statistics are made up.
+            source: Adam Glenn
+        config:
+          edit_mode_only: false
+        styles:
+    column_b:
+      column_sm_blocks:
+    column_c:
+      column_sm_blocks:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 ---
 da
