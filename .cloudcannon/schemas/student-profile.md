@@ -11,7 +11,7 @@ student_profile_topper:
     vibe: down-to-business
     background_c:
     heading_c:
-    enable_blend: false
+    enable_blend: true
     enable_pattern: false
     tint_opacity: 0.5
     margin:
@@ -19,12 +19,11 @@ name:
 first_name:
 last_name:
 image_lg:
-  - src:
-    alt:
 profile_image:
 description:
 college:
 school:
+featured_major:
 majors:
   - title:
 minors:

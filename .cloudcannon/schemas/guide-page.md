@@ -9,7 +9,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text:
+    - text: Heading
       highlight:
   subheading: Subheading goes here.
   body_text:

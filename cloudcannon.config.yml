@@ -440,6 +440,9 @@ _inputs:
   hide_collection_pages:
     type: switch
     cascade: true
+  image_lg:
+    type: image
+    cascade: true
   layout:
     hidden: true
     cascade: true
