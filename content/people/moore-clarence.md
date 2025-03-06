@@ -23,7 +23,6 @@ profile_image:
 description:
 college: Eberly College of Arts and Sciences
 school:
-featured_major: Engineering
 majors:
   - title: Biochemistry
 minors:
@@ -43,5 +42,4 @@ profile_sidebar_blocks:
       - text: Cool Program
         url: https://www.wvu.edu
         icon:
-config:
 ---
