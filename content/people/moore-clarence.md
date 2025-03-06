@@ -10,15 +10,15 @@ student_profile_topper:
   subheading:
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-accent--blue text-white
     enable_blend: true
     enable_pattern: true
     tint_opacity: 0.5
     margin:
+    background_c: bg-wvu-accent--blue text-white
 name: Clarence Moore
 first_name: Clarence
 last_name: Moore
-image_lg:
+image_lg: https://cloudcannondam.volutus.wvu.edu/admissions-test/14.jpg
 profile_image:
 description:
 college: Eberly College of Arts and Sciences
@@ -30,7 +30,9 @@ minors:
 hometown: Baltimore, MD
 graduation_year: 2026
 quote: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 heading: Here is my heading.
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
