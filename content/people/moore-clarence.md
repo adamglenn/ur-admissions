@@ -1,6 +1,5 @@
 ---
 _schema: student
-title:
 uuid: a2c13034-c9a5-4acc-8a16-0519d915389f
 type: student-profile
 student_profile_topper:

@@ -52,7 +52,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /
+        new_preview_url: live-editor-previews/clubs-and-organizations/
   data:
     path: data
     description: Data that is used to populate multiple areas throughout the site
@@ -142,8 +142,8 @@ collections_config:
           path: '[relative_base_path]/_index.md'
   people:
     _enabled_editors:
-      - data
       - visual
+      - data
     path: content/people
     add_options:
       - name: Faculty Member
@@ -164,11 +164,18 @@ collections_config:
         remove_extra_inputs: false
         new_preview_url: /live-editor-previews/faculty-profile/
         create:
-          path: '{last_name|slugify}-{first_name|slugify}.md'
+          path: '{first_name|slugify}-{last_name|slugify}.md'
       speaker:
         path: .cloudcannon/schemas/speaker.yml
       staff:
-        path: .cloudcannon/schemas/staff.yml
+        path: .cloudcannon/schemas/staff.md
+        reorder_inputs: false
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /live-editor-previews/staff/
+        create:
+          path: '{first_name|slugify}-{last_name|slugify}.md'
       student:
         path: .cloudcannon/schemas/student-profile.md
         reorder_inputs: false
@@ -177,7 +184,7 @@ collections_config:
         remove_extra_inputs: false
         new_preview_url: /live-editor-previews/student-profile/
         create:
-          path: '{last_name|slugify}-{first_name|slugify}.md'
+          path: '{first_name|slugify}-{last_name|slugify}.md'
   links:
     _enabled_editors:
       - data
@@ -334,6 +341,9 @@ _select_data:
       class: mb-n8
     - name: Pull Both
       class: py-n8
+  org_types:
+    - Alumni Chapter
+    - Student Organization
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
@@ -420,7 +430,8 @@ _inputs:
       structures: _structures.links
     cascade: true
   dir_include:
-    hidden: true
+    type: switch
+    label: Include in Directory
   edit_mode_only:
     type: switch
     cascade: true
@@ -463,6 +474,10 @@ _inputs:
   message:
     type: markdown
     cascade: true
+  org_type:
+    type: select
+    options:
+      values: _structures.org_types
   person:
     type: select
     options:

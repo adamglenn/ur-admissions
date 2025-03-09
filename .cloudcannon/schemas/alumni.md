@@ -1,9 +1,9 @@
 ---
 uuid:
-type: student-profile
+type: alumni
 dir_include: false
-student_profile_topper:
-  _bookshop_name: design-system/topper/student-profile
+alumni_profile_topper:
+  _bookshop_name: design-system/topper/alumni-profile
   label:
   heading:
   subheading:
@@ -28,6 +28,9 @@ majors:
 minors:
   - title:
 hometown:
+occupation:
+job_title:
+honors:
 graduation_year:
 quote:
 detail_blocks:
