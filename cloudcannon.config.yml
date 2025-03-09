@@ -437,6 +437,12 @@ _inputs:
     options:
       structures: _structures.column_blocks_sm
     cascade: true
+  contacts:
+    type: array
+    options:
+      allow_empty: true
+      structures: _structures.contacts
+    cascade: true
   copy:
     type: markdown
     options:
@@ -528,6 +534,11 @@ _inputs:
       allow_empty: true
       values: data.sitewide_components
     cascade: true
+  social_media_accounts:
+    type: array
+    options:
+      allow_empty: true
+      values: _structures.social_media_accounts
   src:
     type: image
     cascade: true
@@ -571,6 +582,12 @@ _inputs:
       value_key: value
     cascade: true
 _structures:
+  contacts:
+    values:
+      - value:
+          name:
+          phone:
+          email:
   content_blocks:
     style: modal
   detail_blocks:
@@ -580,6 +597,11 @@ _structures:
       - value:
           text:
           icon:
+          url:
+  social_media_accounts:
+    values:
+      - value:
+          platform:
           url:
 _editables:
   content:

@@ -20,6 +20,7 @@ organization_topper:
 description:
 location:
 contacts:
+social_media_accounts:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
