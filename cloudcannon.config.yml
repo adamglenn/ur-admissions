@@ -46,7 +46,21 @@ collections_config:
     disable_add_folder: false
     disable_add_file_actions: false
     schemas:
-      clubs_and_organizations:
+      alumni_chapter:
+        path: .cloudcannon/schemas/organization.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: live-editor-previews/clubs-and-organizations/
+      club:
+        path: .cloudcannon/schemas/organization.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: live-editor-previews/clubs-and-organizations/
+      student_organizations:
         path: .cloudcannon/schemas/organization.md
         reorder_inputs: true
         hide_extra_inputs: false
@@ -341,9 +355,6 @@ _select_data:
       class: mb-n8
     - name: Pull Both
       class: py-n8
-  org_types:
-    - Alumni Chapter
-    - Student Organization
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
@@ -474,10 +485,6 @@ _inputs:
   message:
     type: markdown
     cascade: true
-  org_type:
-    type: select
-    options:
-      values: _structures.org_types
   person:
     type: select
     options:
