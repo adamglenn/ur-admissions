@@ -53,6 +53,8 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: live-editor-previews/clubs-and-organizations/
+        create:
+          path: '{name_of_organization|slugify}.md'
       club:
         path: .cloudcannon/schemas/organization.md
         reorder_inputs: true
@@ -60,13 +62,17 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: live-editor-previews/clubs-and-organizations/
-      student_organizations:
+        create:
+          path: '{name_of_organization|slugify}.md'
+      student_organization:
         path: .cloudcannon/schemas/organization.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: live-editor-previews/clubs-and-organizations/
+        create:
+          path: '{name_of_organization|slugify}.md'
   data:
     path: data
     description: Data that is used to populate multiple areas throughout the site

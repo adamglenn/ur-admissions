@@ -1,5 +1,5 @@
 ---
-name_of_organization:
+name_of_organization: New Organization
 type: organization
 uuid:
 image:
