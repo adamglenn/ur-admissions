@@ -12,7 +12,7 @@ organization_topper:
   use_large_background: false
   styles:
     vibe: down-to-business
-    background_c:
+    background_c: bg-wvu-blue text-white
     heading_c:
     enable_blend: true
     enable_pattern: false
@@ -23,7 +23,9 @@ location: Morgantown, WV
 contacts:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: Text. Here is some more text.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas: []
 ---
