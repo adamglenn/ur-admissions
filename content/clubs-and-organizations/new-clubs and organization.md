@@ -18,7 +18,6 @@ organization_topper:
     enable_pattern: false
     tint_opacity: 0.5
     margin:
-description:
 description: Morgantown Alumni Chapter description.
 location: Morgantown, WV
 contacts:
