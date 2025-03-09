@@ -21,6 +21,9 @@ organization_topper:
 description: Morgantown Alumni Chapter description.
 location: Morgantown, WV
 contacts:
+  - name: My Contact Name
+    phone: 304 123-4567
+    email: email@mail.wvu.edu
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text. Here is some more text.
