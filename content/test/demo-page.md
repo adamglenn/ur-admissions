@@ -23,4 +23,39 @@ topper:
     tint_opacity: 0.5
     container_margin:
 content_blocks:
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+    column_b:
+      _bookshop_name: design-system/column_sm/article-collection
+      heading: Contact
+      tags:
+        - featured
+      limit: 5
+      config:
+        edit_mode_only: false
+    column_c:
+      _bookshop_name: design-system/column_sm/student-profile
+      student:
+      superheading: Class of 2026
+      heading:
+      name: Firstname Lastname
+      subheading:
+      graduation_year:
+      majors:
+        - Major in X
+      config:
+        edit_mode_only: false
+        hide_collection_pages: true
+      styles:
+        vibe: wvu_experience
+        container:
+        image_margin:
+        image_container:
+        label:
+        heading:
+        hometown:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 ---
