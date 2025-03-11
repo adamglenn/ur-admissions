@@ -27,7 +27,7 @@ content_blocks:
     column_a:
     column_b:
       _bookshop_name: design-system/column_sm/article-collection
-      heading: Contact
+      heading: Articles
       article_tags:
         - Custom Label
       limit: 5
@@ -56,6 +56,7 @@ content_blocks:
         hometown:
     config:
       edit_mode_only: false
+      show_content: false
     layout:
     styles:
 ---

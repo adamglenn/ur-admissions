@@ -3,6 +3,8 @@ _schema: article
 title: My Test Article
 authors:
   - author: glenn-adam
+article_tags:
+  - Custom Label
 description: Description.
 publishDate: 2022-06-08T22:20:51-04:00
 article_topper:

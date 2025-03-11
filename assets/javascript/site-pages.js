@@ -29,6 +29,7 @@ var walk = function(dir, done) {
                         profile_image: doc.attributes.profile_image,
                         badge_label: doc.attributes.badge_label,
                         alternate_url: doc.attributes.alternate_url,
+                        article_tags: doc.attributes.article_tags,
                         link_target: doc.attributes.link_target,
                         role: doc.attributes.role,
                         name: doc.attributes.name,
