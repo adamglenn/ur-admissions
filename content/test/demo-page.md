@@ -47,7 +47,6 @@ content_blocks:
       config:
         edit_mode_only: false
         show_content: true
-        hide_collection_pages: false
       styles:
         vibe: wvu_experience
         container:
