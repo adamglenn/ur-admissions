@@ -29,7 +29,6 @@ content_blocks:
       _bookshop_name: design-system/column_sm/article-collection
       heading: Contact
       tags:
-        - featured
       limit: 5
       config:
         edit_mode_only: false
@@ -40,9 +39,9 @@ content_blocks:
       heading:
       name: Firstname Lastname
       subheading:
-      graduation_year:
+      graduation_year: '2026'
       majors:
-        - Major in X
+        - Chemistry
       config:
         edit_mode_only: false
         hide_collection_pages: true
