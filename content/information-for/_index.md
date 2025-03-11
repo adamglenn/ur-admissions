@@ -52,6 +52,6 @@ content_blocks:
       edit_mode_only: false
       hide_collection_pages: true
     styles:
-      margin: mt-n7
+      margin: Pull Up
     lead:
 ---
