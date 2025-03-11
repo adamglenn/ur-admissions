@@ -17,7 +17,7 @@ author_bio_topper:
     enable_pattern: false
     tint_opacity: 0.5
     margin:
-name:
+name: Adam Glenn
 first_name:
 last_name:
 profile_image:
