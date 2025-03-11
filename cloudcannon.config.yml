@@ -309,6 +309,10 @@ _select_data:
       type: info
     - name: Warning
       type: warning
+  article_tags:
+    - Feature
+    - Resource
+    - Custom Label
   blend_modes:
     - name: Luminosity
       class: wvu-bg-blend-mode-luminosity
@@ -418,6 +422,10 @@ _inputs:
         - _select_data.alert_type
       value_key: type
     cascade: true
+  article_tags:
+    type: multiselect
+    options:
+      values: _select_data.article_tags
   background_c:
     type: select
     label: Background Color

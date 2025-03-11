@@ -28,7 +28,7 @@ content_blocks:
     column_b:
       _bookshop_name: design-system/column_sm/article-collection
       heading: Contact
-      tags:
+      article_tags:
       limit: 5
       config:
         edit_mode_only: false
