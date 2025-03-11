@@ -235,6 +235,7 @@ collections_config:
         path: .cloudcannon/schemas/partners.yml
   places_and_spaces:
     _enabled_editors:
+      - visual
       - data
     path: content/places-and-spaces
     add_options:
