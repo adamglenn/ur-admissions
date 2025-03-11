@@ -82,10 +82,24 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   default_content:
+    label: Default Content Blocks
     path: content/default-content/
     icon: toolbar
+    output: false
+    disable_add: true
+    disable_add_folder: true
+    disable_add_file_actions: true
+  masthead_nav_footer:
+    label: Masthead, Primary Nav and Footer
+    path: data/default_content
+    icon: toolbar
+    output: false
+    disable_add: true
+    disable_add_folder: true
+    disable_add_file_actions: true
   navigation_menus:
     path: data/menus
+    label: Submenus
     description: Navigation menus you can use throughout the site.
     icon: menu
     output: false
@@ -101,8 +115,8 @@ collections_config:
         remove_extra_inputs: false
         create:
           path: data/menus
-      primary_nav:
-        path: .cloudcannon/schemas/primary-nav.yml
+      horizontal_steps_subnav:
+        path: .cloudcannon/schemas/horizontal-steps-sunav.yml
         reorder_inputs: true
         hide_extra_inputs: true
         remove_empty_inputs: false
@@ -276,9 +290,10 @@ collection_groups:
       - places_and_spaces
   - heading: Site
     collections:
-      - navigation_menus
       - site_config
+      - masthead_nav_footer
       - default_content
+      - navigation_menus
       - sitewide_components
 #   - heading: Site Config
 #     collections:

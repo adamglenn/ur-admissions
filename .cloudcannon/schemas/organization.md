@@ -4,6 +4,7 @@ type: organization
 uuid:
 image:
 alt_text:
+logo:
 organization_topper:
   _bookshop_name: design-system/topper/organization
   heading:

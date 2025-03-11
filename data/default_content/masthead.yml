@@ -1,18 +1,10 @@
 masthead_title:
-  value:
-  custom:
-    - Line 1
-  alternate_logo:
-co_branding:
-  status:
-  text:
-    - Line 1
-college_link:
-  title:
-  url:
-ctas:
-  status:
-  items:
-    - text: Apply
-      url:
-weight: 20
+  - Undergraduate Admissions
+alternate_logo:
+co_brand_logo:
+co_brand_title:
+masthead_buttons:
+  - text: Call to Action
+    url:
+  - text: Call to Action
+    url:

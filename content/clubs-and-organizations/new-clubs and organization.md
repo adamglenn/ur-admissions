@@ -24,6 +24,10 @@ contacts:
   - name: My Contact Name
     phone: 304 123-4567
     email: email@mail.wvu.edu
+social_media_accounts:
+  - platform: Facebook
+    icon: facebook
+    url: https://facebook.com
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text. Here is some more text.
