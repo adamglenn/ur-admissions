@@ -48,5 +48,5 @@ content_blocks:
       margin: mt-n8
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: information-for
-    show_content: true
+    show_content: false
 ---
