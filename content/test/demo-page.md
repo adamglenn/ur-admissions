@@ -39,10 +39,31 @@ content_blocks:
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
       config:
         edit_mode_only: false
-        show_content: true
+        show_content: false
     config:
       edit_mode_only: false
       show_content: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+    column_b:
+      _bookshop_name: design-system/column_sm/profile-generic
+      thumbnail:
+      superheading:
+        - Superheading Line 1
+      heading: Firstname Lastname
+      subheading:
+        - Subheading Line 1
+      lists: []
+      cta:
+        - text: View Profile
+          url: https://wvu.edu
+      config:
+        edit_mode_only: false
+    column_c:
+    config:
+      edit_mode_only: false
     layout:
     styles:
 ---
