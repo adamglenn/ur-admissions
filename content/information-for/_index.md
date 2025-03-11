@@ -14,15 +14,15 @@ topper:
     - text: you need.
       highlight: true
   subheading: Every situation is unique. We’ll give you the details relevant to yours.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
-    color_palette:
-    background_c: bg-white text-dark
-    heading_c: text-wvu-blue
+    background_c: bg-wvu-blue text-white
+    heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
+    color_palette:
     margin:
 cascade:
   secondary_nav:
@@ -31,6 +31,7 @@ cascade:
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading:
+    subheading: Subheading.
     items:
       - title: First-Time Freshmen
         text: >-
@@ -46,10 +47,10 @@ content_blocks:
       - title: Veterans
         text: You have served or are serving in the United States Armed Forces.
         url:
-    lead:
     config:
       edit_mode_only: false
       hide_collection_pages: true
     styles:
       margin: mt-n7
+    lead:
 ---
