@@ -527,6 +527,9 @@ _inputs:
   show:
     type: datetime
     cascade: true
+  show_content:
+    type: switch
+    cascade: true
   show_author_bios:
     type: switch
     cascade: true
