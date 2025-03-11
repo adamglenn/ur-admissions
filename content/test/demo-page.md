@@ -33,9 +33,10 @@ content_blocks:
       limit: 5
       config:
         edit_mode_only: false
+        show_content: false
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
-      student:
+      student: a2c13034-c9a5-4acc-8a16-0519d915389f
       superheading: Class of 2026
       heading:
       name: Firstname Lastname
@@ -45,7 +46,8 @@ content_blocks:
         - Chemistry
       config:
         edit_mode_only: false
-        hide_collection_pages: true
+        show_content: true
+        hide_collection_pages: false
       styles:
         vibe: wvu_experience
         container:
