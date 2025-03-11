@@ -22,6 +22,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
+    container_margin: mb-6
     color_palette:
     margin:
 cascade:
