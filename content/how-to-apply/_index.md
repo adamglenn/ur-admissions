@@ -1,8 +1,8 @@
 ---
 _schema: guide_page
 title: How to Apply to WVU
-type: guide
 uuid:
+type: guide
 description:
 topper:
   _bookshop_name: design-system/topper/hero
@@ -11,15 +11,15 @@ topper:
   alt_text:
   heading:
   subheading:
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
-    color_palette:
-    background_c: bg-white text-dark
-    heading_c: text-wvu-blue
+    background_c: bg-wvu-blue text-white
+    heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
+    color_palette:
     margin:
 content_blocks:
   - _bookshop_name: design-system/section/link-lists
@@ -27,10 +27,11 @@ content_blocks:
     lists:
       - topic: First-Time Freshmen
         description: >-
-          You are a current high school senior, have a TASC/GED or haven't attended college since graduating.
+          You are a current high school senior, have a TASC/GED or haven't
+          attended college since graduating.
         items:
-          - text: Apply as a First-Time Freshmen
-            site_page: aslfdjuntowsjdsfh
+          - site_page: aslfdjuntowsjdsfh
+            text: Apply as a First-Time Freshmen
           - text: Admission Requirements
             url:
           - text: Check Your Status
@@ -44,7 +45,7 @@ content_blocks:
     config:
       edit_mode_only: false
     styles:
-      margin:
+      margin: mt-n8
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: information-for
 ---
