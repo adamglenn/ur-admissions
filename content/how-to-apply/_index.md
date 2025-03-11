@@ -42,10 +42,9 @@ content_blocks:
           - text: Apply as a Transfer Student
             url:
     config:
-      is_main: true
-    layout:
-      section:
-        margin: pull-up
+      edit_mode_only: false
+    styles:
+      margin:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: information-for
 ---
