@@ -37,24 +37,9 @@ content_blocks:
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
-      superheading:
-      heading:
-      name:
-      subheading:
-      graduation_year:
-      majors:
-        - Chemistry
       config:
         edit_mode_only: false
         show_content: true
-      styles:
-        vibe: wvu_experience
-        container:
-        image_margin:
-        image_container:
-        label:
-        heading:
-        hometown:
     config:
       edit_mode_only: false
       show_content: false
