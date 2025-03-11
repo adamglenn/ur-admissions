@@ -37,11 +37,11 @@ content_blocks:
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
-      superheading: Class of 2026
+      superheading:
       heading:
-      name: Firstname Lastname
+      name:
       subheading:
-      graduation_year: '2026'
+      graduation_year:
       majors:
         - Chemistry
       config:
