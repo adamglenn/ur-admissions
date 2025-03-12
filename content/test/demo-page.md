@@ -83,14 +83,34 @@ content_blocks:
     column_a:
     column_b:
       _bookshop_name: design-system/column_sm/contacts
-      label: "For Inquiries, Contact:"
       heading: Contacts
       people:
-        - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
+        - label: For Inquiries, Contact
+          contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       config:
         edit_mode_only: false
         show_content: false
+      label: 'For Inquiries, Contact:'
     column_c:
+      _bookshop_name: design-system/column_sm/factoids
+      heading: By the Numbers
+      items:
+        - pre: According to So and So
+          stat: 93%
+          post: post text.
+          source:
+      config:
+        edit_mode_only: false
+        source:
+          disable: false
+      styles:
+        container:
+          margin_bottom: mb-4
+        factoid:
+          font: wvu-shout
+          size: display-1
+          color: text-wvu-gold
+        divider:
     config:
       edit_mode_only: false
     layout:
