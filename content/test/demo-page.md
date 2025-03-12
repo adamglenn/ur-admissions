@@ -99,6 +99,10 @@ content_blocks:
           stat: 93%
           post: post text.
           source:
+        - pre: Pre text
+          stat: '65'
+          post: Rhodes Scholars
+          source:
       config:
         edit_mode_only: false
         source:
