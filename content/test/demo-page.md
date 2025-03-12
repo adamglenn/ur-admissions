@@ -36,6 +36,7 @@ content_blocks:
         show_content: false
     column_c:
       _bookshop_name: design-system/column_sm/student-profile
+      heading: Student Profile
       student: a2c13034-c9a5-4acc-8a16-0519d915389f
       config:
         edit_mode_only: false
