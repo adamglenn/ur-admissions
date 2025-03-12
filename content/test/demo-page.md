@@ -125,6 +125,10 @@ content_blocks:
       _bookshop_name: design-system/column_sm/poster
       heading: Headline
       subheading: Subheading
+      body: Here is my body text.
+      ctas:
+        - text: Call to Action
+          url: https://www.wvu.edu
       config:
         edit_mode_only: false
     column_c:
