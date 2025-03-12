@@ -6,7 +6,7 @@ title:
 uuid: 454e0990-eb76-4fc5-9c36-2120a5d086e0
 type: faculty-profile
 faculty_profile_topper:
-  _bookshop_name: design-system/topper/student-profile
+  _bookshop_name: design-system/topper/faculty-profile
   heading: Heading
   subheading: Subheading
   styles:
