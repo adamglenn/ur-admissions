@@ -460,7 +460,7 @@ _inputs:
     type: select
     options:
       allow_empty: false
-      values: data.people_data[?(@.is_contact == true)]
+      values: data.people_data[?(@.is_contact == "true")]
       value_key: uuid
     cascade: true
   contacts:
