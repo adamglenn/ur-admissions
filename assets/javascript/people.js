@@ -26,6 +26,7 @@ var walk = function(dir, done) {
                         dir_include: doc.attributes.dir_include,
                         email: doc.attributes.email,
                         uuid: doc.attributes.uuid,
+                        is_contact: doc.attributes.is_contact,
                         schema: doc.attributes._schema,
                         name: doc.attributes.name,
                         last_name: doc.attributes.last_name,
