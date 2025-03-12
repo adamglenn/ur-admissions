@@ -1,7 +1,7 @@
 ---
 _schema: faculty
 dir_include: true
-is_profile: true
+is_contact: true
 title:
 uuid: 454e0990-eb76-4fc5-9c36-2120a5d086e0
 type: faculty-profile
