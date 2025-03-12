@@ -33,6 +33,7 @@ var walk = function(dir, done) {
                         majors: doc.attributes.majors,
                         phone: doc.attributes.phone,
                         position: doc.attributes.position,
+                        profile_image: doc.attributes.profile_image,
                         graduation_year: doc.attributes.graduation_year,
                         hometown: doc.attributes.hometown,
                         path: local_path
