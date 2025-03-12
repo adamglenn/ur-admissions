@@ -50,6 +50,7 @@ content_blocks:
     column_a:
     column_b:
       _bookshop_name: design-system/column_sm/profile-generic
+      label: Profile
       thumbnail:
       superheading:
         - Superheading Line 1
@@ -63,6 +64,15 @@ content_blocks:
       config:
         edit_mode_only: false
     column_c:
+      _bookshop_name: design-system/column_sm/calendar-events
+      heading: Events
+      subheading:
+      event_feed: >-
+        <div id="localist-widget-19280350" class="localist-widget"></div><script
+        defer type="text/javascript"
+        src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=5&experience=inperson&container=localist-widget-19280350&template=dsv2-vertical-mini"></script>
+      config:
+        edit_mode_only: false
     config:
       edit_mode_only: false
     layout:
