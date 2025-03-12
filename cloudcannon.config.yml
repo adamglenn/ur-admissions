@@ -631,14 +631,6 @@ _structures:
     values:
       - value:
           contact:
-    preview:
-      text:
-        - key: contact.name
-      subtext:
-        - key: description
-      image:
-        - key: profile_image
-      icon: article
   contacts:
     values:
       - value:

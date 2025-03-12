@@ -83,9 +83,8 @@ content_blocks:
     column_a:
     column_b:
       _bookshop_name: design-system/column_sm/contacts
+      label: "For Inquiries, Contact:"
       heading: Contacts
-      contact_list:
-        - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       people:
         - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       config:
