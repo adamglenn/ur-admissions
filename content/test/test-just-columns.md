@@ -31,10 +31,10 @@ content_blocks:
       edit_mode_only: false
     layout:
     styles:
-  - _bookshop_name: component-library/components /quicklinks
-    heading: Quicklinks
-    links: []
-    layout:
-      section:
-        margin:
+  - _bookshop_name: design-system/section/video-feature
+    title: Video Title
+    description: Video description.
+    id: EMhV-NvxrAo
+    config:
+      edit_mode_only: false
 ---
