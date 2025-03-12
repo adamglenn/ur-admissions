@@ -18,9 +18,9 @@ position:
   - organization: Center for Career Development
     title: Director
 phone:
-  - number:
+  - number: (304) 123-4567
 email:
-  - email:
+  - email: sarah.glenn@mail.wvu.edu
 building:
   - name:
     address:
