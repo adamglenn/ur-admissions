@@ -119,4 +119,17 @@ content_blocks:
       edit_mode_only: false
     layout:
     styles:
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+    column_b:
+      _bookshop_name: design-system/column_sm/poster
+      heading: Headline
+      subheading: Subheading
+      config:
+        edit_mode_only: false
+    column_c:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 ---
