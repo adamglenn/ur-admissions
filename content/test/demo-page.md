@@ -85,8 +85,7 @@ content_blocks:
       _bookshop_name: design-system/column_sm/contacts
       heading: Contacts
       people:
-        - contact:
-        - contact:
+        - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       config:
         edit_mode_only: false
         show_content: false
