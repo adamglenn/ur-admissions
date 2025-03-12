@@ -86,6 +86,7 @@ content_blocks:
       heading: Contacts
       contact_list:
         - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
+        - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       people:
         - contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
       config:
