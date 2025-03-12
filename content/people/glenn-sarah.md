@@ -6,13 +6,21 @@ title:
 uuid: 454e0990-eb76-4fc5-9c36-2120a5d086e0
 type: faculty-profile
 faculty_profile_topper:
+  _bookshop_name: design-system/topper/student-profile
+  heading: Heading
+  subheading: Subheading
+  styles:
+    vibe: down-to-business
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: 0.5
 name: Sarah Glenn
 first_name: Sarah
 last_name: Glenn
 image_lg:
   - src:
     alt:
-profile_image:
+profile_image: /uploads/clarence-moore.jpg
 description:
 position:
   - organization: Center for Career Development
