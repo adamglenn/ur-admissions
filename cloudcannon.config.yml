@@ -475,6 +475,7 @@ _inputs:
     type: array
     options:
       structures: _structures.contact
+    cascade: true
   contacts:
     type: array
     options:

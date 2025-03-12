@@ -21,7 +21,7 @@ image_lg:
   - src:
     alt:
 profile_image: /uploads/clarence-moore.jpg
-description:
+description: Test description.
 position:
   - organization: Center for Career Development
     title: Director
