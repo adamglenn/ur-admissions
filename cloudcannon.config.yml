@@ -462,6 +462,9 @@ _inputs:
       allow_empty: false
       values: data.people_data[?(@.is_contact == true)]
       value_key: uuid
+      preview:
+        text:
+          - key: name
     cascade: true
   contact_list:
     type: array
@@ -627,8 +630,6 @@ _inputs:
       value_key: value
     cascade: true
 _structures:
-  contact:
-    values: data.people_data[?(@.is_contact == true)]
   contacts:
     values:
       - value:
