@@ -466,7 +466,9 @@ _inputs:
   contact_list:
     type: array
     options:
-      structures: _structures.contact
+      # structures: _structures.contact
+      values: data.people_data[?(@.is_contact == true)]
+      value_key: uuid
       preview:
         text:
           - key: contact.name
