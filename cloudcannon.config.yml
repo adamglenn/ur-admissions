@@ -632,7 +632,7 @@ _structures:
           contact:
     preview:
       text:
-        - key: name
+        - key: contact.name
       subtext:
         - key: description
       image:
