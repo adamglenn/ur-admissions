@@ -23,6 +23,7 @@ var walk = function(dir, done) {
                     let obj = {
                         building: doc.attributes.building,
                         last_name: doc.attributes.last_name,
+                        description: doc.attributes.description,
                         dir_include: doc.attributes.dir_include,
                         email: doc.attributes.email,
                         uuid: doc.attributes.uuid,
