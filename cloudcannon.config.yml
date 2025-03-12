@@ -628,10 +628,7 @@ _inputs:
     cascade: true
 _structures:
   contact:
-    values:
-      - value:
-          name:
-          uuid:
+    values: data.people_data[?(@.is_contact == true)]
   contacts:
     values:
       - value:
