@@ -71,6 +71,8 @@ content_blocks:
         <div id="localist-widget-19280350" class="localist-widget"></div><script
         defer type="text/javascript"
         src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=5&experience=inperson&container=localist-widget-19280350&template=dsv2-vertical-mini"></script>
+      link_text: All Events
+      url: https://cal.wvu.edu
       config:
         edit_mode_only: false
     config:

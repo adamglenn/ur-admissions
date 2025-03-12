@@ -456,6 +456,12 @@ _inputs:
     options:
       structures: _structures.column_blocks_sm
     cascade: true
+  contact:
+    type: select
+    options:
+      allow_empty: false
+      values: data.people_data[?(@.is_contact == true)].uuid
+    cascade: true
   contacts:
     type: array
     options:
@@ -496,6 +502,8 @@ _inputs:
   image_lg:
     type: image
     cascade: true
+  is_contact:
+    hidden: true
   layout:
     hidden: true
     cascade: true
@@ -521,7 +529,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.people
+      values: data.people_data
     cascade: true
   postscript_links:
     type: array
