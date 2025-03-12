@@ -462,9 +462,6 @@ _inputs:
       allow_empty: false
       values: data.people_data[?(@.is_contact == true)]
       value_key: uuid
-      preview:
-        text:
-          - key: name
     cascade: true
   contact_list:
     type: array
