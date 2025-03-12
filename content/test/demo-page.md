@@ -86,8 +86,10 @@ content_blocks:
       heading: Contacts
       people:
         - contact:
+        - contact:
       config:
         edit_mode_only: false
+        show_content: false
     column_c:
     config:
       edit_mode_only: false
