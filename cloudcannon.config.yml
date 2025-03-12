@@ -630,6 +630,14 @@ _structures:
     values:
       - value:
           contact:
+    preview:
+      text:
+        - key: name
+      subtext:
+        - key: description
+      image:
+        - key: profile_image
+      icon: article
   contacts:
     values:
       - value:
