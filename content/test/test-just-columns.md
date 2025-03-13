@@ -47,4 +47,15 @@ content_blocks:
     id: EMhV-NvxrAo
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+      _bookshop_name: design-system/column/youtube-video
+      title: Video Title
+      description: Video description.
+      video_id: EMhV-NvxrAo
+    column_aa:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 ---
