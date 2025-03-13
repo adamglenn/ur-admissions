@@ -13,7 +13,7 @@ topper:
     - text: Heading
       highlight:
   subheading: Subheading goes here.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c:
@@ -25,6 +25,16 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: Pre text
+          stat: 97%
+          post: post text.
+          source: Source
+      config:
+        edit_mode_only: false
+      styles:
     column_b:
     column_c:
     config:
