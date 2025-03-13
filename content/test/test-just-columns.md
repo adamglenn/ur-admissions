@@ -54,6 +54,18 @@ content_blocks:
       description: Video description.
       video_id: EMhV-NvxrAo
     column_aa:
+      _bookshop_name: design-system/column_sm/calendar-events
+      heading: Events
+      subheading:
+      event_feed: >-
+        <div id="localist-widget-88670364" class="localist-widget"></div><script
+        defer type="text/javascript"
+
+        src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-88670364&template=dsv2-vertical-mini"></script>
+      link_text: More Events
+      url: https://www.wvu.edu
+      config:
+        edit_mode_only: false
     config:
       edit_mode_only: false
     layout:
