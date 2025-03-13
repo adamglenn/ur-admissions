@@ -446,12 +446,27 @@ _inputs:
     options:
       structures: _structures.column_blocks
     cascade: true
+  column_aa:
+    type: object
+    options:
+      structures: _structures.column_blocks
+    cascade: true
   column_b:
     type: object
     options:
       structures: _structures.column_blocks_sm
     cascade: true
   column_c:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    cascade: true
+  column_d:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    cascade: true
+  column_e:
     type: object
     options:
       structures: _structures.column_blocks_sm
