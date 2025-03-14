@@ -399,13 +399,13 @@ _select_data:
       class: wvu-bg-pattern-grid-zoomed
   tint_opacities:
     - name: None
-      percentage: "0.0"
+      value: "0.0"
     - name: Light
-      percentage: "0.2"
+      value: "0.2"
     - name: Medium
-      percentage: "0.5"
+      value: "0.5"
     - name: Dark
-      percentage: "0.8"
+      value: "0.8"
   topper_margins:
     - name: Default
       class: ""
@@ -668,7 +668,7 @@ _inputs:
     comment: Use with a background image.
     options:
       values: _select_data.tint_opacities
-      value_key: percentage
+      value_key: value
   topper_type:
     hidden: true
   type:
