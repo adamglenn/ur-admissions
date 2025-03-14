@@ -81,6 +81,8 @@ content_blocks:
       people:
         - label: For Inquiries, Contact
           contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
+        - label: For Inquiries, Contact
+          contact: 71f305aa-0efc-4773-bc5b-35e0dec56f21
       config:
         edit_mode_only: false
         show_content: false
