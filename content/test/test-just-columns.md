@@ -7,7 +7,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/hero__info--student-classroom.jpg
   alt_text:
   heading:
     - text: Heading
@@ -16,12 +16,12 @@ topper:
   body_text: ''
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-blue text-white
-    gradient_1: 0, 40, 85
-    gradient_2: 245, 134, 114
-    gradient_3: 255, 229, 57
-    heading_c:
-    enable_blend: false
+    background_c: bg-wvu-accent--blue text-white
+    gradient_1: 245, 134, 114
+    gradient_2: 127, 99, 16
+    gradient_3: 179, 161, 105
+    heading_c: wvu-neutral--off-white
+    enable_blend: true
     enable_pattern: false
     tint_opacity: 0.5
     container_margin:
@@ -53,6 +53,7 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2
     column_a:
       _bookshop_name: design-system/column/youtube-video
+      heading: Featured Video
       title: Video Title
       description: Video description.
       video_id: EMhV-NvxrAo
