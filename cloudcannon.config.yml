@@ -665,7 +665,7 @@ _inputs:
     cascade: true
   tint_opacity:
     type: select
-    comment: Use with a background image.
+    comment: Use with a background image, no blend.
     options:
       values: _select_data.tint_opacities
       value_key: value
