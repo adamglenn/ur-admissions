@@ -10,7 +10,7 @@ faculty_profile_topper:
 name: Frank Dux
 first_name: Frank
 last_name: Dux
-image: /uploads/clarence-moore.jpg
+profile_image: /uploads/clarence-moore.jpg
 description:
 position:
   - organization:

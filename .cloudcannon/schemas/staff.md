@@ -9,7 +9,7 @@ faculty_profile_topper:
 name:
 first_name:
 last_name:
-image:
+profile_image:
 description:
 position:
   - organization:
