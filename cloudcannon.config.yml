@@ -401,11 +401,11 @@ _select_data:
     - name: None
       value: "0.0"
     - name: Light
-      value: "0.2"
+      value: "0.3"
     - name: Medium
       value: "0.5"
     - name: Dark
-      value: "0.8"
+      value: "0.7"
   topper_margins:
     - name: Default
       class: ""
