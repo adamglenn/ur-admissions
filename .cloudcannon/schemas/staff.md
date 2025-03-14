@@ -3,6 +3,7 @@ title:
 uuid:
 type: staff
 dir_include: true
+is_contact: true
 faculty_profile_topper:
   _bookshop_name: design-system/topper/staff
 name:

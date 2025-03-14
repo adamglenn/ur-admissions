@@ -4,6 +4,7 @@ title: Frank Dux
 uuid: 71f305aa-0efc-4773-bc5b-35e0dec56f21
 type: staff
 dir_include: true
+is_contact: true
 faculty_profile_topper:
   _bookshop_name: design-system/topper/staff
 name: Frank Dux
