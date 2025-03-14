@@ -23,7 +23,7 @@ topper:
     heading_c: wvu-neutral--off-white
     enable_blend: true
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
