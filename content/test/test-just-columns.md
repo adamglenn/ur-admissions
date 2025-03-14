@@ -87,6 +87,14 @@ content_blocks:
         edit_mode_only: false
         show_content: false
     column_aa:
+      _bookshop_name: design-system/column/link-list-panels
+      heading: Link List
+      list_description: Description.
+      items:
+        - text: What is this?
+          description: Description.
+          url: https://www.wvu.edu
+          icon: Link
     config:
       edit_mode_only: false
     layout:
