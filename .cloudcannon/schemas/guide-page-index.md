@@ -16,6 +16,9 @@ topper:
   styles:
     vibe: down-to-business
     background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c:
     enable_blend: false
     enable_pattern: false

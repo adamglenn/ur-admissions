@@ -19,6 +19,9 @@ topper:
     vibe: down-to-business
     color_palette:
     background_c: bg-wvu-blue text-white
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c: text-wvu-blue
     enable_blend: false
     enable_pattern: false

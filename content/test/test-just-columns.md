@@ -16,7 +16,10 @@ topper:
   body_text: ''
   styles:
     vibe: down-to-business
-    background_c:
+    background_c: bg-wvu-blue text-white
+    gradient_1: 0, 40, 85
+    gradient_2: 245, 134, 114
+    gradient_3: 255, 229, 57
     heading_c:
     enable_blend: false
     enable_pattern: false

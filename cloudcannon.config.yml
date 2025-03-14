@@ -322,45 +322,59 @@ _select_data:
     - name: WVU Gold
       background_classes: bg-wvu-gold text-wvu-blue
       class: wvu-gold
+      rgba: 234, 170, 0
     - name: WVU Blue
       background_classes: bg-wvu-blue text-white
       class: wvu-blue
+      rgba: 0, 40, 85
     - name: Accent - Blue
       background_classes: bg-wvu-accent--blue text-white
       class: wvu-accent--blue
+      rgba: 0, 98, 163
     - name: Accent - Dark Blue
       background_classes: bg-wvu-accent--blue-dark text-white
       class: wvu-accent--blue-dark
+      rgba: 28, 43, 57
     - name: Accent - Light Blue
       background_classes: bg-wvu-accent--blue-light text-wvu-blue
       class: wvu-accent--blue-light
+      rgba: 157, 218, 230
     - name: Accent - Yellow
       background_classes: bg-wvu-accent--yellow text-dark
       class: wvu-accent--yellow
+      rgba: 255, 229, 57
     - name: Accent - Old Gold
       background_classes: bg-wvu-accent--old-gold text-white
       class: wvu-accent--old-gold
+      rgba: 127, 99, 16
     - name: Accent - Sunset
       background_classes: bg-wvu-accent--sunset text-dark
       class: wvu-accent--sunset
+      rgba: 245, 134, 114
     - name: Neutral - Off-White
       background_classes: bg-wvu-neutral--off-white text-dark
       class: wvu-neutral--off-white
+      rgba: 247, 247, 247
     - name: Neutral - Warm Gray Light
       background_classes: bg-wvu-neutral--warm-gray-light text-dark
       class: wvu-neutral--warm-gray-light
+      rgba: 190,183,179
     - name: Neutral - Warm Gray Medium
       background_classes: bg-wvu-neutral--warm-gray-medium text-dark
       class: wvu-neutral--warm-gray-medium
+      rgba: 152, 142, 139
     - name: Neutral - Warm Gray Dark
       background_classes: bg-wvu-neutral--warm-gray-dark text-white
       class: wvu-neutral--warm-gray-dark
+      rgba: 85, 71, 65
     - name: Neutral - Cream
       background_classes: bg-wvu-neutral--cream text-dark
       class: wvu-neutral--cream
+      rgba: 242, 230, 194
     - name: Neutral - Tan
       background_classes: bg-wvu-neutral--tan text-dark
       class: wvu-neutral--tan
+      rgba: 179, 161, 105
   container_margins:
     - name: Default
       class: ""
@@ -515,6 +529,21 @@ _inputs:
   excerpt:
     type: markdown
     cascade: true
+  gradient_1:
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: rgba
+  gradient_2:
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: rgba
+  gradient_3:
+    type: select
+    options:
+      values: _select_data.brand_colors
+      value_key: rgba
   heading_c:
     type: select
     label: Heading Color

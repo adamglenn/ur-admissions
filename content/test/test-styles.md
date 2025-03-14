@@ -17,6 +17,9 @@ topper:
   styles:
     vibe: down-to-business
     background_c: bg-wvu-gold text-wvu-blue
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c: wvu-accent--blue-dark
     enable_blend: true
     enable_pattern: true

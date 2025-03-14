@@ -18,12 +18,14 @@ topper:
   styles:
     vibe: down-to-business
     background_c: bg-wvu-blue text-white
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
     tint_opacity: 0.5
     container_margin: mb-6
-    color_palette:
     margin:
 cascade:
   secondary_nav:
