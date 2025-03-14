@@ -466,31 +466,37 @@ _inputs:
     cascade: true
   column_a:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks
     cascade: true
   column_aa:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks
     cascade: true
   column_b:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks_sm
     cascade: true
   column_c:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks_sm
     cascade: true
   column_d:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks_sm
     cascade: true
   column_e:
     type: object
+    label: Column
     options:
       structures: _structures.column_blocks_sm
     cascade: true
@@ -500,14 +506,6 @@ _inputs:
       allow_empty: false
       values: data.people_data[?(@.is_contact == true)]
       value_key: uuid
-      preview:
-        text:
-          - key: name
-        subtext:
-          - key: description
-        image:
-          - key: profile_image
-        icon: article
     cascade: true
   contact_list:
     type: array
