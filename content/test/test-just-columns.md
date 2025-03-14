@@ -17,13 +17,13 @@ topper:
   styles:
     vibe: down-to-business
     background_c:
-    gradient_1: 245, 134, 114
-    gradient_2: 255, 229, 57
-    gradient_3: 247, 247, 247
-    heading_c: wvu-neutral--off-white
-    enable_blend: true
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
+    enable_blend: false
     enable_pattern: false
-    tint_opacity: "0.5"
+    tint_opacity: '0.7'
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
