@@ -23,7 +23,7 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.7'
+    tint_opacity: '0.5'
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
@@ -70,6 +70,21 @@ content_blocks:
       url: https://www.wvu.edu
       config:
         edit_mode_only: false
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+      _bookshop_name: design-system/column/contacts
+      heading: Contacts
+      people:
+        - label: For Inquiries, Contact
+          contact: 454e0990-eb76-4fc5-9c36-2120a5d086e0
+      config:
+        edit_mode_only: false
+        show_content: false
+    column_aa:
     config:
       edit_mode_only: false
     layout:
