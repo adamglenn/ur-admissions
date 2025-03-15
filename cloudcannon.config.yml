@@ -128,8 +128,6 @@ collections_config:
       - visual
       - data
     path: content
-    glob:
-      - '!/directory'
     description: Pages description
     output: true
     parse_branch_index: true
