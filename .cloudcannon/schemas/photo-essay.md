@@ -1,5 +1,6 @@
 ---
 title:
+subheading: Subheading.
 type: photo-essay
 uuid:
 article_topper:
@@ -7,7 +8,6 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading.
   show_byline: true
   body_text:
   styles:

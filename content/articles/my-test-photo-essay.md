@@ -2,13 +2,13 @@
 _schema: photo-essay
 type: photo-essay
 title: My Test Photo Essay
+subheading: Subheading.
 article_topper:
   _bookshop_name: design-system/topper/article-hero
   label:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading.
   show_byline: true
   body_text:
   styles:
@@ -24,6 +24,7 @@ article_topper:
     margin:
 authors:
   - author: glenn-adam
+    role:
 article_tags: []
 publishDate: 2022-06-08T22:20:51-04:00
 description: Description.

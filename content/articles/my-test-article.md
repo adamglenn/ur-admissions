@@ -1,8 +1,10 @@
 ---
 _schema: article
 title: My Test Article
+subheading: Subheading.
 authors:
   - author: glenn-adam
+    role: Author
 article_tags:
   - Custom Label
 description: Description.
@@ -13,7 +15,6 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading.
   show_byline: true
   body_text:
   styles:

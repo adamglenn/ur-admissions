@@ -1,5 +1,6 @@
 ---
 title:
+subheading: Subheading.
 uuid:
 description:
 excerpt:
@@ -13,7 +14,6 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading.
   show_byline: true
   body_text:
   styles:

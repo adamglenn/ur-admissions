@@ -20,7 +20,7 @@ author_bio_topper:
 name: Adam Glenn
 first_name:
 last_name:
-profile_image:
+profile_image: /uploads/clarence-moore.jpg
 description:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text

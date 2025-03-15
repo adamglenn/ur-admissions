@@ -1,8 +1,10 @@
 ---
 _schema: article
 title: My Test Article 2
+subheading: Subheading.
 authors:
   - author: glenn-adam
+    role:
 description: Description.
 excerpt: Excerpt.
 publishDate: 2022-06-08T22:20:51-04:00
@@ -12,7 +14,6 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  subheading: Subheading.
   show_byline: true
   body_text:
   styles:
