@@ -8,4 +8,5 @@ alt_text:
 description:
 location:
 contacts:
+_unlisted: true
 ---
