@@ -285,6 +285,7 @@ collection_groups:
     collections:
       - pages
       - articles
+      - directory
   - heading: Collections
     collections:
       - clubs_and_organizations
