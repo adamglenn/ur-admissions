@@ -7,6 +7,11 @@ dir_include: true
 is_contact: true
 staff_profile_topper:
   _bookshop_name: design-system/topper/staff
+  styles:
+    vibe: down-to-business
+    enable_blend: true
+    enable_pattern: false
+    tint_opacity: 0.5
 name: Frank Dux
 first_name: Frank
 last_name: Dux
@@ -19,6 +24,9 @@ staff_contact_info:
   - _bookshop_name: design-system/simple/phone
     label: Phone
     phone_n: (304) 999-9999
+  - _bookshop_name: design-system/simple/email
+    label: Email
+    address: firstname.lastname@mail.wvu.edu
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
