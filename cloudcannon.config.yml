@@ -84,11 +84,6 @@ collections_config:
   default_content:
     path: content/default-content/
     icon: toolbar
-  directory:
-    path: content/directory
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: true
   masthead_nav_footer:
     label: Masthead, Primary Nav and Footer
     path: data/default_content
@@ -174,6 +169,14 @@ collections_config:
         new_preview_url: live-editor-previews/guide/
         create:
           path: '[relative_base_path]/_index.md'
+  directory:
+    _enabled_editors:
+      - visual
+      - data
+    path: content/directory
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
   people:
     _enabled_editors:
       - visual
