@@ -1,5 +1,5 @@
 ---
-title: Blocks
+title: Default Content Blocks
 type: default-content
 default_content_blocks:
   - _bookshop_name: design-system/section/quicklinks
@@ -9,4 +9,5 @@ default_content_blocks:
         url: /test
     config:
       edit_mode_only: false
+    margin: ''
 ---
