@@ -82,7 +82,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   default_content:
-    path: content/default-content
+    path: content/default_content
     output: false
     parse_branch_index: true
     disable_add: true
