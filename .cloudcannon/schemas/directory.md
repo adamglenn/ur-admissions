@@ -1,5 +1,4 @@
 ---
-_schema: directory
 title: Directory
 type: directory
 topper:

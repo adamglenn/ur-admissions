@@ -177,6 +177,13 @@ collections_config:
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
+    schemas:
+      directory:
+        path: .cloudcannon/schemas/directory.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
   people:
     _enabled_editors:
       - visual
