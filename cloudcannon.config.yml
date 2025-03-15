@@ -83,8 +83,11 @@ collections_config:
     disable_file_actions: false
   default_content:
     path: content/default-content
-    output: true
+    output: false
     parse_branch_index: true
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
     icon: toolbar
   directory:
     _enabled_editors:
