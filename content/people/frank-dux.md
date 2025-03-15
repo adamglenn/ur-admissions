@@ -19,19 +19,6 @@ staff_contact_info:
   - _bookshop_name: design-system/simple/phone
     label: Phone
     phone_n: (304) 999-9999
-phone:
-  - number: 0
-email:
-  - email: frank.dux@mail.wvu.edu
-building:
-  - name:
-    address:
-    room:
-    map_link:
-files:
-  - name:
-    file:
-    icon:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
