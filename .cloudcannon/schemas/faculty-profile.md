@@ -5,7 +5,7 @@ type: faculty-profile
 dir_include: true
 is_contact: true
 faculty_profile_topper:
-  _bookshop_name: design-system/topper/student-profile
+  _bookshop_name: design-system/topper/faculty-profile
   background_image:
   alt_text:
   heading: Heading

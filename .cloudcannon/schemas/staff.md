@@ -12,21 +12,9 @@ last_name:
 profile_image:
 description:
 position:
-  - organization:
-    title:
-phone:
-  - number:
-email:
-  - email:
-building:
-  - name:
-    address:
-    room:
-    map_link:
-files:
-  - name:
-    file:
-    icon:
+  - title:
+    organization:
+staff_contact_info:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
