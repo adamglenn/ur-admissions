@@ -85,7 +85,7 @@ collections_config:
     path: content/default-content/
     icon: toolbar
   directory:
-    path: content/directory
+    path: content/directory/index.md
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
