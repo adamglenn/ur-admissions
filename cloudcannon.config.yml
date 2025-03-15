@@ -592,6 +592,8 @@ _inputs:
   image_lg:
     type: image
     cascade: true
+  is_default_content:
+    hidden: true
   is_contact:
     hidden: true
   layout:
