@@ -123,6 +123,8 @@ collections_config:
       - visual
       - data
     path: content
+    glob:
+      - '!directory/index.md'
     description: Pages description
     output: true
     parse_branch_index: true
