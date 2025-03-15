@@ -82,7 +82,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
   default_content:
-    path: content/default-content/
+    path: content/default-content
     icon: toolbar
   masthead_nav_footer:
     label: Masthead, Primary Nav and Footer
@@ -176,6 +176,8 @@ collections_config:
       - visual
       - data
     path: content/directory
+    output: true
+    parse_branch_index: true
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
