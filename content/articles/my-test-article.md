@@ -1,8 +1,9 @@
 ---
 _schema: article
 title: My Test Article
-subheading: Subheading.
+subheading: Subheading. Test.
 description: Description.
+excerpt: ''
 publishDate: 2022-06-08T22:20:51-04:00
 authors:
   - author: glenn-adam
@@ -15,8 +16,8 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  show_byline: true
   body_text:
+  show_byline: true
   styles:
     vibe: down-to-business
     background_c:
@@ -31,7 +32,7 @@ article_topper:
 show_author_bios: true
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: Text. How fast is this?
 type: articles
 image:
   src: /uploads/hero-social-swag.jpg
