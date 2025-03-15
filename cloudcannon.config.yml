@@ -472,6 +472,7 @@ _inputs:
     cascade: true
   article_tags:
     type: multiselect
+    label: Tags
     options:
       values: _select_data.article_tags
   background_c:

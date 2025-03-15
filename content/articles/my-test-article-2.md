@@ -31,7 +31,7 @@ image:
   alt: 
 article_blocks:
 type: articles
-tags:
+article_tags:
   - top-story
 ---
 

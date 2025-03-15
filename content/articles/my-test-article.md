@@ -32,8 +32,6 @@ image:
   alt: 
 article_blocks:
 type: articles
-tags:
-  - featured
 ---
 
 My content. f
