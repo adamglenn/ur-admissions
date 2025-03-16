@@ -1,6 +1,6 @@
 ---
 _schema: article
-title:
+title: My New Article
 subheading: Subheading.
 uuid:
 description:

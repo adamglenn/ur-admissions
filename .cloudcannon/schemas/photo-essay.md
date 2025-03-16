@@ -1,5 +1,5 @@
 ---
-title:
+title: My New Photo Essay
 subheading: Subheading.
 type: photo-essay
 uuid:

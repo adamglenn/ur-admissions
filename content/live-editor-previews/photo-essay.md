@@ -1,6 +1,6 @@
 ---
 _schema: photo-essay
-title:
+title: My New Photo Essay
 subheading: Subheading.
 type: photo-essay
 uuid:
