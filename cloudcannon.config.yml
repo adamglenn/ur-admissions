@@ -495,7 +495,7 @@ _inputs:
   authors:
     preview:
       text:
-        - key: author.name
+        - key: name
   background_c:
     type: select
     label: Background Color
