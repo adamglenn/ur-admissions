@@ -489,7 +489,7 @@ _inputs:
     type: select
     preview:
       text:
-        - key: name
+        - key: author.name
     options:
       values: data.people_data[?(@.schema == "author-profile")]
   background_c:
