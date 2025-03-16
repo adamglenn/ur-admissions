@@ -16,7 +16,7 @@ article_topper:
   alt_text:
   heading:
   body_text:
-  show_byline: true
+  show_byline: false
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text:

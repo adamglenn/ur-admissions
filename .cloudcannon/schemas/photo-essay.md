@@ -13,7 +13,7 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  show_byline: true
+  show_byline: false
   body_text:
   styles:
     vibe: down-to-business
