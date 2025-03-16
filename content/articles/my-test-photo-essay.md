@@ -20,7 +20,7 @@ article_topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 authors:
   - author: glenn-adam
