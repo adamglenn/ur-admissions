@@ -1,4 +1,5 @@
 ---
+_schema: article
 title:
 subheading: Subheading.
 uuid:

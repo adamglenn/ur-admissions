@@ -32,7 +32,14 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /
+        new_preview_url: live-editor-previews/article/
+      photo_essay:
+        path: .cloudcannon/schemas/photo-essay.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: live-editor-previews/photo-essay/
   clubs_and_organizations:
     _enabled_editors:
       - visual
@@ -643,7 +650,7 @@ _inputs:
     options:
       structures: _structures.links
     cascade: true
-  publish_date:
+  publishDate:
     type: date
     instance_value: NOW
     cascade: true

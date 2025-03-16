@@ -1,4 +1,5 @@
 ---
+_schema: photo-essay
 title:
 subheading: Subheading.
 type: photo-essay
@@ -9,6 +10,7 @@ authors:
 publishDate:
 description:
 article_topper:
+  _bookshop_name: design-system/topper/article-hero
   label:
   background_image:
   alt_text:

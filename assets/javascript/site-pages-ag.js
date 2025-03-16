@@ -35,7 +35,7 @@ var walk = function(dir, done) {
                         major: doc.attributes.major,
                         graduation_year: doc.attributes.graduation_year,
                         author: doc.attributes.author,
-                        publish_date: doc.attributes.publish_date,
+                        publishDate: doc.attributes.publishDate,
                         contact_details: doc.attributes.contact_details,
                         excerpt: doc.body.slice(0, doc.body.indexOf("\n")),
                         content: doc.body,
