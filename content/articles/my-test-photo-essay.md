@@ -24,7 +24,7 @@ article_topper:
     margin:
 authors:
   - author: glenn-adam
-    role:
+    article_role:
 article_tags: []
 publishDate: 2022-06-08T22:20:51-04:00
 description: Description.

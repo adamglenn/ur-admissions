@@ -334,6 +334,10 @@ _select_data:
       type: info
     - name: Warning
       type: warning
+  article_roles:
+    - Author
+    - Photographer
+    - Video
   article_tags:
     - Feature
     - Resource
@@ -470,6 +474,11 @@ _inputs:
         - _select_data.alert_type
       value_key: type
     cascade: true
+  article_role:
+    type: select
+    label: Role
+    options:
+      values: _select_data.articles_roles
   article_tags:
     type: multiselect
     label: Tags

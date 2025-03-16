@@ -18,6 +18,7 @@ article_topper:
     margin:
 authors:
   - author:
+    article_role: Author
 publish_date:
 description:
 show_author_bios: true

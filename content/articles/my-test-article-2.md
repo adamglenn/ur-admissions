@@ -4,7 +4,7 @@ title: My Test Article 2
 subheading: Subheading.
 authors:
   - author: glenn-adam
-    role:
+    article_role:
 description: Description.
 excerpt: Excerpt.
 publishDate: 2022-06-08T22:20:51-04:00

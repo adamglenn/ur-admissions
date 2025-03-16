@@ -7,7 +7,7 @@ excerpt: ''
 publishDate: 2022-06-08T22:20:51-04:00
 authors:
   - author: glenn-adam
-    role: Author
+    article_role: Author
 article_tags:
   - Custom Label
 article_topper:

@@ -7,6 +7,7 @@ excerpt:
 publishDate:
 authors:
   - author:
+    article_role: Author
 article_tags:
 article_topper:
   _bookshop_name: design-system/topper/article-hero
