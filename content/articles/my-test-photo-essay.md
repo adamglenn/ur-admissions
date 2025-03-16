@@ -20,11 +20,11 @@ article_topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: "0.5"
+    tint_opacity: '0.5'
     margin:
 authors:
   - author: glenn-adam
-    article_role:
+    article_role: Author
 article_tags: []
 publishDate: 2022-06-08T22:20:51-04:00
 description: Description.
