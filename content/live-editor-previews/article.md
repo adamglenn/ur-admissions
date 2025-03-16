@@ -19,6 +19,8 @@ article_topper:
   body_text:
   show_byline: true
 article_blocks:
+  - _bookshop_name: design-system/column/rich-text
+    text:
 show_author_bios: true
 type: articles
 ---
