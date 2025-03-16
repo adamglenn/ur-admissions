@@ -23,7 +23,7 @@ collections_config:
     output: true
     parse_branch_index: true
     disable_add: false
-    disable_add_folder: false
+    disable_add_folder: true
     disable_add_file_actions: false
     schemas:
       article:
@@ -475,6 +475,10 @@ _inputs:
     label: Tags
     options:
       values: _select_data.article_tags
+  author:
+    type: select
+    options:
+      values: data.people_data[?(@._schema == "author-profile")]
   background_c:
     type: select
     label: Background Color
