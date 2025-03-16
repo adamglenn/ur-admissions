@@ -478,7 +478,7 @@ _inputs:
     type: select
     label: Role
     options:
-      values: _select_data.articles_roles
+      values: _select_data.article_roles
   article_tags:
     type: multiselect
     label: Tags
