@@ -17,7 +17,7 @@ article_topper:
   heading:
   body_text:
   show_byline: true
-show_author_bios: true
 article_blocks:
+show_author_bios: true
 type: articles
 ---

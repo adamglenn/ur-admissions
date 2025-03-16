@@ -487,15 +487,8 @@ _inputs:
       values: _select_data.article_tags
   author:
     type: select
-    preview:
-      text:
-        - key: author.name
     options:
       values: data.people_data[?(@.schema == "author-profile")]
-  authors:
-    preview:
-      text:
-        - key: name
   background_c:
     type: select
     label: Background Color

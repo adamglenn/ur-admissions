@@ -3,6 +3,11 @@ title:
 subheading: Subheading.
 type: photo-essay
 uuid:
+authors:
+  - author:
+    article_role: Author
+publish_date:
+description:
 article_topper:
   label:
   background_image:
@@ -16,13 +21,8 @@ article_topper:
     enable_pattern: false
     tint_opacity: 0.5
     margin:
-authors:
-  - author:
-    article_role: Author
-publish_date:
-description:
-show_author_bios: true
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text:
+show_author_bios: true
 ---
