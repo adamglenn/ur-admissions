@@ -9,8 +9,8 @@ article_topper:
   background_image:
   alt_text:
   heading:
-  show_byline: true
   body_text:
+  show_byline: true
   styles:
     vibe: down-to-business
     background_c:
@@ -35,6 +35,8 @@ photo_essay_blocks:
       And some more. And some more.
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/hero-social-swag.jpg
+    alt: Social media cards.
+    caption: Social media cards.
     config:
       edit_mode_only: false
 ---
