@@ -483,9 +483,13 @@ _inputs:
     type: multiselect
     label: Tags
     options:
+      allow_create: true
       values: _select_data.article_tags
   author:
     type: select
+    preview:
+      text:
+        - key: name
     options:
       values: data.people_data[?(@.schema == "author-profile")]
   background_c:
