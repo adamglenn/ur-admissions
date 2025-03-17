@@ -209,7 +209,7 @@ collections_config:
     preview:
       metadata:
         - text:
-            - template: {.type}
+            - template: {type}
     add_options:
       - name: Alumni
         schema: alumni
