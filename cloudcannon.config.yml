@@ -209,7 +209,7 @@ collections_config:
     preview:
       metadata:
         - text:
-            - template: '{type}'
+            - template: '{type|humanize}'
             - No type
     add_options:
       - name: Alumni
