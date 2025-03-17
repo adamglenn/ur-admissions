@@ -5,14 +5,14 @@ uuid: 8c4065b3-8133-4271-b3a0-ce2a62bb14b6
 type: guide
 description:
 topper:
-  _bookshop_name: design-system/topper/hero
+  _bookshop_name: design-system/topper/hero-split
   label:
   background_image:
   alt_text:
   heading:
     - text: Heading
       highlight:
-  subheading: Subheading goes here.
+  subheading: Subheading.
   body_text: ''
   styles:
     vibe: down-to-business
@@ -23,7 +23,7 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: '0.5'
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
