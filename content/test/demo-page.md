@@ -62,6 +62,7 @@ content_blocks:
         - top-story
       config:
         edit_mode_only: false
+        show_content: false
     column_b:
       _bookshop_name: design-system/column_sm/profile-generic
       label: Profile
