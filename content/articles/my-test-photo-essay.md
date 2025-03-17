@@ -39,4 +39,6 @@ photo_essay_blocks:
     caption: Social media cards.
     config:
       edit_mode_only: false
+metadata:
+  type: Photo Essay
 ---

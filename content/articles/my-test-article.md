@@ -37,5 +37,7 @@ type: articles
 image:
   src: /uploads/hero-social-swag.jpg
   alt:
+metadata:
+  type: Article
 ---
 My content. f

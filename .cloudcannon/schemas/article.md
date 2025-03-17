@@ -18,4 +18,6 @@ article_blocks:
 show_author_bios: true
 uuid:
 type: articles
+metadata:
+  type: Article
 ---

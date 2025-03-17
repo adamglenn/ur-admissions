@@ -25,4 +25,6 @@ photo_essay_blocks:
 show_author_bios: true
 type: photo-essay
 uuid:
+metadata:
+  type: Photo Essay
 ---

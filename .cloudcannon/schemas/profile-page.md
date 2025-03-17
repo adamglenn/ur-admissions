@@ -22,4 +22,6 @@ topper:
 content_blocks:
 uuid:
 type: profile
+metadata:
+  type: Generic Profile
 ---

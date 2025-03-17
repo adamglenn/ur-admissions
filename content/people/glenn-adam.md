@@ -27,5 +27,6 @@ detail_blocks:
     text: Text.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
-config:
+metadata:
+  type: Author
 ---

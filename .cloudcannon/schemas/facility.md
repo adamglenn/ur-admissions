@@ -24,4 +24,6 @@ profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
 uuid:
 type: place
+metadata:
+  type: Place/Space
 ---

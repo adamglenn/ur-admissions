@@ -34,6 +34,8 @@ article_blocks:
 type: articles
 article_tags:
   - top-story
+metadata:
+  type: Article
 ---
 
 My content. f
