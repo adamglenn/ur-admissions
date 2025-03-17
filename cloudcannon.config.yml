@@ -614,6 +614,9 @@ _inputs:
   hide_collection_pages:
     type: switch
     cascade: true
+  honors:
+    type: array
+    cascade: true
   image_lg:
     type: image
     cascade: true
@@ -621,11 +624,17 @@ _inputs:
     hidden: true
   is_contact:
     hidden: true
+  job_title:
+    type: array
+    cascade: true
   layout:
     hidden: true
     cascade: true
   limit:
     type: number
+    cascade: true
+  majors:
+    type: array
     cascade: true
   margin:
     type: select
@@ -641,6 +650,9 @@ _inputs:
     cascade: true
   message:
     type: markdown
+    cascade: true
+  minors:
+    type: array
     cascade: true
   person:
     type: select
