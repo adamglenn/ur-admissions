@@ -47,7 +47,6 @@ collections_config:
     path: content/clubs-and-organizations
     icon: heart
     description: Clubs and organizations.
-    icon:
     output: true
     parse_branch_index: true
     disable_add: false
