@@ -206,6 +206,10 @@ collections_config:
       - visual
       - data
     path: content/people
+    preview:
+      metadata:
+        - text:
+            - template: {.type}
     add_options:
       - name: Alumni
         schema: alumni
