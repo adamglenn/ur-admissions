@@ -206,6 +206,8 @@ collections_config:
       - data
     path: content/people
     add_options:
+      - name: Alumni
+        schema: faculty
       - name: Faculty Member
         schema: faculty
       # - name: Speaker
@@ -216,6 +218,15 @@ collections_config:
         schema: student
     icon: group
     schemas:
+      alumni:
+        path: .cloudcannon/schemas/alumni.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /live-editor-previews/alumni/
+        create:
+          path: '{first_name|slugify}-{last_name|slugify}.md'
       faculty:
         path: .cloudcannon/schemas/faculty-profile.md
         reorder_inputs: true
