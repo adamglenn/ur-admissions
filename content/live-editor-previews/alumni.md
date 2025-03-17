@@ -1,6 +1,6 @@
 ---
 _schema: alumni
-name:
+name: New Alumni
 first_name:
 last_name:
 image_lg:
