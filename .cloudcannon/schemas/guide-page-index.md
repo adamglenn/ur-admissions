@@ -1,7 +1,5 @@
 ---
-title: New Page
-uuid:
-type: guide
+title: New Guide Index Page
 description:
 topper:
   _bookshop_name: design-system/topper/hero
@@ -22,11 +20,13 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     container_margin:
 cascade:
   secondary_nav:
     title:
     menu_id:
 content_blocks:
+uuid:
+type: guide
 ---

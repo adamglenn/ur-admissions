@@ -1,25 +1,27 @@
 ---
-title:
-uuid:
-type: detail
-faculty_member:
+title: New Place
 description:
-topper:
-  _bookshop_name: design-system/topper/student-profile
-  background_image:
-  alt_text:
-  heading: Heading
-  subheading: Subheading
+place_topper:
+  _bookshop_name: design-system/topper/place
+  label:
+  heading:
+  subheading:
   styles:
-    vibe: down_to_business
+    vibe: down-to-business
     background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+uuid:
+type: place
 ---

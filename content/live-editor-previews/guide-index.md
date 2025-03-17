@@ -1,16 +1,17 @@
 ---
-title: New Guide Page
+_schema: guide-page
+title: New Guide Index Page
 description:
 topper:
   _bookshop_name: design-system/topper/hero
-  label:
-  background_image:
-  alt_text:
+  label: ""
+  background_image: ""
+  alt_text: ""
   heading:
     - text: Heading
-      highlight:
-  subheading: Subheading goes here.
-  body_text:
+      highlight: ""
+  subheading: Subheading.
+  body_text: ""
   styles:
     vibe: down-to-business
     background_c:
@@ -22,7 +23,12 @@ topper:
     enable_pattern: false
     tint_opacity: "0.5"
     container_margin:
+cascade:
+  secondary_nav:
+    title:
+    menu_id:
 content_blocks:
 uuid:
 type: guide
+_unlisted: true
 ---

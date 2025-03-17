@@ -9,11 +9,4 @@ topper:
   heading:
   subheading:
   body_text:
-  styles:
-    vibe: down-to-business
-    color_palette:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: 0.5
-    margin:
 ---

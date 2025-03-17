@@ -1,8 +1,6 @@
 ---
 title: My New Photo Essay
 subheading: Subheading.
-type: photo-essay
-uuid:
 authors:
   - author:
     article_role: Author
@@ -25,4 +23,6 @@ photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text:
 show_author_bios: true
+type: photo-essay
+uuid:
 ---

@@ -1,6 +1,11 @@
 ---
-title: New Detail Page
+_schema: detail-page-index
+title: New Detail Index Page
 description:
+cascade:
+  secondary_nav:
+    title:
+    menu_id:
 topper:
   _bookshop_name: design-system/topper/default
   background_image:
@@ -13,4 +18,5 @@ detail_blocks:
 detail_sidebar_blocks:
 uuid:
 type: detail
+_unlisted: true
 ---

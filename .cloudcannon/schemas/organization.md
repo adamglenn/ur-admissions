@@ -1,7 +1,5 @@
 ---
 name_of_organization: New Organization
-type: organization
-uuid:
 image:
 alt_text:
 logo:
@@ -19,7 +17,7 @@ organization_topper:
     heading_c:
     enable_blend: true
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 description:
 location:
@@ -30,4 +28,6 @@ detail_blocks:
     text: Text.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
+type: organization
+uuid:
 ---

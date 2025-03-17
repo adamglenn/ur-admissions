@@ -181,7 +181,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/detail/
+        new_preview_url: live-editor-previews/detail-index/
         create:
           path: '[relative_base_path]/_index.md'
       guide_page:
@@ -197,7 +197,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/guide/
+        new_preview_url: live-editor-previews/guide-index/
         create:
           path: '[relative_base_path]/_index.md'
   people:
