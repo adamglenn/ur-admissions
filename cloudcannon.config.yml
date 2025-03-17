@@ -45,6 +45,7 @@ collections_config:
       - visual
       - data
     path: content/clubs-and-organizations
+    icon: heart
     description: Clubs and organizations.
     icon:
     output: true
@@ -101,6 +102,7 @@ collections_config:
       - visual
       - data
     path: content/directory
+    icon: list
     output: true
     parse_branch_index: true
     disable_add: true
