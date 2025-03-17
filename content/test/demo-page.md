@@ -7,7 +7,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero-split
   label:
-  background_image:
+  background_image: /uploads/woodburn.webp
   alt_text:
   heading:
     - text: Heading
@@ -16,7 +16,7 @@ topper:
   body_text: ''
   styles:
     vibe: down-to-business
-    background_c:
+    background_c: bg-wvu-blue text-white
     gradient_1:
     gradient_2:
     gradient_3:
