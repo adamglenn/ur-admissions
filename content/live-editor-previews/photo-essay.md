@@ -27,4 +27,5 @@ photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text:
 show_author_bios: true
+_unlisted: true
 ---

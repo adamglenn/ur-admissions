@@ -23,7 +23,7 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.5'
+    tint_opacity: '0.0'
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
