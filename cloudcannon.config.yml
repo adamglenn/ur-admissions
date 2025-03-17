@@ -209,8 +209,7 @@ collections_config:
     preview:
       metadata:
         - text:
-            - template: '{type|humanize}'
-            - No type
+            - key: metadata.type
     add_options:
       - name: Alumni
         schema: alumni
@@ -666,6 +665,8 @@ _inputs:
   message:
     type: markdown
     cascade: true
+  metadata:
+    hidden: true
   minors:
     type: array
     cascade: true

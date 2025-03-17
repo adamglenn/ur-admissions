@@ -43,4 +43,6 @@ profile_sidebar_blocks:
       - text: Cool Program
         url: https://www.wvu.edu
         icon:
+metadata:
+  type: Student
 ---
