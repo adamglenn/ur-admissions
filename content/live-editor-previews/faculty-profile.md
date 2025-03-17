@@ -1,4 +1,5 @@
 ---
+_schema: faculty-profile
 title: Student Profile
 type: faculty-profile
 faculty_profile_topper:
@@ -11,7 +12,7 @@ faculty_profile_topper:
     color_palette:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text

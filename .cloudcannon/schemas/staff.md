@@ -1,5 +1,5 @@
 ---
-title:
+title: New Staff
 uuid:
 type: staff
 dir_include: true

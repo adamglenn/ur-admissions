@@ -57,11 +57,12 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
       _bookshop_name: design-system/column/top-story
-      heading: Contact
+      heading: Top Story
       article_tags:
         - top-story
       config:
         edit_mode_only: false
+        hide_author: false
         show_content: false
     column_b:
       _bookshop_name: design-system/column_sm/profile-generic

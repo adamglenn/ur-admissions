@@ -1,22 +1,46 @@
 ---
-title: Alumni
-type: alumni
-faculty_profile_topper:
-  _bookshop_name: design-system/topper/alumni-profile
+_schema: alumni
+name:
+first_name:
+last_name:
+image_lg:
+profile_image:
+description:
+college:
+school:
+majors:
+  - title:
+minors:
+  - title:
+hometown:
+occupation:
+job_title:
+honors:
+graduation_year:
+quote:
+dir_include: false
+alumni_profile_topper:
+  _bookshop_name: design-system/topper/alumni
   label:
   heading:
   subheading:
   styles:
     vibe: down-to-business
     background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
-    margin:
+    tint_opacity: "0.5"
+    container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-column_blocks:
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+uuid:
+type: alumni
 _unlisted: true
 ---

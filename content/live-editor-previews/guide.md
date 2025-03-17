@@ -1,4 +1,5 @@
 ---
+_schema: guide-page
 title: Page Title
 type: guide
 topper:
@@ -21,7 +22,7 @@ topper:
     heading_c: text-wvu-blue
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 content_blocks:
 _unlisted: true

@@ -1,4 +1,5 @@
 ---
+_schema: facility
 title: Place
 type: place
 place_topper:

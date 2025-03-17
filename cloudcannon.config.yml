@@ -218,7 +218,7 @@ collections_config:
     schemas:
       faculty:
         path: .cloudcannon/schemas/faculty-profile.md
-        reorder_inputs: false
+        reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
@@ -229,7 +229,7 @@ collections_config:
       #   path: .cloudcannon/schemas/speaker.yml
       staff:
         path: .cloudcannon/schemas/staff.md
-        reorder_inputs: false
+        reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
@@ -238,21 +238,13 @@ collections_config:
           path: '{first_name|slugify}-{last_name|slugify}.md'
       student:
         path: .cloudcannon/schemas/student-profile.md
-        reorder_inputs: false
+        reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: /live-editor-previews/student-profile/
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
-  links:
-    _enabled_editors:
-      - data
-    icon: link
-    path: data/links.yml
-    schemas:
-      links:
-        path: .cloudcannon/schemas/links.yml
   partners:
     _enabled_editors:
       - data

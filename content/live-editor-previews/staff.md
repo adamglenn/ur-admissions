@@ -1,5 +1,6 @@
 ---
-title: Student Profile
+_schema: staff
+title: New Staff
 type: staff
 faculty_profile_topper:
   _bookshop_name: design-system/topper/staff

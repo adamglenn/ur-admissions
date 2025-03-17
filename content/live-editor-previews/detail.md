@@ -1,4 +1,5 @@
 ---
+_schema: detail-page
 title: Page Title
 type: detail
 topper:
@@ -14,7 +15,7 @@ topper:
     color_palette: wvu-accent--blue-dark
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
