@@ -45,7 +45,7 @@ collections_config:
       - visual
       - data
     path: content/clubs-and-organizations
-    icon: heart
+    icon: favorite
     description: Clubs and organizations.
     output: true
     parse_branch_index: true
