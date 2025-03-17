@@ -28,6 +28,11 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
+      _bookshop_name: design-system/column/youtube-video
+      heading: Featured Video
+      title: Video Title
+      description: Video description.
+      video_id: EMhV-NvxrAo
     column_b:
       _bookshop_name: design-system/column_sm/article-collection
       heading: Articles
@@ -51,6 +56,12 @@ content_blocks:
     styles:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
+      _bookshop_name: design-system/column/top-story
+      heading: Contact
+      article_tags:
+        - top-story
+      config:
+        edit_mode_only: false
     column_b:
       _bookshop_name: design-system/column_sm/profile-generic
       label: Profile
