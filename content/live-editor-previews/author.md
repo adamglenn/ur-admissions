@@ -1,11 +1,12 @@
 ---
+_schema: article
 name: New Author
 first_name:
 last_name:
 profile_image:
 description:
 author_profile_topper:
-  _bookshop_name: design-system/topper/author
+  _bookshop_name: design-system/topper/student-profile
   heading:
   subheading:
   styles:
@@ -26,4 +27,5 @@ profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
 uuid:
 type: author
+_unlisted: true
 ---

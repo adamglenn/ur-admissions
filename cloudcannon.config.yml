@@ -227,6 +227,15 @@ collections_config:
         new_preview_url: /live-editor-previews/alumni/
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
+      author:
+        path: .cloudcannon/schemas/author.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        new_preview_url: /live-editor-previews/author/
+        create:
+          path: '{first_name|slugify}-{last_name|slugify}.md'
       faculty:
         path: .cloudcannon/schemas/faculty-profile.md
         reorder_inputs: true
