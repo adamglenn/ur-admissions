@@ -207,9 +207,8 @@ collections_config:
       - data
     path: content/people
     preview:
-      metadata:
-        - text:
-            - template: {type}
+      text:
+        - key: type
     add_options:
       - name: Alumni
         schema: alumni
