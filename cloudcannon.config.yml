@@ -207,7 +207,7 @@ collections_config:
     path: content/people
     add_options:
       - name: Alumni
-        schema: faculty
+        schema: alumni
       - name: Faculty Member
         schema: faculty
       # - name: Speaker
