@@ -18,7 +18,7 @@ job_title:
   - CEO, Company Name
 honors:
 graduation_year: '1976'
-quote:
+quote: No, I don't hate Balboa, but I pity the fool.
 dir_include: false
 alumni_profile_topper:
   _bookshop_name: design-system/topper/alumni
