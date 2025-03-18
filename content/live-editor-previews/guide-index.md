@@ -28,6 +28,8 @@ cascade:
     title:
     menu_id:
 content_blocks:
+  - _bookshop_name: design-system/section/dummy
+    text: text
 uuid:
 type: guide
 _unlisted: true
