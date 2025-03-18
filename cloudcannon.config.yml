@@ -298,14 +298,14 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         new_preview_url: /live-editor-previews/place/
-  site_config:
-    _enabled_editors:
-      - data
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: true
-    icon: settings
-    path: data/site_config
+  # site_config:
+  #   _enabled_editors:
+  #     - data
+  #   disable_add: true
+  #   disable_add_folder: true
+  #   disable_file_actions: true
+  #   icon: settings
+  #   path: data/site_config
   sitewide_components:
     path: data/sitewide_components
     description: Sitewide components
