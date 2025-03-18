@@ -24,4 +24,5 @@ topper:
     container_margin:
 content_blocks:
 uuid:
+type: guide
 ---
