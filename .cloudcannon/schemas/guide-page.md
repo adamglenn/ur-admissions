@@ -23,6 +23,7 @@ topper:
     tint_opacity: "0.5"
     container_margin:
 content_blocks:
+  _bookshop_name:
 uuid:
 type: guide
 ---
