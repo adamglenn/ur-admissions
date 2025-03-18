@@ -3,7 +3,7 @@ _schema: alumni
 name: Clubber Lang
 first_name: Clubber
 last_name: Lang
-image_lg:
+image_lg: https://cloudcannondam.volutus.wvu.edu/admissions-test/Clubber_Lang.png
 profile_image:
 description:
 college: College of Creative Arts and Media
