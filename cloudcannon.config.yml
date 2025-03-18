@@ -428,6 +428,14 @@ _select_data:
       background_classes: bg-wvu-neutral--tan text-dark
       class: wvu-neutral--tan
       rgba: 179, 161, 105
+    - name: Transparent
+      background_classes: bg-transparent text-dark
+      class: transparent
+      rgba:
+    - name: Dark
+      background_classes: bg-dark text-white
+      class: transparent
+      rgba: 42, 42, 41
   container_margins:
     - name: Default
       class: ""
