@@ -115,7 +115,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
   masthead_nav_footer:
-    label: Masthead, Primary Nav and Footer
+    name: Masthead and Footer
     path: data/default_content
     icon: toolbar
     output: false
@@ -124,7 +124,7 @@ collections_config:
     disable_add_file_actions: true
   navigation_menus:
     path: data/menus
-    label: Submenus
+    name: Submenus
     description: Navigation menus you can use throughout the site.
     icon: menu
     output: false
