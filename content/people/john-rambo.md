@@ -9,8 +9,8 @@ image_lg:
 profile_image:
 description:
 position:
-  - organization:
-    title:
+  - organization: Department of Physics
+    title: Chair
 staff_contact_info:
   - _bookshop_name: design-system/simple/email
     label: Email
