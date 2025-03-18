@@ -140,14 +140,14 @@ collections_config:
         remove_extra_inputs: false
         create:
           path: data/menus
-      horizontal_steps_subnav:
-        path: .cloudcannon/schemas/horizontal-steps-sunav.yml
-        reorder_inputs: true
-        hide_extra_inputs: true
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        create:
-          path: data/menus
+      # horizontal_steps_subnav:
+      #   path: .cloudcannon/schemas/horizontal-steps-sunav.yml
+      #   reorder_inputs: true
+      #   hide_extra_inputs: true
+      #   remove_empty_inputs: false
+      #   remove_extra_inputs: false
+      #   create:
+      #     path: data/menus
   pages:
     _enabled_editors:
       - visual
@@ -658,6 +658,13 @@ _inputs:
     cascade: true
   job_title[*]:
     type: text
+  label_c:
+    type: select
+    label: Label Color
+    options:
+      values: _select_data.brand_colors
+      value_key: class
+    cascade: true
   layout:
     hidden: true
     cascade: true
