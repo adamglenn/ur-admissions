@@ -11,15 +11,7 @@ description:
 position:
   - organization:
     title:
-phone:
-  - number:
-email:
-  - email:
-building:
-  - name:
-    address:
-    room:
-    map_link:
+staff_contact_info:
 files:
   - name:
     file:

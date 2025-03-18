@@ -612,6 +612,8 @@ _inputs:
   excerpt:
     type: markdown
     cascade: true
+  file:
+    type: file
   gradient_1:
     type: select
     options:

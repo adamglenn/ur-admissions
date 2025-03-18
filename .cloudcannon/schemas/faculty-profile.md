@@ -10,15 +10,9 @@ description:
 position:
   - organization:
     title:
-phone:
-  - number:
-email:
-  - email:
-building:
-  - name:
-    address:
-    room:
-    map_link:
+staff_contact_info:
+dir_include: true
+is_contact: true
 files:
   - name:
     file:
