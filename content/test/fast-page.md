@@ -8,10 +8,10 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
+    - text: Heading Test
       highlight:
   subheading: Subheading goes here.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c:
