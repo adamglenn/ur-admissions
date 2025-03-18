@@ -41,6 +41,29 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
+  - _bookshop_name: design-system/section/quicklinks
+    heading: Quicklinks
+    links: []
+    config:
+      edit_mode_only: false
+    margin: ''
+  - _bookshop_name: design-system/section/poster-split
+    name: poster-split
+    poster_image:
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
 uuid: af039879-4fb4-4765-9c67-4df4eb64bf07
 type: guide
 ---
