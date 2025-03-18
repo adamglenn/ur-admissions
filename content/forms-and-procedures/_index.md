@@ -17,7 +17,6 @@ topper:
   body_text:
   styles:
     vibe: down-to-business
-    color_palette:
     background_c: bg-wvu-blue text-white
     gradient_1:
     gradient_2:
@@ -25,7 +24,8 @@ topper:
     heading_c: text-wvu-blue
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: '0.5'
+    color_palette:
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
@@ -39,7 +39,7 @@ detail_blocks:
   - _bookshop_name: design-system/column/link-list-panels
     items:
       - text: Domestic Visiting Student Undergraduate Admission Application
-        url: 
+        url:
         icon: PDF
       - text: International Admission Instructions and Application
         url:
@@ -96,7 +96,7 @@ detail_blocks:
   - _bookshop_name: design-system/column/link-list-panels
     items:
       - text: Academic Forgiveness
-        url: 
+        url:
         icon: Link
       - text: Admissions Decision Appeal
         url:
@@ -108,4 +108,8 @@ detail_blocks:
         url:
         icon: Link
 detail_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/jump-links
+    items:
+      - text: My Link Text
+        anchor:
 ---
