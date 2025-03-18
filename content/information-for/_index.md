@@ -24,7 +24,7 @@ topper:
     heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: '0.5'
     container_margin: mb-6
     margin:
 cascade:
@@ -56,4 +56,7 @@ content_blocks:
     styles:
       margin: mt-n8
     lead:
+  - _bookshop_name: design-system/section/sitewide-section
+    sitewide_section: information-for
+    show_content: false
 ---
