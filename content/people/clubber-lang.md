@@ -30,7 +30,7 @@ alumni_profile_topper:
     heading_c:
     enable_blend: true
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: "0.5"
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
