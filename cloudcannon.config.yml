@@ -631,6 +631,8 @@ _inputs:
   honors:
     type: array
     cascade: true
+  honors[*]:
+    type: text
   image_lg:
     type: image
     cascade: true
@@ -641,6 +643,8 @@ _inputs:
   job_title:
     type: array
     cascade: true
+  job_title[*]:
+    type: text
   layout:
     hidden: true
     cascade: true
@@ -650,6 +654,8 @@ _inputs:
   majors:
     type: array
     cascade: true
+  majors[*]:
+    type: text
   margin:
     type: select
     options:
@@ -670,6 +676,8 @@ _inputs:
   minors:
     type: array
     cascade: true
+  minors[*]:
+    type: text
   person:
     type: select
     options:
