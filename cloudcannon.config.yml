@@ -270,17 +270,17 @@ collections_config:
         new_preview_url: /live-editor-previews/student-profile/
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
-  partners:
-    _enabled_editors:
-      - data
-    path: data/partners.yml
-    add_options:
-      - name: Partner
-        schema: partners
-    icon: handshake
-    schemas:
-      partners:
-        path: .cloudcannon/schemas/partners.yml
+  # partners:
+  #   _enabled_editors:
+  #     - data
+  #   path: data/partners.yml
+  #   add_options:
+  #     - name: Partner
+  #       schema: partners
+  #   icon: handshake
+  #   schemas:
+  #     partners:
+  #       path: .cloudcannon/schemas/partners.yml
   places_and_spaces:
     _enabled_editors:
       - visual
