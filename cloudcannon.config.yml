@@ -758,9 +758,6 @@ _inputs:
   student_profile_topper:
     hidden: true
     cascade: true
-  styles:
-    preview:
-      text: "Test Styles Label"
   tags:
     type: multiselect
     options:
