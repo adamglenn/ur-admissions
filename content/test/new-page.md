@@ -1,8 +1,6 @@
 ---
 _schema: guide_page
 title: New Page
-uuid: 0c23cee6-5171-4aab-a361-5da8583ea4d6
-type: guide
 description:
 topper:
   _bookshop_name: design-system/topper/hero
@@ -16,7 +14,6 @@ topper:
   body_text:
   styles:
     vibe: down-to-business
-    color_palette:
     background_c: bg-white text-dark
     gradient_1:
     gradient_2:
@@ -24,8 +21,7 @@ topper:
     heading_c: text-wvu-blue
     enable_blend: false
     enable_pattern: false
-    tint_opacity: 0.5
-    margin:
+    tint_opacity: '0.5'
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid
     heading: Test Alternating Grid Component
@@ -75,6 +71,7 @@ content_blocks:
     limit: 5
     config:
       edit_mode_only: false
+      show_content: false
       hide_collection_pages: true
   - _bookshop_name: design-system/section/big-search
     label: Label
@@ -126,6 +123,7 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
+    styles: {}
   - _bookshop_name: design-system/section/cards-list
     heading: Hello World!
     subheading: Here is my subheading.
@@ -189,8 +187,6 @@ content_blocks:
   - _bookshop_name: design-system/section/place
     heading: Place Heading
     subheading: Subheading goes here.
-    image:
-    alt_text:
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
@@ -199,6 +195,10 @@ content_blocks:
         url:
     config:
       edit_mode_only: false
+    image: >-
+      https://cloudcannondam.volutus.wvu.edu/admissions-test/40633 S JFS 0210
+      XX.jpg
+    alt_text:
   - _bookshop_name: design-system/section/poster
     name: poster-split
     alt_text:
@@ -244,4 +244,6 @@ content_blocks:
         quote: Here is my quote.
     config:
       edit_mode_only: false
+uuid: 0c23cee6-5171-4aab-a361-5da8583ea4d6
+type: guide
 ---
