@@ -189,6 +189,8 @@ content_blocks:
   - _bookshop_name: design-system/section/place
     heading: Place Heading
     subheading: Subheading goes here.
+    image:
+    alt_text:
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
