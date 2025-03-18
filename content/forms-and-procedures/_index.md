@@ -107,5 +107,5 @@ detail_blocks:
       - text: Change of Major
         url:
         icon: Link
-column_blocks:
+detail_sidebar_blocks:
 ---

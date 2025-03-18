@@ -602,6 +602,10 @@ _inputs:
     options:
       structures: _structures.links
     cascade: true
+  detail_sidebar_blocks:
+    type: array
+    options:
+      structures: _structures.column_blocks_sm
   dir_include:
     type: switch
     label: Include in Directory
