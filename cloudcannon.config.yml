@@ -335,7 +335,6 @@ collection_groups:
       - places_and_spaces
   - heading: Site
     collections:
-      - site_config
       - masthead_nav_footer
       - default_content
       - navigation_menus
