@@ -13,7 +13,9 @@ article_topper:
   _bookshop_name: design-system/topper/article
   label:
   show_byline: false
-article_blocks: []
+article_blocks:
+  - _bookshop_name: design-system/column/rich-text
+    text: Text.
 show_author_bios: true
 uuid: ac8327c0-bcc1-4dec-851b-1fb051140109
 type: articles
