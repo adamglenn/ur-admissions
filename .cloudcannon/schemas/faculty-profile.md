@@ -50,5 +50,5 @@ profile_sidebar_blocks:
 uuid:
 type: faculty-profile
 metadata:
-  type: Faculty
+  type: Faculty Member
 ---

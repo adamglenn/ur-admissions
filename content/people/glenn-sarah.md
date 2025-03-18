@@ -46,5 +46,5 @@ profile_sidebar_blocks:
     heading: CTA Stack
     ctas: []
 metadata:
-  type: Faculty
+  type: Faculty Member
 ---
