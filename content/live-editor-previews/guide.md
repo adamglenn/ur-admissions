@@ -24,6 +24,14 @@ topper:
     tint_opacity: "0.5"
     container_margin:
 content_blocks:
+  - _bookshop_name: design-system/section/quicklinks
+    heading: Quicklinks
+    links:
+      - text: Text
+        url: /url
+    config:
+      edit_mode_only: false
+    margin: ""
 uuid:
 type: guide
 _unlisted: true
