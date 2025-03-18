@@ -4,8 +4,8 @@ name: New Faculty
 first_name:
 last_name:
 image_lg:
-  - src:
-    alt:
+  src:
+  alt:
 profile_image:
 description:
 position:

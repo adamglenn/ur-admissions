@@ -7,8 +7,8 @@ name: Firstname Lastname
 first_name: Lastname
 last_name: Lastname
 image_lg:
-  - src:
-    alt:
+  src:
+  alt:
 profile_image:
 description:
 college: College of Creative Arts and Media

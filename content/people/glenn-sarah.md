@@ -18,8 +18,8 @@ name: Sarah Glenn
 first_name: Sarah
 last_name: Glenn
 image_lg:
-  - src:
-    alt:
+  src:
+  alt:
 profile_image: /uploads/clarence-moore.jpg
 description: Test description.
 position:

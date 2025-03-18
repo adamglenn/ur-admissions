@@ -4,8 +4,8 @@ name: John Rambo
 first_name: John
 last_name: Rambo
 image_lg:
-  - src:
-    alt:
+  src:
+  alt:
 profile_image:
 description:
 position:
