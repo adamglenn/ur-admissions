@@ -778,6 +778,10 @@ _inputs:
     options:
       values: _select_data.tint_opacities
       value_key: value
+  topper:
+    type: object
+    options:
+      values: _structures.topper
   topper_type:
     hidden: true
   type:
