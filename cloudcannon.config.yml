@@ -605,7 +605,7 @@ _inputs:
   detail_sidebar_blocks:
     type: array
     options:
-      structures: _structures.column_blocks_sm
+      structures: _structures.detail_sidebar_blocks
   dir_include:
     type: switch
     label: Include in Directory
