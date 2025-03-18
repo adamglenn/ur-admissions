@@ -15,6 +15,9 @@ staff_contact_info:
   - _bookshop_name: design-system/simple/email
     label: Email
     address: firstname.lastname@mail.wvu.edu
+  - _bookshop_name: design-system/simple/phone
+    label: Phone
+    phone_n: (304) 123-4567
 dir_include: true
 is_contact: true
 files:
