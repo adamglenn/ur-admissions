@@ -27,11 +27,14 @@ alumni_profile_topper:
   subheading:
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-accent--blue text-white
+    background_c: bg-wvu-blue text-white
+    gradient_1: 245, 134, 114
+    gradient_2: 234, 170, 0
+    gradient_3: 255, 229, 57
     heading_c:
     enable_blend: true
     enable_pattern: false
-    tint_opacity: 0.5
+    tint_opacity: '0.5'
     margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
