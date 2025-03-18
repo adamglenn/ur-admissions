@@ -80,14 +80,14 @@ collections_config:
         new_preview_url: live-editor-previews/clubs-and-organizations/
         create:
           path: '{name_of_organization|slugify}.md'
-  data:
-    path: data
-    description: Data that is used to populate multiple areas throughout the site
-    output: false
-    icon: data_usage
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: false
+  # data:
+  #   path: data
+  #   description: Data that is used to populate multiple areas throughout the site
+  #   output: false
+  #   icon: data_usage
+  #   disable_add: true
+  #   disable_add_folder: true
+  #   disable_file_actions: false
   default_content:
     path: content/default_content
     output: false
@@ -313,7 +313,7 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-    icon: variable_add
+    icon: globe
     schemas:
       sitewide_quicklinks:
         path: .cloudcannon/schemas/sitewide-quicklinks.yml
