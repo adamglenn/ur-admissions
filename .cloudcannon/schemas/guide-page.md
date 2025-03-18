@@ -22,7 +22,7 @@ topper:
     enable_pattern: false
     tint_opacity: "0.5"
     container_margin:
-content_blocks:
+content_blocks: []
 uuid:
 type: guide
 ---
