@@ -190,7 +190,7 @@ collections_config:
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
-        remove_extra_inputs: true
+        remove_extra_inputs: false
         new_preview_url: live-editor-previews/guide/
       guide_page_index:
         path: .cloudcannon/schemas/guide-page-index.md
