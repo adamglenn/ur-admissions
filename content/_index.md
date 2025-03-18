@@ -6,19 +6,38 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text:
+    - text: It Starts Now
       highlight:
   subheading: Subheading.
-  body_text:
+  body_text: ''
   styles:
-    vibe: down-to-business
-    background_c: bg-white text-dark
+    vibe: wvu-experience
+    background_c: bg-wvu-blue text-white
     gradient_1:
     gradient_2:
     gradient_3:
-    heading_c: text-wvu-blue
+    heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
 content_blocks:
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+    config:
+      edit_mode_only: false
+    styles:
+      panels:
+      item_headings:
+      margin:
 ---
