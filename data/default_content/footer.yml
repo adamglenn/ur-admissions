@@ -1,17 +1,17 @@
-hidden: false
+# hidden: false
 address_heading: West Virginia University
 address:
   - 1234 Donley Street
   - Morgantown, WV 26505
 phone: (304) 123-4567
 email: email@mail.wvu.edu
-social_media_accounts:
-  - platform: Facebook
-    icon: facebook
-    url:
-  - platform: Twitter
-    icon: twitter
-    url:
-styles:
-  section:
-  links:
+# social_media_accounts:
+#   - platform: Facebook
+#     icon: facebook
+#     url:
+#   - platform: Twitter
+#     icon: twitter
+#     url:
+# styles:
+#   section:
+#   links:
