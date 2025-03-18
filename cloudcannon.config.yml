@@ -693,6 +693,9 @@ _inputs:
     type: date
     instance_value: NOW
     cascade: true
+  quote:
+    type: textarea
+    cascade: true
   show:
     type: datetime
     cascade: true
