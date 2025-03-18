@@ -20,6 +20,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
+    container_margin: my-6
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
