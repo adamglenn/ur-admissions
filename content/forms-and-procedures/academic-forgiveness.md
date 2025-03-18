@@ -100,11 +100,11 @@ detail_sidebar_blocks:
     heading: By the Numbers
     items:
       - pre: Pre factoid text
-        factoid: 98%
+        stat: 98%
         post: Post factoid text
         source: Source
       - pre: Pre factoid text
-        factoid: 98%
+        stat: 98%
         post: Post factoid text
         source: Source
     config:
