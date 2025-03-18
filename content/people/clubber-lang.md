@@ -27,7 +27,7 @@ alumni_profile_topper:
   subheading:
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-blue text-white
+    background_c: bg-wvu-gold text-wvu-blue
     gradient_1: 245, 134, 114
     gradient_2: 234, 170, 0
     gradient_3: 255, 229, 57
