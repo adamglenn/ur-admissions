@@ -25,6 +25,13 @@ detail_blocks:
       - text: Another CTA
         url:
         color: wvu-accent--old-gold
+  - _bookshop_name: design-system/column/faqs
+    heading: Frequently Asked Questions
+    items:
+      - question: Here is my question
+        answer: Here is my Answer
+    config:
+      edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
