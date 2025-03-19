@@ -294,7 +294,7 @@ collections_config:
     icon: location_on
     schemas:
       facility:
-        path: .cloudcannon/schemas/facilities.yml
+        path: .cloudcannon/schemas/facility.md
         reorder_inputs: false
         hide_extra_inputs: false
         remove_empty_inputs: false
