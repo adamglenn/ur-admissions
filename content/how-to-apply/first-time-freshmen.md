@@ -4,10 +4,10 @@ title: First-Time
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  background_image:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
-  heading:
-  subheading:
+  heading: jb hlb
+  subheading: b hjbuuh
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
