@@ -54,12 +54,12 @@ content_blocks:
     config:
       edit_mode_only: false
     styles:
-      margin: py-n8
+      margin: mt-n8
     background_image: /uploads/39371-s-djm-0228-xx.jpg
     alt_text:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: new-sitewide component
-    show_content: false
+    show_content: true
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
