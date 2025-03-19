@@ -17,7 +17,7 @@ place_topper:
     enable_pattern: false
     tint_opacity: "0.5"
     margin:
-detail_blocks:
+place_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
 profile_sidebar_blocks:
