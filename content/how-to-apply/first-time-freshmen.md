@@ -32,6 +32,29 @@ detail_blocks:
         answer: Here is my Answer
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/column/lead-text
+    text: Text.
+  - _bookshop_name: design-system/column/link-list-panels
+    heading:
+    list_description: ''
+    items:
+      - text: Here is my heading
+        description: Here is my description.
+        url:
+        icon:
+  - _bookshop_name: design-system/column/list-big-numbers
+    items:
+      - text: Here is my list Item
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        caption:
+  - _bookshop_name: design-system/column/youtube-video
+    heading: Featured Video
+    title: Video Title
+    description: Video description.
+    video_id: EMhV-NvxrAo
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
