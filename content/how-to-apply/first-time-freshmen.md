@@ -14,8 +14,8 @@ detail_blocks:
   - _bookshop_name: design-system/column/faqs
     heading: Frequently Asked Questions
     items:
-      - question: Hello?
-        answer: Hello
+      - question: blah
+        answer: blah
     config:
       edit_mode_only: false
 detail_sidebar_blocks:
