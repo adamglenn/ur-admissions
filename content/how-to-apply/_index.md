@@ -86,6 +86,53 @@ content_blocks:
     id: EMhV-NvxrAo
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/testimonials
+    heading: jhvjgvghjv
+    subheading: subheading
+    testimonials:
+      - label:
+        name: Person
+        title: Role
+        image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
+        quote: >-
+          Quote Quote Quote Quote Quote Quote  Quote Quote Quote Quote Quote
+          QuoteQuote Quote Quote
+      - label:
+        name:
+        title:
+        image:
+        quote:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/quicklinks
+    heading: Quicklinks
+    links: []
+    config:
+      edit_mode_only: false
+    margin: py-n8
+  - _bookshop_name: design-system/section/poster
+    name: poster-split
+    poster_image: /uploads/39371-s-djm-0228-xx.jpg
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas:
+      - text: Call to Action
+        url:
+        icon: arrow-circle-right
+    postscript_links:
+      - text: link
+        url: mailto:bs0056@mix.wvu.edu
+        icon:
+    config:
+      edit_mode_only: false
+      is_main:
+      id:
+      aria_labelledby:
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
