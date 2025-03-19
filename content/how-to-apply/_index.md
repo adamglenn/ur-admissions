@@ -5,7 +5,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text: ''
   heading:
     - text: Heading

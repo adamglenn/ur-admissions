@@ -11,6 +11,12 @@ topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
+  - _bookshop_name: design-system/column/accordion
+    panels:
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
+  - _bookshop_name: design-system/column/alert
+    text: Text.
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
