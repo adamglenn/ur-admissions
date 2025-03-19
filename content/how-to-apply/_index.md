@@ -88,7 +88,7 @@ content_blocks:
       edit_mode_only: false
   - _bookshop_name: design-system/section/testimonials
     heading: jhvjgvghjv
-    subheading: subheading
+    subheading: subhead
     testimonials:
       - label:
         name: Person
@@ -270,6 +270,16 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/people-grid
+    heading: Heading
+    subheading: vfsdff
+    people:
+      - person: 14463f30-3e61-438a-8ed0-42ebf6e0e3e6
+      - person: d54757fc-8c71-415c-9bc0-f6652a852889
+      - person: caca3806-54ce-4be2-940f-950138ac1a03
+    config:
+      edit_mode_only: false
+      show_content: true
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
