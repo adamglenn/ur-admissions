@@ -28,6 +28,8 @@ detail_sidebar_blocks:
     ctas:
       - text: CTA 1
         url: /how-to-apply/
+      - text: CTA2
+        url: mailto:bs0056@mix.wvu.edu
 uuid: bbe3d306-bbda-43c5-ac6d-d3527be50d24
 type: detail
 ---
