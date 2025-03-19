@@ -19,10 +19,10 @@ detail_blocks:
         url: mailto:bs0056@mix.wvu.edu
         color: wvu-accent--old-gold
   - _bookshop_name: design-system/column/faqs
-    heading: Frequently Asked Questions
+    heading: Frequently Asked Test
     items:
       - question: vsdbf
-        answer: bsfbd
+        answer: '[bsfbd]()'
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/column/link-list-panels
@@ -33,6 +33,33 @@ detail_blocks:
         description: nsgfnfgnfgnfnngf
         url: mailto:bs0056@mix.wvu.edu
         icon: Download
+  - _bookshop_name: design-system/column/list-big-numbers
+    items:
+      - text: ghcghcgh
+      - text: hgchgckh
+      - text: fcgfcj
+      - text: ycvghcjhcjg
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
+  - _bookshop_name: design-system/column/rich-text
+    text: Text.
+  - _bookshop_name: design-system/column/tabs
+    tabs:
+      - label: Tab 1
+        text: Tab 1 text.
+      - label: Tab 1
+        text: Tab 1 text.
+      - label: Tab 1
+        text: Tab 1 text.
+      - label: Tab 1
+        text: Tab 1 text.
+      - label: Tab 1
+        text: Tab 1 text.
+      - label: Tab 1
+        text: Tab 1 text.
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
