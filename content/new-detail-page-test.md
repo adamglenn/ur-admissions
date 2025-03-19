@@ -30,6 +30,12 @@ detail_sidebar_blocks:
         url: /how-to-apply/
       - text: CTA2
         url: mailto:bs0056@mix.wvu.edu
+      - text: knklnlkn
+        url: mailto:bs0056@mix.wvu.edu
+  - _bookshop_name: design-system/column_sm/jump-links
+    items:
+      - text: lkmklm
+        anchor: '#hcvghv'
 uuid: bbe3d306-bbda-43c5-ac6d-d3527be50d24
 type: detail
 ---
