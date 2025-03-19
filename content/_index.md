@@ -17,7 +17,7 @@ topper:
   
     <div>
       <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-block">What dis? A button!</a> 
-      <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-blockk">HTML In Code View</a>
+      <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-blockk">HTML In Code</a>
     </div>
     
     <span class="small">Image of a planaria, a flatworm that can regenerate its
