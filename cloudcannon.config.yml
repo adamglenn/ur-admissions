@@ -139,7 +139,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         create:
-          path: data/menus
+          path: '{title|slugify}.yml'
       # horizontal_steps_subnav:
       #   path: .cloudcannon/schemas/horizontal-steps-sunav.yml
       #   reorder_inputs: true
