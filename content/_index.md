@@ -19,9 +19,10 @@ topper:
     href="https://www.planarnoldlab.com/">Arnold Lab</a>, is looking at genes
     that lay the framework for whole body regeneration.</span>
   
-    <span>
+    <div>
       <a href="#" class="btn btn-white d-block mb-1 d-md-inline-block">What dis?</a> 
-      <a href="#" class="btn btn-white mb-1 d-md-inline-block">What dis?</a> </span>
+      <a href="#" class="btn btn-white mb-1 d-md-inline-block">What dis?</a>
+    </div>
 
     &nbsp;
   styles:
