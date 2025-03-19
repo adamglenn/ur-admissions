@@ -15,10 +15,10 @@ topper:
     experiment and innovate.
 
 
-    Image of a planaria, a flatworm that can regenerate its entire body, under a
+    <small class="small">Image of a planaria, a flatworm that can regenerate its entire body, under a
     fluorescent microscope. WVU research, in the [Arnold
     Lab](https://www.planarnoldlab.com/), is looking at genes that lay the
-    framework for whole body regeneration.
+    framework for whole body regeneration.</small>
 
 
     &nbsp;
