@@ -12,7 +12,7 @@ article_tags:
 article_topper:
   _bookshop_name: design-system/topper/article
   label:
-  show_byline: false
+  show_byline: true
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text:
