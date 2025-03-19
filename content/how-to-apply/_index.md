@@ -1,6 +1,6 @@
 ---
 _schema: guide_page_index
-title: New Guide Index Page
+title: How to Apply
 description:
 topper:
   _bookshop_name: design-system/topper/hero
