@@ -7,7 +7,8 @@ topper:
   background_image:
   alt_text:
   heading: Heading
-  subheading:
+  subheading: jbjhbjhbjh
+  body_text: jhvhjvjhvjhv
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: |-
