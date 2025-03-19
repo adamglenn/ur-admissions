@@ -33,6 +33,14 @@ detail_blocks:
         answer: bsfbd
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: v sdfbsdfbd
+    list_description: vsdkbnkjsfdnbkjsndf
+    items:
+      - text: a gdnfsgn
+        description: nsgfnfgnfgnfnngf
+        url: mailto:bs0056@mix.wvu.edu
+        icon: Download
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
