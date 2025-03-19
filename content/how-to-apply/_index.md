@@ -13,7 +13,9 @@ topper:
     - text: Test
       highlight: ''
   subheading: Subheading.
-  body_text: lsvmfvkmsdfvlkdmlvdlfmvlkdmfvlkmdlkvmdlkfmvlkmdlvkmdlkmvlkdmflvkmdlkmvkldm
+  body_text: >-
+    [lsvmfvkmsdfvlkdmlvdlfmvlkdmfvlkmdlkvmdlkfmvlkmdlvkmdlkmvlkdmflvkmdlkmvkldm](/new-detail-page-test/
+    "test")
   styles:
     vibe: down-to-business
     background_c: bg-wvu-accent--blue-dark text-white
