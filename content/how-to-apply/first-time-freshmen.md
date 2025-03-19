@@ -22,7 +22,7 @@ detail_blocks:
   - _bookshop_name: design-system/column/faqs
     heading: Frequently Asked Questions
     items:
-      - question: blah
+      - question: blahblah
         answer: blah
     config:
       edit_mode_only: false
