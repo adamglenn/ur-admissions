@@ -60,6 +60,11 @@ detail_blocks:
         text: Tab 1 text.
       - label: Tab 1
         text: Tab 1 text.
+  - _bookshop_name: design-system/column/youtube-video
+    heading: Featured Video
+    title: Video Title
+    description: Video description.
+    video_id: EMhV-NvxrAo
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
