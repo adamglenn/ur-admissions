@@ -80,6 +80,12 @@ content_blocks:
         ratio: 9x16
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/video-feature
+    title: kjbkjb
+    description: Vidkvbkjhbkjbeo description.
+    id: EMhV-NvxrAo
+    config:
+      edit_mode_only: false
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
