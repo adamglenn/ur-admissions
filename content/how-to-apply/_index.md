@@ -5,7 +5,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: /uploads/39371-s-djm-0228-xx.jpg
+  background_image:
   alt_text: starry sky
   heading:
     - text: Heading Test 1
@@ -56,7 +56,7 @@ content_blocks:
     styles:
       margin: mt-n8
     background_image: /uploads/39371-s-djm-0228-xx.jpg
-    alt_text:
+    alt_text: alt
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: new-sitewide component
     show_content: true
