@@ -133,6 +133,58 @@ content_blocks:
       is_main:
       id:
       aria_labelledby:
+  - _bookshop_name: design-system/section/poster
+    name: poster-split
+    poster_image: /uploads/39371-s-djm-0228-xx.jpg
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.iubkubkjb
+      - Body.bvsfbd
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main:
+      id:
+      aria_labelledby:
+  - _bookshop_name: design-system/section/poster-split
+    name: poster-split
+    poster_image:
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
+  - _bookshop_name: design-system/section/place
+    heading:
+    subheading:
+    text:
+    ctas:
+      - text: Call to Action
+        url:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/people-grid
+    heading: Heading
+    subheading:
+    people:
+      - person: 14463f30-3e61-438a-8ed0-42ebf6e0e3e6
+      - person: d54757fc-8c71-415c-9bc0-f6652a852889
+    config:
+      edit_mode_only: false
+      show_content: false
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
