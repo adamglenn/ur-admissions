@@ -235,7 +235,7 @@ collections_config:
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
       author:
-        path: .cloudcannon/schemas/author.md
+        path: .cloudcannon/schemas/author-profile.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
