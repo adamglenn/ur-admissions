@@ -4,7 +4,7 @@ name: Joe Schmoe
 first_name: Joe
 last_name: Schmoe
 image_lg:
-profile_image:
+profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
 college:
 school:
