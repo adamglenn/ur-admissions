@@ -22,6 +22,8 @@ detail_blocks:
         panel_text: jfvhgvivi
       - title: Panel 1 Title
         panel_text: kjnkjnlkjnjknkn
+  - _bookshop_name: design-system/column/alert
+    text: Text.jbjhbhjbjhbjh
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
