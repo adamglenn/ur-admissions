@@ -10,7 +10,12 @@ topper:
   subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: |-
+      Text.
+
+      ## Heading
+
+      Some More Test.
   - _bookshop_name: design-system/column/accordion
     panels:
       - title: Panel 1 Title
