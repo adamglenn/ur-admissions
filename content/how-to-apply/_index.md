@@ -29,8 +29,6 @@ cascade:
     menu_id:
 content_blocks:
   - _bookshop_name: design-system/section/link-lists
-    background_image:
-    alt_text:
     heading: Heading
     subheading:
     lists:
@@ -45,7 +43,9 @@ content_blocks:
     config:
       edit_mode_only: false
     styles:
-      margin:
+      margin: mt-n8
+    background_image:
+    alt_text:
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
