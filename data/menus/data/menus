@@ -1,0 +1,8 @@
+_schema: horizontal_subnav
+background_c: bg-wvu-accent--blue-light text-wvu-blue
+label_c: wvu-blue
+text_c: wvu-blue
+menu_items:
+  - text: First-Time Freshmen
+    url: /how-to-apply/first-time-freshmen/
+    weight: '10'
