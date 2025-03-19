@@ -6,11 +6,13 @@ topper:
   _bookshop_name: design-system/topper/default
   background_image:
   alt_text:
-  heading:
+  heading: Heading
   subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: Lorem ipsum....
+  - _bookshop_name: design-system/column/accordion
+    panels: []
 detail_sidebar_blocks:
 uuid: bbe3d306-bbda-43c5-ac6d-d3527be50d24
 type: detail
