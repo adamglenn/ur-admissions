@@ -24,8 +24,6 @@ detail_blocks:
         panel_text: kjnkjnlkjnjknkn
   - _bookshop_name: design-system/column/alert
     text: Text.jbjhbhjbjhbjh
-  - _bookshop_name: design-system/column/cta-stack
-    buttons: []
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
