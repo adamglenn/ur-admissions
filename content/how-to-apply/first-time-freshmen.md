@@ -80,7 +80,7 @@ detail_blocks:
     link_text:
     url:
     config:
-      edit_mode_only: true
+      edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
