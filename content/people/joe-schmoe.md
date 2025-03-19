@@ -9,11 +9,11 @@ description:
 college:
 school:
 majors:
-  - title:
+  - title: Engineering
 minors:
   - title:
-hometown:
-graduation_year:
+hometown: Morgantown, WV
+graduation_year: '2027'
 quote:
 dir_include: false
 student_profile_topper:
