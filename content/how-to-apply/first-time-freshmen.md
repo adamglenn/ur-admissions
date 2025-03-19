@@ -22,6 +22,9 @@ detail_blocks:
       - text: Button Text
         url:
         color: wvu-accent--blue
+      - text: Another CTA
+        url:
+        color: wvu-accent--old-gold
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
