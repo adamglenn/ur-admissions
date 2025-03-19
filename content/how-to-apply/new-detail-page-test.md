@@ -25,20 +25,8 @@ detail_blocks:
   - _bookshop_name: design-system/column/alert
     text: Text.jbjhbhjbjhbjh
   - _bookshop_name: design-system/column/cta-stack
-    buttons:
-      - text: vsdv
-        url:
-        color:
+    buttons: []
 detail_sidebar_blocks:
-  - _bookshop_name: design-system/column_sm/cta-stack
-    heading: CTA Stack
-    ctas:
-      - text: CTA 1
-        url: /how-to-apply/
-      - text: CTA2
-        url: mailto:bs0056@mix.wvu.edu
-      - text: knklnlkn
-        url: mailto:bs0056@mix.wvu.edu
   - _bookshop_name: design-system/column_sm/jump-links
     items:
       - text: lkmklm
