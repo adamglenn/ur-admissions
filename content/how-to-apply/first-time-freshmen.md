@@ -17,7 +17,7 @@ detail_blocks:
     buttons:
       - text: gvsfgsdf
         url: /
-        color: Accent - Old Gold
+        color: transparent
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
