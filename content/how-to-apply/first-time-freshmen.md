@@ -19,13 +19,8 @@ detail_blocks:
         panel_text: Panel 1 text.
   - _bookshop_name: design-system/column/alert
     text: Text.
-  - _bookshop_name: design-system/column/faqs
-    heading: Frequently Asked Questions
-    items:
-      - question: blahblah
-        answer: blah
-    config:
-      edit_mode_only: false
+  - _bookshop_name: design-system/column/lead-text
+    text: Text.bsdbsfbs
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
