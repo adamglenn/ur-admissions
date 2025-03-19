@@ -24,7 +24,7 @@ topper:
     gradient_3: 245, 134, 114
     heading_c: wvu-accent--sunset
     enable_blend: true
-    enable_pattern: true
+    enable_pattern: false
     tint_opacity: '0.0'
     container_margin: mb-6
 cascade:
@@ -187,6 +187,107 @@ content_blocks:
     config:
       edit_mode_only: false
       is_main: true
+  - _bookshop_name: design-system/section/cards-list
+    heading: Hello World!
+    subheading:
+    label:
+    items:
+      - image:
+        image_alt:
+        heading:
+        text:
+        links: []
+      - image:
+        image_alt:
+        heading:
+        text:
+        links: []
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/calendar-events
+    heading: Upcoming Events
+    subheading:
+    event_feed:
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/button-group
+    heading: Button Group Heading
+    body: ''
+    buttons:
+      - text: Call to Action
+        url:
+        icon:
+      - text: Call to Action
+        url:
+        icon:
+      - text: Call to Action
+        url:
+        icon:
+    postscript:
+      copy: ''
+      postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/big-search
+    label: Label
+    heading: Big Search Heading
+    subheading: Subheading.
+    postscript:
+      copy: jhbhjb
+      postscript_links:
+        - text:
+          icon:
+          url:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/article-collection
+    heading: Article Collection Heading
+    article_tags:
+      - featured
+    limit: 5
+    config:
+      edit_mode_only: false
+      show_content: true
+  - _bookshop_name: design-system/section/alumni-profile
+    heading: Heading
+    name: Firstname Lastname
+    image:
+    is_cutout: true
+    label:
+      - Label Label
+    info:
+      - Morgantown, WV
+    ctas:
+      - text: Call to Action
+        url:
+        icon:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    items:
+      - heading: Item Heading
+        image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        copy: ''
+        ctas:
+          - text:
+            icon:
+            url:
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/column_sm/profile-mini
+    text: Hello World!
+    config:
+      edit_mode_only: false
+  - _bookshop_name: component-library/components /my-custom-component
+    heading: Heading
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
