@@ -60,6 +60,26 @@ content_blocks:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: new-sitewide component
     show_content: true
+  - _bookshop_name: design-system/section/youtube-shorts
+    heading: Shorts
+    shorts:
+      - title:
+        video_id:
+        ratio: 9x16
+      - title:
+        video_id:
+        ratio: 9x16
+      - title:
+        video_id:
+        ratio: 9x16
+      - title:
+        video_id:
+        ratio: 9x16
+      - title:
+        video_id:
+        ratio: 9x16
+    config:
+      edit_mode_only: false
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
