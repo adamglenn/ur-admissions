@@ -5,16 +5,22 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
   alt_text: ''
   heading:
     - text: Heading
       highlight: ''
-  subheading: Subheading.
-  body_text: ''
+  subheading: Subheading, can this style be light? Like the former "lead" style?
+  body_text: >-
+    Can we add to the style dropdown in the WYSYWIG editor? "Lead" for example.
+    And alignment? Or is alignment forced?
+
+
+    > This is a blockquote. Can I add edit the source HTML to change the way
+    that this looks?
   styles:
-    vibe: down-to-business
-    background_c:
+    vibe: nostalgic
+    background_c: bg-wvu-accent--blue-dark text-white
     gradient_1:
     gradient_2:
     gradient_3:
