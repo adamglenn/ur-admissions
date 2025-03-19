@@ -525,7 +525,7 @@ _inputs:
   author:
     type: select
     options:
-      values: data.people_data[?(@.schema == "author-profile")]
+      values: data.people_data[?(@.schema == "author")]
   background_c:
     type: select
     label: Background Color
