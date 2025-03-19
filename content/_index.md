@@ -8,11 +8,12 @@ topper:
   heading:
     - text: From molecules to ecosystems, explore the science of life
       highlight:
-  subheading: Subheading, loves the new font option!
-  body_text: >-
+  subheading: >-
     Through in-depth instruction, hands-on research and independent projects
     conducted with award winning faculty, biology students learn to question,
     experiment and innovate.
+  body_text: >-
+    &nbsp;
 
 
     <small class="small">Image of a planaria, a flatworm that can regenerate its
