@@ -8,17 +8,17 @@ topper:
   heading:
     - text: From molecules to ecosystems, explore the science of life
       highlight:
-  subheading:
+  subheading: Subheading, loves the new font option!
   body_text: >-
     Through in-depth instruction, hands-on research and independent projects
     conducted with award winning faculty, biology students learn to question,
     experiment and innovate.
 
 
-    <small class="small">Image of a planaria, a flatworm that can regenerate its entire body, under a
-    fluorescent microscope. WVU research, in the [Arnold
-    Lab](https://www.planarnoldlab.com/), is looking at genes that lay the
-    framework for whole body regeneration.</small>
+    <small class="small">Image of a planaria, a flatworm that can regenerate its
+    entire body, under a fluorescent microscope. WVU research, in the <a
+    href="https://www.planarnoldlab.com/">Arnold Lab</a>, is looking at genes
+    that lay the framework for whole body regeneration.</small>
 
 
     &nbsp;
