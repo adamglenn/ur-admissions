@@ -24,7 +24,7 @@ topper:
     gradient_3: 245, 134, 114
     heading_c: wvu-accent--sunset
     enable_blend: true
-    enable_pattern: false
+    enable_pattern: true
     tint_opacity: '0.0'
     container_margin: mb-6
 cascade:
@@ -270,12 +270,6 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/column_sm/profile-mini
-    text: Hello World!
-    config:
-      edit_mode_only: false
-  - _bookshop_name: component-library/components /my-custom-component
-    heading: Heading
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
