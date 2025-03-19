@@ -213,6 +213,8 @@ collections_config:
     add_options:
       - name: Alumni
         schema: alumni
+      - name: Author
+        schema: author
       - name: Faculty Member
         schema: faculty
       # - name: Speaker
