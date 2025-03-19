@@ -13,10 +13,9 @@ topper:
     conducted with award winning faculty, biology students learn to question,
     experiment and innovate.
   body_text: >-
-    &nbsp;
 
 
-    <small class="small">Image of a planaria, a flatworm that can regenerate its
+    <p class="small">Image of a planaria, a flatworm that can regenerate its
     entire body, under a fluorescent microscope. WVU research, in the <a
     href="https://www.planarnoldlab.com/">Arnold Lab</a>, is looking at genes
     that lay the framework for whole body regeneration.</small>
