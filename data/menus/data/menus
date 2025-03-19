@@ -5,4 +5,4 @@ text_c: wvu-blue
 menu_items:
   - text: First-Time Freshmen
     url: /how-to-apply/first-time-freshmen/
-    weight: '10'
+    weight:
