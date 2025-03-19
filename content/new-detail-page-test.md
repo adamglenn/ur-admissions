@@ -15,6 +15,8 @@ detail_blocks:
     panels:
       - title: gbjhbjhb
         panel_text: jfvhgvivi
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
 detail_sidebar_blocks:
 uuid: bbe3d306-bbda-43c5-ac6d-d3527be50d24
 type: detail
