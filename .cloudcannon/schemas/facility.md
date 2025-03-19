@@ -1,6 +1,7 @@
 ---
 title: New Place
 description:
+image_lg:
 place_topper:
   _bookshop_name: design-system/topper/place
   label:
