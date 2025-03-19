@@ -60,6 +60,11 @@ detail_sidebar_blocks:
     items:
       - text: How to Apply as a First-Time Freshmen
         anchor: how-to-apply
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas:
+      - text: Stuff
+        url:
 uuid: 76754904-203a-4510-b215-a62edc991edf
 type: detail
 ---
