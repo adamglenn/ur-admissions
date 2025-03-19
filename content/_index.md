@@ -3,7 +3,7 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image: /uploads/hero-admitted-students-31212scomposite.jpg
+  background_image:
   alt_text:
   heading:
     - text: It Starts Now
