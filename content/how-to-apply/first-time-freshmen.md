@@ -8,6 +8,7 @@ topper:
   alt_text:
   heading: jb hlb
   subheading: b hjbuuh
+  body_text: dnfbd
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: |-
