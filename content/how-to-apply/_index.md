@@ -44,11 +44,18 @@ content_blocks:
           - site_page:
             text: Apply as a First-Time Freshmen
             url: https://admissions.wvu.edu/how-to-apply/first-time-freshmen
+      - topic: hjbjhb
+        description: vkhvkvuvuvulyviyv
+        items:
+          - text: jhvhjvluv
+            url: mailto:bs0056@mix.wvu.edu
+          - text: hjbhbubibj
+            url: mailto:bs0056@mix.wvu.edu
     config:
       edit_mode_only: false
     styles:
-      margin: mt-n8
-    background_image:
+      margin: py-n8
+    background_image: /uploads/39371-s-djm-0228-xx.jpg
     alt_text:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: new-sitewide component
