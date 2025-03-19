@@ -231,18 +231,6 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/big-search
-    label: Label
-    heading: Big Search Heading
-    subheading: Subheading.
-    postscript:
-      copy: jhbhjb
-      postscript_links:
-        - text:
-          icon:
-          url:
-    config:
-      edit_mode_only: false
   - _bookshop_name: design-system/section/article-collection
     heading: Article Collection Heading
     article_tags:
