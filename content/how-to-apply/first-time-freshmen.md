@@ -65,6 +65,14 @@ detail_blocks:
     title: Video Title
     description: Video description.
     video_id: EMhV-NvxrAo
+  - _bookshop_name: design-system/column_sm/calendar-events
+    heading: Events
+    subheading:
+    event_feed:
+    link_text:
+    url:
+    config:
+      edit_mode_only: true
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
