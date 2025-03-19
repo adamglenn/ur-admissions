@@ -41,4 +41,16 @@ content_blocks:
       panels:
       item_headings:
       margin:
+  - _bookshop_name: design-system/section/big-search
+    label: Label
+    heading: Big Search Heading
+    subheading: Subheading.
+    postscript:
+      copy: Postscript.
+      postscript_links:
+        - text: Here is my Button
+          icon: book
+          url:
+    config:
+      edit_mode_only: false
 ---
