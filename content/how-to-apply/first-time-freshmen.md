@@ -23,9 +23,16 @@ detail_blocks:
     text: Text.bsdbsfbs
   - _bookshop_name: design-system/column/cta-stack
     buttons:
-      - text: gvsfgsdf
-        url: /
-        color: transparent
+      - text: sbfbsf
+        url: mailto:bs0056@mix.wvu.edu
+        color: wvu-accent--old-gold
+  - _bookshop_name: design-system/column/faqs
+    heading: Frequently Asked Questions
+    items:
+      - question: vsdbf
+        answer: bsfbd
+    config:
+      edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
