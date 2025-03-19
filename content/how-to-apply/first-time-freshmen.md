@@ -21,7 +21,7 @@ detail_blocks:
     buttons:
       - text: Button Text
         url:
-        color:
+        color: wvu-accent--blue
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
