@@ -692,6 +692,11 @@ _inputs:
       allow_empty: true
       structures: data.menus
     cascade: true
+  menu_id:
+    type: select
+    options:
+      values: data.menus
+      value_key: uuid
   message:
     type: markdown
     cascade: true
