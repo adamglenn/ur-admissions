@@ -12,7 +12,9 @@ detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Lorem ipsum....
   - _bookshop_name: design-system/column/accordion
-    panels: []
+    panels:
+      - title: gbjhbjhb
+        panel_text: jfvhgvivi
 detail_sidebar_blocks:
 uuid: bbe3d306-bbda-43c5-ac6d-d3527be50d24
 type: detail
