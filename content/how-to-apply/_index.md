@@ -176,15 +176,17 @@ content_blocks:
         url:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/people-grid
-    heading: Heading
-    subheading:
-    people:
-      - person: 14463f30-3e61-438a-8ed0-42ebf6e0e3e6
-      - person: d54757fc-8c71-415c-9bc0-f6652a852889
+  - _bookshop_name: design-system/section/hero-list
+    heading:
+    body:
+    ctas:
+      - text: CTA
+        icon:
+        url:
+    postscript_links:
     config:
       edit_mode_only: false
-      show_content: false
+      is_main: true
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
