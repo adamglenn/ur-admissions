@@ -1,6 +1,6 @@
 ---
 _schema: detail_page
-title: First-Time Freshmen
+title: First-Time
 description:
 topper:
   _bookshop_name: design-system/topper/default
