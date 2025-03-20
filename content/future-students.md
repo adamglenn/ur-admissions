@@ -5,7 +5,7 @@ description: 'This is a guide page! '
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/wvu-biology-soil-samples-ipad.jpg
   alt_text: ''
   heading:
     - text: Heading
@@ -13,15 +13,15 @@ topper:
   subheading: Subheading.
   body_text: ''
   styles:
-    vibe: nostalgic
-    background_c:
-    gradient_1:
+    vibe: down-to-business
+    background_c: bg-wvu-accent--sunset text-dark
+    gradient_1: 255, 229, 57
     gradient_2:
     gradient_3:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
+    heading_c: wvu-accent--blue-dark
+    enable_blend: true
+    enable_pattern: true
+    tint_opacity:
     container_margin:
 cascade:
   secondary_nav:
@@ -159,7 +159,12 @@ content_blocks:
     subheading: Biology and Psychology
     text: >-
       The $50 million building opened in 2001, and was officially dedicated on
-      October 17, 2002.
+      October 17, 2002.   The $50 million building opened in 2001, and was
+      officially dedicated on October 17, 2002.   Is tThe $50 million building
+      opened in 2001, and was officially dedicated on October 17, 2002.   The
+      $50 million building opened in 2001, and was officially dedicated on
+      October 17, 2002.   Just curious what this text field does if someone adds
+      a really long content block!
     ctas:
       - text: Call to Action
         url: '#'
