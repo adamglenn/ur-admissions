@@ -160,6 +160,10 @@ detail_sidebar_blocks:
     items:
       - text: How to Apply as a First-Time Freshmen
         anchor: how-to-apply
+      - text: Application FAQs
+        anchor: '#faqs'
+      - text: Have questions?
+        anchor: '#contact'
 uuid: 76754904-203a-4510-b215-a62edc991edf
 type: detail
 ---
