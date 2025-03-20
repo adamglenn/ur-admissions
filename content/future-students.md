@@ -332,21 +332,6 @@ content_blocks:
     layout:
     styles:
       - typography_palettes
-  - _bookshop_name: design-system/section/columns-2-1
-    column_a:
-      _bookshop_name: design-system/column/top-story
-      heading: Top Story
-      article_tags:
-        - top-story
-      config:
-        edit_mode_only: false
-        hide_author: false
-        show_content: false
-    column_b:
-    config:
-      edit_mode_only: false
-    layout:
-    styles:
   - _bookshop_name: design-system/section/columns-2-1-1
     column_a:
       _bookshop_name: design-system/column/factoids
@@ -521,8 +506,6 @@ content_blocks:
       postscript_links:
     config:
       edit_mode_only: false
-  - _bookshop_name: component-library/components /my-custom-component
-    heading: Heading
   - _bookshop_name: design-system/column_sm/profile-mini
     text: Hello World!
     config:
