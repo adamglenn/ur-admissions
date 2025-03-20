@@ -1,36 +1,57 @@
 ---
-name_of_organization: New Organization
-image: null
-alt_text: null
-logo: null
+_schema: student_organization
+name_of_organization: Nature Club
+image: /uploads/wvu-biology-outreach.jpg
+alt_text:
+logo:
 organization_topper:
   _bookshop_name: design-system/topper/organization
-  heading: null
-  subheading: null
+  heading:
+  subheading:
   use_large_background: false
   styles:
     vibe: down-to-business
-    background_c: null
-    gradient_1: null
-    gradient_2: null
-    gradient_3: null
-    heading_c: null
+    background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
     enable_blend: true
     enable_pattern: false
     tint_opacity: '0.5'
-    margin: null
-description: null
-location: null
-contacts: null
-social_media_accounts: null
+    margin:
+description: >-
+  Tenderloin biltong ham, kevin filet mignon turducken pork doner venison. Pork
+  belly meatloaf short loin, salami ham turkey jerky ground round leberkas kevin
+  porchetta biltong.
+location:
+contacts:
+social_media_accounts:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/wvu-biology-soil-samples-ipad.jpg
+        alt_text:
+        caption: >-
+          Tenderloin biltong ham, kevin filet mignon turducken pork doner
+          venison. Pork belly meatloaf short loin, salami ham turkey jerky
+          ground round leberkas kevin porchetta biltong.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas:
+      - text: Call to Action 1
+        url:
+      - text: View the Full Listing of Academic Programs
+        url:
+      - text: Call to Action 1
+        url:
+      - text: View the Full Listing of Academic Programs
+        url:
 type: organization
 uuid: 49fbefc8-400a-44b8-929a-e05c8f42e7fb
 metadata:
   type: Club/Organization
-_schema: student_organization
 ---
