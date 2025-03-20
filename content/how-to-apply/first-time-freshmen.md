@@ -6,6 +6,10 @@ topper:
   _bookshop_name: design-system/topper/default
   subheading:
 detail_blocks:
+  - _bookshop_name: design-system/column/lead-text
+    text: >-
+      This is introductory text. The nice lead style adds visual interest while
+      highlighting the introduction.
   - _bookshop_name: design-system/column/rich-text
     text: >-
       Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
@@ -19,6 +23,9 @@ detail_blocks:
       non mollis condimentum molestie dapibus arcu. Bibendum hac!
 
 
+      ## Heading 2 will look like so
+
+
       Dignissim natoque imperdiet dictumst condimentum eleifend sagittis
       lobortis nostra cursus enim, conubia malesuada. Ullamcorper neque,
       vulputate montes luctus imperdiet. Tempor dignissim cursus et taciti metus
@@ -28,6 +35,9 @@ detail_blocks:
       consectetur. Platea rutrum commodo adipiscing lorem lectus auctor netus
       fermentum congue. Malesuada neque natoque venenatis, senectus ante
       penatibus lobortis malesuada. Tempus vel parturient orci.
+
+
+      ### Heading 3 is slightly smaller
 
 
       Magna mauris porta nunc mollis nostra netus vulputate. Semper tempus orci
@@ -43,7 +53,7 @@ detail_blocks:
       3. Sociis ullamcorper odio mattis tristique massa cursus maecenas.
 
 
-      ## Heading
+      #### Heading Four has a nice touch
 
 
       > Torquent senectus ultricies; tincidunt vulputate nisi! Potenti integer
@@ -152,6 +162,25 @@ detail_blocks:
           Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
           conubia arcu. Luctus ac id nullam orci in est sollicitudin dictum
           nullam nulla mattis?
+  - _bookshop_name: design-system/column/lead-text
+    text: >-
+      This is introductory text. The nice lead style adds visual interest while
+      highlighting the introduction.
+  - _bookshop_name: design-system/column/faqs
+    heading: Frequently Asked Questions
+    items:
+      - question: question one looks a little bit strange right now!
+        answer: >-
+          Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
+          conubia arcu. Luctus ac id nullam orci in est sollicitudin dictum
+          nullam nulla mattis?
+      - question: question one looks a little bit strange right now!
+        answer: >-
+          Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
+          conubia arcu. Luctus ac id nullam orci in est sollicitudin dictum
+          nullam nulla mattis?
+    config:
+      edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
