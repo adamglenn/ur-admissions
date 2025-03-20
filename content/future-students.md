@@ -291,6 +291,242 @@ content_blocks:
       styles_h2_label:
       styles_lead: lead
       styles_buttons: btn-wvu-outline
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: Pre
+          stat: Stat
+          post: Post
+          source: Source?
+        - pre: Pre
+          stat: Stat
+          post: Post
+          source: Source?
+        - pre: Pre
+          stat: Stat
+          post: Post
+          source: Source?
+        - pre: Pre
+          stat: Stat
+          post: Post
+          source: Source?
+      config:
+        edit_mode_only: false
+      styles:
+        - components_topper_hero_color
+        - components_topper_hero_vibe
+    column_aa:
+      _bookshop_name: design-system/column/profile
+      elements:
+        super_heading:
+          label:
+          text:
+        heading:
+        subheading:
+      config:
+        edit_mode_only: false
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+      - typography_palettes
+  - _bookshop_name: design-system/section/columns-2-1
+    column_a:
+    column_b:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: Prefix line content
+          stat: 'First Stat line content '
+          post: Post line content
+          source: Find Info From here
+        - pre: Prefix line content
+          stat: 'Second Stat line content '
+          post: Post line content
+          source: Find Info From here
+      config:
+        edit_mode_only: false
+      styles:
+    column_b:
+      _bookshop_name: design-system/column_sm/article-collection
+      heading: Articles
+      article_tags:
+      limit: 5
+      config:
+        edit_mode_only: false
+        show_content: false
+    column_c:
+      _bookshop_name: design-system/column_sm/student-profile
+      heading: Student Profile
+      student: 14463f30-3e61-438a-8ed0-42ebf6e0e3e6
+      config:
+        edit_mode_only: false
+        show_content: false
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/cards-list
+    heading: 'Hello Cards List! '
+    subheading: >-
+      T-bone pork loin veniam aliqua occaecat andouille consequat quis nisi
+      biltong beef consectetur. Fugiat labore in shank nisi sausage. Pork belly
+      shankle in pariatur.
+    label: What dis?
+    items:
+      - image: /uploads/wvu-biology-workingfolder.jpg
+        image_alt:
+        heading: 'Our heading line could look like this. '
+        text:
+        links:
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+      - image: /uploads/wvu-biology-workingfolder.jpg
+        image_alt:
+        heading: 'Our heading line could look like this. '
+        text:
+        links:
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+      - image: /uploads/wvu-biology-workingfolder.jpg
+        image_alt:
+        heading: 'Our heading line could look like this. '
+        text:
+        links:
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+          - text: Call To Action
+            url: /
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/big-search
+    label: Label
+    heading: Big Search Heading
+    subheading: What does this search do? Google Search?
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/alumni-profile
+    heading: Heading
+    name: Firstname Lastname
+    image: /uploads/wvu-biology-workingfolder.jpg
+    is_cutout: false
+    label:
+      - Biology PhD
+    info:
+      - Morgantown, WV
+      - ' Pork belly meatloaf short loin, salami ham turkey jerky ground round leberkas kevin porchetta biltong.  Pork belly meatloaf short loin, salami ham turkey jerky ground round leberkas kevin porchetta biltong.'
+    ctas:
+      - text: Call to Action
+        url:
+        icon:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    items:
+      - heading: Item Heading
+        image: /uploads/wvu-biology-workingfolder.jpg
+        alt_text:
+        copy: >-
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          &nbsp;
+        ctas:
+          - text: Call to Action
+            icon: fa fa-arrow-right
+            url:
+      - heading: Item Heading
+        image: /uploads/wvu-biology-greenhouse-students-working.jpg
+        alt_text:
+        copy: >-
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          &nbsp;
+        ctas:
+          - text: Call to Action
+            icon: fa fa-arrow-right
+            url:
+      - heading: Item Heading
+        image: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
+        alt_text:
+        copy: >-
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          Pork belly meatloaf short loin, salami ham turkey jerky ground round
+          leberkas kevin porchetta biltong.
+
+
+          &nbsp;
+        ctas:
+          - text: Call to Action
+            icon: fa fa-arrow-right
+            url:
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
+  - _bookshop_name: component-library/components /my-custom-component
+    heading: Heading
+  - _bookshop_name: design-system/column_sm/profile-mini
+    text: Hello World!
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/article-collection
+    heading: Article Collection Heading
+    article_tags:
+      - featured
+    limit: 5
+    config:
+      edit_mode_only: false
+      show_content: false
 uuid: 93387def-25bc-476e-955b-d1b500625a05
 type: guide
 ---
