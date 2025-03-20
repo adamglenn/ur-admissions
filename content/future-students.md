@@ -48,11 +48,14 @@ content_blocks:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae
           nibh viverra, fringilla mauris eget, dignissim nibh. Nunc a nisl
           eros. 
-      - label:
-        name:
+      - label: Biology PhD
+        name: Joe Schmoe
         title:
-        image:
-        quote:
+        image: /uploads/wvu-biology-outreach.jpg
+        quote: >-
+          Through in-depth instruction, hands-on research and independent
+          projects conducted with award winning faculty, biology students learn
+          to question, experiment and innovate.
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/button-group
@@ -82,7 +85,13 @@ content_blocks:
       - title: Item 1 Title
         text: Item 3 text.
         url:
-    lead: Lead text.
+      - title: Item 1 Title
+        text: Item 3 text.
+        url:
+    lead: >-
+      Oooo, fancy. Like the sticky side. Salami alcatra doner beef pork chop
+      minim. Nulla dolore velit ball tip, porchetta eu ground round alcatra
+      salami et jerky.
     config:
       edit_mode_only: false
     layout:
@@ -268,15 +277,20 @@ content_blocks:
         url: /
         icon: arrow-circle-right
     postscript_links:
+      - text: 'Can i use this to attribute an image? '
+        icon:
+        url:
     config:
       edit_mode_only: false
       id:
     styles:
       styles_section:
-      styles_h2:
+      styles_h2: >-
+        display-2 wvu-shout wvu-bar me-lg-n5 me-xl-n6 mb-0 load-hidden
+        anim-fadein-head
       styles_h2_label:
-      styles_lead:
-      styles_buttons:
+      styles_lead: lead
+      styles_buttons: btn-wvu-outline
 uuid: 93387def-25bc-476e-955b-d1b500625a05
 type: guide
 ---
