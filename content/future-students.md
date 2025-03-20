@@ -334,6 +334,14 @@ content_blocks:
       - typography_palettes
   - _bookshop_name: design-system/section/columns-2-1
     column_a:
+      _bookshop_name: design-system/column/top-story
+      heading: Top Story
+      article_tags:
+        - top-story
+      config:
+        edit_mode_only: false
+        hide_author: false
+        show_content: false
     column_b:
     config:
       edit_mode_only: false
