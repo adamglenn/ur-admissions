@@ -1,7 +1,10 @@
+_schema: sitewide_quicklinks
 heading: Quicklinks
 links:
   - text: Text
     url: /url
+  - text:
+    icon:
+    url:
 config:
   edit_mode_only: false
-_schema: sitewide_quicklinks

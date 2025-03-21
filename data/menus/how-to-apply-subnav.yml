@@ -4,13 +4,10 @@ background_c: bg-wvu-accent--blue-light text-wvu-blue
 label_c: wvu-blue
 text_c:
 menu_items:
-  - text: First-Time Freshmen
-    url: /how-to-apply/first-time-freshmen/
-    weight:
-  - text: ''
-    url: ''
-    weight:
   - text: Guide Me
     url: /future-students/
+    weight:
+  - text: First-Time Freshmen
+    url: /how-to-apply/first-time-freshmen/
     weight:
 uuid: how-to-apply-subnav
