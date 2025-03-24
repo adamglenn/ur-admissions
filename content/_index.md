@@ -3,10 +3,10 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/39754-s-mss-0351-xx.jpg
   alt_text:
   heading:
-    - text: It Starts Now
+    - text: How do I change this font?
       highlight:
   subheading: Subheading.
   body_text: ''
@@ -16,7 +16,7 @@ topper:
     gradient_1:
     gradient_2:
     gradient_3:
-    heading_c: wvu-gold
+    heading_c: wvu-accent--blue-light
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
