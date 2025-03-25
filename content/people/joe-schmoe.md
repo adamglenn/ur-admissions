@@ -38,13 +38,13 @@ student_profile_topper:
     tint_opacity: '0.5'
     container_margin:
 detail_blocks:
-  - _bookshop_name: design-system/column/rich-text
+  - _bookshop_name: design-system/column/lead-text
     text: >-
       Jerky rump pork chop ullamco cupidatat turducken commodo ex meatloaf pork
       cupim ea laboris. Boudin do kielbasa, irure culpa est strip steak short
       ribs ad nisi meatball officia.
-
-
+  - _bookshop_name: design-system/column/rich-text
+    text: >-
       Deserunt dolore aute, sed brisket fugiat pork loin buffalo proident shank.
       Pork loin eu labore, tri-tip burgdoggen aliquip pork belly enim ham hock
       spare ribs in nostrud mollit brisket. Duis cupim shankle minim capicola
