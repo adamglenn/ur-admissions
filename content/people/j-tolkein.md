@@ -28,14 +28,14 @@ student_profile_topper:
   subheading: Subheading Looks like so
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-accent--blue text-white
-    gradient_1: 0, 98, 163
-    gradient_2: 245, 134, 114
+    background_c: bg-wvu-gold text-wvu-blue
+    gradient_1: 247, 247, 247
+    gradient_2:
     gradient_3:
-    heading_c:
+    heading_c: wvu-accent--old-gold
     enable_blend: false
     enable_pattern: true
-    tint_opacity: '0.7'
+    tint_opacity: '0.0'
     container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/lead-text
