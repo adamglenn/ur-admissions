@@ -14,6 +14,9 @@ topper:
     experiment and innovate.
   body_text: >-
 
+  <p class='specialParagraph' markdown='1'>
+**Another paragraph** which allows *Markdown* within it.
+</p>
   
     <div>
       <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-block">What dis? A button!</a> 
