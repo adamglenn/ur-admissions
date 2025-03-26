@@ -27,7 +27,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      article:s
+      article:
         path: .cloudcannon/schemas/article.md
         reorder_inputs: true
         hide_extra_inputs: false
