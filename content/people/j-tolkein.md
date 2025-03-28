@@ -4,7 +4,7 @@ name: Stephen King
 first_name: jjknStephen
 last_name: Kingjknjkn
 profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
-description:
+description: Bio Bio Bio
 author_profile_topper:
   _bookshop_name: design-system/topper/author
   heading: lacsdklmc
