@@ -3,13 +3,15 @@ title: Articles
 topper:
   _bookshop_name: design-system/topper/hero-split
   label:
-  background_image:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
-  heading: []
+  heading:
+    - text: Heading
+      highlight:
   subheading: Subheading.
-  body_text:
+  body_text: ''
   styles:
-    vibe: down-to-business
+    vibe: wvu-experience
     background_c:
     gradient_1:
     gradient_2:
