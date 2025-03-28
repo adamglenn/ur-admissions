@@ -50,7 +50,7 @@ content_blocks:
     alt_text:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: new-sitewide component
-    show_content: false
+    show_content: true
 uuid: dd303c1b-5924-475f-b556-ccf296b70b8c
 type: guide
 ---
