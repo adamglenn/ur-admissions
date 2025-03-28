@@ -19,6 +19,14 @@ detail_blocks:
         description: Description for list item.
         url: https://wvu.edu
         icon: Download
+  - _bookshop_name: design-system/column/accordion
+    panels:
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
+      - title: Panel 2 Title
+        panel_text: Panel 2 text.
+      - title: Panel 3 Title
+        panel_text: Panel 3 text.
 detail_sidebar_blocks:
 uuid: a2793e2b-2e99-46bd-a324-e0892c4fa0ce
 type: detail
