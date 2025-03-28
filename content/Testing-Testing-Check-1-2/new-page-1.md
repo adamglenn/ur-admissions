@@ -1,29 +1,29 @@
 ---
+_schema: guide_page
 title: New Guide Page
-description: null
+description:
 topper:
   _bookshop_name: design-system/topper/hero
-  label: null
-  background_image: null
-  alt_text: null
+  label:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
+  alt_text:
   heading:
     - text: Heading
-      highlight: null
+      highlight:
   subheading: Subheading goes here.
-  body_text: null
+  body_text: ''
   styles:
-    vibe: down-to-business
-    background_c: null
-    gradient_1: null
-    gradient_2: null
-    gradient_3: null
-    heading_c: null
+    vibe: discovery
+    background_c: bg-wvu-blue text-white
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
     enable_blend: false
-    enable_pattern: false
+    enable_pattern: true
     tint_opacity: '0.5'
-    container_margin: null
-content_blocks: null
+    container_margin:
+content_blocks:
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
-_schema: guide_page
 ---
