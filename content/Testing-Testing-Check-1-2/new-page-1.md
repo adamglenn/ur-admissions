@@ -47,7 +47,7 @@ content_blocks:
     layout:
       margin_y:
     styles:
-      panels:
+      panels: wvu-blue
       item_headings:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
