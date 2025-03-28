@@ -168,7 +168,7 @@ detail_blocks:
       - label: Tab 1
         text: Test
       - label: Tab 2
-        text: Test
+        text: Test 2
 detail_sidebar_blocks:
 uuid: 89e1fab1-67ff-46ea-9d29-5eeb710be31e
 type: detail
