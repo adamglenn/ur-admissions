@@ -72,7 +72,7 @@ content_blocks:
     heading: Heading
     subheading: ' sfd'
     people:
-      - person: d54757fc-8c71-415c-9bc0-f6652a852889
+      - person: caca3806-54ce-4be2-940f-950138ac1a03
       - person:
     config:
       edit_mode_only: false
@@ -112,6 +112,129 @@ content_blocks:
       is_main: true
       id:
       aria_labelledby:
+  - _bookshop_name: design-system/section/poster
+    name: poster-split
+    poster_image: /uploads/39371-s-djm-0228-xx.jpg
+    alt_text:
+    heading:
+      - Heading Line 1
+      - Heading Line 2
+    body:
+      - Lede.
+      - Body.
+    ctas: []
+    postscript_links: []
+    config:
+      edit_mode_only: false
+      is_main:
+      id:
+      aria_labelledby:
+  - _bookshop_name: design-system/section/quicklinks
+    heading: Quicklinks
+    links:
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+    config:
+      edit_mode_only: false
+    margin: ''
+  - _bookshop_name: design-system/section/sitewide-section
+    sitewide_section: new-sitewide component
+    show_content: false
+  - _bookshop_name: design-system/section/testimonials
+    heading: ' cs dcs'
+    subheading: cascasc
+    testimonials:
+      - label: casca
+        name: csacac
+        title: csacascac
+        image: /uploads/39371-s-djm-0228-xx.jpg
+        quote: csacascascas
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/video-feature
+    title: Video Title
+    description: Video description.
+    id: EMhV-NvxrAo
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/youtube-shorts
+    heading: cascasc
+    shorts: []
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+      _bookshop_name: design-system/column/contacts
+      heading: Contacts
+      people:
+        - label: For Inquiries, Contact
+          contact: caca3806-54ce-4be2-940f-950138ac1a03
+        - label: For Inquiries, Contact
+          contact: 58497c86-ba80-4789-8f62-e823130a7669
+      config:
+        edit_mode_only: false
+        show_content: false
+    column_b:
+      _bookshop_name: design-system/column_sm/calendar-events
+      heading: Events
+      subheading:
+      event_feed:
+      link_text:
+      url:
+      config:
+        edit_mode_only: false
+    column_c:
+      _bookshop_name: design-system/column_sm/profile-generic
+      label: Profile
+      thumbnail:
+      superheading:
+        - Superheading Line 1
+      heading: Firstname Lastname
+      subheading:
+        - Subheading Line 1
+      lists: []
+      cta: []
+      config:
+        edit_mode_only: false
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+      _bookshop_name: design-system/column/contacts
+      heading: Contacts
+      people:
+        - label: For Inquiries, Contact
+          contact: caca3806-54ce-4be2-940f-950138ac1a03
+      config:
+        edit_mode_only: false
+        show_content: false
+    column_aa:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre:
+          stat:
+          post:
+          source:
+      config:
+        edit_mode_only: false
+      styles:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
