@@ -1,16 +1,18 @@
 ---
 _schema: guide_page_index
-title: How to Apply
+title: Holy Hot Sauce
 description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/720-test-4.jpg
   alt_text: ''
   heading:
-    - text: Heading
+    - text: I will steal Your Soul
       highlight: ''
-  subheading: Subheading.
+    - text:
+      highlight:
+  subheading: Psst Psst Psst
   body_text: ''
   styles:
     vibe: down-to-business
