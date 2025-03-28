@@ -1,32 +1,15 @@
 ---
 title: Articles
 topper:
-  _bookshop_name: design-system/topper/hero-w-icons
+  _bookshop_name: design-system/topper/hero-split
   label:
-  background_image: /uploads/39371-s-djm-0228-xx.jpg
+  background_image:
   alt_text:
-  heading:
-    - text: Heading
-      highlight: accent--wvu-blue
-    - text: Heading
-      highlight:
-  subheading: Subheading.jknjkn
-  body_text: lknklnkln
-  items:
-    - icon: book
-      text: Text
-      url:
-    - icon: book
-      text: Text
-      url:
-    - icon: book
-      text: Text
-      url:
-    - icon: book
-      text: Text
-      url:
+  heading: []
+  subheading: Subheading.
+  body_text:
   styles:
-    vibe: discovery
+    vibe: down-to-business
     background_c:
     gradient_1:
     gradient_2:
@@ -34,6 +17,6 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.5'
+    tint_opacity: '0.0'
     container_margin:
 ---
