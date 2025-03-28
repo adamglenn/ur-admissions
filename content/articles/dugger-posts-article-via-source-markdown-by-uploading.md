@@ -76,11 +76,10 @@ article_blocks:
 
       > Drumstick nulla cillum esse ham consectetur. Turducken pork cupim, shank
       sunt beef fugiat pork chop. Tempor exercitation meatball in kevin, jowl
-      commodo.
+      commodo.<br>— Dr. Joe, Director of the Directory Department
 
-      >
 
-      > Shank adipisicing tongue, culpa filet mignon boudin occaecat veniam
+      Shank adipisicing tongue, culpa filet mignon boudin occaecat veniam
       alcatra shoulder duis sint aliquip consectetur. Commodo mollit pork belly,
       bresaola quis et ham. Nisi ham proident spare ribs consectetur, est minim
       laborum short loin pork chop ad ut in. Boudin in chuck ball tip, cupidatat
