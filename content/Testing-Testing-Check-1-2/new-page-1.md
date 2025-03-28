@@ -84,8 +84,34 @@ content_blocks:
     ctas:
       - text: Call to Action
         url:
+      - text: Call to Action
+        url:
+      - text: Call to Action
+        url:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/poster-split
+    name: vefvdf
+    poster_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
+    alt_text:
+    heading:
+      - Heading Line 1
+    body:
+      - Lede.wv
+      - Body.vwv
+    ctas:
+      - text: Call to Action
+        url:
+        icon: arrow-circle-right
+    postscript_links:
+      - text: vervrvre
+        url:
+        icon:
+    config:
+      edit_mode_only: false
+      is_main: true
+      id:
+      aria_labelledby:
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
