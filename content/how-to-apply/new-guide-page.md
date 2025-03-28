@@ -5,23 +5,23 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
   heading:
     - text: Heading
       highlight:
   subheading: Subheading goes here.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
-    background_c:
-    gradient_1:
-    gradient_2:
-    gradient_3:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
+    background_c: bg-transparent text-dark
+    gradient_1: 157, 218, 230
+    gradient_2: 255, 229, 57
+    gradient_3: 245, 134, 114
+    heading_c: wvu-accent--blue-dark
+    enable_blend: true
+    enable_pattern: true
+    tint_opacity: '0.7'
     container_margin:
 content_blocks:
   - _bookshop_name: design-system/section/jump-links

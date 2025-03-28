@@ -1,3 +1,4 @@
+_schema: _schema
 paths:
   data: data
   collections: content
@@ -14,17 +15,17 @@ paths:
   config: ''
 collections_config:
   articles:
-    _enabled_editors:
-      - visual
-      - data
     path: content/articles
-    description: Articles description
     icon: edit
     output: true
     parse_branch_index: true
+    description: Articles description
+    _enabled_editors:
+      - visual
+      - data
     disable_add: false
     disable_add_folder: true
-    disable_add_file_actions: false
+    disable_file_actions: false
     schemas:
       article:
         path: .cloudcannon/schemas/article.md
@@ -32,6 +33,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         new_preview_url: live-editor-previews/article/
       photo_essay:
         path: .cloudcannon/schemas/photo-essay.md
@@ -39,19 +41,20 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         new_preview_url: live-editor-previews/photo-essay/
   clubs_and_organizations:
+    path: content/clubs-and-organizations
+    icon: favorite
+    output: true
+    parse_branch_index: true
+    description: Clubs and organizations.
     _enabled_editors:
       - visual
       - data
-    path: content/clubs-and-organizations
-    icon: favorite
-    description: Clubs and organizations.
-    output: true
-    parse_branch_index: true
     disable_add: false
     disable_add_folder: false
-    disable_add_file_actions: false
+    disable_file_actions: false
     schemas:
       alumni_chapter:
         path: .cloudcannon/schemas/organization.md
@@ -59,51 +62,46 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/clubs-and-organizations/
+        icon: notes
         create:
           path: '{name_of_organization|slugify}.md'
+        new_preview_url: live-editor-previews/clubs-and-organizations/
       club:
         path: .cloudcannon/schemas/organization.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/clubs-and-organizations/
+        icon: notes
         create:
           path: '{name_of_organization|slugify}.md'
+        new_preview_url: live-editor-previews/clubs-and-organizations/
       student_organization:
         path: .cloudcannon/schemas/organization.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/clubs-and-organizations/
+        icon: notes
         create:
           path: '{name_of_organization|slugify}.md'
-  # data:
-  #   path: data
-  #   description: Data that is used to populate multiple areas throughout the site
-  #   output: false
-  #   icon: data_usage
-  #   disable_add: true
-  #   disable_add_folder: true
-  #   disable_file_actions: false
+        new_preview_url: live-editor-previews/clubs-and-organizations/
   default_content:
     path: content/default_content
+    icon: toolbar
     output: false
     parse_branch_index: true
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
-    icon: toolbar
   directory:
-    _enabled_editors:
-      - visual
-      - data
     path: content/directory
     icon: list
     output: true
     parse_branch_index: true
+    _enabled_editors:
+      - visual
+      - data
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
@@ -114,23 +112,24 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
   masthead_nav_footer:
-    name: Masthead and Footer
     path: data/default_content
+    name: Masthead and Footer
     icon: toolbar
     output: false
     disable_add: true
     disable_add_folder: true
-    disable_add_file_actions: true
+    disable_file_actions: false
   navigation_menus:
     path: data/menus
     name: Submenus
-    description: Navigation menus you can use throughout the site.
     icon: menu
     output: false
+    description: Navigation menus you can use throughout the site.
     disable_add: false
     disable_add_folder: true
-    disable_add_file_actions: false
+    disable_file_actions: false
     schemas:
       horizontal_subnav:
         path: .cloudcannon/schemas/horizontal-subnav.yml
@@ -138,43 +137,31 @@ collections_config:
         hide_extra_inputs: true
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         create:
           path: '{title|slugify}.yml'
-      # horizontal_steps_subnav:
-      #   path: .cloudcannon/schemas/horizontal-steps-sunav.yml
-      #   reorder_inputs: true
-      #   hide_extra_inputs: true
-      #   remove_empty_inputs: false
-      #   remove_extra_inputs: false
-      #   create:
-      #     path: data/menus
   pages:
-    _enabled_editors:
-      - visual
-      - data
     path: content
     glob:
       - '!directory/index.md'
-    description: Pages description
+    icon: notes
     output: true
     parse_branch_index: true
+    description: Pages description
+    _enabled_editors:
+      - visual
+      - data
     disable_add: false
     disable_add_folder: false
-    disable_add_file_actions: false
+    disable_file_actions: false
     schemas:
-      # page:
-      #   path: .cloudcannon/schemas/page.md
-      #   reorder_inputs: true
-      #   hide_extra_inputs: false
-      #   remove_empty_inputs: false
-      #   remove_extra_inputs: false
-      #   new_preview_url: /
       detail_page:
         path: .cloudcannon/schemas/detail-page.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         new_preview_url: live-editor-previews/detail/
       detail_page_index:
         path: .cloudcannon/schemas/detail-page-index.md
@@ -182,15 +169,17 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/detail-index/
+        icon: notes
         create:
           path: '[relative_base_path]/_index.md'
+        new_preview_url: live-editor-previews/detail-index/
       guide_page:
         path: .cloudcannon/schemas/guide-page.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         new_preview_url: live-editor-previews/guide/
       guide_page_index:
         path: .cloudcannon/schemas/guide-page-index.md
@@ -198,18 +187,21 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: live-editor-previews/guide-index/
+        icon: notes
         create:
           path: '[relative_base_path]/_index.md'
+        new_preview_url: live-editor-previews/guide-index/
   people:
-    _enabled_editors:
-      - visual
-      - data
     path: content/people
+    icon: group
+    output: false
     preview:
       metadata:
         - text:
             - key: metadata.type
+    _enabled_editors:
+      - visual
+      - data
     add_options:
       - name: Alumni
         schema: alumni
@@ -217,13 +209,13 @@ collections_config:
         schema: author
       - name: Faculty Member
         schema: faculty
-      # - name: Speaker
-      #   schema: speaker
       - name: Staff Member
         schema: staff
       - name: Student
         schema: student
-    icon: group
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
     schemas:
       alumni:
         path: .cloudcannon/schemas/alumni.md
@@ -231,67 +223,63 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /live-editor-previews/alumni/
+        icon: notes
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
+        new_preview_url: /live-editor-previews/alumni/
       author:
         path: .cloudcannon/schemas/author-profile.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /live-editor-previews/author/
+        icon: notes
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
+        new_preview_url: /live-editor-previews/author/
       faculty:
         path: .cloudcannon/schemas/faculty-profile.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /live-editor-previews/faculty-profile/
+        icon: notes
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
-      # speaker:
-      #   path: .cloudcannon/schemas/speaker.yml
+        new_preview_url: /live-editor-previews/faculty-profile/
       staff:
         path: .cloudcannon/schemas/staff.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /live-editor-previews/staff/
+        icon: notes
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
+        new_preview_url: /live-editor-previews/staff/
       student:
         path: .cloudcannon/schemas/student-profile.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
-        new_preview_url: /live-editor-previews/student-profile/
+        icon: notes
         create:
           path: '{first_name|slugify}-{last_name|slugify}.md'
-  # partners:
-  #   _enabled_editors:
-  #     - data
-  #   path: data/partners.yml
-  #   add_options:
-  #     - name: Partner
-  #       schema: partners
-  #   icon: handshake
-  #   schemas:
-  #     partners:
-  #       path: .cloudcannon/schemas/partners.yml
+        new_preview_url: /live-editor-previews/student-profile/
   places_and_spaces:
+    path: content/places-and-spaces
+    icon: location_on
+    output: false
     _enabled_editors:
       - visual
       - data
-    path: content/places-and-spaces
     add_options:
       - name: Facility
         schema: facility
-    icon: location_on
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
     schemas:
       facility:
         path: .cloudcannon/schemas/facility.md
@@ -299,23 +287,16 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
         new_preview_url: /live-editor-previews/place/
-  # site_config:
-  #   _enabled_editors:
-  #     - data
-  #   disable_add: true
-  #   disable_add_folder: true
-  #   disable_file_actions: true
-  #   icon: settings
-  #   path: data/site_config
   sitewide_components:
     path: data/sitewide_components
-    description: Sitewide components
+    icon: globe
     output: false
+    description: Sitewide components
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
-    icon: globe
     schemas:
       sitewide_quicklinks:
         path: .cloudcannon/schemas/sitewide-quicklinks.yml
@@ -323,6 +304,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: false
+        icon: notes
 collection_groups:
   - heading: Pages
     collections:
@@ -341,16 +323,366 @@ collection_groups:
       - default_content
       - navigation_menus
       - sitewide_components
-#   - heading: Site Config
-#     collections:
-#       - site_config
-#   - heading: Data
-#     collections:
-#       - data
 _enabled_editors:
   - visual
   - content
   - data
+_inputs:
+  alert_message:
+    type: markdown
+    cascade: true
+  alert_status:
+    type: switch
+    cascade: true
+  alert_type:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - _select_data.alert_type
+      value_key: type
+    cascade: true
+  article_role:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.article_roles
+    label: Role
+    cascade: true
+  article_tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+      values: _select_data.article_tags
+    label: Tags
+    cascade: true
+  author:
+    type: select
+    options:
+      allow_empty: true
+      values: data.people_data[?(@.schema == "author")]
+    cascade: true
+  background_c:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: background_classes
+    label: Background Color
+    cascade: true
+  color:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - _select_data.brand_colors
+      value_key: class
+    cascade: true
+  column_a:
+    type: object
+    options:
+      structures: _structures.column_blocks
+    label: Column
+    cascade: true
+  column_aa:
+    type: object
+    options:
+      structures: _structures.column_blocks
+    label: Column
+    cascade: true
+  column_b:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_c:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_d:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_e:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  contact:
+    type: select
+    options:
+      allow_empty: false
+      values: data.people_data[?(@.is_contact == true)]
+      value_key: uuid
+    cascade: true
+  contact_list:
+    type: array
+    options:
+      structures: _structures.contact
+    cascade: true
+  contacts:
+    type: array
+    options:
+      allow_empty: true
+      structures: _structures.contacts
+    cascade: true
+  copy:
+    type: markdown
+    options:
+      show_count: true
+    cascade: true
+  ctas:
+    type: array
+    options:
+      structures: _structures.links
+    cascade: true
+  detail_sidebar_blocks:
+    type: array
+    options:
+      structures: _structures.detail_sidebar_blocks
+    cascade: true
+  dir_include:
+    type: switch
+    label: Include in Directory
+    cascade: true
+  edit_mode_only:
+    type: switch
+    cascade: true
+  excerpt:
+    type: markdown
+    cascade: true
+  file:
+    type: file
+    cascade: true
+  gradient_1:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: rgba
+    cascade: true
+  gradient_2:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: rgba
+    cascade: true
+  gradient_3:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: rgba
+    cascade: true
+  heading_c:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: class
+    label: Heading Color
+    cascade: true
+  hide:
+    type: datetime
+    cascade: true
+  hide_collection_pages:
+    type: switch
+    cascade: true
+  honors:
+    type: array
+    cascade: true
+  honors[*]:
+    type: text
+    cascade: true
+  image_lg:
+    type: image
+    cascade: true
+  is_default_content:
+    type: auto
+    hidden: true
+    cascade: true
+  is_contact:
+    type: auto
+    hidden: true
+    cascade: true
+  job_title:
+    type: array
+    cascade: true
+  job_title[*]:
+    type: text
+    cascade: true
+  label_c:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: class
+    label: Label Color
+    cascade: true
+  layout:
+    type: auto
+    hidden: true
+    cascade: true
+  limit:
+    type: number
+    cascade: true
+  majors:
+    type: array
+    cascade: true
+  majors[*]:
+    type: text
+    cascade: true
+  margin:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.container_margins
+      value_key: class
+    cascade: true
+  menu:
+    type: select
+    options:
+      allow_empty: true
+      structures: data.menus
+    cascade: true
+  menu_id:
+    type: select
+    options:
+      allow_empty: true
+      values: data.menus
+      value_key: uuid
+    cascade: true
+  message:
+    type: markdown
+    cascade: true
+  metadata:
+    type: auto
+    hidden: true
+    cascade: true
+  minors:
+    type: array
+    cascade: true
+  minors[*]:
+    type: text
+    cascade: true
+  person:
+    type: select
+    options:
+      allow_empty: true
+      values: data.people_data
+    cascade: true
+  postscript_links:
+    type: array
+    options:
+      structures: _structures.links
+    cascade: true
+  publishDate:
+    type: date
+    instance_value: NOW
+    cascade: true
+  quote:
+    type: textarea
+    cascade: true
+  show:
+    type: datetime
+    cascade: true
+  show_content:
+    type: switch
+    cascade: true
+  show_author_bios:
+    type: switch
+    cascade: true
+  site_page:
+    type: select
+    options:
+      allow_empty: true
+      values: data.site_pages
+      value_key: id
+      preview:
+        text:
+          - key: title
+    cascade: true
+  sitewide_section:
+    type: select
+    options:
+      allow_empty: true
+      values: data.sitewide_components
+    cascade: true
+  social_media_accounts:
+    type: array
+    options:
+      allow_empty: true
+      values: _structures.social_media_accounts
+    cascade: true
+  src:
+    type: image
+    cascade: true
+  student:
+    type: select
+    options:
+      allow_empty: true
+      values: data.people_data[?(@.schema == 'student')]
+    cascade: true
+  student_profile_topper:
+    type: auto
+    hidden: true
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      allow_empty: true
+      values:
+        - featured
+    cascade: true
+  text_c:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: class
+    cascade: true
+  tint_opacity:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.tint_opacities
+      value_key: value
+    comment: Use with a background image, no blend.
+    cascade: true
+  topper:
+    type: object
+    options:
+      values: _structures.topper
+    cascade: true
+  topper_type:
+    type: auto
+    hidden: true
+    cascade: true
+  type:
+    type: auto
+    hidden: true
+    cascade: true
+  uuid:
+    type: auto
+    instance_value: UUID
+    hidden: true
+    cascade: true
+  vibe:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.vibes
+      value_key: value
+    cascade: true
 _select_data:
   alert_type:
     - name: Danger
@@ -376,7 +708,7 @@ _select_data:
     - name: WVU Gold
       background_classes: bg-wvu-gold text-wvu-blue
       class: wvu-gold
-      rgba: 234, 170, 0
+      rgba: rgb(0, 0, 0)
     - name: WVU Blue
       background_classes: bg-wvu-blue text-white
       class: wvu-blue
@@ -443,7 +775,7 @@ _select_data:
       rgba: 42, 42, 41
   container_margins:
     - name: Default
-      class: ""
+      class: ''
     - name: Buffer Top
       class: mt-6
     - name: Buffer Bottom
@@ -465,16 +797,16 @@ _select_data:
       class: wvu-bg-pattern-grid-zoomed
   tint_opacities:
     - name: None
-      value: "0.0"
+      value: '0.0'
     - name: Light
-      value: "0.3"
+      value: '0.3'
     - name: Medium
-      value: "0.5"
+      value: '0.5'
     - name: Dark
-      value: "0.7"
+      value: '0.7'
   topper_margins:
     - name: Default
-      class: ""
+      class: ''
     - name: Buffer Bottom
       class: mb-6
     - name: Buffer Both
@@ -497,324 +829,14 @@ _select_data:
       value: wvu-experience
     - name: Nostalgic
       value: nostalgic
-_inputs:
-  alert_message:
-    type: markdown
-    cascade: true
-  alert_status:
-    type: switch
-    cascade: true
-  alert_type:
-    type: select
-    options:
-      values:
-        - _select_data.alert_type
-      value_key: type
-    cascade: true
-  article_role:
-    type: select
-    label: Role
-    options:
-      values: _select_data.article_roles
-  article_tags:
-    type: multiselect
-    label: Tags
-    options:
-      allow_create: true
-      values: _select_data.article_tags
-  author:
-    type: select
-    options:
-      values: data.people_data[?(@.schema == "author")]
-  background_c:
-    type: select
-    label: Background Color
-    options:
-      values: _select_data.brand_colors
-      value_key: background_classes
-    cascade: true
-  color:
-    type: select
-    options:
-      allow_empty: true
-      values:
-        - _select_data.brand_colors
-      value_key: class
-    cascade: true
-  column_a:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks
-    cascade: true
-  column_aa:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks
-    cascade: true
-  column_b:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks_sm
-    cascade: true
-  column_c:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks_sm
-    cascade: true
-  column_d:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks_sm
-    cascade: true
-  column_e:
-    type: object
-    label: Column
-    options:
-      structures: _structures.column_blocks_sm
-    cascade: true
-  contact:
-    type: select
-    options:
-      allow_empty: false
-      values: data.people_data[?(@.is_contact == true)]
-      value_key: uuid
-    cascade: true
-  contact_list:
-    type: array
-    options:
-      structures: _structures.contact
-    cascade: true
-  contacts:
-    type: array
-    options:
-      allow_empty: true
-      structures: _structures.contacts
-    cascade: true
-  copy:
-    type: markdown
-    options:
-      show_count: true
-  ctas:
-    type: array
-    options:
-      structures: _structures.links
-    cascade: true
-  detail_sidebar_blocks:
-    type: array
-    options:
-      structures: _structures.detail_sidebar_blocks
-  dir_include:
-    type: switch
-    label: Include in Directory
-  edit_mode_only:
-    type: switch
-    cascade: true
-  excerpt:
-    type: markdown
-    cascade: true
-  file:
-    type: file
-  gradient_1:
-    type: select
-    options:
-      values: _select_data.brand_colors
-      value_key: rgba
-  gradient_2:
-    type: select
-    options:
-      values: _select_data.brand_colors
-      value_key: rgba
-  gradient_3:
-    type: select
-    options:
-      values: _select_data.brand_colors
-      value_key: rgba
-  heading_c:
-    type: select
-    label: Heading Color
-    options:
-      values: _select_data.brand_colors
-      value_key: class
-    cascade: true
-  hide:
-    type: datetime
-    cascade: true
-  hide_collection_pages:
-    type: switch
-    cascade: true
-  honors:
-    type: array
-    cascade: true
-  honors[*]:
-    type: text
-  image_lg:
-    type: image
-    cascade: true
-  is_default_content:
-    hidden: true
-  is_contact:
-    hidden: true
-  job_title:
-    type: array
-    cascade: true
-  job_title[*]:
-    type: text
-  label_c:
-    type: select
-    label: Label Color
-    options:
-      values: _select_data.brand_colors
-      value_key: class
-    cascade: true
-  layout:
-    hidden: true
-    cascade: true
-  limit:
-    type: number
-    cascade: true
-  majors:
-    type: array
-    cascade: true
-  majors[*]:
-    type: text
-  margin:
-    type: select
-    options:
-      values: _select_data.container_margins
-      value_key: class
-    cascade: true
-  menu:
-    type: select
-    options:
-      allow_empty: true
-      structures: data.menus
-    cascade: true
-  menu_id:
-    type: select
-    options:
-      values: data.menus
-      value_key: uuid
-  message:
-    type: markdown
-    cascade: true
-  metadata:
-    hidden: true
-  minors:
-    type: array
-    cascade: true
-  minors[*]:
-    type: text
-  person:
-    type: select
-    options:
-      allow_empty: true
-      values: data.people_data
-    cascade: true
-  postscript_links:
-    type: array
-    options:
-      structures: _structures.links
-    cascade: true
-  publishDate:
-    type: date
-    instance_value: NOW
-    cascade: true
-  quote:
-    type: textarea
-    cascade: true
-  show:
-    type: datetime
-    cascade: true
-  show_content:
-    type: switch
-    cascade: true
-  show_author_bios:
-    type: switch
-    cascade: true
-  site_page:
-    type: select
-    options:
-      allow_empty: true
-      preview:
-        text:
-          - key: title
-      values: data.site_pages
-      value_key: id
-    cascade: true
-  sitewide_section:
-    type: select
-    options:
-      allow_empty: true
-      values: data.sitewide_components
-    cascade: true
-  social_media_accounts:
-    type: array
-    options:
-      allow_empty: true
-      values: _structures.social_media_accounts
-  src:
-    type: image
-    cascade: true
-  student:
-    type: select
-    options:
-      allow_empty: true
-      values: data.people_data[?(@.schema == 'student')]
-    cascade: true
-  student_profile_topper:
-    hidden: true
-    cascade: true
-  tags:
-    type: multiselect
-    options:
-      allow_create: true
-      allow_empty: true
-      values:
-        - featured
-    cascade: true
-  text_c:
-    type: select
-    options:
-      values: _select_data.brand_colors
-      value_key: class
-    cascade: true
-  tint_opacity:
-    type: select
-    comment: Use with a background image, no blend.
-    options:
-      values: _select_data.tint_opacities
-      value_key: value
-  topper:
-    type: object
-    options:
-      values: _structures.topper
-  topper_type:
-    hidden: true
-  type:
-    type: auto
-    hidden: true
-    cascade: true
-  uuid:
-    hidden: true
-    instance_value: UUID
-    cascade: true
-  vibe:
-    type: select
-    options:
-      values: _select_data.vibes
-      value_key: value
-    cascade: true
 _structures:
   contact:
+    style: select
     values:
       - value:
           contact:
   contacts:
+    style: select
     values:
       - value:
           name:
@@ -825,12 +847,14 @@ _structures:
   detail_blocks:
     style: modal
   links:
+    style: select
     values:
       - value:
           text:
           icon:
           url:
   social_media_accounts:
+    style: select
     values:
       - value:
           platform:
@@ -863,8 +887,7 @@ _editables:
     table: true
     underline: true
     undo: true
-data_config: true
-timezone: US/Eastern
-_snippets:
 _snippets_imports:
   hugo: false
+data_config: true
+timezone: US/Eastern
