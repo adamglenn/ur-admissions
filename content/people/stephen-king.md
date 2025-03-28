@@ -7,8 +7,8 @@ profile_image:
 description:
 author_profile_topper:
   _bookshop_name: design-system/topper/author
-  heading:
-  subheading:
+  heading: lacsdklmc
+  subheading: calsdmlkam
   styles:
     vibe: down-to-business
     background_c:
@@ -23,6 +23,16 @@ author_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
+  - _bookshop_name: design-system/column/cta-stack
+    buttons:
+      - text: lkjmlkm
+        url:
+        color: wvu-accent--blue
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
