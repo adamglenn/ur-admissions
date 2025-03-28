@@ -169,7 +169,7 @@ detail_blocks:
         text: Test
       - label: Tab 2
         text: Test 2
-      - label: 'Tab '
+      - label: Tab 3
         text: Tab 1 text.
   - _bookshop_name: design-system/column/youtube-video
     heading: Featured Video
