@@ -1,17 +1,25 @@
 ---
+_schema: detail_page
 title: New Detail Page
-description: null
+description:
 topper:
   _bookshop_name: design-system/topper/default
-  background_image: null
-  alt_text: null
-  heading: null
-  subheading: null
+  background_image:
+  alt_text:
+  heading:
+  subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-detail_sidebar_blocks: null
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: Link List Panels
+    list_description: Link list panels description.
+    items:
+      - text: My List Item
+        description: Description for list item.
+        url: https://wvu.edu
+        icon: Download
+detail_sidebar_blocks:
 uuid: a2793e2b-2e99-46bd-a324-e0892c4fa0ce
 type: detail
-_schema: detail_page
 ---
