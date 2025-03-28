@@ -16,175 +16,48 @@ topper:
     enable_pattern: false
     tint_opacity: '0.5'
 content_blocks:
-  - _bookshop_name: design-system/column_sm/profile-mini
-    text: Hello World!kjbkjb
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/alternating-grid
-    heading: Alternating Grid Headingkjbkjb
-    items:
-      - heading: Item Heading
-        image: /uploads/39371-s-djm-0228-xx.jpg
-        alt_text:
-        copy: ''
-        ctas:
-      - heading: Item Heading
-        image: /uploads/39371-s-djm-0228-xx.jpg
-        alt_text:
-        copy: jkbjkbjkbbkbkj
-        ctas:
-    postscript:
-      copy: lbkjbkjbbkj
-      postscript_links: []
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/alumni-profile
-    heading: Heading
-    name: Firstname Lastname
-    image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
-    is_cutout: true
-    label:
-      - Label
-      - Label 2
-    info:
-      - Morgantown, WV
-      - kbjkbjkbkbk
-    ctas:
-      - text: Call to Action
-        url:
-        icon:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/article-collection
-    heading: Article Collection Heading
-    article_tags:
-      - featured
-    limit: 5
-    config:
-      edit_mode_only: false
-      show_content: false
-  - _bookshop_name: design-system/section/big-search
-    label:
-    heading:
-    subheading: Subheading.jkkjbjkbk
-    postscript:
-      copy: hjvhjvhjvhjv
-      postscript_links:
-        - text: hjbhjbhjb
-          icon:
-          url:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/button-group
-    heading: Button Group Heading
-    body: ''
-    buttons:
-      - text: Call to Action
-        url:
-        icon:
-      - text: Call to Action
-        url:
-        icon:
-    postscript:
-      copy: ''
-      postscript_links:
-        - text:
-          icon:
-          url:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/calendar-events
-    heading: Upcoming Events
-    subheading: xwxw
-    event_feed: >-
-      <div id="localist-widget-46491587" class="localist-widget"></div><script
-      defer type="text/javascript"
-      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-46491587&template=wvu-design-system-3-across"></script>
-    postscript:
-      copy: cedcedecwece
-      postscript_links:
-        - text:
-          icon:
-          url:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/cards-list
-    heading: Hello World!
-    subheading:
-    label:
-    items:
-      - image: /uploads/39371-s-djm-0228-xx.jpg
-        image_alt:
-        heading: vsvvsv
-        text: vsdvsdvsv
-        links:
-          - text: vsdvs
-            url:
-      - image:
-        image_alt: vsdv
-        heading: vsdvddvsdv
-        text: vsdvsdv
-        links:
-          - text: vdsvv
-            url:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/hero-list
-    heading: vsdvv
-    body: dsvsdvsvvdsv
-    ctas:
-      - text: vdsvsv
-        icon:
-        url: vsv
-      - text:
-        icon:
-        url:
-    postscript_links:
-      - text: vdsv
-        icon:
-        url:
-    config:
-      edit_mode_only: false
-      is_main: true
-  - _bookshop_name: design-system/section/hero
-    background_image:
-    alt_text:
-    heading: Heading
-    body:
-      - Lede.
-      - Body.
-    ctas: []
-    postscript_links:
-    config:
-      edit_mode_only: false
-      id:
-    styles:
-      styles_section:
-      styles_h2:
-      styles_h2_label:
-      styles_lead:
-      styles_buttons:
-  - _bookshop_name: design-system/section/jump-links
-    title: Hello World!vsdv
-    label_c: wvu-accent--blue-light
-    background_c: bg-wvu-gold
-    text_c: text-wvu-blue
-    items:
-      - text: dvsvsv
-        description: gcgchc
-        anchor:
-      - text: vsdvdv
-        description: vsvsvsdv
-        anchor:
-    config:
-      edit_mode_only: false
   - _bookshop_name: design-system/section/link-lists
-    heading: Heading
+    heading: Headinghvhjv
     subheading: jkbjkbjkbkj
-    lists: []
+    lists:
+      - topic: iuguig
+        description: vsdvvsvds
+        items:
+          - text: vsdvsdvdsvsdv
+            url:
     config:
       edit_mode_only: false
     styles:
+      margin:
+  - _bookshop_name: design-system/section/page-collection-vertical-sticky
+    heading: Headingvsvsv
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: vsdvsv
+        text: >-
+          Title field in component data and descirption field in item data are
+          not displaying anything in component when edited. Label Color has no
+          effect.sdvsv
+        url:
+    lead: Lead text.dsvvd
+    config:
+      edit_mode_only: false
+    layout:
+      margin_y:
+    styles:
+      panels:
+      item_headings:
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    subheading: Subheading.
+    items: []
+    config:
+      edit_mode_only: false
+    styles:
+      panels:
+      item_headings:
       margin:
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
