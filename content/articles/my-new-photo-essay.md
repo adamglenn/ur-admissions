@@ -10,11 +10,11 @@ description:
 article_topper:
   _bookshop_name: design-system/topper/article-hero
   label:
-  background_image:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
   heading:
   body_text:
-  show_byline: false
+  show_byline: true
   styles:
     vibe: down-to-business
     enable_blend: false
