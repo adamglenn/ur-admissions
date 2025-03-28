@@ -34,10 +34,10 @@ content_blocks:
     heading: Heading
     subheading:
     lists:
-      - topic: First-Time Freshmen
+      - topic: You Are Helpless
         description: >-
-          You are a current high school senior, have a TASC/GED or haven't
-          attended college since graduating.
+          You cannot look away as my steely gaze pierces the very depths of your
+          soul. I command you to fill my bowl.
         items:
           - site_page:
             text: Apply as a First-Time Freshmen
