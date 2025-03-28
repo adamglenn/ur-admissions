@@ -1,8 +1,8 @@
 ---
 _schema: author
 name: Stephen King
-first_name: Stephen
-last_name: King
+first_name: jjknStephen
+last_name: Kingjknjkn
 profile_image:
 description:
 author_profile_topper:
@@ -33,6 +33,12 @@ detail_blocks:
       - image: /uploads/39371-s-djm-0228-xx.jpg
         alt_text:
         caption:
+  - _bookshop_name: design-system/column/accordion
+    panels:
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
