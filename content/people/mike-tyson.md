@@ -6,8 +6,8 @@ last_name: Whitehjgvghjv
 image_lg: /uploads/39371-s-djm-0228-xx.jpg
 profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
-college:
-school:
+college: hvhjv
+school: hkvhkvhkv
 majors: []
 occupation:
 job_title: []
