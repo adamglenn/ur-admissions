@@ -28,11 +28,6 @@ detail_blocks:
       - text: lkjmlkm
         url:
         color: wvu-accent--blue
-  - _bookshop_name: design-system/column/photo-block
-    photos:
-      - image: /uploads/39371-s-djm-0228-xx.jpg
-        alt_text:
-        caption:
   - _bookshop_name: design-system/column/accordion
     panels:
       - title: Panel 1 Title
