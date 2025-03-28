@@ -3,10 +3,10 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/720-test-20.jpg
   alt_text:
   heading:
-    - text: It Starts Now
+    - text: You Are Helpless
       highlight:
   subheading: Subheading.
   body_text: >-
