@@ -185,7 +185,7 @@ detail_blocks:
 
       src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-46491587&template=wvu-design-system-3-across"></script>
     link_text: Linkity Link Link
-    url: https://cal.wvu.edu/help/widget
+    url: https://cal.wvu.edu/group/student_organizations
     config:
       edit_mode_only: false
 detail_sidebar_blocks:
