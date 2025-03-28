@@ -174,7 +174,7 @@ detail_blocks:
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum
-      - label: Tab 1
+      - label: Tab 2
         text: Test
 detail_sidebar_blocks:
 uuid: 89e1fab1-67ff-46ea-9d29-5eeb710be31e
