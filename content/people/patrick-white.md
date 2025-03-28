@@ -12,33 +12,48 @@ majors:
   - Major
 minors:
   - Minor
-hometown:
-occupation:
-job_title: []
-honors: []
-graduation_year:
-quote:
-dir_include: false
+hometown: home
+occupation: Occupation
+job_title:
+  - Job
+honors:
+  - Honors
+graduation_year: Grad Year
+quote: Quote
+dir_include: true
 alumni_profile_topper:
   _bookshop_name: design-system/topper/alumni
   label:
-  heading:
-  subheading:
+  heading: khbhjv
+  subheading: jkbjkbk
+  background_image:
+  alt_text:
   styles:
-    vibe: down-to-business
+    vibe: wvu-experience
     background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c:
-    enable_blend: true
+    enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-    margin:
+    container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: Heading
+    list_description: jhvhjvhjv
+    items: []
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
-    ctas: []
+    ctas:
+      - text:
+        url:
+      - text:
+        url:
 uuid: d54757fc-8c71-415c-9bc0-f6652a852889
 type: alumni
 metadata:
