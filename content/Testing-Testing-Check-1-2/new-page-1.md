@@ -3,6 +3,13 @@ _schema: guide_page
 title: New Guide Page
 description:
 topper:
+  _bookshop_name: design-system/topper/default
+  label:
+  background_image:
+  alt_text:
+  heading:
+  subheading:
+  body_text:
 content_blocks:
   - _bookshop_name: design-system/column_sm/profile-mini
     text: Hello World!
