@@ -1,21 +1,26 @@
 ---
 _schema: guide_page
-title: New Guide Pagehjbvjh
+title: New Guide Page
 description:
 topper:
-  _bookshop_name: design-system/topper/default
-  label: knkln
-  background_image:
-  alt_text:
-  heading: kjhk
-  subheading:
-  body_text:
-  styles:
-    vibe: down-to-business
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
 content_blocks:
+  - _bookshop_name: design-system/column_sm/profile-mini
+    text: Hello World!
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    items:
+      - heading: Item Heading
+        image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        copy: ''
+        ctas:
+    postscript:
+      copy:
+      postscript_links:
+    config:
+      edit_mode_only: false
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
