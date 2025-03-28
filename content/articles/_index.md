@@ -3,16 +3,30 @@ title: Articles
 topper:
   _bookshop_name: design-system/topper/hero-w-icons
   label:
-  background_image:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
   heading:
     - text: Heading
       highlight: accent--wvu-blue
-  subheading: Subheading.
-  body_text: ''
-  items: []
+    - text: Heading
+      highlight:
+  subheading: Subheading.jknjkn
+  body_text: lknklnkln
+  items:
+    - icon: book
+      text: Text
+      url:
+    - icon: book
+      text: Text
+      url:
+    - icon: book
+      text: Text
+      url:
+    - icon: book
+      text: Text
+      url:
   styles:
-    vibe: down-to-business
+    vibe: discovery
     background_c:
     gradient_1:
     gradient_2:
