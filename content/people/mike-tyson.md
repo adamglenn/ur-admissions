@@ -26,10 +26,10 @@ alumni_profile_topper:
   label:
   heading: khbhjv
   subheading: jkbjkbk
-  background_image:
+  background_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
   alt_text:
   styles:
-    vibe: wvu-experience
+    vibe: down-to-business
     background_c:
     gradient_1:
     gradient_2:
