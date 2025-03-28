@@ -6,8 +6,8 @@ description:
 excerpt: ''
 publishDate: 2025-03-18T22:34:56-04:00
 authors:
-  - author: 1431914c-f6cc-4749-b4db-06e585933d66
-    article_role: Photographer
+  - author:
+    article_role:
 article_tags:
 article_topper:
   _bookshop_name: design-system/topper/article
