@@ -189,6 +189,13 @@ detail_blocks:
     config:
       edit_mode_only: true
 detail_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas:
+      - text: Test CTA Sidebar
+        url:
+      - text: Test CTA Sidebar 2
+        url: '#kjbjkbk'
 uuid: 89e1fab1-67ff-46ea-9d29-5eeb710be31e
 type: detail
 ---
