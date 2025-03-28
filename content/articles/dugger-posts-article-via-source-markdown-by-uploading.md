@@ -28,6 +28,14 @@ article_blocks:
     text: >-
       Bacon ipsum dolor amet commodo occaecat pork belly exercitation aute, ad
       ham hock veniam in landjaeger esse. Corned beef venison voluptate ullamco.
+
+
+      {{< figure src="/uploads/sided-view-young-girl-talking-therapist.jpg"
+      alt="Can alt text be required?" caption="Does the transition to a new CMS
+      require therapy? This remains to be seen..." class="wvu-bar
+      wvu-bar--bottom" >}}
+
+
       Ut culpa cillum boudin doner cupim. Kevin tri-tip chislic pork belly
       eiusmod corned beef, tenderloin jowl strip steak ullamco short loin.
       Tri-tip meatball labore in. Prosciutto beef porchetta voluptate sirloin ut
