@@ -172,10 +172,39 @@ detail_blocks:
       - label: Tab 3
         text: Tab 1 text.
   - _bookshop_name: design-system/column/youtube-video
-    heading: Featured Video
-    title: Video Title
-    description: Video description.
+    heading: Featured Video;cmalsc;ska
+    title: Video Titl;kcnas;knce
+    description: Video descripkcmalkndcltion.
     video_id: EMhV-NvxrAo
+  - _bookshop_name: design-system/column_sm/calendar-events
+    heading: Events
+    subheading: acsac
+    event_feed: >-
+      <div id="localist-widget-46491587" class="localist-widget"></div><script
+      defer type="text/javascript"
+
+      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-46491587&template=wvu-design-system-3-across"></script><div
+      id="lclst_widget_footer"><a
+      style="margin-left:auto;margin-right:auto;display:block;width:81px;margin-top:10px;"
+      title="Widget powered by Concept3D Event Calendar Software"
+      href="https://www.localist.com?utm_source=widget&utm_campaign=widget_footer&utm_medium=branded%20link"><img
+      src="//d3e1o4bcbhmj8g.cloudfront.net/assets/platforms/default/about/widget_footer.png"
+      alt="Localist Online Calendar Software" style="vertical-align: middle;"
+      width="81" height="23"></a></div><div id="localist-widget-46491587"
+      class="localist-widget"></div><script defer type="text/javascript"
+
+      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-46491587&template=wvu-design-system-3-across"></script><div
+      id="lclst_widget_footer"><a
+      style="margin-left:auto;margin-right:auto;display:block;width:81px;margin-top:10px;"
+      title="Widget powered by Concept3D Event Calendar Software"
+      href="https://www.localist.com?utm_source=widget&utm_campaign=widget_footer&utm_medium=branded%20link"><img
+      src="//d3e1o4bcbhmj8g.cloudfront.net/assets/platforms/default/about/widget_footer.png"
+      alt="Localist Online Calendar Software" style="vertical-align: middle;"
+      width="81" height="23"></a></div>
+    link_text: Linkity Link Link
+    url: https://cal.wvu.edu/help/widget
+    config:
+      edit_mode_only: false
 detail_sidebar_blocks:
 uuid: 89e1fab1-67ff-46ea-9d29-5eeb710be31e
 type: detail
