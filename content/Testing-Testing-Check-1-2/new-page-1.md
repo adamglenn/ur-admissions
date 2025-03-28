@@ -77,6 +77,15 @@ content_blocks:
     config:
       edit_mode_only: false
       show_content: false
+  - _bookshop_name: design-system/section/place
+    heading: v fvdv
+    subheading: evfvdv
+    text: vdfvdv
+    ctas:
+      - text: Call to Action
+        url:
+    config:
+      edit_mode_only: false
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
