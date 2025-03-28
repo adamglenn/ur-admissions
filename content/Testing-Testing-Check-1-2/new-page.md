@@ -126,7 +126,13 @@ detail_blocks:
       - image: /uploads/39371-s-djm-0228-xx.jpg
         alt_text:
         caption:
-      - image:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
         alt_text:
         caption:
 detail_sidebar_blocks:
