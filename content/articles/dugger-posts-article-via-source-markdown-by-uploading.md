@@ -42,7 +42,7 @@ article_blocks:
 
 
       {{< youtube id="EGwLmE7hfSE" title="Title is required! Can we make it
-      required?" class="wvu-featured-video-test-class ratio ratio-16x9" >}}
+      required?" class="my-4 ratio ratio-16x9" >}}
 
 
       Ea in enim ribeye, tempor quis in anim adipisicing beef ribs shankle.
