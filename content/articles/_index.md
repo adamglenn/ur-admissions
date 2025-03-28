@@ -1,15 +1,14 @@
 ---
 title: Articles
 topper:
-  _bookshop_name: design-system/topper/hero
+  _bookshop_name: design-system/topper/hero-w-icons
   label:
   background_image:
   alt_text:
-  heading:
-    - text: Heading
-      highlight:
-  subheading: Subheading.jknkjn
-  body_text: ''
+  heading: []
+  subheading: Subheading.
+  body_text:
+  items: []
   styles:
     vibe: down-to-business
     background_c:
