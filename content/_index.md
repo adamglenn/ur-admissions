@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Stupid Human
 topper:
   _bookshop_name: design-system/topper/hero
   label:
