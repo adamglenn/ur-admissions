@@ -46,6 +46,11 @@ detail_blocks:
     heading: Heading
     list_description: jhvhjvhjv
     items: []
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
