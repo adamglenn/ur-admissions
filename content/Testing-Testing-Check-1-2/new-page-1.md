@@ -50,15 +50,33 @@ content_blocks:
       panels: wvu-blue
       item_headings: h6
   - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    subheading: Subheading.
-    items: []
+    heading: Headingvdsv
+    subheading: Subheading.vsdv
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
     config:
       edit_mode_only: false
     styles:
       panels:
       item_headings:
       margin:
+  - _bookshop_name: design-system/section/people-grid
+    heading: Heading
+    subheading: ' sfd'
+    people:
+      - person: d54757fc-8c71-415c-9bc0-f6652a852889
+      - person:
+    config:
+      edit_mode_only: false
+      show_content: false
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
