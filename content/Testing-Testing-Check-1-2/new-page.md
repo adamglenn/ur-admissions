@@ -187,7 +187,7 @@ detail_blocks:
     link_text: Linkity Link Link
     url: https://cal.wvu.edu/group/student_organizations
     config:
-      edit_mode_only: false
+      edit_mode_only: true
 detail_sidebar_blocks:
 uuid: 89e1fab1-67ff-46ea-9d29-5eeb710be31e
 type: detail
