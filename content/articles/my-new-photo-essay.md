@@ -25,11 +25,16 @@ photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text:
   - _bookshop_name: design-system/section/full-bleed-photo
-    src:
+    src: /uploads/39371-s-djm-0228-xx.jpg
     alt:
-    caption:
+    caption: cdnxvklnv
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
 show_author_bios: true
 type: photo-essay
 uuid: 3157561f-d066-4064-a84d-0b46db7f4a91
