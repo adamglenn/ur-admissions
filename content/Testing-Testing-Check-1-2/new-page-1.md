@@ -8,10 +8,10 @@ topper:
   background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
   heading:
-    - text: Heading
+    - text: Headingjbjkbkj
       highlight:
-  subheading: Subheading goes here.
-  body_text: ''
+  subheading: Subheading goes n mn here.
+  body_text: m, m m,
   styles:
     vibe: discovery
     background_c: bg-wvu-blue text-white
