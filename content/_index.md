@@ -8,7 +8,7 @@ topper:
   heading:
     - text: You Are Helpless
       highlight:
-  subheading: Subheading.
+  subheading: Come and touch me please. I want to claw yer face off
   body_text: ''
   styles:
     vibe: wvu-experience
