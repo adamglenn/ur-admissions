@@ -36,6 +36,11 @@ detail_blocks:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
+    ctas:
+      - text:
+        url:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
     ctas: []
 uuid: 1431914c-f6cc-4749-b4db-06e585933d66
 type: author
