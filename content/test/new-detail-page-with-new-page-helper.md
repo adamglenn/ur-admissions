@@ -28,9 +28,7 @@ detail_blocks:
     text: Text. Here is my text.
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
-    items:
-      - text: Here is my jump link
-        anchor: '#test'
+    items: []
 uuid: 5937b913-316d-48a5-884b-4c099061e3ad
 type: detail
 ---
