@@ -26,6 +26,14 @@ staff_contact_info:
 dir_include: true
 is_contact: true
 faculty_files:
+  - _bookshop_name: design-system/simple/file-buttons
+    name: Download CV
+    file:
+    icon: download
+  - _bookshop_name: design-system/simple/file-buttons
+    name: Another Download
+    file:
+    icon: file-pdf
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
   label:
