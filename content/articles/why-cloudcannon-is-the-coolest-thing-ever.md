@@ -26,7 +26,7 @@ article_topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.5'
+    tint_opacity: '0.7'
     margin:
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
