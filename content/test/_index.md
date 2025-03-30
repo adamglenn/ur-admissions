@@ -7,9 +7,11 @@ topper:
   label:
   background_image:
   alt_text:
-  heading: []
+  heading:
+    - text: Heading
+      highlight:
   subheading: Subheading.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c:
