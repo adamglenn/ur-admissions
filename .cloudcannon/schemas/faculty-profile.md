@@ -10,6 +10,7 @@ description:
 position:
   - organization:
     title:
+quote:
 staff_contact_info:
 dir_include: true
 is_contact: true

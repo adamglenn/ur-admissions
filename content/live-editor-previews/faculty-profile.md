@@ -11,6 +11,7 @@ description:
 position:
   - organization:
     title:
+quote:
 staff_contact_info:
 files:
   - name:
