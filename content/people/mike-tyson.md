@@ -37,7 +37,12 @@ alumni_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-profile_sidebar_blocks: []
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: Helpful Links
+    ctas:
+      - text: My Link
+        url: https://www.wvu.edu
 uuid: 16964e20-7b34-4b59-9678-b6c0df7e1d9c
 type: alumni
 metadata:
