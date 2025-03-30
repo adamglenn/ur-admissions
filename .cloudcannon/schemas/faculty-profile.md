@@ -14,10 +14,7 @@ quote:
 staff_contact_info:
 dir_include: true
 is_contact: true
-files:
-  - name:
-    file:
-    icon:
+faculty_files:
 dir_include: true
 is_contact: true
 faculty_profile_topper:

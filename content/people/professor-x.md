@@ -14,10 +14,7 @@ position:
 staff_contact_info:
 dir_include: true
 is_contact: true
-files:
-  - name:
-    file:
-    icon:
+faculty_files:
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
   heading: Heading
