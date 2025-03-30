@@ -15,7 +15,7 @@ article_topper:
   show_byline: false
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text:
+    text: Here is my text.
 show_author_bios: true
 uuid: 2026dc66-3211-499f-b455-c0f64ec0f854
 type: articles
