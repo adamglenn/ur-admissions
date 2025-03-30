@@ -4,9 +4,6 @@ title: First-Time Freshmen
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  background_image:
-  alt_text:
-  heading:
   subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
