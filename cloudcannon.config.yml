@@ -190,7 +190,7 @@ collections_config:
         icon: notes
         create:
           path: '[relative_base_path]/_index.md'
-        new_preview_url: live-editor-previews/guide-index/
+        new_preview_url: /live-editor-previews/guide-index/
   people:
     path: content/people
     icon: group
