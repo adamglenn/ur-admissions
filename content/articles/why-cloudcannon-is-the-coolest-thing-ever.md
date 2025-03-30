@@ -10,9 +10,24 @@ authors:
     article_role: Author
 article_tags:
 article_topper:
-  _bookshop_name: design-system/topper/article
+  _bookshop_name: design-system/topper/article-hero
   label:
+  background_image:
+  alt_text:
+  heading:
+  body_text:
   show_byline: false
+  styles:
+    vibe: down-to-business
+    background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: '0.5'
+    margin:
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Here is my text.
