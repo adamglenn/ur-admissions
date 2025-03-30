@@ -10,8 +10,8 @@ topper:
       highlight:
   subheading: Subheading.
   body_text: >-
-    Here is some body text. Here is some \*\*bold\*\* text. Here is \[a
-    link\](https://www.wvu.edu).
+    Here is some body text. Here is some **bold text**. Here is [a
+    link](https://www.wvu.edu).
   styles:
     vibe: wvu-experience
     background_c: bg-wvu-blue text-white
