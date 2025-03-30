@@ -30,6 +30,14 @@ content_blocks:
     config:
       edit_mode_only: false
     margin: ''
+  - _bookshop_name: design-system/section/jump-links
+    title: Hello World!
+    label_c:
+    background_c: bg-wvu-gold
+    text_c: text-wvu-blue
+    items: []
+    config:
+      edit_mode_only: false
 uuid: 05a857ac-b4c2-4bf0-a3a2-9427f0b32f06
 type: guide
 ---
