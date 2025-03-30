@@ -19,10 +19,6 @@ dir_include: true
 is_contact: true
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
-  background_image:
-  alt_text:
-  heading: Heading
-  subheading: Subheading
   styles:
     vibe: down-to-business
     background_c:
