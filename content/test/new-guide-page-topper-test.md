@@ -4,7 +4,7 @@ title: New Guide Page Topper Test
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  subheading: My subheading.
+  subheading: My subheading. Test.
 content_blocks:
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
