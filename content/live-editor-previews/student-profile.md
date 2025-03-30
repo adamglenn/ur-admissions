@@ -9,9 +9,7 @@ description:
 college:
 school:
 majors:
-  - title:
 minors:
-  - title:
 hometown:
 graduation_year:
 quote:

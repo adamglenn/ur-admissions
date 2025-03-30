@@ -8,8 +8,6 @@ description:
 college:
 school:
 majors: []
-minors: []
-hometown:
 occupation:
 job_title: []
 honors: []

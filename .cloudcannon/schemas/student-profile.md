@@ -7,10 +7,8 @@ profile_image:
 description:
 college:
 school:
-majors:
-  - title:
-minors:
-  - title:
+majors: []
+minors: []
 hometown:
 graduation_year:
 quote:
