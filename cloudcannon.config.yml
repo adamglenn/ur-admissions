@@ -891,7 +891,6 @@ _editables:
 _snippets_imports:
   hugo: false
 data_config: true
-data_config: true
 timezone: US/Eastern
 markdown:
   engine:
