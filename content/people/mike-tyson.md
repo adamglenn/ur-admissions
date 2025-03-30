@@ -6,20 +6,14 @@ last_name: Tyson
 image_lg:
 profile_image:
 description:
-college: College of Creative Arts and Media
-school: School of Art and Design
-majors:
-  - Engineering
-  - Biochemistry
-occupation: Professional Boxer
-job_title:
-  - CEO, Tyson Industries.
-  - CIO, Another Company
-honors:
-  - 2-Time Heavyweight Champion of the World
-  - Olympic Gold Medalist
-graduation_year: '1982'
-quote: Quote.
+college:
+school:
+majors: []
+occupation:
+job_title: []
+honors: []
+graduation_year:
+quote:
 dir_include: false
 alumni_profile_topper:
   _bookshop_name: design-system/topper/alumni
@@ -37,13 +31,8 @@ alumni_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-profile_sidebar_blocks:
-  - _bookshop_name: design-system/column_sm/cta-stack
-    heading: Helpful Links
-    ctas:
-      - text: My Link
-        url: https://www.wvu.edu
-uuid: 16964e20-7b34-4b59-9678-b6c0df7e1d9c
+profile_sidebar_blocks: []
+uuid: b292cdfa-622b-42df-820b-b299ce0a9bd5
 type: alumni
 metadata:
   type: Alum
