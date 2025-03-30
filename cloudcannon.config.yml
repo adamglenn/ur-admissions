@@ -889,12 +889,8 @@ _editables:
     underline: true
     undo: true
 _snippets_imports:
-<<<<<<< HEAD
   hugo: false
 data_config: true
-timezone: US/Eastern
-=======
-  hugo: true
 data_config: true
 timezone: US/Eastern
 markdown:
@@ -918,4 +914,3 @@ markdown:
     heading_ids: false
     attributes: false
     attribute_elements:
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
