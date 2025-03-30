@@ -33,8 +33,7 @@ faculty_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-profile_sidebar_blocks:
-  - _bookshop_name: design-system/column_sm/cta-stack
+profile_sidebar_blocks: []
 uuid:
 type: faculty-profile
 metadata:

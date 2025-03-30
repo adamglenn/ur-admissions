@@ -34,8 +34,6 @@ detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
 profile_sidebar_blocks:
-  - _bookshop_name: design-system/section/dummy
-    text: text
 uuid:
 type: student-profile
 _unlisted: true
