@@ -21,8 +21,8 @@ staff_contact_info:
     location: (304) 123-4567
     map_link:
   - _bookshop_name: design-system/simple/phone
-    label: Phone
-    phone_n: (304) 123-4567
+    label: Office
+    phone_n: 438 Woodburn Hall
 dir_include: true
 is_contact: true
 files:
