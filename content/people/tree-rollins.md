@@ -56,7 +56,9 @@ detail_blocks:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack
-    ctas: []
+    ctas:
+      - text: My Text
+        url:
 uuid: b295367c-0ed8-4e8e-a7a0-73291ae687e6
 type: faculty-profile
 metadata:
