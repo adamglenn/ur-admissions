@@ -7,7 +7,7 @@ topper:
   background_image:
   alt_text:
   heading:
-  subheading:
+  subheading: My subheading.
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
