@@ -37,7 +37,7 @@ article_blocks:
       {:title="The blockquote title"}
       {: #myid}
   
-      <div class="test">
+      <div class="test editable">
       This is a test!
       </div>
 

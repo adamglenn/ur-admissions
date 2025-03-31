@@ -857,7 +857,7 @@ _structures:
           url:
 _editables:
   content:
-    allow_custom_markup: false
+    allow_custom_markup: true
     remove_custom_markup: false
     bold: true
     bulletedlist: true
