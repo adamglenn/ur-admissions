@@ -8,7 +8,11 @@ profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
 college: hvhjv
 school: hkvhkvhkv
-majors: []
+majors:
+  - Major
+minors:
+  - Minor
+hometown:
 occupation:
 job_title: []
 honors: []
