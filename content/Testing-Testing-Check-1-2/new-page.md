@@ -3,15 +3,14 @@ _schema: detail_page
 title: New Detail Pagevdvs
 description:
 topper:
-  _bookshop_name: design-system/topper/hero-split
-  label: Label
-  background_image: /uploads/39371-s-djm-0228-xx.jpg
+  _bookshop_name: design-system/topper/hero-w-icons
+  label:
+  background_image:
   alt_text:
-  heading:
-    - text: Heading Test 2
-      highlight: Highlight
+  heading: []
   subheading: Subheading.
-  body_text: ''
+  body_text:
+  items: []
   styles:
     vibe: down-to-business
     background_c:
@@ -21,7 +20,7 @@ topper:
     heading_c:
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.0'
+    tint_opacity: '0.5'
     container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
