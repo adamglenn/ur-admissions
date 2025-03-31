@@ -5,7 +5,7 @@ label_c: wvu-blue
 text_c:
 menu_items:
   - text: Guide Me
-    url: /how-to-apply/future-students/
+    url: /future-students/
     weight:
   - text: First-Time Freshmen
     url: /how-to-apply/first-time-freshmen/
