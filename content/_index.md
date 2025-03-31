@@ -3,17 +3,27 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
-  alt_text:
+  background_image: /uploads/wvu-core-planeria.jpg
+  alt_text: Planeria under a flourescence microscope
   heading:
-    - text: It Starts Now
+    - text: From molecules to ecosystems, explore the science of life
       highlight:
-  subheading: Subheading.
+  subheading:
   body_text: >-
-    Here is some body text. Here is some **bold text**. Here is [a
-    link](https://www.wvu.edu).
+    Through in-depth instruction, hands-on research and independent projects
+    conducted with award winning faculty, biology students learn to question,
+    experiment and innovate.
+
+
+    Image of a planaria, a flatworm that can regenerate its entire body, under a
+    fluorescent microscope. WVU research, in the [Arnold
+    Lab](https://www.planarnoldlab.com/), is looking at genes that lay the
+    framework for whole body regeneration.
+
+
+    &nbsp;
   styles:
-    vibe: wvu-experience
+    vibe: nostalgic
     background_c: bg-wvu-blue text-white
     gradient_1:
     gradient_2:
@@ -21,7 +31,7 @@ topper:
     heading_c: wvu-gold
     enable_blend: false
     enable_pattern: false
-    tint_opacity: '0.5'
+    tint_opacity: '0.3'
     container_margin: my-6
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
