@@ -190,11 +190,7 @@ collections_config:
         icon: notes
         create:
           path: '[relative_base_path]/_index.md'
-<<<<<<< HEAD
         new_preview_url: /live-editor-previews/guide-index/
-=======
-        new_preview_url: live-editor-previews/guide-index/
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
   people:
     path: content/people
     icon: group
@@ -635,13 +631,6 @@ _inputs:
       allow_empty: true
       values: data.people_data[?(@.schema == 'student')]
     cascade: true
-<<<<<<< HEAD
-=======
-  student_profile_topper:
-    type: auto
-    hidden: true
-    cascade: true
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
   tags:
     type: multiselect
     options:
@@ -900,10 +889,13 @@ _snippets_imports:
 <<<<<<< HEAD
   hugo: false
 data_config: true
+<<<<<<< HEAD
 timezone: US/Eastern
 =======
   hugo: true
 data_config: true
+=======
+>>>>>>> 4f479a3 (Updating config.)
 timezone: US/Eastern
 =======
   hugo: true
