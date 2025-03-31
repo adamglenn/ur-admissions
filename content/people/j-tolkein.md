@@ -3,7 +3,7 @@ _schema: author
 name: Stephen King
 first_name: jjknStephen
 last_name: Kingjknjkn
-profile_image:
+profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
 author_profile_topper:
   _bookshop_name: design-system/topper/author
