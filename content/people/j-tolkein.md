@@ -1,9 +1,9 @@
 ---
 _schema: author
-name: J.R.R. Tolkein
-first_name: J
-last_name: Tolkein
-profile_image: /uploads/34750-s-bfp-0046-xx.jpg
+name: Stephen King
+first_name: jjknStephen
+last_name: Kingjknjkn
+profile_image:
 description:
 author_profile_topper:
   _bookshop_name: design-system/topper/author
@@ -33,15 +33,14 @@ detail_blocks:
       - image: /uploads/39371-s-djm-0228-xx.jpg
         alt_text:
         caption:
+  - _bookshop_name: design-system/column/accordion
+    panels:
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
+      - title: Panel 1 Title
+        panel_text: Panel 1 text.
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
-<<<<<<< HEAD:content/people/j-tolkein.md
-    heading: Helpful Links
-    ctas:
-      - text: Test
-        url:
-uuid: e8aaaee1-5ba4-49b9-98ce-55f7b0c70a7c
-=======
     heading: CTA Stack
     ctas:
       - text:
@@ -50,7 +49,6 @@ uuid: e8aaaee1-5ba4-49b9-98ce-55f7b0c70a7c
     heading: CTA Stack
     ctas: []
 uuid: 1431914c-f6cc-4749-b4db-06e585933d66
->>>>>>> 61831a1 (Updated 1 file via CloudCannon.):content/people/stephen-king.md
 type: author
 metadata:
   type: Author
