@@ -30,6 +30,11 @@ module:
   replacements:
     - components.local -> ../component-library
 
+caches:
+  images:
+    dir: :resourceDir/_gen
+    maxAge: -1
+    
 menus:
   main:
     - name: Home
