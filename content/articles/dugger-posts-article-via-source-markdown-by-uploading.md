@@ -1,6 +1,8 @@
 ---
 _schema: article
-title: Dugger Posts Article Via Soruce Markdown by Uploading to Folder
+title: >-
+  Dugger Posts Article Via Source Markdown by Uploading .md File to Articles
+  Folder
 subheading: Subheading.
 description: >-
   Pork belly t-bone pariatur sint boudin dolore, ut andouille tail est et doner
@@ -26,6 +28,7 @@ article_blocks:
     text: >-
       Bacon ipsum dolor amet commodo occaecat pork belly exercitation aute, ad
       ham hock veniam in landjaeger esse. Corned beef venison voluptate ullamco.
+<<<<<<< HEAD
 
 
       {{< figure src="/uploads/sided-view-young-girl-talking-therapist.jpg"
@@ -34,6 +37,8 @@ article_blocks:
       wvu-bar--bottom" >}}
 
 
+=======
+>>>>>>> abd1294 (Updated 1 file via CloudCannon.)
       Ut culpa cillum boudin doner cupim. Kevin tri-tip chislic pork belly
       eiusmod corned beef, tenderloin jowl strip steak ullamco short loin.
       Tri-tip meatball labore in. Prosciutto beef porchetta voluptate sirloin ut
@@ -48,7 +53,7 @@ article_blocks:
 
 
       {{< youtube id="EGwLmE7hfSE" title="Title is required! Can we make it
-      required?" class="my-4 ratio ratio-16x9" >}}
+      required?" class="wvu-featured-video-test-class ratio ratio-16x9" >}}
 
 
       Ea in enim ribeye, tempor quis in anim adipisicing beef ribs shankle.
@@ -56,9 +61,6 @@ article_blocks:
       consectetur, et doner swine veniam buffalo irure pork chop biltong. Ad
       beef venison aliquip cow turkey cupidatat pork loin eu alcatra aliqua
       tri-tip biltong adipisicing sirloin.
-
-
-      ## What if I want to add a class to a bulleted list?
 
 
       * Pork belly t-bone pariatur sint boudin dolore, ut andouille tail est et
@@ -74,10 +76,11 @@ article_blocks:
 
       > Drumstick nulla cillum esse ham consectetur. Turducken pork cupim, shank
       sunt beef fugiat pork chop. Tempor exercitation meatball in kevin, jowl
-      commodo.<br>— Dr. Joe, Director of the Directory Department
+      commodo.
 
+      >
 
-      Shank adipisicing tongue, culpa filet mignon boudin occaecat veniam
+      > Shank adipisicing tongue, culpa filet mignon boudin occaecat veniam
       alcatra shoulder duis sint aliquip consectetur. Commodo mollit pork belly,
       bresaola quis et ham. Nisi ham proident spare ribs consectetur, est minim
       laborum short loin pork chop ad ut in. Boudin in chuck ball tip, cupidatat
