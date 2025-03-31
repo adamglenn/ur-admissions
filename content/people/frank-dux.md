@@ -9,9 +9,8 @@ description: vsdvsd
 college: Finance
 school: Joe's School
 majors:
-  - title: svdvs
+  - svdvs
 minors:
-  - title:
 hometown: sdv
 graduation_year: vdvs
 quote: sdvsv

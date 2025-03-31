@@ -42,10 +42,6 @@ alumni_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-<<<<<<< HEAD:content/people/mike-tyson.md
-profile_sidebar_blocks: []
-uuid: b292cdfa-622b-42df-820b-b299ce0a9bd5
-=======
   - _bookshop_name: design-system/column/link-list-panels
     heading: Heading
     list_description: jhvhjvhjv
@@ -59,7 +55,6 @@ profile_sidebar_blocks:
       - text:
         url:
 uuid: d54757fc-8c71-415c-9bc0-f6652a852889
->>>>>>> 8feccfd (Updated 1 file via CloudCannon.):content/people/patrick-white.md
 type: alumni
 metadata:
   type: Alum
