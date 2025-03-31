@@ -4,7 +4,7 @@ title: New Guide Page Test
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  subheading:
+  subheading: Subheading
   label:
   background_image:
   alt_text:
