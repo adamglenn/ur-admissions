@@ -50,9 +50,6 @@ photo_essay_blocks:
       ## Quisque tincidunt nulla sed neque pretium blandit sed et tortor.
 
 
-      &nbsp;
-
-
       Aliquam molestie bibendum nibh, eu fermentum orci mollis a. In
       pellentesque accumsan lectus vitae eleifend. Maecenas euismod elit eget mi
       porttitor scelerisque. Sed libero velit, rutrum et condimentum a, molestie
@@ -60,12 +57,6 @@ photo_essay_blocks:
 
 
       > Proin lobortis viverra dapibus. In hac habitasse platea dictumst.
-
-
-      * None
-
-      * \* Right\{.red\} \* Space Right \{.red\} \* Below \{.red\} \* Space
-      Below
 
 
       Maecenas condimentum leo dapibus mauris placerat, ac congue nibh
