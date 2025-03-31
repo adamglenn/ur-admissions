@@ -908,4 +908,4 @@ markdown:
     superscript: false
     heading_ids: true
     attributes: true
-    attribute_elements: below
+    attribute_elements:
