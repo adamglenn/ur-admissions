@@ -1,7 +1,9 @@
 masthead_title:
-  - Glenn Demo
+  - Undergraduate Admissions
 masthead_buttons:
   - text: Call to Action
     url:
   - text: Call to Action
+    url:
+  - text: Give (Icon)
     url:
