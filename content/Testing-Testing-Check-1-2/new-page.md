@@ -7,7 +7,9 @@ topper:
   label:
   background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
-  heading: []
+  heading:
+    - text: Heading
+      highlight:
   subheading: Subheading.
   body_text: ''
   styles:
@@ -20,7 +22,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-    container_margin:
+    container_margin: my-6
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.hjhvhjvhjvjhvjhvj
