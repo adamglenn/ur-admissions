@@ -4,22 +4,21 @@ name: Professor X
 first_name: Professor
 last_name: X
 image_lg:
-  src: /uploads/34750-s-bfp-0046-xx.jpg
+  src: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
   alt:
 profile_image:
-description:
+description: Description here
 position:
-  - organization: Organization
-    title: Title
-quote:
+  - organization: Bergernon Lab
+    title: Professor
 staff_contact_info:
   - _bookshop_name: design-system/simple/email
     label: Email
     address: firstname.lastname@mail.wvu.edu
   - _bookshop_name: design-system/simple/office
-    label: Office
-    location: 438 Woodburn Hall
-    map_link:
+    label: Phone
+    location: (304) 123-4567
+    map_link: Life Sciences Building Morgantown WV
 dir_include: true
 is_contact: true
 faculty_files:
@@ -42,9 +41,27 @@ faculty_profile_topper:
     container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
-profile_sidebar_blocks: []
-uuid: 7e020d75-66f0-4628-8b44-f75931dd8bcf
+    text: >-
+      I am interested in plant ecology, conservation biology, and getting
+      students to engage with the wide array of organisms found everywhere
+      around us. DM me your favorite plant, insect and fungi pics!
+
+
+      #### Teaching Interests
+
+
+      * Principles of Biology (BIOL 115)
+
+      * Introductory Physiology (BIOL 117)
+
+      * Ecology and Evolution (BIOL 221)
+
+      * Total Science Experience (BIOL 321)
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas: []
+uuid: caca3806-54ce-4be2-940f-950138ac1a03
 type: faculty-profile
 metadata:
   type: Faculty Member
