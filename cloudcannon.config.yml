@@ -27,7 +27,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
-      article:
+      article:s
         path: .cloudcannon/schemas/article.md
         reorder_inputs: true
         hide_extra_inputs: false
@@ -190,7 +190,11 @@ collections_config:
         icon: notes
         create:
           path: '[relative_base_path]/_index.md'
+<<<<<<< HEAD
         new_preview_url: /live-editor-previews/guide-index/
+=======
+        new_preview_url: live-editor-previews/guide-index/
+>>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
   people:
     path: content/people
     icon: group
@@ -631,6 +635,13 @@ _inputs:
       allow_empty: true
       values: data.people_data[?(@.schema == 'student')]
     cascade: true
+<<<<<<< HEAD
+=======
+  student_profile_topper:
+    type: auto
+    hidden: true
+    cascade: true
+>>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
   tags:
     type: multiselect
     options:
@@ -886,6 +897,7 @@ _editables:
     undo: true
 _snippets_imports:
 <<<<<<< HEAD
+<<<<<<< HEAD
   hugo: false
 data_config: true
 timezone: US/Eastern
@@ -893,6 +905,11 @@ timezone: US/Eastern
   hugo: true
 data_config: true
 timezone: US/Eastern
+=======
+  hugo: true
+data_config: true
+timezone: US/Eastern
+>>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
 markdown:
   engine:
   options:
@@ -914,4 +931,7 @@ markdown:
     heading_ids: false
     attributes: false
     attribute_elements:
+<<<<<<< HEAD
+>>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
+=======
 >>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
