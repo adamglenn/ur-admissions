@@ -47,10 +47,7 @@ photo_essay_blocks:
       lacinia sodales tellus, vel scelerisque nibh ornare non.
 
 
-      ## Quisque tincidunt nulla sed neque pretium blandit sed et tortor.
-
-
-      &nbsp;
+      ## Quisque tincidunt nulla sed neque pretium blandit sed et tortor.&nbsp;
 
 
       Aliquam molestie bibendum nibh, eu fermentum orci mollis a. In
@@ -74,11 +71,9 @@ photo_essay_blocks:
       Aliquam nec pellentesque arcu. Fusce interdum felis eu ligula aliquam, vel
       posuere eros fermentum.
 
-
+      {: .red}
       1. Bulleted List
-
       2. Testing
-
       3. Test
 
 
