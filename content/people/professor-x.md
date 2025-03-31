@@ -21,25 +21,21 @@ staff_contact_info:
     map_link:
 dir_include: true
 is_contact: true
-files:
-  - name: Name
-    file:
-    icon: download-pdf
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
-  heading: Headingvadva
-  subheading: Subheading
   styles:
-    vibe: wvu-experience
+    vibe: down-to-business
     background_c:
     gradient_1:
     gradient_2:
     gradient_3:
-    heading_c:
+    heading_c: wvu-accent--yellow
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-    container_margin:
+    container_margin: Buffer Bottom
+  heading: Headingvadva
+  subheading: Subheading
   background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
 detail_blocks:
@@ -68,4 +64,8 @@ uuid: caca3806-54ce-4be2-940f-950138ac1a03
 type: faculty-profile
 metadata:
   type: Faculty Member
+files:
+  - name: Name
+    file:
+    icon: download-pdf
 ---

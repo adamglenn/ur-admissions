@@ -35,8 +35,8 @@ alumni_profile_topper:
     enable_blend: true
     enable_pattern: true
     tint_opacity: '0.3'
-    container_margin: Buffer Both
-    margin: mb-6
+    container_margin: Default
+    margin: mt-6
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
