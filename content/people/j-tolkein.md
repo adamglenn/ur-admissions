@@ -10,16 +10,16 @@ author_profile_topper:
   heading: lacsdklmc
   subheading: calsdmlkam
   styles:
-    vibe: down-to-business
+    vibe: discovery
     background_c:
-    gradient_1:
-    gradient_2:
+    gradient_1: 0, 98, 163
+    gradient_2: 0, 40, 85
     gradient_3:
-    heading_c:
+    heading_c: wvu-accent--old-gold
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-    container_margin:
+    container_margin: Buffer Bottom
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.

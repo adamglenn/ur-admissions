@@ -1,7 +1,7 @@
 ---
 _schema: faculty
 name: Professor Xkjnjkn
-first_name: Professor
+first_name: Professordcsc
 last_name: Xjnkj
 image_lg:
   src: /uploads/34750-s-bfp-0046-xx.jpg
