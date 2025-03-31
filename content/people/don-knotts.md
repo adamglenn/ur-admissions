@@ -1,44 +1,42 @@
 ---
 _schema: alumni
 name: Patrick jhbjhWhite
-first_name: Patrickklnkl
-last_name: Whitehjgvghjv
+first_name:
+last_name:
 image_lg: /uploads/39371-s-djm-0228-xx.jpg
 profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
 college: hvhjv
 school: hkvhkvhkv
 majors:
-  - Major
-minors:
-  - Minor
-hometown: home
+  - Majorsdc
 occupation: Occupation
 job_title:
   - Job
 honors:
   - Honors
-graduation_year: Grad Year
+graduation_year: '2000'
 quote: Quote
 dir_include: true
 alumni_profile_topper:
   _bookshop_name: design-system/topper/alumni
   label:
-  heading: khbhjv
-  subheading: jkbjkbk
-  background_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
+  heading: Heading
+  subheading:
+  background_image:
   alt_text:
   styles:
-    vibe: down-to-business
-    background_c:
+    vibe: wvu-experience
+    background_c: bg-wvu-blue text-white
     gradient_1:
-    gradient_2:
+    gradient_2: 245, 134, 114
     gradient_3:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
-    container_margin:
+    heading_c: wvu-accent--old-gold
+    enable_blend: true
+    enable_pattern: true
+    tint_opacity: '0.3'
+    container_margin: Buffer Both
+    margin: mb-6
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
@@ -63,4 +61,7 @@ uuid: d54757fc-8c71-415c-9bc0-f6652a852889
 type: alumni
 metadata:
   type: Alum
+minors:
+  - Minor
+hometown: home
 ---
