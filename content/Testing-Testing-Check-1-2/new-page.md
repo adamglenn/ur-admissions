@@ -4,7 +4,7 @@ title: New Detail Pagevdvs
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  subheading:
+  subheading: Subhead
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.hjhvhjvhjvjhvjhvj
