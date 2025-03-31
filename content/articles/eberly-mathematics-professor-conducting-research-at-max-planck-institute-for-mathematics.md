@@ -46,6 +46,9 @@ article_blocks:
       mathematics lays the groundwork for these solutions. Being invited to MPIM
       is a great acknowledgment of my work, and it has motivated me to push my
       research even further.”
+      
+      {:.lead}
+      paragraph is here
 
 
       Celikbas’s visit to MPIM will help contribute to new research
