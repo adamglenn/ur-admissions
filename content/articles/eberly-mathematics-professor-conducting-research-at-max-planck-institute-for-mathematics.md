@@ -29,6 +29,18 @@ article_topper:
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-
+
+      A simple paragraph with an ID attribute.
+      {: #para-one}
+      
+      > A blockquote with a title
+      {:title="The blockquote title"}
+      {: #myid}
+  
+      <div class="test">
+      This is a test!
+      </div>
+
       PIM is recognized as a leading center for pure mathematics, a field that
       supports all applied mathematical advancements. Celikbas’ work is focused
       on commutative and homological algebra, key areas that contribute to
@@ -49,18 +61,18 @@ article_blocks:
 
       ## How do i add a class? 
 
-      A simple paragraph with a class attribute.{:.lead}
+      A simple paragraph with a class attribute.{: .lead}
       
       ## How do i add a class? 
       
       A simple paragraph with a class attribute.
-      {:.lead}
+      {: .lead}
       
       
       ## How do i add a class? 
       
       A simple paragraph with a class attribute.
-      {:.lead}
+      {: .lead}
 
       Celikbas’s visit to MPIM will help contribute to new research
       collaborations and publications in the field of commutative and
