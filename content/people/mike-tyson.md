@@ -1,10 +1,10 @@
 ---
 _schema: alumni
-name: Mike Tyson
-first_name: Mike
-last_name: Tyson
-image_lg:
-profile_image:
+name: Patrick jhbjhWhite
+first_name: Patrickklnkl
+last_name: Whitehjgvghjv
+image_lg: /uploads/39371-s-djm-0228-xx.jpg
+profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
 college:
 school:
