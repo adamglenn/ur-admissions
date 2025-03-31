@@ -8,28 +8,20 @@ topper:
   heading:
     - text: From molecules to ecosystems, explore the science of life
       highlight:
-  subheading: >-
+  subheading:
+  body_text: >-
     Through in-depth instruction, hands-on research and independent projects
     conducted with award winning faculty, biology students learn to question,
     experiment and innovate.
-  body_text: >-
-    **Another paragraph** which allows [*Markdown*]() \* \* within it. This is
-    what happens if I put HTML into the markdown file. Is there a way to escape
-    it? Can we do away with the "Home" label at the top? Can we adjust the
-    height of the padding?
 
 
-    <div class="bg-wvu-blue">
-      <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-block">What dis? A button!</a>
-      <a href="#" class="btn btn-outline-wvu-accent--blue-light d-block mb-1 d-md-inline-block">HTML In Code?</a>
-    </div>
+    Image of a planaria, a flatworm that can regenerate its entire body, under a
+    fluorescent microscope. WVU research, in the [Arnold
+    Lab](https://www.planarnoldlab.com/), is looking at genes that lay the
+    framework for whole body regeneration.
 
 
-    <span class="small">Image of a planaria, a flatworm that can regenerate its
-    entire body, under a fluorescent microscope. WVU research, in the <a
-    href="https://www.planarnoldlab.com/">Arnold Lab</a>, is looking at genes
-    that lay the framework for whole body regeneration.</span> \* bullet 1
-    \{.red\} \* bullet 2 \* bullet 3
+    &nbsp;
   styles:
     vibe: nostalgic
     background_c: bg-wvu-blue text-white
@@ -40,7 +32,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.3'
-    container_margin: mb-6
+    container_margin: my-6
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
