@@ -164,7 +164,7 @@ detail_blocks:
     link_text: Linkity Link Link
     url: https://cal.wvu.edu/group/student_organizations
     config:
-      edit_mode_only: true
+      edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
