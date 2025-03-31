@@ -47,9 +47,20 @@ article_blocks:
       is a great acknowledgment of my work, and it has motivated me to push my
       research even further.”
 
+      ## How do i add a class? 
 
-      A simple paragraph with a class attribute. \{:.lead\}
-
+      A simple paragraph with a class attribute.{:.lead}
+      
+      ## How do i add a class? 
+      
+      A simple paragraph with a class attribute.
+      {:.lead}
+      
+      
+      ## How do i add a class? 
+      
+      A simple paragraph with a class attribute.
+      {:.lead}
 
       Celikbas’s visit to MPIM will help contribute to new research
       collaborations and publications in the field of commutative and
@@ -82,32 +93,32 @@ article_blocks:
       robotics.
 
 
-      
       # Markdown: Syntax
-      
-      *   [Overview](#overview)
-          *   [Philosophy](#philosophy)
-          *   [Inline HTML](#html)
-          *   [Automatic Escaping for Special Characters](#autoescape)
-      *   [Block Elements](#block)
-          *   [Paragraphs and Line Breaks](#p)
-          *   [Headers](#header)
-          *   [Blockquotes](#blockquote)
-          *   [Lists](#list)
-          *   [Code Blocks](#precode)
-          *   [Horizontal Rules](#hr)
-      *   [Span Elements](#span)
-          *   [Links](#link)
-          *   [Emphasis](#em)
-          *   [Code](#code)
-          *   [Images](#img)
-      *   [Miscellaneous](#misc)
-          *   [Backslash Escapes](#backslash)
-          *   [Automatic Links](#autolink)
-      
-      
-      **Note:** This document is itself written using Markdown; you
-      can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
+
+
+      * [Overview](#overview)
+        * [Philosophy](#philosophy)
+        * [Inline HTML](#html)
+        * [Automatic Escaping for Special Characters](#autoescape)
+      * [Block Elements](#block)
+        * [Paragraphs and Line Breaks](#p)
+        * [Headers](#header)
+        * [Blockquotes](#blockquote)
+        * [Lists](#list)
+        * [Code Blocks](#precode)
+        * [Horizontal Rules](#hr)
+      * [Span Elements](#span)
+        * [Links](#link)
+        * [Emphasis](#em)
+        * [Code](#code)
+        * [Images](#img)
+      * [Miscellaneous](#misc)
+        * [Backslash Escapes](#backslash)
+        * [Automatic Links](#autolink)
+
+      **Note:** This document is itself written using Markdown; you can [see the
+      source for it by adding ‘.text’ to the
+      URL](/projects/markdown/syntax.text).
 
 
       ## **Note:** This document is itself written using Markdown; you can [see
@@ -209,15 +220,8 @@ article_blocks:
       Aliquam hendrerit     mi posuere lectus.
 
 
-      ```
-
-      Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-
-      vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-
-      sit amet velit.
-
-      ```
+      ` Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+      Donec sit amet nisl. Aliquam semper ipsum sit amet velit. `
 
 
       1. Suspendisse id sem consectetuer libero luctus adipiscing. It looks nice
@@ -234,9 +238,7 @@ article_blocks:
       block:
 
 
-      ```
-          <code goes here>
-      ```
+      `     <code goes here> `
 
 
       ### Code Blocks
@@ -250,23 +252,13 @@ article_blocks:
       normal paragraph:
 
 
-      ```
-
-      This is a code block.
-
-      ```
+      ` This is a code block. `
 
 
       Here is an example of AppleScript:
 
 
-      ```
-
-      tell application "Foo"
-          beep
-      end tell
-
-      ```
+      ` tell application "Foo"     beep end tell `
 
 
       A code block continues until it reaches a line that is not indented (or
@@ -277,13 +269,15 @@ article_blocks:
       encoding the ampersands and angle brackets. For example, this:
 
 
-      ```
+      \`\`\`
+
 
       <div class="footer">
-          &copy; 2004 Foo Corporation
+          © 2004 Foo Corporation
       </div>
 
-      ```
+
+      \`\`\`
 
 
       Regular Markdown syntax is not processed within code blocks. E.g.,
