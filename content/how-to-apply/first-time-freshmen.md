@@ -23,9 +23,6 @@ detail_blocks:
       non mollis condimentum molestie dapibus arcu. Bibendum hac!
 
 
-      ## Heading 2 will look like so
-
-
       Dignissim natoque imperdiet dictumst condimentum eleifend sagittis
       lobortis nostra cursus enim, conubia malesuada. Ullamcorper neque,
       vulputate montes luctus imperdiet. Tempor dignissim cursus et taciti metus
@@ -35,9 +32,6 @@ detail_blocks:
       consectetur. Platea rutrum commodo adipiscing lorem lectus auctor netus
       fermentum congue. Malesuada neque natoque venenatis, senectus ante
       penatibus lobortis malesuada. Tempus vel parturient orci.
-
-
-      ### Heading 3 is slightly smaller
 
 
       Magna mauris porta nunc mollis nostra netus vulputate. Semper tempus orci
@@ -53,7 +47,7 @@ detail_blocks:
       3. Sociis ullamcorper odio mattis tristique massa cursus maecenas.
 
 
-      #### Heading Four has a nice touch
+      ## Heading
 
 
       > Torquent senectus ultricies; tincidunt vulputate nisi! Potenti integer
