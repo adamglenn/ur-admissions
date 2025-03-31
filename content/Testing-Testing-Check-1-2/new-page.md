@@ -3,24 +3,8 @@ _schema: detail_page
 title: New Detail Pagevdvs
 description:
 topper:
-  _bookshop_name: design-system/topper/hero-split
-  label:
-  background_image: /uploads/34750-s-bfp-0046-xx.jpg
-  alt_text:
-  heading: []
-  subheading: Subheading.
-  body_text:
-  styles:
-    vibe: down-to-business
-    background_c:
-    gradient_1:
-    gradient_2:
-    gradient_3:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.0'
-    container_margin: my-6
+  _bookshop_name: design-system/topper/default
+  subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.hjhvhjvhjvjhvjhvj
