@@ -30,7 +30,10 @@ article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-
 
-      A simple paragraph with an ID attribute.
+      PIM is recognized as a leading center for pure mathematics, a field that
+      supports all applied mathematical advancements. Celikbas’ work is focused
+      on commutative and homological algebra, key areas that contribute to
+      fields such as algebraic geometry, number theory and coding theory. A simple paragraph with an ID attribute.
       {: #para-one}
       
       > A blockquote with a title
