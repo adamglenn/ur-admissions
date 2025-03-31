@@ -4,11 +4,11 @@ title: New Detail Page
 description:
 topper:
   _bookshop_name: design-system/topper/default
-  label:
+  subheading:
+  label: Label
   background_image:
   alt_text:
   heading: Testing testing
-  subheading:
   body_text: kjbkjbj
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
