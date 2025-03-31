@@ -11,25 +11,11 @@ description: Description
 position:
   - organization: Organization
     title: Title
-<<<<<<< HEAD
-quote:
-=======
->>>>>>> 15ac4cc (Updated 1 file via CloudCannon.)
 staff_contact_info:
   - _bookshop_name: design-system/simple/email
     label: Email
     address: firstname.lastname@mail.wvu.edu
   - _bookshop_name: design-system/simple/office
-<<<<<<< HEAD
-    label: Office
-    location: 438 Woodburn Hall
-    map_link:
-dir_include: true
-is_contact: true
-faculty_files:
-  - _bookshop_name: design-system/simple/file-buttons
-    name: Download CV
-=======
     label: Phone
     location: (304) 123-4567
     map_link:
@@ -37,16 +23,12 @@ dir_include: true
 is_contact: true
 files:
   - name: Name
->>>>>>> 15ac4cc (Updated 1 file via CloudCannon.)
     file:
     icon: download-pdf
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
-<<<<<<< HEAD
-=======
   heading: Headingvadva
   subheading: Subheading
->>>>>>> 15ac4cc (Updated 1 file via CloudCannon.)
   styles:
     vibe: wvu-experience
     background_c:
@@ -58,13 +40,6 @@ faculty_profile_topper:
     enable_pattern: false
     tint_opacity: '0.5'
     container_margin:
-<<<<<<< HEAD
-detail_blocks:
-  - _bookshop_name: design-system/column/rich-text
-    text: Text.
-profile_sidebar_blocks: []
-uuid: 7e020d75-66f0-4628-8b44-f75931dd8bcf
-=======
   background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
 detail_blocks:
@@ -90,7 +65,6 @@ profile_sidebar_blocks:
       - text:
         url:
 uuid: caca3806-54ce-4be2-940f-950138ac1a03
->>>>>>> 15ac4cc (Updated 1 file via CloudCannon.)
 type: faculty-profile
 metadata:
   type: Faculty Member

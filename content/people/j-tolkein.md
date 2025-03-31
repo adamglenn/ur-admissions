@@ -35,11 +35,22 @@ detail_blocks:
         caption:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
+<<<<<<< HEAD:content/people/j-tolkein.md
     heading: Helpful Links
     ctas:
       - text: Test
         url:
 uuid: e8aaaee1-5ba4-49b9-98ce-55f7b0c70a7c
+=======
+    heading: CTA Stack
+    ctas:
+      - text:
+        url:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: CTA Stack
+    ctas: []
+uuid: 1431914c-f6cc-4749-b4db-06e585933d66
+>>>>>>> 61831a1 (Updated 1 file via CloudCannon.):content/people/stephen-king.md
 type: author
 metadata:
   type: Author
