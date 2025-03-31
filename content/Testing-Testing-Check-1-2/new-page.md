@@ -1,6 +1,6 @@
 ---
 _schema: detail_page
-title: New Detail Page
+title: New Detail Pagevdvs
 description:
 topper:
   _bookshop_name: design-system/topper/hero-split
