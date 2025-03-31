@@ -6,7 +6,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: It Starts Now
+    - text: It Starts Now Test.
       highlight:
   subheading: Subheading.
   body_text: >-
