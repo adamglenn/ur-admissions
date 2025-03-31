@@ -1,8 +1,6 @@
 ---
 _schema: article
-title: >-
-  Dugger Posts Article Via Source Markdown by Uploading .md File to Articles
-  Folder
+title: Dugger Posts Article Via Soruce Markdown by Uploading to Folder
 subheading: Subheading.
 description: >-
   Pork belly t-bone pariatur sint boudin dolore, ut andouille tail est et doner
@@ -14,7 +12,7 @@ excerpt: >-
   exercitation meatball in kevin, jowl commodo.
 publishDate: 2025-03-28T15:30:08-04:00
 authors:
-  - author: 1431914c-f6cc-4749-b4db-06e585933d66
+  - author:
     article_role: Author
 article_tags:
   - Feature
