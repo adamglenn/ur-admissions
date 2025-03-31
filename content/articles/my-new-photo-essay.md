@@ -23,9 +23,9 @@ article_topper:
     margin:
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
-    text:
+    text: Test.
   - _bookshop_name: design-system/section/full-bleed-photo
-    src:
+    src: /uploads/34750-s-bfp-0046-xx.jpg
     alt:
     caption:
     config:
