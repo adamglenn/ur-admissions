@@ -9,16 +9,6 @@ description: vsdvsd
 college: Finance
 school: Joe's School
 majors:
-<<<<<<< HEAD:content/people/frank-dux.md
-  - Art History
-  - Graphic Design
-minors:
-  - Computer Science
-hometown: New York, NY
-graduation_year: '2026'
-quote:
-dir_include: false
-=======
   - title: svdvs
 minors:
   - title:
@@ -26,7 +16,6 @@ hometown: sdv
 graduation_year: vdvs
 quote: sdvsv
 dir_include: true
->>>>>>> 9d1e4de (Updated 2 files via CloudCannon.):content/people/joe-schmoe.md
 student_profile_topper:
   _bookshop_name: design-system/topper/student-profile
   label:
@@ -46,10 +35,6 @@ student_profile_topper:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
-<<<<<<< HEAD:content/people/frank-dux.md
-profile_sidebar_blocks: []
-uuid: d89b4247-de55-4927-ae19-a257aa38878d
-=======
   - _bookshop_name: design-system/column/photo-block
     photos:
       - image: /uploads/39371-s-djm-0228-xx.jpg
@@ -65,7 +50,6 @@ profile_sidebar_blocks:
       - text:
         url:
 uuid: 14463f30-3e61-438a-8ed0-42ebf6e0e3e6
->>>>>>> 9d1e4de (Updated 2 files via CloudCannon.):content/people/joe-schmoe.md
 type: student-profile
 metadata:
   type: Student
