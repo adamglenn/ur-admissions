@@ -631,10 +631,6 @@ _inputs:
       allow_empty: true
       values: data.people_data[?(@.schema == 'student')]
     cascade: true
-  student_profile_topper:
-    type: auto
-    hidden: true
-    cascade: true
   tags:
     type: multiselect
     options:
