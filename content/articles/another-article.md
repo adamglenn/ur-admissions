@@ -18,6 +18,8 @@ article_topper:
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Test. Test.
+  - _bookshop_name: design-system/column/rich-text
+    text: Text.
 show_author_bios: true
 uuid: 75e5171f-2a3c-4667-bbe3-abaad86dd353
 type: articles
