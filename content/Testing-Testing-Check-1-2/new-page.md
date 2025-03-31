@@ -161,10 +161,10 @@ detail_blocks:
     heading: Eventschjadhjv
     subheading: acsac
     event_feed: >-
-      <div id="localist-widget-9903244" class="localist-widget"></div><script
+      <div id="localist-widget-97145858" class="localist-widget"></div><script
       defer type="text/javascript"
 
-      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-9903244&template=dsv2-vertical-mini"></script><div
+      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-97145858&template=wvu-design-system-3-across"></script><div
       id="lclst_widget_footer"><a
       style="margin-left:auto;margin-right:auto;display:block;width:81px;margin-top:10px;"
       title="Widget powered by Concept3D Event Calendar Software"
