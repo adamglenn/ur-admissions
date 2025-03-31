@@ -8,9 +8,7 @@ profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description: vsdvsd
 college: Finance
 school: Joe's School
-majors:
-  - svdvs
-  - vsdv
+majors: []
 minors:
   - dvsv
 hometown: sdv
