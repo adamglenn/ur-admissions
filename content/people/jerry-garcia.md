@@ -27,16 +27,16 @@ staff_profile_topper:
   heading: jknkjn
   subheading:
   styles:
-    vibe: down-to-business
-    background_c:
-    gradient_1:
-    gradient_2:
+    vibe: discovery
+    background_c: bg-wvu-blue text-white
+    gradient_1: 0, 40, 85
+    gradient_2: 127, 99, 16
     gradient_3:
-    heading_c:
-    enable_blend: false
+    heading_c: wvu-accent--old-gold
+    enable_blend: true
     enable_pattern: false
     tint_opacity: '0.5'
-    container_margin:
+    container_margin: Buffer Bottom
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
