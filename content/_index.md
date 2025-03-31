@@ -8,10 +8,8 @@ topper:
   heading:
     - text: You Are Helpless
       highlight:
-  subheading: Subheading.
-  body_text: >-
-    Here is some body text. Here is some **bold text**. Here is [a
-    link](https://www.wvu.edu).
+  subheading: Come and touch me please. I want to claw yer face off
+  body_text: ''
   styles:
     vibe: wvu-experience
     background_c: bg-wvu-blue text-white
