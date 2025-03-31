@@ -6,8 +6,8 @@ last_name: Garcia
 profile_image:
 description:
 position:
-  - title:
-    organization:
+  - title: Lead Designer
+    organization: SCM - Digital
 staff_contact_info:
   - _bookshop_name: design-system/simple/email
     label: Email
@@ -35,8 +35,13 @@ staff_profile_topper:
     container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
-profile_sidebar_blocks: []
+    text: Text. Test.
+profile_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: Helpful Links
+    ctas:
+      - text: Link
+        url:
 uuid: 07f49af1-f0b0-4317-ae68-f8723a608c7a
 type: staff
 metadata:
