@@ -10,7 +10,9 @@ college: Finance
 school: Joe's School
 majors:
   - svdvs
+  - vsdv
 minors:
+  - dvsv
 hometown: sdv
 graduation_year: vdvs
 quote: sdvsv
