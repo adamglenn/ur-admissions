@@ -8,10 +8,13 @@ profile_image:
 description:
 college:
 school:
-majors: []
-minors: []
-hometown:
-graduation_year:
+majors:
+  - Art History
+  - Graphic Design
+minors:
+  - Computer Science
+hometown: New York, NY
+graduation_year: '2026'
 quote:
 dir_include: false
 student_profile_topper:
