@@ -3,14 +3,13 @@ _schema: detail_page
 title: New Detail Pagevdvs
 description:
 topper:
-  _bookshop_name: design-system/topper/hero-w-icons
+  _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
   heading: []
   subheading: Subheading.
-  body_text:
-  items: []
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c:
