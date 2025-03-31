@@ -8,7 +8,7 @@ topper:
   background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
   heading:
-    - text: Heading Test
+    - text: Heading
       highlight:
   subheading: Subheading goes here.
   body_text: ''
