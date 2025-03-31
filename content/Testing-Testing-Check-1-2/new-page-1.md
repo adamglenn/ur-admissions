@@ -8,7 +8,7 @@ topper:
   label:
   background_image:
   alt_text:
-  heading:
+  heading: Heading
   body_text:
   styles:
     vibe: down-to-business
