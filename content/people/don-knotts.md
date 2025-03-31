@@ -1,49 +1,65 @@
 ---
 _schema: alumni
-name: Don Knotts
-first_name: Don
-last_name: Knotts
-image_lg:
-profile_image:
+name: Patrick jhbjhWhite
+first_name: Patrickklnkl
+last_name: Whitehjgvghjv
+image_lg: /uploads/39371-s-djm-0228-xx.jpg
+profile_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
 description:
-college: College of Creative Arts
-school: School of Theatre and Dance
+college: hvhjv
+school: hkvhkvhkv
 majors:
-  - Theatre
-  - Comedic Performance
-occupation: Actor
+  - Major
+minors:
+  - Minor
+hometown: home
+occupation: Occupation
 job_title:
-  - Test Job Title
-  - Another Job Title
+  - Job
 honors:
-  - Oscar, Best Comedic Performance
-  - Another Honor
-graduation_year: '1957'
+  - Honors
+graduation_year: Grad Year
 quote: Quote
-dir_include: false
+dir_include: true
 alumni_profile_topper:
   _bookshop_name: design-system/topper/alumni
   label:
-  heading:
-  subheading:
+  heading: khbhjv
+  subheading: jkbjkbk
+  background_image: /uploads/27-ARa0770-early_mountaineer-mtr.jpg
+  alt_text:
   styles:
     vibe: down-to-business
     background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
     heading_c:
-    enable_blend: true
+    enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-    margin:
+    container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text. More text.
+    text: Text.
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: Heading
+    list_description: jhvhjvhjv
+    items: []
+  - _bookshop_name: design-system/column/photo-block
+    photos:
+      - image: /uploads/39371-s-djm-0228-xx.jpg
+        alt_text:
+        caption:
 profile_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
-    heading: Helpful Links
+    heading: CTA Stack
     ctas:
-      - text: School of Theatre and Dance
+      - text:
         url:
-uuid: 0753125a-ca3b-4da4-9041-cc7c3fb21a9d
+      - text:
+        url:
+uuid: d54757fc-8c71-415c-9bc0-f6652a852889
 type: alumni
 metadata:
   type: Alum
