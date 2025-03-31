@@ -6,20 +6,20 @@ alt_text:
 logo:
 organization_topper:
   _bookshop_name: design-system/topper/organization
-  heading: Heading
-  subheading: Subheading
-  use_large_background: true
+  heading:
+  subheading:
+  use_large_background: false
   styles:
     vibe: down-to-business
-    background_c: bg-wvu-accent--yellow text-dark
-    gradient_1: 245, 134, 114
-    gradient_2: 234, 170, 0
-    gradient_3: 255, 229, 57
-    heading_c: wvu-blue
+    background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
     enable_blend: true
     enable_pattern: false
-    tint_opacity: '0.0'
-    margin: mt-6
+    tint_opacity: '0.5'
+    margin:
 description: >-
   Tenderloin biltong ham, kevin filet mignon turducken pork doner venison. Pork
   belly meatloaf short loin, salami ham turkey jerky ground round leberkas kevin
