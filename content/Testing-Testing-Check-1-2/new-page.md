@@ -188,13 +188,9 @@ detail_blocks:
     description: Video descripkcmalkndcltion.
     video_id: EMhV-NvxrAo
   - _bookshop_name: design-system/column_sm/calendar-events
-    heading: Events
+    heading: Eventschjadhjv
     subheading: acsac
-    event_feed: >-
-      <div id="localist-widget-46491587" class="localist-widget"></div><script
-      defer type="text/javascript"
-
-      src="https://cal.wvu.edu/widget/view?schools=wvu&days=31&num=3&experience=inperson&container=localist-widget-46491587&template=wvu-design-system-3-across"></script>
+    event_feed:
     link_text: Linkity Link Link
     url: https://cal.wvu.edu/group/student_organizations
     config:
