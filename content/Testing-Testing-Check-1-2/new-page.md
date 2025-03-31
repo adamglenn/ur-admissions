@@ -3,13 +3,24 @@ _schema: detail_page
 title: New Detail Page
 description:
 topper:
-  _bookshop_name: design-system/topper/default
-  subheading:
-  label: Label
+  _bookshop_name: design-system/topper/hero-split
+  label:
   background_image:
   alt_text:
-  heading: Testing testing
-  body_text: kjbkjbj
+  heading: []
+  subheading: Subheading.
+  body_text:
+  styles:
+    vibe: down-to-business
+    background_c:
+    gradient_1:
+    gradient_2:
+    gradient_3:
+    heading_c:
+    enable_blend: false
+    enable_pattern: false
+    tint_opacity: '0.0'
+    container_margin:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.hjhvhjvhjvjhvjhvj
