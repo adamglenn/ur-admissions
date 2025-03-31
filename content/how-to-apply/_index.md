@@ -5,23 +5,25 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: /uploads/34750-s-bfp-0046-xx.jpg
-  alt_text: ''
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
+  alt_text: starry sky
   heading:
-    - text: Heading
+    - text: Heading Test 1
+      highlight:
+    - text: Test
       highlight: ''
   subheading: Subheading.
-  body_text: ''
+  body_text: lsvmfvkmsdfvlkdmlvdlfmvlkdmfvlkmdlkvmdlkfmvlkmdlvkmdlkmvlkdmflvkmdlkmvkldm
   styles:
     vibe: down-to-business
-    background_c:
-    gradient_1:
-    gradient_2:
-    gradient_3:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
+    background_c: bg-wvu-accent--blue-dark text-white
+    gradient_1: 0, 40, 85
+    gradient_2: 28, 43, 57
+    gradient_3: 245, 134, 114
+    heading_c: wvu-accent--sunset
+    enable_blend: true
+    enable_pattern: true
+    tint_opacity: '0.0'
     container_margin: mb-6
 cascade:
   secondary_nav:
