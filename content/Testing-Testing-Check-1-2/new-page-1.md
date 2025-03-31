@@ -16,19 +16,20 @@ topper:
     enable_pattern: false
     tint_opacity: '0.5'
 content_blocks:
-  - _bookshop_name: design-system/section/link-lists
+  - _bookshop_name: design-system/section/page-collection-vertical-sticky
     heading: Heading
-    subheading: kn,kn,
-    lists:
-      - topic: List 1
-        description:
-        items:
-          - text:
-            url:
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+    lead: Lead text.
     config:
       edit_mode_only: false
+    layout:
+      margin_y:
     styles:
-      margin:
+      panels:
+      item_headings:
 uuid: 827f3392-6069-483d-86cb-05ec20630c51
 type: guide
 ---
