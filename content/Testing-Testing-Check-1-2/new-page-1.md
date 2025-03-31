@@ -85,6 +85,25 @@ content_blocks:
           color: text-wvu-gold
         divider:
     column_c:
+      _bookshop_name: design-system/column_sm/profile-generic
+      label: Profile
+      thumbnail:
+      superheading:
+        - Superheading Line 1
+      heading: n ,mn,m Lastname
+      subheading:
+        - Subheading Line 1
+      lists: []
+      cta: []
+      config:
+        edit_mode_only: false
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+    column_aa:
     config:
       edit_mode_only: false
     layout:
