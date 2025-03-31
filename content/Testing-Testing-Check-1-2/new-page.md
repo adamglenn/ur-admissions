@@ -4,12 +4,14 @@ title: New Detail Page
 description:
 topper:
   _bookshop_name: design-system/topper/hero-split
-  label:
-  background_image:
+  label: Label
+  background_image: /uploads/39371-s-djm-0228-xx.jpg
   alt_text:
-  heading: []
+  heading:
+    - text: Heading Test 2
+      highlight: Highlight
   subheading: Subheading.
-  body_text:
+  body_text: ''
   styles:
     vibe: down-to-business
     background_c:
