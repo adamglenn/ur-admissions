@@ -1,14 +1,14 @@
 ---
 _schema: guide_page
-title: New Guide Page
+title: New Guide Page Test
 description:
 topper:
   _bookshop_name: design-system/topper/default
+  subheading:
   label:
   background_image:
   alt_text:
   heading:
-  subheading:
   body_text:
   styles:
     vibe: down-to-business
@@ -162,6 +162,8 @@ content_blocks:
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/video-feature
+    heading: Video Feature Heading
+    subheading: Subheading goes here.
     title: Video Title
     description: Video description.
     id: EMhV-NvxrAo
