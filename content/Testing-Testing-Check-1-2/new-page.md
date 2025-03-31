@@ -174,19 +174,6 @@ detail_blocks:
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum
-  - _bookshop_name: design-system/column/tabs
-    tabs:
-      - label: Tab 1
-        text: Test
-      - label: Tab 2
-        text: Test 2
-      - label: Tab 3
-        text: Tab 1 text.
-  - _bookshop_name: design-system/column/youtube-video
-    heading: Featured Video;cmalsc;ska
-    title: Video Titl;kcnas;knce
-    description: Video descripkcmalkndcltion.
-    video_id: EMhV-NvxrAo
   - _bookshop_name: design-system/column_sm/calendar-events
     heading: Eventschjadhjv
     subheading: acsac
