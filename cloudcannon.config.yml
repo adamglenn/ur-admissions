@@ -885,26 +885,9 @@ _editables:
     underline: true
     undo: true
 _snippets_imports:
-<<<<<<< HEAD
-<<<<<<< HEAD
   hugo: false
 data_config: true
-<<<<<<< HEAD
 timezone: US/Eastern
-<<<<<<< HEAD
-=======
-  hugo: true
-data_config: true
-=======
->>>>>>> 4f479a3 (Updating config.)
-timezone: US/Eastern
-=======
-  hugo: true
-data_config: true
-timezone: US/Eastern
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
-=======
->>>>>>> 4f479a37005c7fd3f0df84ca47fe4e1524c63b35
 markdown:
   engine:
   options:
@@ -926,10 +909,3 @@ markdown:
     heading_ids: false
     attributes: false
     attribute_elements:
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
-=======
->>>>>>> 7eb431c (Updated 2 files via CloudCannon.)
-=======
->>>>>>> 4f479a37005c7fd3f0df84ca47fe4e1524c63b35
