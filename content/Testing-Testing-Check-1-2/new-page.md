@@ -5,7 +5,7 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero-split
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
   heading: []
   subheading: Subheading.
@@ -20,7 +20,7 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.0'
-    container_margin:
+    container_margin: my-6
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.hjhvhjvhjvjhvjhvj
