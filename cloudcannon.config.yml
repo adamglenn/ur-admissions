@@ -907,5 +907,5 @@ markdown:
     subscript: false
     superscript: false
     heading_ids: true
-    attributes: false
-    attribute_elements:
+    attributes: true
+    attribute_elements: below
