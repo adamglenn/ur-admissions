@@ -41,6 +41,21 @@ article_blocks:
       This is a test!
       </div>
 
+      ## How do i add a class? 
+
+      A simple paragraph with a class attribute.{: .lead}
+      
+      ## How do i add a class? 
+      
+      A simple paragraph with a class attribute.
+      {: .lead}
+      
+      
+      ## How do i add a class? 
+      
+      A simple paragraph with a class attribute.
+      {: .lead}
+      
       PIM is recognized as a leading center for pure mathematics, a field that
       supports all applied mathematical advancements. Celikbas’ work is focused
       on commutative and homological algebra, key areas that contribute to
@@ -59,20 +74,7 @@ article_blocks:
       is a great acknowledgment of my work, and it has motivated me to push my
       research even further.”
 
-      ## How do i add a class? 
 
-      A simple paragraph with a class attribute.{: .lead}
-      
-      ## How do i add a class? 
-      
-      A simple paragraph with a class attribute.
-      {: .lead}
-      
-      
-      ## How do i add a class? 
-      
-      A simple paragraph with a class attribute.
-      {: .lead}
 
       Celikbas’s visit to MPIM will help contribute to new research
       collaborations and publications in the field of commutative and
