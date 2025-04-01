@@ -19,6 +19,11 @@ detail_blocks:
       - title: Panel 2 Title
         panel_text: Panel 1 text.
 detail_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: Helpful Links
+    ctas:
+      - text: Test
+        url: example.com
 uuid: 116420a6-eb3c-48ab-9935-626c332b3bb0
 type: detail
 ---
