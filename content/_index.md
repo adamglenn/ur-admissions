@@ -41,6 +41,14 @@ content_blocks:
       panels:
       item_headings:
       margin:
+  - _bookshop_name: design-system/section/article-collection
+    heading: Recent Articles
+    article_tags:
+      - featured
+    limit: 5
+    config:
+      edit_mode_only: true
+      show_content: true
   - _bookshop_name: design-system/section/big-search
     label: Label
     heading: Big Search Heading
