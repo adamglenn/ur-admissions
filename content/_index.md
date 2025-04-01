@@ -22,6 +22,14 @@ topper:
     tint_opacity: '0.5'
     container_margin: my-6
 content_blocks:
+  - _bookshop_name: design-system/section/article-collection
+    heading: Recent Articles
+    article_tags:
+      - mice
+    limit: 5
+    config:
+      edit_mode_only: true
+      show_content: true
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     subheading: Subheading.
@@ -41,14 +49,6 @@ content_blocks:
       panels:
       item_headings:
       margin:
-  - _bookshop_name: design-system/section/article-collection
-    heading: Recent Articles
-    article_tags:
-      - mice
-    limit: 5
-    config:
-      edit_mode_only: true
-      show_content: true
   - _bookshop_name: design-system/section/big-search
     label: Label
     heading: Big Search Heading
