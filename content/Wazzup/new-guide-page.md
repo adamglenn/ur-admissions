@@ -13,7 +13,15 @@ topper:
     enable_blend: false
     enable_pattern: false
     tint_opacity: '0.5'
-content_blocks: []
+content_blocks:
+  - _bookshop_name: design-system/section/article-collection
+    heading: Article Collection Heading
+    article_tags:
+      - featured
+    limit: 5
+    config:
+      edit_mode_only: true
+      show_content: true
 uuid: 1801d79b-52c3-4433-8ce4-8371c09dd233
 type: guide
 ---
