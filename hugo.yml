@@ -52,7 +52,7 @@ menus:
       weight: 60
     - name: Admitted Students
       pageRef: /admitted
-      weight: 10
+      weight: 70
     - name: Check Your Status
       parent: How to Apply
       pageRef: /how-to-apply/check-your-status
