@@ -1,6 +1,6 @@
 ---
 _schema: detail_page
-title: First-Time Freshmen
+title: Furry Freshmen
 description:
 topper:
   _bookshop_name: design-system/topper/default
