@@ -9,6 +9,8 @@ authors:
   - author: 7ead5496-abfe-48be-a69c-3b57d76d99e8
     article_role: Author
 article_tags:
+  - Custom Label
+  - mice
 article_topper:
   _bookshop_name: design-system/topper/article
   label:
