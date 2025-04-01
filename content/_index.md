@@ -28,7 +28,7 @@ content_blocks:
       - mice
     limit: 5
     config:
-      edit_mode_only: true
+      edit_mode_only: false
       show_content: true
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
