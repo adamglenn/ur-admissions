@@ -44,7 +44,7 @@ content_blocks:
   - _bookshop_name: design-system/section/article-collection
     heading: Recent Articles
     article_tags:
-      - featured
+      - mice
     limit: 5
     config:
       edit_mode_only: true
