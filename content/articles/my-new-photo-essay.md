@@ -30,8 +30,11 @@ photo_essay_blocks:
     text: >-
 
 
-      # Markdown: Syntax{ class="text-wvu-accent--sunset"}
+      # Markdown: Syntax
+      { class="text-wvu-accent--sunset"}
       
+      
+      { class="text-wvu-accent--sunset"}
       *   [Overview](#overview)
           *   [Philosophy](#philosophy)
           *   [Inline HTML](#html)
@@ -48,11 +51,9 @@ photo_essay_blocks:
           *   [Emphasis](#em)
           *   [Code](#code)
           *   [Images](#img)
-        { class="bg-wvu-accent--cream" }
       *   [Miscellaneous](#misc)
           *   [Backslash Escapes](#backslash)
           *   [Automatic Links](#autolink)
-      { class="bg-wvu-accent--cream" }
       
       **Note:** This document is itself written using Markdown; you
       can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
