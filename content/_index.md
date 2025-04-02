@@ -6,7 +6,7 @@ topper:
   background_image: /uploads/39754-s-mss-0351-xx.jpg
   alt_text:
   heading:
-    - text: How do I change this font?
+    - text: Study Abroad with WVU
       highlight:
   subheading: Subheading.
   body_text: >-
