@@ -78,9 +78,13 @@ photo_essay_blocks:
 
       * None
 
-      * Right \{.red\}
+      * Right{class="text-wvu-gold"}
 
-      * Space Right \{.red\} \* Below \{.red\} \* Space Below
+      * Space Right{class="text-wvu-gold"}
+      
+      * Below{class="bg-wvu-accent--sunset"}
+      
+      * Space Below
 
 
       Maecenas condimentum leo dapibus mauris placerat, ac congue nibh
