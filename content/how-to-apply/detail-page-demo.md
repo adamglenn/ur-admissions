@@ -4,15 +4,15 @@ title: Detail Page Demo
 description:
 topper:
   _bookshop_name: design-system/topper/default
+  subheading:
   background_image:
   alt_text:
   heading:
-  subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: >-
-      This is introductory text. The nice lead style adds visual interest while
-      highlighting the introduction.
+      * This is introductory text. The nice lead style adds visual interest
+      while highlighting the introduction.
   - _bookshop_name: design-system/column/photo-block
     photos:
       - image: /uploads/wvu-core-arboretum-fall-benches-plaque.jpg
@@ -57,6 +57,8 @@ detail_blocks:
           brisket. Short loin rump meatball, filet mignon leberkas biltong
           chislic cupim tail venison beef ribs. Chislic turducken tongue flank
           shoulder hamburger.
+      - label: Tab 1
+        text: Tab 1 text.
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: CTA Stack

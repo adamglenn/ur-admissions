@@ -34,11 +34,11 @@ article_blocks:
       supports all applied mathematical advancements. Celikbas’ work is focused
       on commutative and homological algebra, key areas that contribute to
       fields such as algebraic geometry, number theory and coding theory. A simple paragraph with an ID attribute.
-      {: #para-one}
+      {#para-one}
       
       > A blockquote with a title
-      {:title="The blockquote title"}
-      {: #myid}
+      {title="The blockquote title"}
+      {#myid}
   
       <div class="test editable">
       This is a test!

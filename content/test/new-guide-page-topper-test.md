@@ -11,7 +11,7 @@ topper:
     - text: Heading
       highlight:
   subheading: Subheading.
-  body_text: ''
+  body_text: '####'
   styles:
     vibe: down-to-business
     background_c:

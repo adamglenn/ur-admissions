@@ -61,6 +61,21 @@ content_blocks:
       panels:
       item_headings:
       margin:
+  - _bookshop_name: design-system/section/columns-2
+    column_a:
+      _bookshop_name: design-system/column/top-story
+      heading: Top Story
+      article_tags:
+        - top-story
+      config:
+        edit_mode_only: false
+        hide_author: false
+        show_content: false
+    column_aa:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
   - _bookshop_name: design-system/section/hero-list
     heading: Hero Listing Header Looks like so
     body:
