@@ -7,17 +7,17 @@ topper:
   subheading: My subheading.
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: >-
+    text: |-
       Text. **Here is some markdown bold text.**
 
-
-      ## Heading { class="text-wvu-gold" }
-
+      ## Heading \{ class="text-wvu-gold" \}
 
       New Paragraph
-      
-        - List Item
-        - Another List Item
+
+      * List Item
+      * Another List Item
+
+      [Here is a button](https://www.wvu.edu) \{ class="btn btn-primary \}
   - _bookshop_name: design-system/column/link-list-panels
     heading: Link List Panels
     list_description: Link list panels description.
