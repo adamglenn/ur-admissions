@@ -157,11 +157,29 @@ detail_blocks:
           Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
           conubia arcu. Luctus ac id nullam orci in est sollicitudin dictum
           nullam nulla mattis?
+
+
+          Bacon ipsum dolor amet culpa ball tip brisket pancetta cupim. Minim
+          consequat frankfurter, pork loin deserunt sirloin jerky. Tri-tip non
+          ham hock burgdoggen commodo do dolore ut, cupidatat elit sirloin
+          sausage ham et alcatra. Short ribs exercitation pork chop ground
+          round, elit sirloin ex tri-tip tail sint incididunt. Burgdoggen
+          laborum brisket landjaeger.
+
+
+          Irure ad incididunt, chuck strip steak aliquip venison laborum
+          pariatur fugiat commodo brisket do pastrami. Enim cillum bacon, strip
+          steak cupidatat chuck laborum ut veniam aliqua lorem buffalo alcatra
+          do. Ut culpa cupim ipsum officia in. Boudin t-bone beef ullamco
+          veniam, qui adipisicing consequat beef ribs kielbasa non do pastrami.
       - title: The ability to rearrange them is fantastics
         panel_text: >-
-          Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
-          conubia arcu. Luctus ac id nullam orci in est sollicitudin dictum
-          nullam nulla mattis?
+          Bacon ipsum dolor amet culpa ball tip brisket pancetta cupim. Minim
+          consequat frankfurter, pork loin deserunt sirloin jerky. Tri-tip non
+          ham hock burgdoggen commodo do dolore ut, cupidatat elit sirloin
+          sausage ham et alcatra. Short ribs exercitation pork chop ground
+          round, elit sirloin ex tri-tip tail sint incididunt. Burgdoggen
+          laborum brisket landjaeger
   - _bookshop_name: design-system/column/lead-text
     text: >-
       This is introductory text. The nice lead style adds visual interest while
