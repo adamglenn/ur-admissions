@@ -35,8 +35,11 @@ photo_essay_blocks:
       fermentum, sollicitudin leo eu, consectetur sapien. Vestibulum non tortor
       sed lorem feugiat commodo. Sed rutrum, mauris a accumsan sagittis, mi
       sapien ultrices libero, vel accumsan metus libero nec tellus. Integer at
-      turpis a tellus pulvinar tempus. Cras nulla ante, interdum eget enim
-      vitae, gravida dignissim justo.
+      turpis a tellus pulvinar tempus.
+
+
+      Cras nulla ante, interdum eget enim vitae, gravida dignissim justo.
+      { class="text-wvu-gold" }
 
 
       ## What about a table?
@@ -67,11 +70,9 @@ photo_essay_blocks:
 
       * None
 
-      * Right
-      {.red}
-      
-      * Space Right \{.red\} \* Below \{.red\} \* Space
-      Below
+      * Right \{.red\}
+
+      * Space Right \{.red\} \* Below \{.red\} \* Space Below
 
 
       Maecenas condimentum leo dapibus mauris placerat, ac congue nibh
@@ -105,36 +106,23 @@ photo_essay_blocks:
 
 
       ## What happens if i insert a table here?
-      
-      | Syntax      | Description |
-      | ----------- | ----------- |
-      | Header      | Title       |
-      | Paragraph   | Text        |
-      
-      <table>
-        <tr>
-          <th>head 1</th>
-          <th>head 2</th>
-        </tr>
-        <tr>
-          <td>hi</td>
-          <td>hello moto</td>
-        </tr>
-      </table>
-      
+
+
+      \| Syntax      \| Description \| \| ———– \| ———– \| \| Header      \|
+      Title       \| \| Paragraph   \| Text        \|
+
+
+      <table><tbody><tr><th>head 1</th><th>head
+      2</th></tr><tr><td>hi</td><td>hello moto</td></tr></tbody></table>
+
+
       okay.
 
 
+      <table><tbody><tr><td>`</td><td>foo</td><td>bar</td><td>baz</td><td>&nbsp;</td><td>xyzzy</td><td>plugh</td><td>thud</td><td>`</td></tr></tbody></table>
+
+
       ` | foo   | bar   | baz  | | xyzzy | plugh | thud | `
-
-
-      ```
-
-      | foo   | bar   | baz  |
-
-      | xyzzy | plugh | thud |
-
-      ```
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
     alt:
