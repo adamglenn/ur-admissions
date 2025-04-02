@@ -44,20 +44,22 @@ article_blocks:
       This is a test!
       </div>
 
-      ## How do i add a class? 
+      ## How do i add a class?{.lead}
 
-      A simple paragraph with a class attribute.{: .lead}
+      A simple paragraph with a class attribute.
+      {.lead}
       
       ## How do i add a class? 
       
       A simple paragraph with a class attribute.
-      {: .lead}
+      {.lead}
       
       
       ## How do i add a class? 
+      {.lead}
       
       A simple paragraph with a class attribute.
-      {: .lead}
+      {.lead}
       
       PIM is recognized as a leading center for pure mathematics, a field that
       supports all applied mathematical advancements. Celikbas’ work is focused
