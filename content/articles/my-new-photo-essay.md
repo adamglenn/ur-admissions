@@ -28,10 +28,18 @@ article_topper:
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
     text: >-
+
+      ## Adding Class to Header{.text-wvu-gold}
+      
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non nunc
       rhoncus, vulputate nunc eget, molestie ligula. Donec interdum vestibulum
       pretium. Vivamus sit amet urna ac urna fringilla consequat. Nam nunc
-      ligula, luctus eget eleifend ut, iaculis nec ante. Nullam ac est
+      ligula, luctus eget eleifend ut, iaculis nec ante. 
+      
+      
+      ## Adding Class to Header{.text-wvu-gold .text-wvu-center}
+      
+      Nullam ac est
       fermentum, sollicitudin leo eu, consectetur sapien. Vestibulum non tortor
       sed lorem feugiat commodo. Sed rutrum, mauris a accumsan sagittis, mi
       sapien ultrices libero, vel accumsan metus libero nec tellus. Integer at
@@ -41,6 +49,7 @@ photo_essay_blocks:
       Cras nulla ante, interdum eget enim vitae, gravida dignissim justo.{class="text-wvu-gold"}
 
 
+      
       ## What about a table?{class="text-wvu-gold"}
 
 
