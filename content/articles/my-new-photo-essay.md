@@ -30,11 +30,8 @@ photo_essay_blocks:
     text: >-
 
 
-      # Markdown: Syntax
-      { class="text-wvu-accent--sunset"}
+      # Markdown: Syntax{ class="text-wvu-accent--sunset"}
       
-      
-      { class="text-wvu-accent--sunset"}
       *   [Overview](#overview)
           *   [Philosophy](#philosophy)
           *   [Inline HTML](#html)
@@ -75,7 +72,7 @@ photo_essay_blocks:
       [Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
       inspiration for Markdown's syntax is the format of plain text email.
       
-      ## Block Elements{ class="bg-wvu-accent--blue-light" }
+      ## Block Elements{ class="bg-wvu-accent--blue-light p-2" }
       
       ### Paragraphs and Line Breaks{.text-wvu-blue}
       
