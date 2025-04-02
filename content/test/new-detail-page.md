@@ -10,6 +10,10 @@ detail_blocks:
     text: >-
       Text. **Here is some markdown bold text.**
 
+
+      ## Heading { class="text-wvu-gold" }
+
+
       New Paragraph
       
         - List Item
