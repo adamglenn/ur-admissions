@@ -35,7 +35,7 @@ menus:
     - name: Home
       pageRef: /
       weight: 10
-    - name: How to Apply
+    - name: Test Link
       pageRef: /how-to-apply
       weight: 20
     - name: Academics
