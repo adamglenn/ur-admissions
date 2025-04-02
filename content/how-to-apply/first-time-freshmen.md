@@ -10,6 +10,13 @@ detail_blocks:
     text: >-
       This is introductory text. The nice lead style adds visual interest while
       highlighting the introduction.
+  - _bookshop_name: design-system/column/cta-stack
+    buttons: []
+  - _bookshop_name: design-system/column/cta-stack
+    buttons:
+      - text: Go back to home
+        url: /
+        color: wvu-accent--blue-light
   - _bookshop_name: design-system/column/rich-text
     text: >-
       Fringilla leo, integer dictumst. Interdum ullamcorper etiam id egestas
@@ -174,8 +181,8 @@ detail_blocks:
           veniam, qui adipisicing consequat beef ribs kielbasa non do pastrami.
       - title: The ability to rearrange them is fantastics
         panel_text: >-
-          Bacon ipsum dolor amet culpa ball tip brisket pancetta cupim. Minim
-          consequat frankfurter, pork loin deserunt sirloin jerky. Tri-tip non
+          Bacon ipsum dolor amet culpa ball tip brisket pancetta cupim. [Minim
+          consequat frankfurter, pork loin deserunt sirloin jerky.]()Tri-tip non
           ham hock burgdoggen commodo do dolore ut, cupidatat elit sirloin
           sausage ham et alcatra. Short ribs exercitation pork chop ground
           round, elit sirloin ex tri-tip tail sint incididunt. Burgdoggen
