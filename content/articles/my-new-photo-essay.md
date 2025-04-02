@@ -61,7 +61,7 @@ photo_essay_blocks:
       
       ### Philosophy
       
-      Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 
+      Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
       { class="bg-wvu-accent--blue-light" }
       
       Readability, however, is emphasized above all else. A Markdown-formatted
@@ -72,9 +72,9 @@ photo_essay_blocks:
       [Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
       inspiration for Markdown's syntax is the format of plain text email.
       
-      ## Block Elements{ class="bg-wvu-accent--blue-light p-2" }
+      ## Block Elements{ class="bg-wvu-accent--blue-light p-4" }
       
-      ### Paragraphs and Line Breaks{.text-wvu-blue}
+      ### Paragraphs and Line Breaks{.text-wvu-gold}
       
       A paragraph is simply one or more consecutive lines of text, separated
       by one or more blank lines. (A blank line is any line that looks like a
