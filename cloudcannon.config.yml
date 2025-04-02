@@ -878,7 +878,7 @@ _editables:
     resize_style:
     snippet: true
     strike: true
-    styles: /assets/scss/custom/_content.scss
+    styles: /assets/scss/editor.css
     subscript: true
     superscript: true
     table: true
