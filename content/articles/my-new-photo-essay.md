@@ -110,6 +110,19 @@ photo_essay_blocks:
       | ----------- | ----------- |
       | Header      | Title       |
       | Paragraph   | Text        |
+      
+      <table>
+        <tr>
+          <th>head 1</th>
+          <th>head 2</th>
+        </tr>
+        <tr>
+          <td>hi</td>
+          <td>hello moto</td>
+        </tr>
+      </table>
+      
+      okay.
 
 
       ` | foo   | bar   | baz  | | xyzzy | plugh | thud | `
