@@ -1,10 +1,7 @@
 masthead_title:
-  - Undergraduate Admissions
-# alternate_logo:
-# co_brand_logo:
-# co_brand_title:
+  - Cole's testing site?
 masthead_buttons:
   - text: Call to Action
     url:
-  - text: Call to Action
+  - text: Call to Inaction
     url:
