@@ -38,8 +38,7 @@ photo_essay_blocks:
       turpis a tellus pulvinar tempus.
 
 
-      Cras nulla ante, interdum eget enim vitae, gravida dignissim justo.
-      { class="text-wvu-gold" }
+      Cras nulla ante, interdum eget enim vitae, gravida dignissim justo. {class="text-wvu-gold"}
 
 
       ## What about a table?
