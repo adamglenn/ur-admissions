@@ -40,9 +40,9 @@ photo_essay_blocks:
 
 
       ## What about a table?
-      
-      | foo   | bar   | baz  |
-      | xyzzy | plugh | thud |
+
+
+      \| foo   \| bar   \| baz  \| \| xyzzy \| plugh \| thud \|
 
 
       **Quisque id dictum arcu.** Etiam luctus diam a quam tempor, at sodales
@@ -99,6 +99,21 @@ photo_essay_blocks:
       odio gravida ac. Curabitur eleifend, nunc vel rutrum ullamcorper, erat est
       congue ex, ac iaculis quam ligula a ligula. In condimentum tortor in justo
       ornare, sit amet tristique purus imperdiet. Suspendisse potenti.
+
+
+      ## What happens if i insert a table here?
+
+
+      ` | foo   | bar   | baz  | | xyzzy | plugh | thud | `
+
+
+      ```
+
+      | foo   | bar   | baz  |
+
+      | xyzzy | plugh | thud |
+
+      ```
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
     alt:
