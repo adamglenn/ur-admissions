@@ -28,6 +28,8 @@ location:
 contacts:
 social_media_accounts:
 detail_blocks:
+  - _bookshop_name: design-system/column/lead-text
+    text: 'Lead text, fantastic. '
   - _bookshop_name: design-system/column/rich-text
     text: Text.
   - _bookshop_name: design-system/column/photo-block
