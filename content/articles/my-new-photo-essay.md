@@ -67,7 +67,10 @@ photo_essay_blocks:
 
       * None
 
-      * \* Right\{.red\} \* Space Right \{.red\} \* Below \{.red\} \* Space
+      * Right
+      {.red}
+      
+      * Space Right \{.red\} \* Below \{.red\} \* Space
       Below
 
 
@@ -102,6 +105,11 @@ photo_essay_blocks:
 
 
       ## What happens if i insert a table here?
+      
+      | Syntax      | Description |
+      | ----------- | ----------- |
+      | Header      | Title       |
+      | Paragraph   | Text        |
 
 
       ` | foo   | bar   | baz  | | xyzzy | plugh | thud | `
