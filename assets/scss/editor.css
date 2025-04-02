@@ -14,3 +14,11 @@ span.big-blue-text {
 h2.wvu-shout{
   border-bottom: 1px solid red;
 }
+
+ul.wvu-ul-chevrons{
+  color: red;
+}
+
+ul.wvu-ul-arrows{
+  color: green;
+}
