@@ -889,7 +889,7 @@ _snippets_imports:
 data_config: true
 timezone: US/Eastern
 markdown:
-  engine: kramdown
+  engine: 'commonmark'
   options:
     xhtml: false
     breaks: false
@@ -908,4 +908,14 @@ markdown:
     superscript: false
     heading_ids: true
     attributes: true
-    attribute_elements:
+    attributes_elements:
+      inline: none
+      block: space right
+      ul: below
+      ol: below
+      blockquote: below
+      p: below
+      img: below
+      hr: below
+      table: below
+      li: none
