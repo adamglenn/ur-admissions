@@ -7,7 +7,7 @@ topper:
   subheading: My subheading.
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text: Text.
+    text: Text. **Here is some markdown bold text.**
   - _bookshop_name: design-system/column/link-list-panels
     heading: Link List Panels
     list_description: Link list panels description.
