@@ -39,6 +39,12 @@ photo_essay_blocks:
       vitae, gravida dignissim justo.
 
 
+      ## What about a table?
+      
+      | foo   | bar   | baz  |
+      | xyzzy | plugh | thud |
+
+
       **Quisque id dictum arcu.** Etiam luctus diam a quam tempor, at sodales
       augue maximus. Fusce a turpis sit amet nisl elementum aliquam non non
       diam. Donec volutpat ligula quis odio eleifend, non pretium quam porta.
@@ -69,12 +75,7 @@ photo_essay_blocks:
       hendrerit. Fusce ut dui vel dui rutrum fringilla nec nec justo. Nullam
       dignissim rutrum nunc eget varius. Donec viverra posuere convallis.
       Aliquam nec pellentesque arcu. Fusce interdum felis eu ligula aliquam, vel
-      posuere eros fermentum.
-
-      {: .red}
-      1. Bulleted List
-      2. Testing
-      3. Test
+      posuere eros fermentum. \{: .red\} 1. Bulleted List 2. Testing 3. Test
 
 
       Cras ultrices interdum tortor, ac tincidunt metus suscipit eu. Sed ut
