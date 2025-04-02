@@ -48,6 +48,7 @@ photo_essay_blocks:
           *   [Emphasis](#em)
           *   [Code](#code)
           *   [Images](#img)
+          {}
       *   [Miscellaneous](#misc)
           *   [Backslash Escapes](#backslash)
           *   [Automatic Links](#autolink)
