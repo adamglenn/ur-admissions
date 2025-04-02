@@ -48,7 +48,7 @@ photo_essay_blocks:
           *   [Emphasis](#em)
           *   [Code](#code)
           *   [Images](#img)
-          {}
+          {.bg-wvu-gold}
       *   [Miscellaneous](#misc)
           *   [Backslash Escapes](#backslash)
           *   [Automatic Links](#autolink)
