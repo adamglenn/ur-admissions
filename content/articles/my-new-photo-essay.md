@@ -30,7 +30,7 @@ photo_essay_blocks:
     text: >-
 
 
-      # Markdown: Syntax{.text-wvu-blue}
+      # Markdown: Syntax{ class="text-wvu-accent--sunset"}
       
       *   [Overview](#overview)
           *   [Philosophy](#philosophy)
@@ -48,10 +48,11 @@ photo_essay_blocks:
           *   [Emphasis](#em)
           *   [Code](#code)
           *   [Images](#img)
+        { class="bg-wvu-accent--cream" }
       *   [Miscellaneous](#misc)
           *   [Backslash Escapes](#backslash)
           *   [Automatic Links](#autolink)
-      {.bg-wvu-accent--cream}
+      { class="bg-wvu-accent--cream" }
       
       **Note:** This document is itself written using Markdown; you
       can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
@@ -62,7 +63,8 @@ photo_essay_blocks:
       
       ### Philosophy
       
-      Markdown is intended to be as easy-to-read and easy-to-write as is feasible. {.bg-wvu-accent--blue-light}
+      Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 
+      { class="bg-wvu-accent--blue-light" }
       
       Readability, however, is emphasized above all else. A Markdown-formatted
       document should be publishable as-is, as plain text, without looking
@@ -72,9 +74,9 @@ photo_essay_blocks:
       [Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
       inspiration for Markdown's syntax is the format of plain text email.
       
-      ## Block Elements
+      ## Block Elements{ class="bg-wvu-accent--blue-light" }
       
-      ### Paragraphs and Line Breaks
+      ### Paragraphs and Line Breaks{.text-wvu-blue}
       
       A paragraph is simply one or more consecutive lines of text, separated
       by one or more blank lines. (A blank line is any line that looks like a
