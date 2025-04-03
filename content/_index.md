@@ -3,39 +3,50 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
-  alt_text:
+  background_image: /uploads/backrooms-banner.jpg
+  alt_text: Backrooms
   heading:
-    - text: It Starts Now
+    - text: Welcome to the backrooms
       highlight:
-  subheading: Subheading.
+  subheading: You should never have come here
   body_text: >-
-    Here is some body text. Here is some **bold text**. Here is [a
-    link](https://www.wvu.edu).
+    If you're reading this, it’s already too late.
+
+
+    You've no-clipped through reality into a space between spaces—a place
+    stitched together from outdated furniture, buzzing fluorescent lights, and
+    the quiet hum of something watching. There is no map. There is no logic.
+    Just keep moving. And whatever you do, don’t trust the wallpaper.
   styles:
-    vibe: wvu-experience
-    background_c: bg-wvu-blue text-white
-    gradient_1:
+    vibe: nostalgic
+    background_c: bg-transparent text-white
+    gradient_1: 255, 229, 57
     gradient_2:
     gradient_3:
-    heading_c: wvu-gold
+    heading_c: wvu-neutral--off-white
     enable_blend: false
-    enable_pattern: false
+    enable_pattern: true
     tint_opacity: '0.5'
     container_margin: my-6
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    subheading: Subheading.
+    heading: They Said There Were Only Three
+    subheading: But the walls remember more.
     items:
-      - title: Item 1 Title
-        text: Item 1 text.
+      - title: The Yellow Beginning
+        text: >-
+          Time doesn’t work here. Neither does memory. You were here once. Or
+          maybe you still are.
         url:
-      - title: Item 1 Title
-        text: Item 1 text.
+      - title: Shelves That Breathe
+        text: >-
+          It rearranges when you're not looking. Supplies appear, but they’re
+          never what you need. Something else is shopping, too.
         url:
-      - title: Item 1 Title
-        text: Item 1 text.
+      - title: Below the Static
+        text: >-
+          The humming is louder now. It matches your heartbeat. That’s not a
+          coincidence.
         url:
     config:
       edit_mode_only: false
