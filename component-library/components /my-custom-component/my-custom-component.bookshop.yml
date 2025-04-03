@@ -3,12 +3,12 @@ spec:
     - article_blocks
     - detail_blocks
     - place_blocks
-  label: Rich Text
+  label: Rich Text Alt
   description:
   icon:
   tags: []
 blueprint:
-  textalt: Text.
+  textalt: My new Rich Text!
 preview: This is a preview
 _inputs:
   text:
