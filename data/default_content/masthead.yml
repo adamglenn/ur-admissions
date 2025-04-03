@@ -1,6 +1,6 @@
 masthead_title:
   - "The Backrooms"
-masthead_bg_color: "bg-black"
+masthead_bg_color: "black"
 masthead_buttons:
   - text: "Call to Action"
     url: "/"
