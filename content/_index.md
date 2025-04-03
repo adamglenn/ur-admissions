@@ -37,7 +37,7 @@ content_blocks:
         text: >-
           Time doesn’t work here. Neither does memory. You were here once. Or
           maybe you still are.
-        url:
+        url: /the-yellow-beginning/
       - title: Shelves That Breathe
         text: >-
           It rearranges when you're not looking. Supplies appear, but they’re
@@ -55,13 +55,15 @@ content_blocks:
       item_headings:
       margin:
   - _bookshop_name: design-system/section/big-search
-    label: Label
-    heading: Big Search Heading
-    subheading: Subheading.
+    label:
+    heading: Where do you want to get lost?
+    subheading:
     postscript:
-      copy: Postscript.
+      copy: >-
+        You can search for rooms, echoes, or exits.<br>But results are not
+        guaranteed.<br>Sometimes the answers search back.
       postscript_links:
-        - text: Here is my Button
+        - text: Begin Search
           icon: book
           url:
     config:
