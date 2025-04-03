@@ -1,5 +1,6 @@
 masthead_title:
   - Cole's testing site?
+  masthead_bg_color: #fff
 masthead_buttons:
   - text: Call to Action
     url:
