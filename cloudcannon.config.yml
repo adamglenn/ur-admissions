@@ -197,6 +197,7 @@ collections_config:
     path: content/people
     icon: group
     output: false
+    description: ''
     preview:
       metadata:
         - text:
@@ -332,6 +333,46 @@ _enabled_editors:
 _inputs:
   alert_message:
     type: markdown
+    options:
+      allow_resize: true
+      allow_custom_markup: false
+      remove_custom_markup: false
+      initial_height: 320
+      blockquote:
+      bold:
+      bulletedlist:
+      center:
+      code:
+      copyformatting:
+      embed:
+      expandable:
+      format:
+      height:
+      horizontalrule:
+      image:
+      image_size_attributes: true
+      indent:
+      italic:
+      justify:
+      left:
+      link:
+      mime_type:
+      numberedlist:
+      outdent:
+      paths:
+      redo:
+      removeformat:
+      resize_style:
+      right:
+      snippet:
+      strike:
+      styles:
+      subscript:
+      superscript:
+      table:
+      underline:
+      undo:
+      width:
     cascade: true
   alert_status:
     type: switch

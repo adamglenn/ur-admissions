@@ -1,22 +1,55 @@
-# Metadata about this component, to be used in the CMS
 spec:
   structures:
-    - content_blocks
-  label: "My Custom Component"
+    - article_blocks
+    - detail_blocks
+    - place_blocks
+  label: Rich Text
   description:
   icon:
   tags: []
-
-# Defines the structure of this component, as well as the default values
 blueprint:
-  heading: Heading
-
-# Overrides any fields in the blueprint when viewing this component in the component browser
-preview:
-
-# Any extra CloudCannon inputs configuration to apply to the blueprint
+  textalt: Text.
+preview: This is a preview
 _inputs:
   text:
     type: markdown
-    options: 
-      
+    options:
+      allow_resize: true
+      allow_custom_markup: false
+      remove_custom_markup: false
+      initial_height: 320
+      blockquote: true
+      bold: true
+      bulletedlist: true
+      center: true
+      code: true
+      copyformatting: true
+      embed: true
+      expandable: true
+      format:
+      height:
+      horizontalrule:
+      image:
+      image_size_attributes: true
+      indent: true
+      italic: true
+      justify: true
+      left: true
+      link: true
+      mime_type: true
+      numberedlist: true
+      outdent:
+      paths:
+      redo: true
+      removeformat: true
+      resize_style:
+      right:
+      snippet: 
+      strike:
+      styles: '/assets/css/editor.css'
+      subscript:
+      superscript:
+      table:
+      underline:
+      undo:
+      width:
