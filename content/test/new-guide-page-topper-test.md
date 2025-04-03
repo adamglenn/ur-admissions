@@ -24,6 +24,13 @@ topper:
     tint_opacity: '0.5'
     container_margin:
 content_blocks:
+  - _bookshop_name: design-system/section/cards-list
+    heading: Hello World!
+    subheading:
+    label:
+    items: []
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links: []
