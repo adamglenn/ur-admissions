@@ -1,8 +1,8 @@
 masthead_title:
-  - Cole's testing site?
-  masthead_bg_color: "#fff"
+  - "Cole's testing site?"
+masthead_bg_color: "bg-black"
 masthead_buttons:
-  - text: Call to Action
-    url:
-  - text: Call to Inaction
-    url:
+  - text: "Call to Action"
+    url: "/"
+  - text: "Call to Inaction"
+    url: "/nope"
