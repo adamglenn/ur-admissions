@@ -954,7 +954,7 @@ markdown:
     attributes: true
     attributes_elements:
       inline: none
-      block: space right
+      block: below
       ul: below
       ol: below
       blockquote: below
