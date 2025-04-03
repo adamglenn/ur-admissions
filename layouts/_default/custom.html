@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main class="custom-page">
+    <h1>{{ .Title }}</h1>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{ range .Params.detail_blocks }}
+      {{ if eq .type "glitch_block" }}
+        <div class="glitchy">{{ .text }}</div>
+      {{ end }}
+
+      {{ if eq .type "redacted_note" }}
+        <div class="redacted">[REDACTED] {{ .note }}</div>
+      {{ end }}
+    {{ end }}
+  </main>
+{{ end }}
