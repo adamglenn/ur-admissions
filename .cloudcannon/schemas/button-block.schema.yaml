@@ -1,0 +1,24 @@
+name: button
+type: object
+label: Button Block
+fields:
+  - name: type
+    type: hidden
+    default: button
+
+  - name: label
+    label: Button Label
+    type: text
+
+  - name: url
+    label: Button URL
+    type: text
+
+  - name: style
+    label: Button Style
+    type: select
+    options:
+      - default
+      - glitch
+      - ghost
+      - danger
