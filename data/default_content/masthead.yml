@@ -1,6 +1,5 @@
 masthead_title:
   - "Cole's testing site?"
-masthead_bg_color: "bg-black"
 masthead_buttons:
   - text: "Call to Action"
     url: "/"
