@@ -10,6 +10,11 @@ topper:
   heading:
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
+    text: |-
+      # Text. \{.text-wvu-blue\}
+
+      This is a test. \{.text-wvu-blue\}
+  - _bookshop_name: design-system/column/rich-text
     text: >-
       * This is introductory text. The nice lead style adds visual interest
       while highlighting the introduction.
