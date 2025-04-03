@@ -1,12 +1,9 @@
-header {
-  background-color: #000 !important;
-}
-
-
-
 @import 'main';
 
-
+header {
+  --bg-color: #000 !important;
+  background-color: var(--bg-color) !important;
+}
 
 // .plain-links a {
 //   text-decoration: none;
