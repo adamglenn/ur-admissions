@@ -1,8 +1,5 @@
 spec:
   structures:
-    - article_blocks
-    - detail_blocks
-    - place_blocks
   label: Rich Text Alt
   description:
   icon:
