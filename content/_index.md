@@ -3,19 +3,24 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
-  alt_text:
+  background_image: /uploads/downtown-campus-1.jpg
+  alt_text: A band plays music at an outdoor Alumni event, next to HOME letters.
   heading:
-    - text: It Starts Now Test.
+    - text: Strategic Partnerships
       highlight:
-  subheading: Subheading.
+  subheading: Empowering University Connections
   body_text: >-
-    Here is some body text. Here is some **bold text**. Here is [a
-    link](https://www.wvu.edu).
+    **WVU Strategic Partnerships** manages key services and contracts that
+    support campus life, including Dining Services, The Erickson Alumni Center,
+    Brand and Trademark Licensing and more. We also lead the communications
+    strategy for Finance, Auxiliary and Business Services, Legal, Talent and
+    Culture, University Police and other administrative units. [Meet our
+    teams](https://strategicpartnerships.wvu.edu/our-teams "Strategic
+    Partnerships Teams").
   styles:
-    vibe: wvu-experience
+    vibe: discovery
     background_c: bg-wvu-blue text-white
-    gradient_1:
+    gradient_1: 245, 134, 114
     gradient_2:
     gradient_3:
     heading_c: wvu-gold
