@@ -7,8 +7,6 @@ cascade:
     title:
     menu_id:
 topper:
-  _bookshop_name: design-system/topper/default
-  subheading:
 detail_blocks:
   - _bookshop_name: design-system/column/lead-text
     text: >-
@@ -28,7 +26,12 @@ detail_blocks:
       Our faculty and staff are dedicated to carrying out the land-grant mission
       to provide knowledge and research to improve the lives and livelihoods of
       our students, alumni, community partners, and the state of West Virginia.
-detail_sidebar_blocks: []
+detail_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: Visit one of the links below for additional information.
+    ctas:
+      - text: Directory
+        url: /directory/
 uuid: 1da22b94-d5e1-4e83-b170-693c0e8512db
 type: detail
 ---
