@@ -3,18 +3,20 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/ryan-pexels-photo.jpg
   alt_text:
   heading:
-    - text: It Starts Now Test.
+    - text: Serving the Land-Grant Mission
       highlight:
-  subheading: Subheading.
+  subheading:
   body_text: >-
-    Here is some body text. Here is some **bold text**. Here is [a
-    link](https://www.wvu.edu).
+    The Division for Land-Grant Engagement supports the WVU [Center for
+    Community Engagement](https://communityengagement.wvu.edu/), the [Davis
+    College of Agriculture and Natural Resources](https://davis.wvu.edu/) and
+    [WVU Extension](https://extension.wvu.edu/).
   styles:
-    vibe: wvu-experience
-    background_c: bg-wvu-blue text-white
+    vibe: nostalgic
+    background_c: bg-dark text-white
     gradient_1:
     gradient_2:
     gradient_3:
@@ -24,35 +26,36 @@ topper:
     tint_opacity: '0.5'
     container_margin: my-6
 content_blocks:
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    subheading: Subheading.
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Our Division Units
     items:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-    config:
-      edit_mode_only: false
-    styles:
-      panels:
-      item_headings:
-      margin:
-  - _bookshop_name: design-system/section/big-search
-    label: Label
-    heading: Big Search Heading
-    subheading: Subheading.
+      - heading: Center for Community Engagement
+        image: /uploads/food-packing-event-2022.jpg
+        alt_text: People working at food packing event
+        copy: ''
+        ctas:
+          - text: Learn More
+            icon:
+            url: https://communityengagement.wvu.edu/
+      - heading: Davis College of Agriculture and Natural Resources
+        image: /uploads/interns-working-in-field.jpg
+        alt_text: People working in a field
+        copy: ''
+        ctas:
+          - text: Learn More
+            icon:
+            url: https://www.davis.wvu.edu/
+      - heading: WVU Extension
+        image: /uploads/2023-wv-state-fair-4-h.jpg
+        alt_text: Youth doing a STEAM activity
+        copy: ''
+        ctas:
+          - text: Learn More
+            icon:
+            url: https://extension.wvu.edu/
     postscript:
-      copy: Postscript.
+      copy: ''
       postscript_links:
-        - text: Here is my Button
-          icon: book
-          url:
     config:
       edit_mode_only: false
 ---
