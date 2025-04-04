@@ -43,3 +43,7 @@ menus:
     - name: About
       pageRef: /about
       weight: 20
+    - name: Directory
+      parent: About
+      pageRef: /directory
+      weight: 20
