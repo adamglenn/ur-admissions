@@ -68,4 +68,6 @@ content_blocks:
           url:
     config:
       edit_mode_only: false
+  - _bookshop_name: my-custom-component
+    heading: Heading
 ---
