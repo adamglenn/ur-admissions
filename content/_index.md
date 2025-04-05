@@ -43,6 +43,7 @@ content_blocks:
     layout:
       margin: mt-n9 p-5 p-xl-6
     styles:
+      background_c:
       panels:
       item_headings:
       margin:
