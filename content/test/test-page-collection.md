@@ -4,12 +4,12 @@ title: Test Page Collection
 description:
 topper:
   _bookshop_name: design-system/topper/hero
-  label: ''
-  background_image: ''
-  alt_text: ''
+  label:
+  background_image:
+  alt_text:
   heading:
-    - text: Heading How Fast
-      highlight: ''
+    - text: Heading
+      highlight:
   subheading: Subheading.
   body_text: ''
   styles:
@@ -23,7 +23,9 @@ topper:
     enable_pattern: false
     tint_opacity: '0.5'
     container_margin:
-  layout: {}
+  layout:
+    container_margin:
+    text_placement:
   config:
     show_label: true
 content_blocks:
@@ -31,7 +33,7 @@ content_blocks:
     heading: Heading
     subheading: Subheading.
     items:
-      - title: Item 1 Title Test Test Test
+      - title: Item 1 Title Test Test Test Long Heading
         text: Item 1 text.
         url:
         background_c: bg-wvu-accent--blue text-white
