@@ -17,6 +17,9 @@ topper:
     background_c: bg-wvu-accent--blue text-white
     color_overlay:
       _bookshop_name: design-system/simple/gradient-overlay
+      gradient_1: 28, 43, 57
+      gradient_2: 255, 229, 57
+      gradient_3:
     heading_c:
     enable_blend: true
     enable_pattern: false
