@@ -30,7 +30,7 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: Heading
+    heading: Heading Test
     subheading: Subheading.
     items:
       - title: Item 1 Title Test Test Test Long Heading
@@ -46,17 +46,36 @@ content_blocks:
         url:
         background_c:
     postscript:
-      copy:
+      copy: My postscript copy.
       postscript_ctas:
+        _bookshop_name: design-system/generic/button-group
+        buttons:
+          - text: My CTA
+            url:
+            icon: book
     layout:
       margin:
     styles:
-      background_c:
+      background_c: bg-wvu-neutral--warm-gray-medium text-dark
       panels:
       item_headings:
       margin:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/columns-2-1-1
+    column_a:
+      _bookshop_name: design-system/column/contacts
+      heading: Contacts
+      people: []
+      config:
+        edit_mode_only: false
+        show_content: false
+    column_b:
+    column_c:
+    config:
+      edit_mode_only: false
+    layout:
+    styles:
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
