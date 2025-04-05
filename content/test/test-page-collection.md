@@ -90,34 +90,6 @@ content_blocks:
       margin:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading Test
-    subheading: Subheading.
-    items:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-    postscript:
-      copy:
-      postscript_ctas:
-    layout:
-      margin:
-    styles:
-      background_c:
-      panels:
-      item_headings:
-      margin:
-    config:
-      edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
