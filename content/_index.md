@@ -34,7 +34,7 @@ content_blocks:
       - title: Item 1 Title
         text: Item 1 text.
         url:
-        background_c: bg-wvu-accent--yellow text-dark
+        background_c: bg-wvu-accent--blue-dark text-white
       - title: Item 1 Title
         text: Item 1 text.
         url:
