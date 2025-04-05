@@ -62,20 +62,6 @@ content_blocks:
       margin:
     config:
       edit_mode_only: false
-  - _bookshop_name: design-system/section/columns-2-1-1
-    column_a:
-      _bookshop_name: design-system/column/contacts
-      heading: Contacts
-      people: []
-      config:
-        edit_mode_only: false
-        show_content: false
-    column_b:
-    column_c:
-    config:
-      edit_mode_only: false
-    layout:
-    styles:
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
