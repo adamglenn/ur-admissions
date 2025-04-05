@@ -28,68 +28,7 @@ topper:
     text_placement:
   config:
     show_label: true
-content_blocks:
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading Test
-    subheading: Subheading.
-    items:
-      - title: Item 1 Title Test Test Test Long Heading
-        text: Item 1 text.
-        url:
-        background_c: bg-wvu-accent--blue text-white
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-      - title: Item 1 Title Test
-        text: Item 1 text.
-        url:
-        background_c:
-    postscript:
-      copy: My postscript copy.
-      postscript_ctas:
-        _bookshop_name: design-system/generic/button-group
-        buttons:
-          - text: My CTA
-            url:
-            icon: book
-    layout:
-      margin:
-    styles:
-      background_c: bg-wvu-accent--sunset text-dark
-      panels:
-      item_headings:
-      margin:
-    config:
-      edit_mode_only: false
-  - _bookshop_name: design-system/section/page-collection
-    heading: Heading
-    subheading: Subheading.
-    items:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-      - title: Item 1 Title
-        text: Item 1 text.
-        url:
-        background_c:
-    postscript:
-      copy:
-      postscript_ctas:
-    layout:
-      margin:
-    styles:
-      background_c:
-      panels:
-      item_headings:
-      margin:
-    config:
-      edit_mode_only: false
+content_blocks: []
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
