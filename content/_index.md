@@ -23,7 +23,8 @@ topper:
     enable_pattern: false
     tint_opacity: '0.5'
     container_margin: my-6
-  layout: {}
+  layout:
+    container_margin: mb-6
   config:
     show_label: false
 content_blocks:
