@@ -31,7 +31,7 @@ content_blocks:
     heading: Heading
     subheading: Subheading.
     items:
-      - title: Item 1 Title Test
+      - title: Item 1 Title Test Test Test
         text: Item 1 text.
         url:
         background_c: bg-wvu-accent--blue text-white
