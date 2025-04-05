@@ -40,10 +40,21 @@ content_blocks:
       - title: Item 1 Title
         text: Item 1 text.
         url:
+    postscript:
+      copy: Test postscript.
+      postscript_ctas:
+        _bookshop_name: design-system/generic/button-group
+        buttons:
+          - text: My Button
+            url:
+            icon: book
+          - text: Another Button
+            url:
+            icon: user
     layout:
       margin: mt-n9 p-5 p-xl-6
     styles:
-      background_c:
+      background_c: bg-wvu-accent--blue text-white
       panels:
       item_headings:
       margin:
