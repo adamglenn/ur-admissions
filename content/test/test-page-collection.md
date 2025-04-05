@@ -29,7 +29,7 @@ topper:
   config:
     show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/page-collection-simple
+  - _bookshop_name: design-system/section/page-collection
     heading: How Fast Can I Type?
     subheading: Subheading.
     items:
