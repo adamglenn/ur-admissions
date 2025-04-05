@@ -64,11 +64,11 @@ content_blocks:
         alt_text:
         copy: Here is my copy.
         item_ctas:
-          - _bookshop_name: design-system/generic/buttons
-            buttons:
-              - text: CTA 1
-                url: https://www.wvu.edu
-                icon: book
+          _bookshop_name: design-system/generic/buttons
+          buttons:
+            - text: CTA 1
+              url: https://www.wvu.edu
+              icon: book
     postscript:
       copy:
       postscript_ctas:
