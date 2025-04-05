@@ -532,10 +532,10 @@ _inputs:
       value_key: class
     label: Label Color
     cascade: true
-  layout:
-    type: auto
-    hidden: true
-    cascade: true
+  # layout:
+  #   type: auto
+  #   hidden: true
+  #   cascade: true
   limit:
     type: number
     cascade: true
