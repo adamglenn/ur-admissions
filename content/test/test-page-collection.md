@@ -46,12 +46,17 @@ content_blocks:
         url:
         background_c:
     postscript:
-      copy:
+      copy: ''
       postscript_ctas:
+        _bookshop_name: design-system/generic/button-group
+        buttons:
+          - text: My Button
+            url:
+            icon: book
     layout:
       margin:
     styles:
-      background_c:
+      background_c: bg-wvu-accent--blue text-white
       panels:
       item_headings:
       margin:
