@@ -8,7 +8,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading Still Fast?
+    - text: How Fast Can I Type?
       highlight:
   subheading: Subheading.
   body_text: ''
@@ -30,7 +30,7 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection-simple
-    heading: Heading Fast Yeah
+    heading: How Fast Can I Type?
     subheading: Subheading.
     items:
       - title: Item 1 Title How Fast?
@@ -48,13 +48,13 @@ content_blocks:
     postscript:
       copy: ''
       ctas:
-        - text: My CTA
+        - text: CTA Text
           icon: book
           url:
     layout:
       margin:
     styles:
-      section_background_c: wvu-accent--blue
+      section_background_c: wvu-accent--old-gold
       panels:
       item_headings:
       margin:
