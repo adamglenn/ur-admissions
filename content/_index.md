@@ -101,6 +101,8 @@ content_blocks:
     links: []
     layout:
       margin: mt-6
+    styles:
+      background_c: bg-wvu-neutral--warm-gray-dark text-white
     config:
       edit_mode_only: false
 ---
