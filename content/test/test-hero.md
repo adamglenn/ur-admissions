@@ -19,11 +19,11 @@ topper:
       _bookshop_name: design-system/simple/gradient-overlay
       gradient_1: 28, 43, 57
       gradient_2: 255, 229, 57
-      gradient_3:
+      gradient_3: 245, 134, 114
     heading_c:
-    enable_blend: true
-    enable_pattern: false
-    tint_opacity:
+    enable_blend: false
+    enable_pattern: true
+    tint_opacity: '0.7'
     container_margin:
 content_blocks:
 uuid: 19be301a-b145-440a-827b-04928fa407be
