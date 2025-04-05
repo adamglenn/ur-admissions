@@ -53,7 +53,7 @@ content_blocks:
           url:
     settings:
       layout:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       styles:
         section_background_c: wvu-accent--old-gold
         panels:
