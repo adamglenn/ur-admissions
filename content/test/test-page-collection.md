@@ -36,7 +36,7 @@ content_blocks:
       - title: Item 1 Title How Fast?
         text: Item 1 text.
         url:
-        background_c:
+        background_c: bg-wvu-accent--blue-light text-wvu-blue
       - title: Item 1 Title
         text: Item 1 text.
         url:
