@@ -51,19 +51,12 @@ content_blocks:
         - text: My CTA
           icon: book
           url:
-      postscript_ctas:
-        _bookshop_name: design-system/generic/button-group
-        buttons:
-          - text: My Button
-            url:
-            icon: book
     layout:
       margin:
     styles:
       section_background_c: wvu-accent--blue
       panels:
       item_headings:
-      background_c: bg-wvu-accent--blue text-white
       margin:
     config:
       edit_mode_only: false
