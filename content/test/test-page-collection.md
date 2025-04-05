@@ -51,15 +51,15 @@ content_blocks:
         - text: CTA Text
           icon: book
           url:
-    layout:
-      margin:
-    styles:
-      section_background_c: wvu-accent--old-gold
-      panels:
-      item_headings:
-      margin:
-    config:
-      edit_mode_only: false
+    settings:
+      layout:
+        margin:
+      styles:
+        section_background_c: wvu-accent--old-gold
+        panels:
+        item_headings:
+      config:
+        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
