@@ -80,8 +80,13 @@ content_blocks:
             - text: Here is my item
               url: https://www.wvu.edu
     postscript:
-      copy:
+      copy: ''
       postscript_ctas:
+        _bookshop_name: design-system/generic/button-group
+        buttons:
+          - text: Button Text
+            url: https://www.wvu.edu
+            icon: book
     config:
       edit_mode_only: false
 ---
