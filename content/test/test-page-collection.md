@@ -24,7 +24,7 @@ topper:
     tint_opacity: '0.5'
     container_margin:
   layout:
-    container_margin:
+    container_margin: mb-6
     text_placement:
   config:
     show_label: true
