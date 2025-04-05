@@ -855,6 +855,18 @@ _structures:
       - value:
           platform:
           url:
+  test_styles:
+    type: object
+    values:
+      - value:
+          vibe:
+          background_c:
+          color_overlay:
+          heading_c:
+          enable_blend: false
+          enable_pattern: false
+          tint_opacity:
+          container_margin:
 _editables:
   content:
     allow_custom_markup: false
