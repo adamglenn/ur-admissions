@@ -5,17 +5,20 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero-test
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
-  heading: []
+  heading:
+    - text: Heading Test
+      highlight:
   subheading: Subheading.
   body_text: ''
   test_styles:
-    vibe:
-    background_c:
+    vibe: discovery
+    background_c: bg-wvu-accent--blue text-white
     color_overlay:
+      - _bookshop_name: design-system/simple/gradient-overlay
     heading_c:
-    enable_blend: false
+    enable_blend: true
     enable_pattern: false
     tint_opacity:
     container_margin:
