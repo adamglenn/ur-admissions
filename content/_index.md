@@ -25,7 +25,7 @@ topper:
     container_margin: my-6
   layout: {}
   config:
-    show_label: true
+    show_label: false
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
