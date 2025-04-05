@@ -8,7 +8,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
+    - text: Heading Still Fast?
       highlight:
   subheading: Subheading.
   body_text: ''
@@ -28,7 +28,35 @@ topper:
     text_placement:
   config:
     show_label: true
-content_blocks: []
+content_blocks:
+  - _bookshop_name: design-system/section/page-collection-simple
+    heading: Heading Fast Yeah
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title How Fast?
+        text: Item 1 text.
+        url:
+        background_c:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+        background_c:
+      - title: Item 1 Title
+        text: Item 1 text. How fast can I type?
+        url:
+        background_c:
+    postscript:
+      copy:
+      postscript_ctas:
+    layout:
+      margin:
+    styles:
+      background_c:
+      panels:
+      item_headings:
+      margin:
+    config:
+      edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
