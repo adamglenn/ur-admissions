@@ -379,6 +379,11 @@ _inputs:
         - _select_data.brand_colors
       value_key: class
     cascade: true
+  color_overlay:
+    type: object
+    options:
+      values: _structures.color_overlay
+    cascade: true
   column_a:
     type: object
     options:

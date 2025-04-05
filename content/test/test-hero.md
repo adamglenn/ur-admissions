@@ -16,7 +16,7 @@ topper:
     vibe: discovery
     background_c: bg-wvu-accent--blue text-white
     color_overlay:
-      - _bookshop_name: design-system/simple/gradient-overlay
+      _bookshop_name: design-system/simple/gradient-overlay
     heading_c:
     enable_blend: true
     enable_pattern: false
