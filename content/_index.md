@@ -98,7 +98,13 @@ content_blocks:
       edit_mode_only: false
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
-    links: []
+    links:
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
+      - text: Text
+        url: /url
     layout:
       margin: mt-6
     styles:
