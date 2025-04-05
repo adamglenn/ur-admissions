@@ -40,12 +40,14 @@ content_blocks:
       - title: Item 1 Title
         text: Item 1 text.
         url:
-    config:
-      edit_mode_only: false
+    layout:
+      margin: mt-n9 p-5 p-xl-6
     styles:
       panels:
       item_headings:
       margin:
+    config:
+      edit_mode_only: false
   - _bookshop_name: design-system/section/big-search
     label: Label
     heading: Big Search Heading
