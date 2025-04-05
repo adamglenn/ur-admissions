@@ -789,6 +789,11 @@ _select_data:
       class: mb-n8
     - name: Pull Both
       class: py-n8
+  list_styles:
+    - name: Arrows
+      class: wvu-ul-arrows
+    - name: Chevrons
+      class: wvu-ul-chevrons
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
