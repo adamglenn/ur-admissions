@@ -788,7 +788,7 @@ _select_data:
     - name: Pull Down
       class: mb-n9 p-5 p-xl-6
     - name: Pull Both
-      class: py-n9 p-5 p-xl-6
+      class: my-n9 p-5 p-xl-6
   list_styles:
     - name: Arrows
       class: wvu-ul-arrows

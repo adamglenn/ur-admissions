@@ -93,7 +93,7 @@ content_blocks:
             url: https://www.wvu.edu
             icon: book
     layout:
-      margin: py-n9 p-5 p-xl-6
+      margin: my-n9 p-5 p-xl-6
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/quicklinks
