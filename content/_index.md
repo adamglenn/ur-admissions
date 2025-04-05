@@ -35,7 +35,7 @@ content_blocks:
       - title: Item 1 Title
         text: Item 1 text.
         url:
-        background_c: bg-wvu-accent--blue-dark text-white
+        background_c:
       - title: Item 1 Title
         text: Item 1 text.
         url:
@@ -58,7 +58,7 @@ content_blocks:
     layout:
       margin: mt-n9 p-5 p-xl-6
     styles:
-      background_c: bg-wvu-accent--blue text-white
+      background_c: bg-wvu-neutral--warm-gray-light text-dark
       panels:
       item_headings:
       margin:
