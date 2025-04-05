@@ -69,6 +69,16 @@ content_blocks:
             - text: CTA 1
               url: https://www.wvu.edu
               icon: book
+      - heading: Item Heading
+        image:
+        alt_text:
+        copy: ''
+        item_ctas:
+          _bookshop_name: design-system/generic/link-list
+          list_style: wvu-ul-arrows
+          items:
+            - text: Here is my item
+              url: https://www.wvu.edu
     postscript:
       copy:
       postscript_ctas:
