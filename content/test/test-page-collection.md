@@ -47,6 +47,10 @@ content_blocks:
         background_c:
     postscript:
       copy: ''
+      ctas:
+        - text: My CTA
+          icon: book
+          url:
       postscript_ctas:
         _bookshop_name: design-system/generic/button-group
         buttons:
@@ -56,9 +60,10 @@ content_blocks:
     layout:
       margin:
     styles:
-      background_c: bg-wvu-accent--blue text-white
+      section_background_c: wvu-accent--blue
       panels:
       item_headings:
+      background_c: bg-wvu-accent--blue text-white
       margin:
     config:
       edit_mode_only: false
