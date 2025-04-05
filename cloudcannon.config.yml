@@ -784,11 +784,11 @@ _select_data:
     - name: Buffer Both
       class: my-6
     - name: Pull Up
-      class: mt-n8
+      class: mt-n9 p-5 p-xl-6
     - name: Pull Down
-      class: mb-n8
+      class: mb-n9 p-5 p-xl-6
     - name: Pull Both
-      class: py-n8
+      class: py-n9 p-5 p-xl-6
   list_styles:
     - name: Arrows
       class: wvu-ul-arrows

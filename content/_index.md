@@ -53,6 +53,8 @@ content_blocks:
         - text: Here is my Button
           icon: book
           url:
+    layout:
+      margin: mb-6
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/alternating-grid
@@ -87,6 +89,8 @@ content_blocks:
           - text: Button Text
             url: https://www.wvu.edu
             icon: book
+    layout:
+      margin: mt-n9 p-5 p-xl-6
     config:
       edit_mode_only: false
 ---
