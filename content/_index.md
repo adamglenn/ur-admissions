@@ -23,6 +23,9 @@ topper:
     enable_pattern: false
     tint_opacity: '0.5'
     container_margin: my-6
+  layout: {}
+  config:
+    show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
@@ -90,7 +93,14 @@ content_blocks:
             url: https://www.wvu.edu
             icon: book
     layout:
-      margin: mt-n9 p-5 p-xl-6
+      margin: py-n9 p-5 p-xl-6
+    config:
+      edit_mode_only: false
+  - _bookshop_name: design-system/section/quicklinks
+    heading: Quicklinks
+    links: []
+    layout:
+      margin: mt-6
     config:
       edit_mode_only: false
 ---
