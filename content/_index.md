@@ -55,4 +55,23 @@ content_blocks:
           url:
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    subheading: Subheading goes here.
+    items:
+      - heading: Item Heading
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        copy: Here is my copy.
+        item_ctas:
+          - _bookshop_name: design-system/generic/buttons
+            buttons:
+              - text: CTA 1
+                url: https://www.wvu.edu
+                icon: book
+    postscript:
+      copy:
+      postscript_ctas:
+    config:
+      edit_mode_only: false
 ---
