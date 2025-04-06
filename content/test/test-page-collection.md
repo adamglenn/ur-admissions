@@ -76,8 +76,9 @@ content_blocks:
       - text: Call to Action
         url:
         icon:
-    config:
-      edit_mode_only: false
+    settings:
+      config:
+        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
