@@ -797,6 +797,12 @@ _select_data:
       class: mb-n9 p-5 p-xl-6
     - name: Pull Both
       class: my-n9 p-5 p-xl-6
+    - name: Pull Up (no background)
+      class: mt-n9
+    - name: Pull Down (no background)
+      class: mb-n9
+    - name: Pull Both (no background)
+      class: my-n9
   list_styles:
     - name: Arrows
       class: wvu-ul-arrows
