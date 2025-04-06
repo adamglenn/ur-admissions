@@ -128,11 +128,14 @@ content_blocks:
         - text: CTA Text
           icon: book
           url:
-    layout:
-      butter:
-      margin:
-    config:
-      edit_mode_only: false
+    settings:
+      styles:
+        background_c:
+      layout:
+        butter:
+        margin:
+      config:
+        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
