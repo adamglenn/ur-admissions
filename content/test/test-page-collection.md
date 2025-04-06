@@ -111,6 +111,17 @@ content_blocks:
           - text: CTA
             icon: book
             url:
+      - heading: Item Heading
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        copy: More copy.
+        ctas:
+          - text: CTA
+            icon:
+            url:
+          - text: CTA
+            icon:
+            url:
     postscript:
       copy: Postscript copy.
       ctas:
