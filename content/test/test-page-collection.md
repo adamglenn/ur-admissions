@@ -24,7 +24,7 @@ topper:
     tint_opacity: '0.5'
     container_margin:
   layout:
-    container_margin:
+    container_margin: mb-6
     text_placement:
   config:
     show_label: true
@@ -53,7 +53,7 @@ content_blocks:
           url:
     settings:
       layout:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       styles:
         background_c: bg-wvu-accent--old-gold text-white
         panels:
