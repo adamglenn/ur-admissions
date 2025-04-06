@@ -138,12 +138,14 @@ content_blocks:
         edit_mode_only: false
   - _bookshop_name: design-system/section/article-collection
     heading: Article Collection Heading Test
+    subheading: Subheading goes here.
     article_tags:
       - Custom Label
     limit: 5
-    config:
-      edit_mode_only: false
-      show_content: false
+    settings:
+      config:
+        edit_mode_only: false
+        show_content: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
