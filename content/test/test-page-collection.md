@@ -30,8 +30,8 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: How Fast Can I Type?
-    subheading: Subheading.
+    heading: How Fast *Can* I Type?
+    subheading: Subheading. With [Link](https://www.wvu.edu)
     items:
       - title: Item 1 Title How Fast?
         text: Item 1 text.
