@@ -715,7 +715,7 @@ _select_data:
       class: wvu-bg-blend-mode-lighten
   brand_colors:
     - name: WVU Gold
-      background_classes: bg-wvu-gold text-wvu-blue
+      background_classes: bg-wvu-gold text-dark
       class: wvu-gold
       rgba: rgb(0, 0, 0)
     - name: WVU Blue
@@ -731,7 +731,7 @@ _select_data:
       class: wvu-accent--blue-dark
       rgba: 28, 43, 57
     - name: Accent - Light Blue
-      background_classes: bg-wvu-accent--blue-light text-wvu-blue
+      background_classes: bg-wvu-accent--blue-light text-dark
       class: wvu-accent--blue-light
       rgba: 157, 218, 230
     - name: Accent - Yellow

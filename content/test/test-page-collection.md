@@ -55,7 +55,7 @@ content_blocks:
       layout:
         margin:
       styles:
-        section_background_c: wvu-accent--old-gold
+        background_c: bg-wvu-accent--old-gold text-white
         panels:
         item_headings:
       config:
