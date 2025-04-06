@@ -137,7 +137,7 @@ content_blocks:
       config:
         edit_mode_only: false
   - _bookshop_name: design-system/section/article-collection
-    heading: Article Collection Heading
+    heading: Article Collection Heading Test
     article_tags:
       - Custom Label
     limit: 5
