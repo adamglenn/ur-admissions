@@ -112,8 +112,11 @@ content_blocks:
             icon: book
             url:
     postscript:
-      copy:
+      copy: Postscript copy.
       ctas:
+        - text: CTA Text
+          icon: book
+          url:
     layout:
       butter:
       margin:
