@@ -139,7 +139,7 @@ content_blocks:
   - _bookshop_name: design-system/section/article-collection
     heading: Article Collection Heading
     article_tags:
-      - featured
+      - Custom Label
     limit: 5
     config:
       edit_mode_only: false
