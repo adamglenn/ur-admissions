@@ -66,7 +66,7 @@ content_blocks:
   - _bookshop_name: design-system/section/alumni-profile
     heading: Heading
     name: Firstname Lastname
-    image: /uploads/34750-s-bfp-0046-xx.jpg
+    image: /uploads/jillian.png
     label:
       - Label
     info:
@@ -77,7 +77,7 @@ content_blocks:
         icon:
     settings:
       layout:
-        is_cutout: false
+        is_cutout: true
         margin:
       config:
         edit_mode_only: false
