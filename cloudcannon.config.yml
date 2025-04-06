@@ -371,6 +371,13 @@ _inputs:
       value_key: background_classes
     label: Background Color
     cascade: true
+  buffer:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.buffers
+      value_key: class
+    cascade: true
   color:
     type: select
     options:
@@ -550,6 +557,13 @@ _inputs:
     options:
       allow_empty: true
       values: _select_data.container_margins
+      value_key: class
+    cascade: true
+  margin:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.container_margins_no_bg
       value_key: class
     cascade: true
   menu:
@@ -782,26 +796,26 @@ _select_data:
       background_classes: bg-dark text-white
       class: transparent
       rgba: 42, 42, 41
-  container_margins:
-    - name: Default
-      class: ''
+  buffers:
     - name: Buffer Top
-      class: mt-6
+      class: pt-6
     - name: Buffer Bottom
-      class: mb-6
+      class: pb-6
     - name: Buffer Both
-      class: my-6
+      class: py-6
+  container_margins:
     - name: Pull Up
       class: mt-n9 p-5 p-xl-6
     - name: Pull Down
       class: mb-n9 p-5 p-xl-6
     - name: Pull Both
       class: my-n9 p-5 p-xl-6
-    - name: Pull Up (no background)
+  container_margins_no_bg:
+    - name: Pull Up
       class: mt-n9
-    - name: Pull Down (no background)
+    - name: Pull Down
       class: mb-n9
-    - name: Pull Both (no background)
+    - name: Pull Both
       class: my-n9
   list_styles:
     - name: Arrows

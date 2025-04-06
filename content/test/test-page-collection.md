@@ -30,8 +30,8 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: How Fast *Can* I Type?
-    subheading: Subheading. With [Link](https://www.wvu.edu)
+    heading: How Fast Can I Type?
+    subheading: Subheading.
     items:
       - title: Item 1 Title How Fast?
         text: Item 1 text.
@@ -99,53 +99,6 @@ content_blocks:
       edit_mode_only: false
     layout:
     styles:
-  - _bookshop_name: design-system/section/alternating-grid
-    heading: Alternating Grid Heading
-    subheading: Subheading goes here.
-    items:
-      - heading: Item Heading
-        image: /uploads/34750-s-bfp-0046-xx.jpg
-        alt_text:
-        copy: Here is my copy.
-        ctas:
-          - text: CTA
-            icon: book
-            url:
-      - heading: Item Heading
-        image: /uploads/34750-s-bfp-0046-xx.jpg
-        alt_text:
-        copy: More copy.
-        ctas:
-          - text: CTA
-            icon:
-            url:
-          - text: CTA
-            icon:
-            url:
-    postscript:
-      copy: Postscript copy.
-      ctas:
-        - text: CTA Text
-          icon: book
-          url:
-    settings:
-      styles:
-        background_c:
-      layout:
-        butter:
-        margin:
-      config:
-        edit_mode_only: false
-  - _bookshop_name: design-system/section/article-collection
-    heading: Article Collection Heading Test
-    subheading: Subheading goes here.
-    article_tags:
-      - Custom Label
-    limit: 5
-    settings:
-      config:
-        edit_mode_only: false
-        show_content: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
