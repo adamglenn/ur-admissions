@@ -67,7 +67,6 @@ content_blocks:
     heading: Heading
     name: Firstname Lastname
     image: /uploads/34750-s-bfp-0046-xx.jpg
-    is_cutout: false
     label:
       - Label
     info:
@@ -77,6 +76,9 @@ content_blocks:
         url:
         icon:
     settings:
+      layout:
+        is_cutout: false
+        margin:
       config:
         edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
