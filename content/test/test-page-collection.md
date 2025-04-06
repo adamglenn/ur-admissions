@@ -108,8 +108,8 @@ content_blocks:
         alt_text:
         copy: Here is my copy.
         ctas:
-          - text:
-            icon:
+          - text: CTA
+            icon: book
             url:
     postscript:
       copy:
