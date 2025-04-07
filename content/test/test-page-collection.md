@@ -56,7 +56,8 @@ content_blocks:
           url:
     settings:
       layout:
-        margin:
+        buffer: pb-6
+        margin: mt-n9 p-5 p-xl-6
       styles:
         background_c: bg-wvu-accent--old-gold text-white
         panel_font:
@@ -78,7 +79,7 @@ content_blocks:
     settings:
       layout:
         is_cutout: true
-        margin_no_bg:
+        margin_no_bg: mt-n9
       config:
         edit_mode_only: false
   - _bookshop_name: design-system/section/columns-2-1-1
