@@ -67,10 +67,28 @@ content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading
     subheading: Subheading.
-    items: []
+    items:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+        background_c:
+        accent_c:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+        background_c:
+        accent_c:
+      - title: Item 1 Title
+        text: Item 1 text.
+        url:
+        background_c:
+        accent_c:
     postscript:
-      copy:
+      copy: ''
       ctas:
+        - text: CTA
+          icon: book
+          url:
     settings:
       layout:
         buffer:
@@ -97,7 +115,7 @@ content_blocks:
     settings:
       layout:
         is_cutout: true
-        margin_no_bg: mt-n9
+        margin_no_bg:
       config:
         edit_mode_only: false
   - _bookshop_name: design-system/section/columns-2-1-1
