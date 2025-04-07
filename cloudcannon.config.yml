@@ -682,14 +682,7 @@ _inputs:
     comment: Use with a background image, no blend.
     cascade: true
   tint_shade:
-    type: select
-    options:
-      values:
-        - name: Tint
-          class: subtle
-        - name: Shade
-          class: subtle-dark
-      value_key: class
+    type: switch
   topper:
     type: object
     options:
