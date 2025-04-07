@@ -98,6 +98,9 @@ content_blocks:
     column_c:
     config:
       edit_mode_only: false
+    settings:
+      styles: {}
+      layout: {}
     layout:
     styles:
   - _bookshop_name: design-system/section/alternating-grid
@@ -117,7 +120,7 @@ content_blocks:
           url:
     settings:
       styles:
-        background_c:
+        background_c: wvu-accent--blue
       layout:
         butter:
         margin: mt-n9 p-5 p-xl-6
