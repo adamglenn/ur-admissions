@@ -78,7 +78,7 @@ content_blocks:
     settings:
       layout:
         is_cutout: true
-        margin:
+        margin_no_bg:
       config:
         edit_mode_only: false
   - _bookshop_name: design-system/section/columns-2-1-1
