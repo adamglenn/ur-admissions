@@ -64,6 +64,24 @@ content_blocks:
         accent_c:
       config:
         edit_mode_only: false
+  - _bookshop_name: design-system/section/page-collection
+    heading: Heading
+    subheading: Subheading.
+    items: []
+    postscript:
+      copy:
+      ctas:
+    settings:
+      layout:
+        buffer:
+        margin:
+      styles:
+        background_c: wvu-accent--old-gold
+        tint_shade:
+        panel_font:
+        accent_c:
+      config:
+        edit_mode_only: false
   - _bookshop_name: design-system/section/alumni-profile
     heading: Heading
     name: Firstname Lastname
