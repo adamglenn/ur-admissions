@@ -110,14 +110,17 @@ content_blocks:
         copy: ''
         ctas:
     postscript:
-      copy:
+      copy: ''
       ctas:
+        - text: CTA
+          icon: book
+          url:
     settings:
       styles:
         background_c:
       layout:
         butter:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       config:
         edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
