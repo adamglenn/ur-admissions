@@ -77,7 +77,7 @@ content_blocks:
         margin:
       styles:
         background_c: wvu-accent--old-gold
-        tint_shade:
+        tint_shade: subtle-dark
         panel_font:
         accent_c:
       config:
