@@ -56,7 +56,7 @@ content_blocks:
           url:
     settings:
       layout:
-        margin: mt-n9 p-5 p-xl-6
+        margin_no_bg:
       styles:
         background_c: bg-wvu-accent--old-gold text-white
         panel_font:
