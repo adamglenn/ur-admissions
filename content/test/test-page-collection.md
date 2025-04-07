@@ -36,7 +36,7 @@ content_blocks:
       - title: Item 1 Title How Fast?
         text: Item 1 text.
         url:
-        background_c: bg-wvu-accent--blue-light text-wvu-blue
+        background_c: wvu-accent--blue-light
         accent_c:
       - title: Item 1 Title
         text: Item 1 text.
@@ -59,7 +59,7 @@ content_blocks:
         buffer: pb-6
         margin: mt-n9 p-5 p-xl-6
       styles:
-        background_c: bg-wvu-accent--old-gold text-white
+        background_c: wvu-accent--old-gold
         panel_font:
         accent_c:
       config:

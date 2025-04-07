@@ -368,7 +368,7 @@ _inputs:
     options:
       allow_empty: true
       values: _select_data.brand_colors
-      value_key: background_classes
+      value_key: class
     label: Background Color
     cascade: true
   buffer:
