@@ -100,6 +100,26 @@ content_blocks:
       edit_mode_only: false
     layout:
     styles:
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    subheading: Subheading goes here.
+    items:
+      - heading: Item Heading Test
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        copy: ''
+        ctas:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        butter:
+        margin:
+      config:
+        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
