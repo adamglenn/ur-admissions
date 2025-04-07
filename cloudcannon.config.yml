@@ -685,12 +685,11 @@ _inputs:
     type: select
     options:
       values:
-        value:
-          - name: Tint
-            class: subtle
-          - name: Shade
-            class: subtle-dark
-        value_key: class
+        - name: Tint
+          class: subtle
+        - name: Shade
+          class: subtle-dark
+      value_key: class
   topper:
     type: object
     options:
