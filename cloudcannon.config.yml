@@ -794,7 +794,7 @@ _select_data:
       rgba:
     - name: Dark
       background_classes: bg-dark text-white
-      class: transparent
+      class: dark
       rgba: 42, 42, 41
   buffers:
     - name: Buffer Top
