@@ -1,0 +1,13 @@
+_schema: horizontal_subnav
+title: About US
+background_c:
+label_c:
+text_c:
+menu_items:
+  - text: About us
+    url: /about-us/
+    weight:
+  - text: Faculty and Staff
+    url: /about-us/faculty-and-staff/
+    weight:
+uuid: e2e0a493-08dc-465d-bc4a-5a3684d32f03
