@@ -8,7 +8,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: How Fast Can I Type?
+    - text: How Fast Can I Type? Test.
       highlight:
   subheading: Subheading.
   body_text: ''
