@@ -6,7 +6,7 @@ topper:
   background_image: /uploads/downtown-campus-1.jpg
   alt_text: A band plays music at an outdoor Alumni event, next to HOME letters.
   heading:
-    - text: Strategic Partnerships
+    - text: Strategic Partnerships TEST
       highlight:
   subheading: Empowering University Connections
   body_text: >-
@@ -24,7 +24,7 @@ topper:
     gradient_2:
     gradient_3:
     heading_c: wvu-gold
-    enable_blend: false
+    enable_blend: true
     enable_pattern: false
     tint_opacity: '0.5'
     container_margin: my-6
