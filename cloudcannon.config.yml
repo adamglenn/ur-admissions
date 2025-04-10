@@ -368,8 +368,15 @@ _inputs:
     options:
       allow_empty: true
       values: _select_data.brand_colors
-      value_key: background_classes
+      value_key: class
     label: Background Color
+    cascade: true
+  buffer:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.buffers
+      value_key: class
     cascade: true
   color:
     type: select
@@ -378,6 +385,11 @@ _inputs:
       values:
         - _select_data.brand_colors
       value_key: class
+    cascade: true
+  color_overlay:
+    type: object
+    options:
+      values: _structures.color_overlay
     cascade: true
   column_a:
     type: object
@@ -527,10 +539,10 @@ _inputs:
       value_key: class
     label: Label Color
     cascade: true
-  layout:
-    type: auto
-    hidden: true
-    cascade: true
+  # layout:
+  #   type: auto
+  #   hidden: true
+  #   cascade: true
   limit:
     type: number
     cascade: true
@@ -545,6 +557,13 @@ _inputs:
     options:
       allow_empty: true
       values: _select_data.container_margins
+      value_key: class
+    cascade: true
+  margin_no_bg:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.container_margins_no_bg
       value_key: class
     cascade: true
   menu:
@@ -590,6 +609,14 @@ _inputs:
     cascade: true
   quote:
     type: textarea
+    cascade: true
+  section_background_c:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.brand_colors
+      value_key: class
+    label: Background Color
     cascade: true
   show:
     type: datetime
@@ -654,6 +681,8 @@ _inputs:
       value_key: value
     comment: Use with a background image, no blend.
     cascade: true
+  tint_shade:
+    type: switch
   topper:
     type: object
     options:
@@ -702,7 +731,7 @@ _select_data:
       class: wvu-bg-blend-mode-lighten
   brand_colors:
     - name: WVU Gold
-      background_classes: bg-wvu-gold text-wvu-blue
+      background_classes: bg-wvu-gold text-dark
       class: wvu-gold
       rgba: rgb(0, 0, 0)
     - name: WVU Blue
@@ -718,7 +747,7 @@ _select_data:
       class: wvu-accent--blue-dark
       rgba: 28, 43, 57
     - name: Accent - Light Blue
-      background_classes: bg-wvu-accent--blue-light text-wvu-blue
+      background_classes: bg-wvu-accent--blue-light text-dark
       class: wvu-accent--blue-light
       rgba: 157, 218, 230
     - name: Accent - Yellow
@@ -767,23 +796,34 @@ _select_data:
       rgba:
     - name: Dark
       background_classes: bg-dark text-white
-      class: transparent
+      class: dark
       rgba: 42, 42, 41
-  container_margins:
-    - name: Default
-      class: ''
+  buffers:
     - name: Buffer Top
-      class: mt-6
+      class: pt-6
     - name: Buffer Bottom
-      class: mb-6
+      class: pb-6
     - name: Buffer Both
-      class: my-6
+      class: py-6
+  container_margins:
     - name: Pull Up
-      class: mt-n8
+      class: mt-n9 p-5 p-xl-6
     - name: Pull Down
-      class: mb-n8
+      class: mb-n9 p-5 p-xl-6
     - name: Pull Both
-      class: py-n8
+      class: my-n9 p-5 p-xl-6
+  container_margins_no_bg:
+    - name: Pull Up
+      class: mt-n9
+    - name: Pull Down
+      class: mb-n9
+    - name: Pull Both
+      class: my-n9
+  list_styles:
+    - name: Arrows
+      class: wvu-ul-arrows
+    - name: Chevrons
+      class: wvu-ul-chevrons
   patterns:
     - name: Topo Map
       class: wvu-bg-topo-map
@@ -855,6 +895,18 @@ _structures:
       - value:
           platform:
           url:
+  test_styles:
+    type: object
+    values:
+      value:
+        vibe:
+        background_c:
+        color_overlay:
+        heading_c:
+        enable_blend: false
+        enable_pattern: false
+        tint_opacity:
+        container_margin:
 _editables:
   content:
     allow_custom_markup: false
