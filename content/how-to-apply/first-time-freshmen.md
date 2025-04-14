@@ -17,6 +17,10 @@ detail_blocks:
     panels:
       - title: Panel 1 Title
         panel_text: Panel 1 text.
+      - title: Panel 2 Title
+        panel_text: Panel 1 text.
+      - title: Panel 3 Title
+        panel_text: Panel 1 text.
   - _bookshop_name: design-system/column/alert
     text: Text.
   - _bookshop_name: design-system/column/cta-stack
