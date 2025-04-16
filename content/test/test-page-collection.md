@@ -139,7 +139,7 @@ content_blocks:
       layout: {}
     layout:
     styles:
-  - _bookshop_name: design-system/section/alternating-grid
+  - _bookshop_name: design-system/section/alternating-grid-test
     heading: Alternating Grid Heading
     subheading: Subheading goes here.
     items:
