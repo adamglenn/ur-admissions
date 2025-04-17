@@ -30,7 +30,7 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
-    heading: How Fast Can I Type?
+    heading: How Fast Can I Type? Test Test
     subheading: Subheading.
     items:
       - title: Item 1 Title How Fast?
@@ -139,27 +139,27 @@ content_blocks:
       layout: {}
     layout:
     styles:
-  - _bookshop_name: design-system/section/alternating-grid-test
-    heading: Alternating Grid Heading
-    subheading: Subheading goes here.
+  - _bookshop_name: design-system/section/page-collection-test
+    heading: Heading Test How About Now?
+    subheading: Subheading.
     items:
-      - heading: Item Heading Test
-        image: /uploads/34750-s-bfp-0046-xx.jpg
-        alt_text:
-        copy: ''
-        ctas:
+      - title: Item 1 Title Test
+        text: Item 1 text.
+        url:
+        background_c:
+        accent_c:
     postscript:
-      copy: ''
+      copy:
       ctas:
-        - text: CTA
-          icon: book
-          url:
     settings:
-      styles:
-        background_c: wvu-accent--blue
       layout:
-        butter:
-        margin: mt-n9 p-5 p-xl-6
+        buffer:
+        margin:
+      styles:
+        background_c: wvu-blue
+        tint_shade:
+        panel_font:
+        accent_c:
       config:
         edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
