@@ -27,6 +27,18 @@ content_blocks:
     id: EMhV-NvxrAo
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/cards-list
+    heading: Find Tacos in Your Area
+    subheading: Hard shell, soft shell and everything in between.
+    label:
+    items:
+      - image:
+        image_alt:
+        heading:
+        text:
+        links: []
+    config:
+      edit_mode_only: false
 uuid: ca4547fc-b3d3-4788-96bc-374334a7a8e1
 type: guide
 ---

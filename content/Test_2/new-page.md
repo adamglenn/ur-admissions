@@ -25,8 +25,12 @@ detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/cta-stack
     heading: Helpful Links
     ctas:
-      - text:
+      - text: Dining Services
         url:
+  - _bookshop_name: design-system/column_sm/jump-links
+    items:
+      - text: Dining Plans
+        anchor:
 uuid: 751e251c-b64b-404d-8a44-a8632ee67c4f
 type: detail
 ---
