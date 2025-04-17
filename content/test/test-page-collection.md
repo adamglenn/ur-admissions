@@ -118,33 +118,12 @@ content_blocks:
         margin_no_bg:
       config:
         edit_mode_only: false
-  - _bookshop_name: design-system/section/columns-2-1-1
-    column_a:
-      _bookshop_name: design-system/column/factoids
-      heading: By the Numbers
-      items:
-        - pre: Test
-          stat: 95%
-          post: Test
-          source: Test
-      config:
-        edit_mode_only: false
-      styles:
-    column_b:
-    column_c:
-    config:
-      edit_mode_only: false
-    settings:
-      styles: {}
-      layout: {}
-    layout:
-    styles:
   - _bookshop_name: design-system/section/page-collection-test
     heading: Heading Test How About Now?
     subheading: Subheading.
     items:
-      - title: Item 1 Title Test
-        text: Item 1 text.
+      - title: Item 1 Title Test Test Hello Cool
+        text: Item 1 text. Hi How are you?
         url:
         background_c:
         accent_c:
@@ -160,6 +139,29 @@ content_blocks:
         tint_shade:
         panel_font:
         accent_c:
+      config:
+        edit_mode_only: false
+  - _bookshop_name: design-system/section/alternating-grid-test
+    heading: Alternating Grid Heading Hey
+    subheading: Subheading goes here.
+    items:
+      - heading: Item Heading
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        copy: ''
+        ctas:
+          - text: My CTA
+            icon: book
+            url:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        butter:
+        margin:
       config:
         edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
