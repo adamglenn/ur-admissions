@@ -23,7 +23,9 @@ article_topper:
     margin:
 photo_essay_blocks:
   - _bookshop_name: design-system/section/rich-text
-    text:
+    text: >-
+      Students and families start their day at the WVU Coliseum and experience a
+      confetti drop.
   - _bookshop_name: design-system/section/full-bleed-photo
     src: /uploads/40760-s-jfs-0409-xx.jpg
     alt: >-
