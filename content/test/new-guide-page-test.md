@@ -34,7 +34,7 @@ content_blocks:
       - heading: Item Heading
         image: /uploads/34750-s-bfp-0046-xx.jpg
         alt_text:
-        copy: Here is some copy.
+        copy: Here is some copy. Are we still fast?
         ctas:
           - text: CTA Text
             icon: book
@@ -50,6 +50,27 @@ content_blocks:
         margin:
       config:
         edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/tabs
+    heading:
+    tabs:
+      - name: Tab 1
+        image:
+        label: Label
+        heading: Tab Heading Are We Fast?
+        text: Tab 1 text.
+        ctas:
+          - text: CTA
+            icon: book
+            url:
+    styles:
+      background_c:
+    layout:
+      butter:
+      margin:
+    config:
+      edit_mode_only: false
+      include_heading_postscript: false
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
