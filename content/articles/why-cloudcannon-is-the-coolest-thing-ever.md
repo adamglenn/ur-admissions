@@ -3,6 +3,8 @@ _schema: article
 title: Why CloudCannon is the Coolest Thing Ever
 subheading: Subheading.
 description:
+image: /uploads/34750-s-bfp-0046-xx.jpg
+alt_text:
 excerpt: ''
 publishDate: 2025-03-30T18:35:04-04:00
 authors:

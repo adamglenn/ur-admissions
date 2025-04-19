@@ -576,6 +576,8 @@ _inputs:
       values: _select_data.container_margins_no_bg
       value_key: class
     cascade: true
+  max_cols:
+    hidden: true
   menu:
     type: select
     options:

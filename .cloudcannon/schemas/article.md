@@ -2,6 +2,8 @@
 title: My New Article
 subheading: Subheading.
 description:
+image:
+alt_text:
 excerpt:
 publishDate:
 authors:
