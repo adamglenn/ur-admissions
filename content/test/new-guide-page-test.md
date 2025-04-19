@@ -83,6 +83,12 @@ content_blocks:
           - text: CTA
             icon: book
             url:
+      - name: Panel Title 2
+        image:
+        alt_text:
+        heading: Panel Heading
+        text: Panel text.
+        ctas:
     settings:
       styles:
         background_c:
