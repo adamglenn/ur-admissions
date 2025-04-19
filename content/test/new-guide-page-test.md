@@ -72,6 +72,26 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+  - _bookshop_name: design-system/section/accordion
+    panels:
+      - name: Panel Title Test
+        image:
+        alt_text:
+        heading: Panel Heading Test
+        text: Panel text.
+        ctas:
+          - text: CTA
+            icon: book
+            url:
+    settings:
+      styles:
+        background_c:
+      layout:
+        butter:
+        margin:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
