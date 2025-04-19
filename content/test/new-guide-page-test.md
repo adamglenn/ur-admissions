@@ -55,9 +55,9 @@ content_blocks:
     heading:
     tabs:
       - name: Tab 1
-        image:
+        image: /uploads/34750-s-bfp-0046-xx.jpg
         label: Label
-        heading: Tab Heading Are We Fast?
+        heading: Tab Heading Are We Fast? Still fast?
         text: Tab 1 text.
         ctas:
           - text: CTA
