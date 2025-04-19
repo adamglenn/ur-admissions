@@ -525,6 +525,8 @@ _inputs:
   image_lg:
     type: image
     cascade: true
+  include_heading_postscript:
+    hidden: true
   is_default_content:
     type: auto
     hidden: true

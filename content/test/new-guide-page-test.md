@@ -63,14 +63,15 @@ content_blocks:
           - text: CTA
             icon: book
             url:
-    styles:
-      background_c: wvu-accent--blue-light
-    layout:
-      butter:
-      margin:
-    config:
-      edit_mode_only: false
-      include_heading_postscript: false
+    settings:
+      styles:
+        background_c: wvu-accent--blue-light
+      layout:
+        butter:
+        margin:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
