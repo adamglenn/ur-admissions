@@ -9,6 +9,7 @@ authors:
   - author: e8aaaee1-5ba4-49b9-98ce-55f7b0c70a7c
     article_role: Author
 article_tags:
+  - Custom Label
 article_topper:
   _bookshop_name: design-system/topper/article-hero
   label:
