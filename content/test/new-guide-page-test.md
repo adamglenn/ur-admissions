@@ -121,6 +121,71 @@ content_blocks:
         include_heading_postscript: true
         limit:
         show_content: false
+  - _bookshop_name: design-system/section/cards
+    heading: Heading Test
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        label:
+        badge:
+        text: Item 1 text.
+        ctas:
+        background_c:
+        accent_c:
+      - title: Item 1 Title
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        label:
+        badge:
+        text: Item 1 text.
+        ctas:
+        background_c:
+        accent_c:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      layout:
+        buffer:
+        margin:
+      styles:
+        background_c:
+        tint_shade:
+        panel_font:
+        accent_c:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/cards-simple
+    heading: Heading
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title
+        image:
+        alt_text:
+        label:
+        badge:
+        text: Item 1 text.
+        url:
+        background_c:
+        accent_c:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      layout:
+        buffer:
+        margin:
+      styles:
+        background_c:
+        tint_shade:
+        panel_font:
+        accent_c:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
