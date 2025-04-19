@@ -99,14 +99,17 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
   - _bookshop_name: design-system/section/article-collection
-    heading: Article Collection Heading
-    subheading: Subheading goes here.
+    heading: Article Collection Heading Is It Fast?
+    subheading: Subheading goes here. Is it fast?
     article_tags:
       - featured
       - Custom Label
     postscript:
-      copy:
+      copy: Test postscript.
       ctas:
+        - text: CTA
+          icon: book
+          url:
     settings:
       styles:
         background_c:
