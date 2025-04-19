@@ -64,7 +64,7 @@ content_blocks:
             icon: book
             url:
     styles:
-      background_c:
+      background_c: wvu-accent--blue-light
     layout:
       butter:
       margin:
