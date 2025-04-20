@@ -118,52 +118,6 @@ content_blocks:
         margin_no_bg:
       config:
         edit_mode_only: false
-  - _bookshop_name: design-system/section/page-collection-test
-    heading: Heading Test How About Now?
-    subheading: Subheading.
-    items:
-      - title: Item 1 Title Test Test Hello Cool
-        text: Item 1 text. Hi How are you?
-        url:
-        background_c:
-        accent_c:
-    postscript:
-      copy:
-      ctas:
-    settings:
-      layout:
-        buffer:
-        margin:
-      styles:
-        background_c: wvu-blue
-        tint_shade:
-        panel_font:
-        accent_c:
-      config:
-        edit_mode_only: false
-  - _bookshop_name: design-system/section/alternating-grid-test
-    heading: Alternating Grid Heading Hey
-    subheading: Subheading goes here.
-    items:
-      - heading: Item Heading
-        image: /uploads/34750-s-bfp-0046-xx.jpg
-        alt_text:
-        copy: ''
-        ctas:
-          - text: My CTA
-            icon: book
-            url:
-    postscript:
-      copy:
-      ctas:
-    settings:
-      styles:
-        background_c:
-      layout:
-        butter:
-        margin:
-      config:
-        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
