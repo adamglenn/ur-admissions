@@ -98,29 +98,6 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
-  - _bookshop_name: design-system/section/article-collection
-    heading: Article Collection Heading Is It Fast?
-    subheading: Subheading goes here. Is it fast?
-    article_tags:
-      - featured
-      - Custom Label
-    postscript:
-      copy: Test postscript.
-      ctas:
-        - text: CTA
-          icon: book
-          url:
-    settings:
-      styles:
-        background_c:
-      layout:
-        margin:
-        buffer:
-      config:
-        edit_mode_only: false
-        include_heading_postscript: true
-        limit:
-        show_content: false
   - _bookshop_name: design-system/section/cards
     heading: Heading Test
     subheading: Subheading.
@@ -183,6 +160,24 @@ content_blocks:
         tint_shade:
         panel_font:
         accent_c:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/cta-banner
+    heading: Heading
+    subheading: Subheading goes here.
+    buttons:
+      - text: Button Text
+        url: https://www.wvu.edu
+        icon: book
+        button_c: wvu-gold
+    settings:
+      styles:
+        background_c:
+        buttons_c:
+      layout:
+        margin:
+        buffer:
       config:
         edit_mode_only: false
         include_heading_postscript: true
