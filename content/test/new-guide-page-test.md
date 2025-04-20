@@ -181,6 +181,140 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/section/columns-2-1
+    heading: Heading Test
+    subheading: Subheading goes here.
+    column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: According to Adam
+          stat: 95%
+          post: of statistics are made up
+          source: Adam
+      config:
+        edit_mode_only: false
+      styles:
+    column_b:
+      _bookshop_name: design-system/column_sm/factoids
+      heading: By the Numbers
+      items:
+        - pre: Pre text
+          stat: 95%
+          post: Post text.
+          source: Source
+      config:
+        edit_mode_only: false
+        source:
+          disable: false
+      styles:
+        container:
+          margin_bottom: mb-4
+        factoid:
+          font: wvu-shout
+          size: display-1
+          color: text-wvu-gold
+        divider:
+    postscript:
+      copy: Copy
+      ctas:
+        - text: CTA
+          icon: book
+          url:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/columns-2
+    heading: Heading
+    subheading: Subheading goes here.
+    column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: According to Adam
+          stat: 95%
+          post: of statistics are made up.
+          source: Adam
+      config:
+        edit_mode_only: false
+      styles:
+    column_aa:
+      _bookshop_name: design-system/column/youtube-video
+      heading: Featured Video
+      title: Video Title
+      description: Video description.
+      video_id: EMhV-NvxrAo
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/columns-2-1-1
+    heading: Heading
+    subheading: Subheading goes here.
+    column_a:
+      _bookshop_name: design-system/column/factoids
+      heading: By the Numbers
+      items:
+        - pre: According to Adam
+          stat: 95%
+          post:
+          source:
+      config:
+        edit_mode_only: false
+      styles:
+    column_b:
+      _bookshop_name: design-system/column_sm/factoids
+      heading: By the Numbers
+      items:
+        - pre: Pre text
+          stat: 95%
+          post: Post text.
+          source: Source
+      config:
+        edit_mode_only: false
+        source:
+          disable: false
+      styles:
+        container:
+          margin_bottom: mb-4
+        factoid:
+          font: wvu-shout
+          size: display-1
+          color: text-wvu-gold
+        divider:
+    column_c:
+      _bookshop_name: design-system/column_sm/poster
+      heading: Headline
+      subheading: Subheading goes here.
+      body: Here is some body copy.
+      ctas:
+        - text: CTA
+          url:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
