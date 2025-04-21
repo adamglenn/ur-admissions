@@ -163,9 +163,20 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/generic/separator
+    separator_c: wvu-gold
+    settings:
+      styles:
+        background_c: wvu-blue
+      layout:
+        margin:
+        padding: py-xl-0 py-xxl-0
+      config:
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/cta-banner
     heading: Heading
     subheading: Subheading goes here.
+    text:
     buttons:
       - text: Button Text
         url: https://www.wvu.edu

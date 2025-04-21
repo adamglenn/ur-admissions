@@ -478,6 +478,13 @@ _inputs:
   excerpt:
     type: markdown
     cascade: true
+  faculty_member:
+    type: select
+    options:
+      allow_empty: false
+      values: data.people_data[?(@.type == "faculty-profile")]
+      value_key: uuid
+    cascade: true
   file:
     type: file
     cascade: true

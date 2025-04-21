@@ -27,6 +27,8 @@ faculty_files:
     name: Download CV
     file:
     icon: download-pdf
+tags:
+  - Eberly Faculty
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
   styles:

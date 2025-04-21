@@ -17,6 +17,7 @@ is_contact: true
 faculty_files:
 dir_include: true
 is_contact: true
+tags: []
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
   styles:
