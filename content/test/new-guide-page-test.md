@@ -326,6 +326,24 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/section/faculty-members
+    heading: Heading
+    subheading: Subheading goes here.
+    tags:
+      - Eberly Faculty
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+        show_content: false
 uuid: 68221203-9475-44af-afa0-b4d81543c569
 type: guide-test
 ---
