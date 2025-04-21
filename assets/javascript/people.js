@@ -37,6 +37,8 @@ var walk = function(dir, done) {
                         profile_image: doc.attributes.profile_image,
                         graduation_year: doc.attributes.graduation_year,
                         hometown: doc.attributes.hometown,
+                        tags: doc.attributes.tags,
+                        type: doc.attributes.type,
                         path: local_path
                     }
                     let collection_name = path.basename(dir); // Get directory name as collection name
