@@ -1,0 +1,8 @@
+_schema: sitewide_quicklinks
+heading: Socials
+links:
+  - text: WVU Extension
+    icon: fab fa-facebook-square
+    url: https://www.facebook.com/WVUExtension/
+config:
+  edit_mode_only: false
