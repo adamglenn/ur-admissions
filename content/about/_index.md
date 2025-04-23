@@ -4,9 +4,10 @@ title: About
 description:
 cascade:
   secondary_nav:
-    title:
-    menu_id:
+    title: About
+    menu_id: about
 topper:
+  _bookshop_name: design-system/topper/default
 detail_blocks:
   - _bookshop_name: design-system/column/lead-text
     text: >-
