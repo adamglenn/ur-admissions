@@ -8,7 +8,13 @@ default_content_blocks:
     links:
       - text: Default Link 1
         url: /test
+    settings:
+      styles: {}
+      layout: {}
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
     config:
-      edit_mode_only: false
+      edit_mode_only: true
     margin: ''
 ---

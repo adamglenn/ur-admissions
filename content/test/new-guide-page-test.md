@@ -44,10 +44,10 @@ content_blocks:
       ctas:
     settings:
       styles:
-        background_c: wvu-blue
+        background_c: wvu-accent--blue-light
       layout:
         butter:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -154,7 +154,7 @@ content_blocks:
     settings:
       layout:
         buffer:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       styles:
         background_c:
         tint_shade:
