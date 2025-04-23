@@ -31,6 +31,7 @@ content_blocks:
     heading: Heading How Fast?
     subheading: Subheading goes here.
     tags:
+      - Eberly Faculty
     postscript:
       copy: Here is some copy.
       ctas:
