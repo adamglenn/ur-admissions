@@ -44,7 +44,7 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
   - _bookshop_name: design-system/section/youtube-videos
-    heading: Heading
+    heading: Heading Test
     subheading: Subheading goes here.
     videos:
       - title: Video Title
@@ -53,7 +53,7 @@ content_blocks:
       - title: Video Title
         description: Video description.
         video_id: EMhV-NvxrAo
-      - title: Video Title
+      - title: Video Title Test
         description: Video description.
         video_id: EMhV-NvxrAo
     settings:
