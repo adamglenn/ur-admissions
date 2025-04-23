@@ -48,6 +48,24 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
         show_content: false
+  - _bookshop_name: design-system/section/faculty-members
+    heading: By the Numbers How Fast?
+    subheading: Subheading goes here.
+    tags:
+      - Eberly Faculty
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+        show_content: false
 uuid: a1de2327-587c-4bae-b412-cca73de6e12b
 type: guide-test
 ---
