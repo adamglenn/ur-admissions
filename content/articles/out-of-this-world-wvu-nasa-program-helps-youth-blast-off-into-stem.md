@@ -28,7 +28,7 @@ article_blocks:
       giggles.
 
       ## Heading 2 with markdown
-      {: .text-wvu-blue }
+      {.text-wvu-blue }
 
       The students are getting lessons on gravitational waves and wave
       frequencies, courtesy of Science Behind the Sport at West Virginia

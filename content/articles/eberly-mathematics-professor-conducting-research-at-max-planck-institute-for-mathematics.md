@@ -27,8 +27,8 @@ article_topper:
   label: 'What is label? '
   show_byline: false
 article_blocks:
-  - _bookshop_name: design-system/column/rich-text
-    text: Text.
+  - _bookshop_name: component-library/components /my-custom-component
+    textalt: My new Rich Text!
   - _bookshop_name: design-system/column/rich-text
     text: >-
 
