@@ -6,8 +6,8 @@ last_name: X
 image_lg:
   src: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
   alt:
-profile_image:
-description: Description here
+profile_image: /uploads/wvu-biology-rachel-morris-lab-sample-v2.jpg
+description: Description here of profess L L Cool J
 position:
   - organization: Bergernon Lab
     title: Professor
@@ -19,6 +19,9 @@ staff_contact_info:
     label: Phone
     location: (304) 123-4567
     map_link: Life Sciences Building Morgantown WV
+  - _bookshop_name: design-system/simple/phone
+    label: Phone
+    phone_n: (304) 123-4567
 dir_include: true
 is_contact: true
 faculty_files:
@@ -29,14 +32,14 @@ faculty_files:
 faculty_profile_topper:
   _bookshop_name: design-system/topper/faculty-profile
   styles:
-    vibe: down-to-business
-    background_c:
-    gradient_1:
-    gradient_2:
+    vibe: discovery
+    background_c: bg-wvu-blue text-white
+    gradient_1: 0, 98, 163
+    gradient_2: 157, 218, 230
     gradient_3:
     heading_c:
     enable_blend: false
-    enable_pattern: false
+    enable_pattern: true
     tint_opacity: '0.5'
     container_margin:
 detail_blocks:

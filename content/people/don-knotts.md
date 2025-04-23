@@ -26,9 +26,10 @@ alumni_profile_topper:
   label:
   heading:
   subheading:
+  background_image:
   styles:
     vibe: down-to-business
-    background_c:
+    background_c: bg-wvu-neutral--cream text-dark
     heading_c:
     enable_blend: true
     enable_pattern: false
