@@ -14,7 +14,7 @@ topper:
   body_text: ''
   styles:
     vibe: down-to-business
-    background_c: bg-transparent text-dark
+    background_c: wvu-accent--blue-dark
     gradient_1: 157, 218, 230
     gradient_2: 255, 229, 57
     gradient_3: 245, 134, 114
@@ -23,6 +23,9 @@ topper:
     enable_pattern: true
     tint_opacity: '0.7'
     container_margin:
+  layout: {}
+  config:
+    show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
     title: Hello World!
@@ -38,6 +41,12 @@ content_blocks:
   - _bookshop_name: design-system/section/quicklinks
     heading: Quicklinks
     links: []
+    settings:
+      styles: {}
+      layout: {}
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
     config:
       edit_mode_only: false
     margin: ''

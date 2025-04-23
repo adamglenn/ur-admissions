@@ -12,7 +12,7 @@ detail_blocks:
 
       ## Heading
 
-      Some More Test.
+      [Some More Test](https://www.wvu.edu).
   - _bookshop_name: design-system/column/accordion
     panels:
       - title: Panel 1 Title
