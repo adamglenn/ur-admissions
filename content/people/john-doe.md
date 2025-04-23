@@ -6,8 +6,8 @@ last_name: Doe
 image_lg: /uploads/34750-s-bfp-0046-xx.jpg
 profile_image: /uploads/eric-black-upsher.jpg
 description:
-college: WVU
-school: Davis
+college: Davis
+school: CED
 majors:
   - Plant and Soil Sciences
 occupation:
