@@ -43,6 +43,28 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+  - _bookshop_name: design-system/section/youtube-videos
+    heading: Heading
+    subheading: Subheading goes here.
+    videos:
+      - title: Video Title
+        description: Video description.
+        video_id: EMhV-NvxrAo
+      - title: Video Title
+        description: Video description.
+        video_id: EMhV-NvxrAo
+      - title: Video Title
+        description: Video description.
+        video_id: EMhV-NvxrAo
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
 uuid: 90698143-7136-4400-9973-c1360fb26b93
 type: guide-test
 ---
