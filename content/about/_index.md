@@ -5,7 +5,7 @@ description:
 cascade:
   secondary_nav:
     title: About
-    menu_id: how-to-apply-subnav
+    menu_id: about
 topper:
   _bookshop_name: design-system/topper/default
 detail_blocks:
