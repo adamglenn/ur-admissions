@@ -1,0 +1,13 @@
+_schema: horizontal_subnav
+title: About
+background_c: bg-wvu-accent--sunset text-dark
+label_c: wvu-accent--blue-light
+text_c: wvu-neutral--off-white
+menu_items:
+  - text: Details
+    url: /about/new-detail-page/
+    weight: '2'
+  - text: Guide
+    url: /about/test-guide-page/
+    weight: '1'
+uuid: 3fd0a7ea-837c-43e1-a67e-09351b0d5ede
