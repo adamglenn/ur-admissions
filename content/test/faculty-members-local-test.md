@@ -54,8 +54,11 @@ content_blocks:
     tags:
       - Eberly Faculty
     postscript:
-      copy:
+      copy: Here is some copy.
       ctas:
+        - text: CTA
+          icon: book
+          url:
     settings:
       styles:
         background_c:
