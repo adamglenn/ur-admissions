@@ -4,7 +4,7 @@ title: About
 description:
 cascade:
   secondary_nav:
-    title: About
+    title: About Menu
     menu_id: about
 topper:
   _bookshop_name: design-system/topper/default
