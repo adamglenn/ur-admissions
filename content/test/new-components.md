@@ -39,6 +39,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-5
       config:
         edit_mode_only: false
         include_heading_postscript: false
