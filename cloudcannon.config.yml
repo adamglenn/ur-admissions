@@ -668,6 +668,10 @@ _inputs:
       allow_empty: true
       values: _structures.social_media_accounts
     cascade: true
+  social_media_platforms:
+    type: select
+    options:
+      values: _select_data.social_media_platforms
   src:
     type: image
     cascade: true
@@ -850,6 +854,11 @@ _select_data:
       class: wvu-bg-pattern-grid
     - name: WV Pattern Grid - Zoomed
       class: wvu-bg-pattern-grid-zoomed
+  social_media_platforms:
+    - Facebook
+    - Instagram
+    - Twitter / X
+    - YouTube
   tint_opacities:
     - name: None
       value: '0.0'
