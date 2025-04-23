@@ -37,6 +37,9 @@ content_blocks:
     ctas: []
     config:
       edit_mode_only: false
+  - _bookshop_name: design-system/section/sitewide-section
+    sitewide_section: socials
+    show_content: true
 uuid: a1d268c3-48fb-4498-9e07-84a060ead92f
 type: guide
 ---
