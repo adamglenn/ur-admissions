@@ -59,6 +59,6 @@ content_blocks:
     config:
       edit_mode_only: false
   - _bookshop_name: design-system/section/sitewide-section
-    sitewide_section: socials
+    sitewide_section: new-sitewide component
     show_content: true
 ---
