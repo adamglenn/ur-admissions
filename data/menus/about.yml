@@ -2,7 +2,7 @@ _schema: horizontal_subnav
 title: About
 background_c: bg-wvu-accent--sunset text-dark
 label_c: wvu-accent--blue-light
-text_c: wvu-neutral--off-white
+text_c:
 menu_items:
   - text: Details
     url: /about/new-detail-page/
