@@ -10,4 +10,13 @@ menu_items:
   - text: First-Time Freshmen
     url: /how-to-apply/first-time-freshmen/
     weight:
+  - text: Detail Page Demo
+    url: /how-to-apply/detail-page-demo/
+    weight:
+  - text: New Guide Page
+    url: /how-to-apply/new-guide-page/
+    weight:
+  - text: Detail Index Page
+    url: /how-to-apply/detail-page-index-demo/
+    weight:
 uuid: how-to-apply-subnav
