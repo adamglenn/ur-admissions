@@ -48,29 +48,8 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
         show_content: false
-  - _bookshop_name: design-system/section/faculty-members
-    heading: By the Numbers How Fast?
-    subheading: Subheading goes here.
-    tags:
-      - Eberly Faculty
-    postscript:
-      copy: Here is some copy.
-      ctas:
-        - text: CTA
-          icon: book
-          url:
-    settings:
-      styles:
-        background_c:
-      layout:
-        margin:
-        buffer:
-      config:
-        edit_mode_only: false
-        include_heading_postscript: true
-        show_content: false
   - _bookshop_name: design-system/section/place
-    heading: Heading How Fast?
+    heading: Heading How Fast? Now How Fast?
     subheading: Subheading goes here.
     image: /uploads/34750-s-bfp-0046-xx.jpg
     alt_text:
