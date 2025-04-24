@@ -69,6 +69,24 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
         show_content: false
+  - _bookshop_name: design-system/section/place
+    heading: Heading How Fast?
+    subheading: Subheading goes here.
+    image: /uploads/34750-s-bfp-0046-xx.jpg
+    alt_text:
+    text: Descriptive text goes here.
+    ctas:
+      - text: Call to Action
+        url:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: a1de2327-587c-4bae-b412-cca73de6e12b
 type: guide-test
 ---
