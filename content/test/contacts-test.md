@@ -47,7 +47,7 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
-        show_content: false
+        show_content: true
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
