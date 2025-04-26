@@ -27,6 +27,27 @@ topper:
   config:
     show_label: true
 content_blocks:
+  - _bookshop_name: design-system/section/contacts
+    heading: Heading Test
+    subheading: Subheading goes here.
+    contacts:
+      - label: For Inquiries, Contact
+        contact: 07f49af1-f0b0-4317-ae68-f8723a608c7a
+      - label: For Inquiries, Contact
+        contact: 7e020d75-66f0-4628-8b44-f75931dd8bcf
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+        show_content: false
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
