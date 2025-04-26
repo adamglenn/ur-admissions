@@ -3,6 +3,7 @@ _schema: article
 title: My New Article
 subheading: Subheading.
 description:
+image:
 excerpt: ''
 publishDate: 2025-03-18T22:34:56-04:00
 authors:
