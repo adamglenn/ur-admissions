@@ -37,6 +37,7 @@ var walk = function(dir, done) {
                         profile_image: doc.attributes.profile_image,
                         graduation_year: doc.attributes.graduation_year,
                         hometown: doc.attributes.hometown,
+                        staff_contact_info: doc.attributes.staff_contact_info,
                         tags: doc.attributes.tags,
                         type: doc.attributes.type,
                         path: local_path
