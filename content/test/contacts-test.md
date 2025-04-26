@@ -61,7 +61,12 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
-        show_content: true
+        show_content: false
+    heading: Article Collection Heading
+    subheading: Subheading goes here.
+    postscript:
+      copy: ''
+      ctas:
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
