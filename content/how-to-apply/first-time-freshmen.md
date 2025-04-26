@@ -23,14 +23,6 @@ detail_blocks:
         panel_text: Panel 1 text.
   - _bookshop_name: design-system/column/alert
     text: Text.
-  - _bookshop_name: design-system/column/buttons
-    buttons:
-      - text: Button Text
-        url:
-        button_c: wvu-accent--blue
-      - text: Another CTA
-        url:
-        button_c: wvu-accent--old-gold
   - _bookshop_name: design-system/column/faqs
     heading: Frequently Asked Questions
     items:
@@ -61,6 +53,14 @@ detail_blocks:
     title: Video Title
     description: Video description.
     video_id: EMhV-NvxrAo
+  - _bookshop_name: design-system/column/buttons
+    buttons:
+      - text: Button Text
+        url:
+        button_c: wvu-blue
+      - text: CTA
+        url:
+        button_c: wvu-gold
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
