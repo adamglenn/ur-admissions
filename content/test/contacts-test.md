@@ -28,7 +28,7 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/contacts
-    heading: Heading Test
+    heading: Heading Test How Fast?
     subheading: Subheading goes here.
     contacts:
       - label: For Inquiries, Contact
@@ -47,7 +47,7 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
-        show_content: true
+        show_content: false
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
