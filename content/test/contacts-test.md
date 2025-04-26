@@ -49,13 +49,8 @@ content_blocks:
         include_heading_postscript: true
         show_content: false
   - _bookshop_name: design-system/section/article-tease
-    heading: Article Collection Heading
-    subheading: Subheading goes here.
     article_tags:
       - Custom Label
-    postscript:
-      copy:
-      ctas:
     settings:
       styles:
         background_c:
