@@ -6,7 +6,7 @@ last_name: X
 image_lg:
   src: /uploads/34750-s-bfp-0046-xx.jpg
   alt:
-profile_image:
+profile_image: /uploads/34750-s-bfp-0046-xx.jpg
 description:
 position:
   - organization: Organization
