@@ -49,13 +49,8 @@ content_blocks:
         include_heading_postscript: true
         show_content: false
   - _bookshop_name: design-system/section/article-tease
-    heading: Article Collection Heading
-    subheading: Subheading goes here.
     article_tags:
       - Custom Label
-    postscript:
-      copy:
-      ctas:
     settings:
       styles:
         background_c:
@@ -66,7 +61,12 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
-        show_content: true
+        show_content: false
+    heading: Article Collection Heading
+    subheading: Subheading goes here.
+    postscript:
+      copy: ''
+      ctas:
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
