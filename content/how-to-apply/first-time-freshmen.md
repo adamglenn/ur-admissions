@@ -23,14 +23,14 @@ detail_blocks:
         panel_text: Panel 1 text.
   - _bookshop_name: design-system/column/alert
     text: Text.
-  - _bookshop_name: design-system/column/cta-stack
+  - _bookshop_name: design-system/column/buttons
     buttons:
       - text: Button Text
         url:
-        color: wvu-accent--blue
+        button_c: wvu-accent--blue
       - text: Another CTA
         url:
-        color: wvu-accent--old-gold
+        button_c: wvu-accent--old-gold
   - _bookshop_name: design-system/column/faqs
     heading: Frequently Asked Questions
     items:
