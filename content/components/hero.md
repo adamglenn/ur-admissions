@@ -29,7 +29,6 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/hero
     heading: Heading
-    subheading:
     background_image:
     alt_text:
     lead: Here is my lead text.
@@ -41,7 +40,7 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        background_c:
+        background_c: dark
       layout:
         margin:
         buffer:

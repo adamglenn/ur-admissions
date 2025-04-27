@@ -64,7 +64,7 @@ content_blocks:
         show_content: false
   - _bookshop_name: design-system/section/quote
     quote_text: Here is my quote text.
-    author:
+    quote_author: Firstname Lastname
     title: Title
     settings:
       styles:
