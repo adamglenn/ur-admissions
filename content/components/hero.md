@@ -1,5 +1,6 @@
 ---
-title: New Guide Page
+_schema: guide_page_test
+title: Hero
 description:
 topper:
   _bookshop_name: design-system/topper/hero
@@ -49,5 +50,4 @@ content_blocks:
         include_heading_postscript: false
 uuid: 7ca95498-11f0-40ad-8638-ffc3385b767a
 type: guide-test
-_schema: guide_page_test
 ---
