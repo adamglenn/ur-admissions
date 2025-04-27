@@ -62,6 +62,20 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
         show_content: false
+  - _bookshop_name: design-system/section/quote
+    quote_text: Here is my quote text.
+    author:
+    title: Title
+    settings:
+      styles:
+        background_c:
+        quotemark_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: 9ccdd1fd-e338-4a06-b168-985f93733e98
 type: guide-test
 ---
