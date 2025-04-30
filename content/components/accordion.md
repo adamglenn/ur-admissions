@@ -45,7 +45,7 @@ content_blocks:
         ctas:
     settings:
       styles:
-        background_c: wvu-accent--yellow
+        background_c: wvu-accent--sunset
       layout:
         butter:
         margin:
