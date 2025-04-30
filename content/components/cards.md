@@ -1,4 +1,5 @@
 ---
+_schema: guide_page_test
 title: Cards
 description:
 topper:
@@ -42,6 +43,15 @@ content_blocks:
             url:
         background_c: wvu-accent--blue-light
         accent_c:
+      - title: Item 1 Title
+        image:
+        alt_text:
+        label:
+        badge:
+        text: Item 1 text.
+        ctas:
+        background_c:
+        accent_c:
     postscript:
       copy:
       ctas:
@@ -59,5 +69,4 @@ content_blocks:
         include_heading_postscript: true
 uuid: f591c652-03d4-466f-9d7e-242ec2722bf7
 type: guide-test
-_schema: guide_page_test
 ---
