@@ -41,10 +41,15 @@ content_blocks:
       - topic: Second Topic
         description: Another description.
         items: []
-    config:
-      edit_mode_only: false
-    styles:
-      margin:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: 125799f9-331b-47d4-baa2-a2026deaeef0
 type: guide-test
 ---
