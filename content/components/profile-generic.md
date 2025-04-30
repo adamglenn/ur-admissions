@@ -1,4 +1,5 @@
 ---
+_schema: guide_page_test
 title: Profile - Generic
 description:
 topper:
@@ -29,7 +30,7 @@ content_blocks:
   - _bookshop_name: design-system/section/profile-generic
     heading: Heading
     name: Firstname Lastname
-    image:
+    image: /uploads/jillian.png
     label:
       - Label
     info:
@@ -37,10 +38,10 @@ content_blocks:
     ctas:
     settings:
       styles:
-        audience: alumni
+        audience: prospective_students
         background_c:
       layout:
-        is_cutout: false
+        is_cutout: true
         margin_no_bg:
         buffer:
         padding: py-0
@@ -49,5 +50,4 @@ content_blocks:
         include_heading_postscript: false
 uuid: bc8fe71f-4aec-47b9-8371-9a32d496b479
 type: guide-test
-_schema: guide_page_test
 ---
