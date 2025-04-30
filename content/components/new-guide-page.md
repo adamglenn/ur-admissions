@@ -1,5 +1,6 @@
 ---
-title: New Guide Page
+_schema: guide_page_test
+title: Link Lists
 description:
 topper:
   _bookshop_name: design-system/topper/hero
@@ -46,5 +47,4 @@ content_blocks:
       margin:
 uuid: 125799f9-331b-47d4-baa2-a2026deaeef0
 type: guide-test
-_schema: guide_page_test
 ---
