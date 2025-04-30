@@ -23,7 +23,9 @@ detail_blocks:
         url:
         button_c: wvu-accent--yellow
   - _bookshop_name: design-system/column/alert
-    text: Text. Here is my text.
+    heading: Heading
+    text: Text.
+    alert_type: Success
 detail_sidebar_blocks:
 uuid: fecd2cb1-f317-4b80-af28-95142792c799
 type: detail
