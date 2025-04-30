@@ -1,4 +1,5 @@
 ---
+_schema: detail_page
 title: New Detail Page
 description:
 topper:
@@ -21,8 +22,9 @@ detail_blocks:
       - text: Another Button?!
         url:
         button_c: wvu-accent--yellow
+  - _bookshop_name: design-system/column/alert
+    text: Text. Here is my text.
 detail_sidebar_blocks:
 uuid: fecd2cb1-f317-4b80-af28-95142792c799
 type: detail
-_schema: detail_page
 ---
