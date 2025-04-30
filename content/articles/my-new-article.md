@@ -16,7 +16,7 @@ article_topper:
   show_byline: false
 article_blocks:
   - _bookshop_name: design-system/column/rich-text
-    text:
+    text: How fast is this? Can I type really fast?
 show_author_bios: true
 uuid: 9c043433-8b7d-4d50-bdff-36cf6d878212
 type: articles
