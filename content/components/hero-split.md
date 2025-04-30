@@ -39,11 +39,12 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        background_c: dark
+        background_c:
       layout:
         text_align:
         margin:
         buffer:
+        padding: py-0
       config:
         edit_mode_only: false
         include_heading_postscript: false
