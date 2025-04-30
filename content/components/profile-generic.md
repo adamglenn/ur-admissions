@@ -37,7 +37,7 @@ content_blocks:
     ctas:
     settings:
       styles:
-        audience:
+        audience: alumni
         background_c:
       layout:
         is_cutout: false
