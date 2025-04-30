@@ -47,9 +47,7 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        background_c: wvu-neutral--cream
-        card_c: wvu-accent--yellow
-        accent_c: wvu-accent--sunset
+        color_palette: option_1
       layout:
         is_cutout: true
         margin_no_bg:

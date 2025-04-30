@@ -1,9 +1,30 @@
 alumni:
   heading: "iowan-old-style-black-italic"
   label_style:
+  color_palettes:
+    option_1:
+      card_c:
+      accent_c:
+    option_2:
+      card_c:
+      accent_c:
 general:
   heading: ""
   label_style:
+  color_palettes:
+    option_1:
+      card_c:
+      accent_c:
+    option_2:
+      card_c:
+      accent_c:
 prospective_students:
   heading: "oliviar-black"
   label_style: "transform: rotate(-2deg)"
+  color_palettes:
+    option_1:
+      card_c: wvu-accent--blue
+      accent_c: wvu-accent--yellow
+    option_2:
+      card_c:
+      accent_c:
