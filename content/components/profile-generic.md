@@ -38,12 +38,18 @@ content_blocks:
       - Morgantown, WV
       - Chemical Engineering
     ctas:
+      - text: College of Creative Arts and Media
+        icon:
+        url:
+      - text: Cool News Story
+        icon:
+        url:
     settings:
       styles:
         audience: prospective_students
         background_c: wvu-neutral--cream
-        card_c: wvu-accent--sunset
-        accent_c: wvu-accent--old-gold
+        card_c: wvu-accent--yellow
+        accent_c: wvu-accent--sunset
       layout:
         is_cutout: true
         margin_no_bg:
