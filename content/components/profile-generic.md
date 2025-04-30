@@ -39,12 +39,14 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        background_c:
+        background_c: wvu-accent--blue
+        card_c: 
+        accent_c: wvu-accent--yellow
       layout:
         is_cutout: true
         margin_no_bg:
         buffer:
-        padding: py-0
+        padding:
       config:
         edit_mode_only: false
         include_heading_postscript: false
