@@ -32,16 +32,18 @@ content_blocks:
     name: Firstname Lastname
     image: /uploads/jillian.png
     label:
-      - Label
+      - Class of 2026
+      - Another Label
     info:
       - Morgantown, WV
+      - Chemical Engineering
     ctas:
     settings:
       styles:
         audience: prospective_students
-        background_c: wvu-accent--blue
-        card_c: 
-        accent_c: wvu-accent--yellow
+        background_c: wvu-neutral--cream
+        card_c: wvu-accent--sunset
+        accent_c: wvu-accent--old-gold
       layout:
         is_cutout: true
         margin_no_bg:
