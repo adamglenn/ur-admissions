@@ -37,6 +37,7 @@ content_blocks:
     info:
       - Morgantown, WV
       - Chemical Engineering
+      - Biology
     copy: |
       Here is some test copy.
     ctas:
@@ -48,8 +49,8 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: alumni
-        color_palette: medium
+        audience: prospective_students
+        color_palette: loud
       layout:
         is_cutout: true
         margin_no_bg:
