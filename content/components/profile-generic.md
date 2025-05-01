@@ -48,7 +48,7 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: Alumni
+        audience: alumni
         color_palette: medium
       layout:
         is_cutout: true
