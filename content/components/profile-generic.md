@@ -37,7 +37,7 @@ content_blocks:
     info:
       - Morgantown, WV
       - Chemical Engineering
-    copy: >
+    copy: |
       Here is some test copy.
     ctas:
       - text: College of Creative Arts and Media
@@ -48,8 +48,8 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: prospective_students
-        color_palette: loud
+        audience: Alumni
+        color_palette: medium
       layout:
         is_cutout: true
         margin_no_bg:
