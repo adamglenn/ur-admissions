@@ -53,7 +53,7 @@ content_blocks:
         color_palette: loud
       layout:
         is_cutout: true
-        margin_no_bg:
+        margin_no_bg: mt-n9
         buffer:
         padding:
       config:
