@@ -1,30 +1,48 @@
 alumni:
-  heading: "iowan-old-style-black-italic"
-  label_style:
+  heading: "iowan-old-style-black"
+  label: "oliviar-thin text-uppercase"
   color_palettes:
-    option_1:
-      card_c:
-      accent_c:
-    option_2:
-      card_c:
-      accent_c:
+    subtle:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    medium:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    loud:
+      card_c: wvu-gold
+      accent_c: wvu-blue
+      pattern_c:
 general:
-  heading: ""
-  label_style:
+  heading: "wvu-shout"
+  label:
   color_palettes:
-    option_1:
+    subtle:
       card_c:
       accent_c:
-    option_2:
+      pattern_c:
+    medium:
       card_c:
       accent_c:
+      pattern_c:
+    loud:
+      card_c:
+      accent_c:
+      pattern_c:
 prospective_students:
   heading: "oliviar-black"
-  label_style: "transform: rotate(-2deg)"
+  label: "d-inline-block oliviar-black h5 text-uppercase wvu-container-box-skewed-3 bg-wvu-gold p-3 pb-2 me-n3 ms-n4 mb-3 mt-n5 wvu-tilt-left"
   color_palettes:
-    option_1:
-      card_c: wvu-accent--blue
+    subtle:
+      card_c: wvu-accent--blue-dark
       accent_c: wvu-accent--yellow
-    option_2:
+      pattern_c:
+    medium:
       card_c:
       accent_c:
+      pattern_c:
+    loud:
+      card_c: gradient-wvu-blue-accent-blue-accent-blue-light
+      accent_c: wvu-accent--yellow
+      pattern_c: wvu-accent--blue-light
