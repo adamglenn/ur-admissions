@@ -15,9 +15,60 @@ alumni:
       card_c: wvu-gold
       accent_c: wvu-blue
       pattern_c:
+current_students:
+  heading: "iowan-old-style-black"
+  label: "oliviar-thin text-uppercase"
+  info:
+  color_palettes:
+    subtle:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    medium:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    loud:
+      card_c: wvu-gold
+      accent_c: wvu-blue
+      pattern_c:
+faculty_staff:
+  heading: "iowan-old-style-black"
+  label: "oliviar-thin text-uppercase"
+  info:
+  color_palettes:
+    subtle:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    medium:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    loud:
+      card_c: wvu-gold
+      accent_c: wvu-blue
+      pattern_c:
 general:
   heading: "wvu-shout"
   label: helvetica-neue-light
+  info:
+  color_palettes:
+    subtle:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    medium:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    loud:
+      card_c: wvu-gold
+      accent_c: wvu-blue
+      pattern_c:
+parents:
+  heading: "iowan-old-style-black"
+  label: "oliviar-thin text-uppercase"
   info:
   color_palettes:
     subtle:
@@ -49,3 +100,20 @@ prospective_students:
       card_c: gradient-wvu-blue-accent-blue-accent-blue-light
       accent_c: wvu-accent--yellow
       pattern_c: wvu-accent--blue-light
+state_leaders:
+  heading: "iowan-old-style-black"
+  label: "oliviar-thin text-uppercase"
+  info:
+  color_palettes:
+    subtle:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    medium:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
+    loud:
+      card_c: wvu-gold
+      accent_c: wvu-blue
+      pattern_c:
