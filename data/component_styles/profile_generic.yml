@@ -1,6 +1,7 @@
 alumni:
   heading: "iowan-old-style-black"
   label: "oliviar-thin text-uppercase"
+  info:
   color_palettes:
     subtle:
       card_c: wvu-blue
@@ -16,23 +17,25 @@ alumni:
       pattern_c:
 general:
   heading: "wvu-shout"
-  label:
+  label: helvetica-neue-light
+  info:
   color_palettes:
     subtle:
-      card_c:
-      accent_c:
-      pattern_c:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
     medium:
-      card_c:
-      accent_c:
-      pattern_c:
+      card_c: wvu-blue
+      accent_c: wvu-gold
+      pattern_c: white
     loud:
-      card_c:
-      accent_c:
+      card_c: wvu-gold
+      accent_c: wvu-blue
       pattern_c:
 prospective_students:
   heading: "oliviar-black"
   label: "d-inline-block oliviar-black h5 text-uppercase wvu-container-box-skewed-3 bg-wvu-gold p-3 pb-2 me-n3 ms-n4 mb-3 mt-n5 wvu-tilt-left"
+  info:
   color_palettes:
     subtle:
       card_c: wvu-accent--blue-dark

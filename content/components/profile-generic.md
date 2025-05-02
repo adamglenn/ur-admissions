@@ -49,7 +49,7 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: prospective_students
+        audience: general
         color_palette: loud
       layout:
         is_cutout: true
