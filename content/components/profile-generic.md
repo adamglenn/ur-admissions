@@ -27,41 +27,9 @@ topper:
   config:
     show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/profile-generic
-    heading: Heading
-    name: Firstname Lastname
-    image: /uploads/jillian.png
-    label:
-      - Class of 2026
-      - Another Label
-    info:
-      - Morgantown, WV
-      - Chemical Engineering
-      - Biology
-    copy: |
-      Here is some test copy.
-    ctas:
-      - text: College of Creative Arts and Media
-        icon:
-        url:
-      - text: Cool News Story
-        icon:
-        url:
-    settings:
-      styles:
-        audience: general
-        color_palette: loud
-      layout:
-        is_cutout: true
-        margin_no_bg: mt-n9
-        buffer:
-        padding:
-      config:
-        edit_mode_only: false
-        include_heading_postscript: false
   - _bookshop_name: design-system/section/profile-generic-css
     heading: Heading
-    name: Firstname Lastname
+    name: Firstname Lastname How Fast Are We?
     image: /uploads/jillian.png
     super_heading:
       - Class of 2026
@@ -86,6 +54,28 @@ content_blocks:
       layout:
         is_cutout: true
         margin_no_bg: mt-n9
+        buffer:
+        padding:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
+  - _bookshop_name: design-system/section/profile-generic-css
+    heading: Heading
+    name: Firstname Lastname We Still Fast?
+    image:
+    super_heading:
+      - Label
+    info:
+      - Morgantown, WV
+    copy: Here is some copy.
+    ctas:
+    settings:
+      styles:
+        audience: general
+        level: 1
+      layout:
+        is_cutout: false
+        margin_no_bg:
         buffer:
         padding:
       config:
