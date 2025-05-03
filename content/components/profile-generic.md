@@ -59,6 +59,38 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+  - _bookshop_name: design-system/section/profile-generic-css
+    heading: Heading
+    name: Firstname Lastname
+    image: /uploads/jillian.png
+    super_heading:
+      - Class of 2026
+      - Another Label
+    info:
+      - Morgantown, WV
+      - Chemical Engineering
+      - Biology
+    copy: |
+      Here is some test copy.
+    ctas:
+      - text: College of Creative Arts and Media
+        icon:
+        url:
+      - text: Cool News Story
+        icon:
+        url:
+    settings:
+      styles:
+        audience: prospective_students
+        level: 1
+      layout:
+        is_cutout: true
+        margin_no_bg: mt-n9
+        buffer:
+        padding:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
 uuid: bc8fe71f-4aec-47b9-8371-9a32d496b479
 type: guide-test
 ---
