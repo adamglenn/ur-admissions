@@ -28,6 +28,7 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
+    _component_name: profile-generic-css
     heading: Heading
     name: Firstname Lastname How Fast Are We?
     image: /uploads/jillian.png
@@ -51,6 +52,7 @@ content_blocks:
       styles:
         audience: prospective_students
         level: 1
+        card_c:
       layout:
         is_cutout: true
         margin_no_bg: mt-n9
@@ -60,6 +62,7 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
   - _bookshop_name: design-system/section/profile-generic-css
+    _component_name: profile-generic-css
     heading: Heading
     name: Firstname Lastname We Still Fast?
     image:
@@ -71,8 +74,9 @@ content_blocks:
     ctas:
     settings:
       styles:
-        audience: general
+        audience: prospective_students
         level: 1
+        card_c: option-1
       layout:
         is_cutout: false
         margin_no_bg:
