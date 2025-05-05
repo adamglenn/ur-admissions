@@ -66,3 +66,6 @@ menus:
       parent: How to Apply
       pageReg: /how-to-apply/first-time-freshmen
       weight: 90
+
+params:
+  audience: general
