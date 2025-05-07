@@ -27,7 +27,8 @@ topper:
     show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/icon-bar
-    text: Hello World!
+    heading: Heading
+    subheading: Subheading goes here.
     items:
       - icon: book
         text: Text
