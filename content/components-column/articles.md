@@ -31,6 +31,25 @@ content_blocks:
     heading: Heading
     subheading: Subheading goes here.
     column_a:
+      _bookshop_name: design-system/column/article-collection
+      heading: Article Collection Heading
+      subheading: Subheading goes here.
+      article_tags:
+        - Custom Label
+      postscript:
+        copy:
+        ctas:
+      settings:
+        styles:
+          background_c:
+        layout:
+          margin:
+          buffer:
+          max_cols:
+        config:
+          edit_mode_only: false
+          limit:
+          show_content: false
     column_b:
     column_c:
     postscript:
