@@ -47,6 +47,14 @@ detail_sidebar_blocks:
     ctas:
       - text: CTA
         url:
+  - _bookshop_name: design-system/column/link-list-panels
+    heading: Panels Heading
+    list_description: Description for panels.
+    items:
+      - text: Item
+        description: Description.
+        url:
+        icon: Download
 uuid: fecd2cb1-f317-4b80-af28-95142792c799
 type: detail
 ---
