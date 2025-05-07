@@ -33,7 +33,6 @@ content_blocks:
     column_a:
       _bookshop_name: design-system/column/article-collection
       heading: Article Collection Heading
-      subheading: Subheading goes here.
       article_tags:
         - Custom Label
       postscript:
