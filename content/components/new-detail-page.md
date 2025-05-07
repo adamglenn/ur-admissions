@@ -42,6 +42,11 @@ detail_blocks:
         alt_text: My alt text
         caption: Caption goes here.
 detail_sidebar_blocks:
+  - _bookshop_name: design-system/column_sm/cta-stack
+    heading: Helpful Links
+    ctas:
+      - text: CTA
+        url:
 uuid: fecd2cb1-f317-4b80-af28-95142792c799
 type: detail
 ---
