@@ -50,6 +50,14 @@ content_blocks:
           limit:
           show_content: false
     column_b:
+      _bookshop_name: design-system/column_sm/article-collection
+      heading: Articles
+      article_tags:
+        - Custom Label
+      limit: 5
+      config:
+        edit_mode_only: false
+        show_content: false
     column_c:
     postscript:
       copy:
