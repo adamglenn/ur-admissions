@@ -22,7 +22,9 @@ detail_blocks:
       - title: Panel 3 Title
         panel_text: Panel 1 text.
   - _bookshop_name: design-system/column/alert
+    heading: Heading
     text: Text.
+    alert_type: Info
   - _bookshop_name: design-system/column/faqs
     heading: Frequently Asked Questions
     items:
@@ -61,6 +63,24 @@ detail_blocks:
       - text: CTA
         url:
         button_c: wvu-gold
+  - _bookshop_name: design-system/column/poster
+    heading: Heading
+    subheading: Subheading goes here.
+    image:
+    alt_text:
+    body: Test.
+    ctas:
+      - text: CTA
+        icon:
+        url:
+    postscript_links:
+    settings:
+      styles:
+        background_c:
+      layout:
+        text_align:
+      config:
+        edit_mode_only: false
 detail_sidebar_blocks:
   - _bookshop_name: design-system/column_sm/jump-links
     items:
