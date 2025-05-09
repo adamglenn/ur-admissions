@@ -1,10 +1,11 @@
 ---
+_schema: guide_page_test
 title: Alternating Grid
 description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text: ''
   heading:
     - text: Heading
@@ -13,12 +14,12 @@ topper:
   body_text: ''
   settings:
     styles:
-      background_c:
+      background_c: wvu-blue
       gradient:
       heading_c:
       enable_blend: false
       enable_pattern: false
-      tint_opacity: "0.5"
+      tint_opacity: '0.5'
     layout:
       margin:
       buffer:
@@ -27,7 +28,7 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Alternating Grid Heading
+    heading: Alternating Grid Heading Test
     subheading: Subheading goes here.
     items:
       - heading: Item Heading
@@ -49,5 +50,4 @@ content_blocks:
         include_heading_postscript: true
 uuid: 9feccfd1-f0f8-4e92-9f3e-1e6cd8c9b097
 type: guide-test
-_schema: guide_page_test
 ---
