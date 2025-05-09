@@ -11,17 +11,20 @@ topper:
       highlight: ''
   subheading: Subheading.
   body_text: ''
-  styles:
-    vibe: down-to-business
-    background_c: null
-    gradient_1: null
-    gradient_2: null
-    gradient_3: null
-    heading_c: null
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
-    container_margin: null
+  settings:
+    styles:
+      background_c:
+      gradient:
+      heading_c:
+      enable_blend: false
+      enable_pattern: false
+      tint_opacity: "0.5"
+    layout:
+      margin:
+      buffer:
+      text_placement:
+    config:
+      show_label: true
 cascade:
   secondary_nav:
     title: null

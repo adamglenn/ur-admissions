@@ -12,20 +12,20 @@ topper:
       highlight:
   subheading: Subheading goes here.
   body_text: ''
-  styles:
-    vibe: down-to-business
-    background_c: wvu-accent--blue-dark
-    gradient_1: 157, 218, 230
-    gradient_2: 255, 229, 57
-    gradient_3: 245, 134, 114
-    heading_c: wvu-accent--blue-dark
-    enable_blend: true
-    enable_pattern: true
-    tint_opacity: '0.7'
-    container_margin:
-  layout: {}
-  config:
-    show_label: true
+  settings:
+    styles:
+      background_c:
+      gradient:
+      heading_c:
+      enable_blend: false
+      enable_pattern: false
+      tint_opacity: "0.5"
+    layout:
+      margin:
+      buffer:
+      text_placement:
+    config:
+      show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/jump-links
     title: Hello World!

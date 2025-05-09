@@ -3,7 +3,7 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
   heading:
     - text: It Starts Now Test.
@@ -12,21 +12,20 @@ topper:
   body_text: >-
     Here is some body text. Here is some **bold text**. Here is [a
     link](https://www.wvu.edu).
-  styles:
-    vibe: wvu-experience
-    background_c: bg-wvu-blue text-white
-    gradient_1:
-    gradient_2:
-    gradient_3:
-    heading_c: wvu-gold
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: '0.5'
-    container_margin: my-6
-  layout:
-    container_margin: mb-6
-  config:
-    show_label: false
+  settings:
+    styles:
+      background_c: wvu-blue
+      gradient: 
+      heading_c: wvu-gold
+      enable_blend: true
+      enable_pattern: false
+      tint_opacity: "0.5"
+    layout:
+      margin:
+      buffer:
+      text_placement:
+    config:
+      show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/page-collection
     heading: Heading

@@ -8,14 +8,20 @@ topper:
   heading:
     - text: Heading
   subheading: Subheading
-  styles:
-    vibe: down-to-business
-    background_c:
-    heading_c:
-    enable_blend: false
-    enable_pattern: false
-    tint_opacity: 0.5
-    margin:
+  settings:
+    styles:
+      background_c:
+      gradient:
+      heading_c:
+      enable_blend: false
+      enable_pattern: false
+      tint_opacity: "0.5"
+    layout:
+      margin:
+      buffer:
+      text_placement:
+    config:
+      show_label: true
 detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
