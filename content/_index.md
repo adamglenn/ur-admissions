@@ -24,10 +24,10 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Am I still fast? How fast can I type?
+    heading: Is this fast?
     subheading: How fast can we type?
     items:
-      - heading: How fast can I type?
+      - heading: How fast are we?
         image: /uploads/34750-s-bfp-0046-xx.jpg
         alt_text:
         copy: ''
@@ -52,7 +52,11 @@ content_blocks:
     column_a:
       _bookshop_name: design-system/column/factoids
       heading: By the Numbers are we fast? How fast?
-      items: []
+      items:
+        - pre: According to Adam
+          stat: 95%
+          post: of statistics are made up
+          source: Adam
       config:
         edit_mode_only: false
       styles:
