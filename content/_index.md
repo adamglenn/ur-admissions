@@ -1,29 +1,8 @@
 ---
 title: Home
 content_blocks:
-  - _bookshop_name: design-system/topper/hero
-    label: Test Label
-    background_image: /uploads/34750-s-bfp-0046-xx.jpg
-    alt_text:
-    heading: Heading How fast is this?
-    subheading: How fast can we type?
-    body_text: ''
-    settings:
-      styles:
-        background_c:
-        gradient:
-        heading_c:
-        enable_blend: false
-        enable_pattern: false
-        tint_opacity: '0.5'
-      layout:
-        margin:
-        buffer:
-        text_placement:
-      config:
-        show_label: true
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: How fast acan we type?
+    heading: How fast can I type?
     subheading: How fast can we type?
     items:
       - heading: How fast can I type?
@@ -55,6 +34,14 @@ content_blocks:
         edit_mode_only: false
       styles:
     column_b:
+      _bookshop_name: design-system/column_sm/contacts
+      heading: Contacts How fast can I type?
+      people:
+        - label: For Inquiries, Contact
+          contact: 7e020d75-66f0-4628-8b44-f75931dd8bcf
+      config:
+        edit_mode_only: false
+        show_content: false
     column_c:
     postscript:
       copy:
@@ -74,6 +61,48 @@ content_blocks:
       config:
         show_label: true
         include_heading_postscript: true
+  - _bookshop_name: design-system/section/alternating-grid-test-2
+    heading: Alternating Grid Heading
+    subheading: Subheading goes here.
+    items:
+      - heading: How fast can I type?
+        image:
+        alt_text:
+        copy: ''
+        ctas:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        butter:
+        margin:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/topper/hero
+    label:
+    background_image:
+    alt_text:
+    heading: Heading How fast can I type?
+    subheading: Subheading.
+    body_text: ''
+    settings:
+      styles:
+        background_c:
+        gradient:
+        heading_c:
+        enable_blend: false
+        enable_pattern: false
+        tint_opacity: '0.5'
+      layout:
+        margin:
+        buffer:
+        text_placement:
+      config:
+        show_label: true
 uuid:
 type: guide
 ---
