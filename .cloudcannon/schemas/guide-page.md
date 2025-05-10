@@ -1,16 +1,14 @@
 ---
 title: New Guide Page
 description:
-topper:
+content_blocks:
   _bookshop_name: design-system/topper/hero
-  label: ""
-  background_image: ""
-  alt_text: ""
-  heading:
-    - text: Heading
-      highlight: ""
+  label:
+  background_image:
+  alt_text:
+  heading: Heading
   subheading: Subheading.
-  body_text: ""
+  body_text:
   settings:
     styles:
       background_c:
@@ -25,7 +23,6 @@ topper:
       text_placement:
     config:
       show_label: true
-content_blocks:
 uuid:
 type: guide
 ---

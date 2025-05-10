@@ -67,16 +67,23 @@ content_blocks:
     settings:
       styles:
         background_c:
+        gradient:
+        heading_c:
+        enable_blend: false
+        enable_pattern: false
+        tint_opacity: "0.5"
       layout:
         margin:
+        buffer:
+        text_placement:
       config:
-        edit_mode_only: false
+        show_label: true
         include_heading_postscript: true
-  - _bookshop_name: design-system/topper/hero-topper-test
-    label:
+  - _bookshop_name: design-system/topper/hero
+    label: Test Label
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     alt_text:
-    heading: []
+    heading: Heading
     subheading: How fast can we type?
     body_text: ''
     settings:
