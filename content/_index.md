@@ -48,4 +48,6 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+uuid:
+type: guide
 ---
