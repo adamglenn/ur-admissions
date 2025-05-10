@@ -8,7 +8,7 @@ topper:
   heading:
     - text: It Starts Now Test.
       highlight:
-  subheading: Subheading. How fast can I type? How fast can I type?
+  subheading: How fast can I type?
   body_text: >-
     Here is some body text. Here is some **bold text**. Here is [a
     link](https://www.wvu.edu).
