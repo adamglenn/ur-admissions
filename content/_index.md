@@ -27,6 +27,27 @@ topper:
     config:
       show_label: true
 content_blocks:
+  - _bookshop_name: design-system/topper/hero
+    label: Test Label
+    background_image: /uploads/34750-s-bfp-0046-xx.jpg
+    alt_text:
+    heading: Heading
+    subheading: How fast can we type?
+    body_text: ''
+    settings:
+      styles:
+        background_c:
+        gradient:
+        heading_c:
+        enable_blend: false
+        enable_pattern: false
+        tint_opacity: '0.5'
+      layout:
+        margin:
+        buffer:
+        text_placement:
+      config:
+        show_label: true
   - _bookshop_name: design-system/section/alternating-grid-test-2
     heading: How fast acan we type?
     subheading: How fast can we type?
@@ -71,28 +92,6 @@ content_blocks:
         heading_c:
         enable_blend: false
         enable_pattern: false
-        tint_opacity: "0.5"
-      layout:
-        margin:
-        buffer:
-        text_placement:
-      config:
-        show_label: true
-        include_heading_postscript: true
-  - _bookshop_name: design-system/topper/hero
-    label: Test Label
-    background_image: /uploads/34750-s-bfp-0046-xx.jpg
-    alt_text:
-    heading: Heading
-    subheading: How fast can we type?
-    body_text: ''
-    settings:
-      styles:
-        background_c:
-        gradient:
-        heading_c:
-        enable_blend: false
-        enable_pattern: false
         tint_opacity: '0.5'
       layout:
         margin:
@@ -100,6 +99,7 @@ content_blocks:
         text_placement:
       config:
         show_label: true
+        include_heading_postscript: true
 uuid:
 type: guide
 ---
