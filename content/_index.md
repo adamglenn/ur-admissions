@@ -17,7 +17,7 @@ topper:
       heading_c:
       enable_blend: false
       enable_pattern: false
-      tint_opacity: "0.5"
+      tint_opacity: '0.5'
     layout:
       margin:
       buffer:
@@ -26,7 +26,7 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: How fast can I type?
+    heading: How fast can I type? Is this fast?
     subheading: How fast can we type?
     items:
       - heading: How fast can I type?
@@ -48,7 +48,7 @@ content_blocks:
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1-1
     heading: Heading How fast can we type? Wait, how fast can we type?
-    subheading: Subheading goes here.
+    subheading: Subheading goes here. Is this fast?
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     column_a:
       _bookshop_name: design-system/column/factoids
@@ -110,7 +110,7 @@ content_blocks:
     label:
     background_image:
     alt_text:
-    heading: Heading How fast can I type?
+    heading: Heading how fast?
     subheading: Subheading.
     body_text: ''
     settings:
