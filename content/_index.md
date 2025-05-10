@@ -26,7 +26,7 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: How fast can I type? Is this fast?
+    heading: Am I still fast? How fast can I type?
     subheading: How fast can we type?
     items:
       - heading: How fast can I type?
@@ -43,11 +43,12 @@ content_blocks:
       layout:
         butter:
         margin:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1-1
-    heading: Heading How fast can we type? Wait, how fast can we type?
+    heading: How fast can I type?
     subheading: Subheading goes here. Is this fast?
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     column_a:
@@ -103,6 +104,7 @@ content_blocks:
       layout:
         butter:
         margin:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
