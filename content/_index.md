@@ -5,9 +5,7 @@ topper:
   label:
   background_image:
   alt_text:
-  heading:
-    - text: Heading
-      highlight:
+  heading: Heading
   subheading: Subheading.
   body_text:
   settings:
