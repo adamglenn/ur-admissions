@@ -1,6 +1,6 @@
 ---
 _schema: guide_page
-title: New Guide Page
+title: Featurettes - Vertical
 description:
 topper:
   _bookshop_name: design-system/topper/hero
