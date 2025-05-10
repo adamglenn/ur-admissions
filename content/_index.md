@@ -28,11 +28,11 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Alternating Grid Heading
-    subheading: Subheading goes here.
+    heading: How fast can I type?
+    subheading: Subheading goes here. How fast can I type?
     items:
-      - heading: Item Heading How fast can I type?
-        image:
+      - heading: How fast can I type?
+        image: /uploads/34750-s-bfp-0046-xx.jpg
         alt_text:
         copy: ''
         ctas:
