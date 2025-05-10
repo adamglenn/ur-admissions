@@ -27,5 +27,5 @@ topper:
       show_label: true
 content_blocks:
 uuid:
-type: guide-test
+type: guide
 ---

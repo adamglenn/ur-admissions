@@ -86,5 +86,5 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
 uuid: bc8fe71f-4aec-47b9-8371-9a32d496b479
-type: guide-test
+type: guide
 ---

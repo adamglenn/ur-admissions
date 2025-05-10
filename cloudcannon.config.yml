@@ -611,6 +611,11 @@ _inputs:
   minors[*]:
     type: text
     cascade: true
+  nav_links:
+    type: array
+    options:
+      structures: _structures.nav_item
+    cascade: true
   person:
     type: select
     options:
@@ -680,6 +685,11 @@ _inputs:
     options:
       allow_empty: true
       values: data.people_data[?(@.schema == 'student')]
+    cascade: true
+  sub_nav_links:
+    type: array
+    options:
+      structures: _structures.sub_nav_item
     cascade: true
   tags:
     type: multiselect
@@ -917,12 +927,27 @@ _structures:
           text:
           icon:
           url:
+  nav_item:
+    style: select
+    values:
+      - label: Link
+        value:
+          text:
+          link:
+          sub_nav_links:
   social_media_accounts:
     style: select
     values:
       - value:
           platform:
           url:
+  sub_nav_item:
+    style: select
+    values:
+      - label: link
+        value:
+          text:
+          link:
   test_styles:
     type: object
     values:

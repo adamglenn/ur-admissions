@@ -51,5 +51,5 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
 uuid: 125799f9-331b-47d4-baa2-a2026deaeef0
-type: guide-test
+type: guide
 ---

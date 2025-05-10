@@ -345,5 +345,5 @@ content_blocks:
         include_heading_postscript: true
         show_content: false
 uuid: 68221203-9475-44af-afa0-b4d81543c569
-type: guide-test
+type: guide
 ---
