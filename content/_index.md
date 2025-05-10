@@ -44,7 +44,7 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1-1
-    heading: Heading How fast can we teyp?
+    heading: Heading How fast can we type? Wait, how fast can we type?
     subheading: Subheading goes here.
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     column_a:
