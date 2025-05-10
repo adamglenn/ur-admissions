@@ -6,7 +6,7 @@ topper:
   background_image:
   alt_text:
   heading:
-    - text: Heading
+    - text: Is this fast also?
       highlight:
   subheading: Subheading.
   body_text:
