@@ -44,7 +44,7 @@ content_blocks:
         background_c:
       layout:
         butter:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
       config:
         edit_mode_only: false
         include_heading_postscript: true
