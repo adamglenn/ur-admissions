@@ -27,14 +27,14 @@ topper:
     config:
       show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/alternating-grid
-    heading: Alternating Grid Heading Test
+  - _bookshop_name: design-system/section/alternating-grid-test-2
+    heading: Alternating Grid Heading
     subheading: Subheading goes here.
     items:
       - heading: Item Heading
         image: /uploads/34750-s-bfp-0046-xx.jpg
         alt_text:
-        copy: Here is my copy.
+        copy: ''
         ctas:
     postscript:
       copy:
@@ -47,4 +47,5 @@ content_blocks:
         margin:
       config:
         edit_mode_only: false
+        include_heading_postscript: true
 ---
