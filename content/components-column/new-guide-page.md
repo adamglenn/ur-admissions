@@ -47,6 +47,21 @@ content_blocks:
         layout:
         config:
     column_b:
+      _bookshop_name: design-system/column_sm/featurettes-vertical
+      heading: Heading
+      subheading: Subheading.
+      items:
+        - title: Item 1 Title
+          image: /uploads/34750-s-bfp-0046-xx.jpg
+          alt_text:
+          label:
+          badge:
+          url:
+      settings:
+        styles:
+          audience:
+        layout:
+        config:
     column_c:
     postscript:
       copy:
