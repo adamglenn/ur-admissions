@@ -8,7 +8,7 @@ topper:
   heading:
     - text: It Starts Now Test.
       highlight:
-  subheading: Subheading.
+  subheading: Subheading. How fast can I type? How fast can I type?
   body_text: >-
     Here is some body text. Here is some **bold text**. Here is [a
     link](https://www.wvu.edu).
@@ -26,28 +26,7 @@ topper:
       text_placement:
     config:
       show_label: true
-content_blocks:
-  - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Alternating Grid Heading
-    subheading: Subheading goes here.
-    items:
-      - heading: Item Heading
-        image: /uploads/34750-s-bfp-0046-xx.jpg
-        alt_text:
-        copy: ''
-        ctas:
-    postscript:
-      copy:
-      ctas:
-    settings:
-      styles:
-        background_c:
-      layout:
-        butter:
-        margin: mt-n9 p-5 p-xl-6
-      config:
-        edit_mode_only: false
-        include_heading_postscript: true
+content_blocks: []
 uuid:
 type: guide
 ---
