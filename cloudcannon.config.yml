@@ -113,7 +113,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         icon: notes
-  masthead_nav_footer:
+  masthead_footer:
     path: data/default_content
     name: Masthead and Footer
     icon: toolbar
@@ -199,6 +199,14 @@ collections_config:
         create:
           path: '[relative_base_path]/_index.md'
         new_preview_url: /live-editor-previews/guide-index/
+  primary_nav:
+    path: data/navigation
+    name: Primary Navigation
+    icon: toolbar
+    output: false
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
   people:
     path: content/people
     icon: group
@@ -327,7 +335,8 @@ collection_groups:
       - places_and_spaces
   - heading: Site
     collections:
-      - masthead_nav_footer
+      - masthead_footer
+      - primary_navigation
       - default_content
       - navigation_menus
       - sitewide_components
