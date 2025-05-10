@@ -28,7 +28,7 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Still fast? Are we fast?
+    heading: Still fast? Are we fast? How about now?
     subheading: Subheading goes here. How fast can I type?
     items:
       - heading: How fast can I type?
@@ -51,9 +51,10 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     heading: Heading
     subheading: Subheading goes here.
+    background_image: /uploads/34750-s-bfp-0046-xx.jpg
     column_a:
       _bookshop_name: design-system/column/factoids
-      heading: By the Numbers how fast is this?
+      heading: By the Numbers are we fast? How fast?
       items: []
       config:
         edit_mode_only: false
