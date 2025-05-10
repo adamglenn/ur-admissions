@@ -3,17 +3,17 @@ title: Home
 topper:
   _bookshop_name: design-system/topper/hero-old
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
-  heading: Heading
-  subheading: Subheading.
+  heading: How fast can I type? Still fast?
+  subheading: This seems pretty fast
   body_text:
   settings:
     styles:
-      background_c:
+      background_c: wvu-blue
       gradient:
       heading_c:
-      enable_blend: false
+      enable_blend: true
       enable_pattern: false
       tint_opacity: '0.5'
     layout:
