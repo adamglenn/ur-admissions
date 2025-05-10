@@ -12,7 +12,7 @@ topper:
     styles:
       background_c: wvu-blue
       gradient:
-      heading_c:
+      heading_c: wvu-gold
       enable_blend: true
       enable_pattern: false
       tint_opacity: '0.5'
