@@ -28,8 +28,8 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Still fast? Are we fast? How about now?
-    subheading: Subheading goes here. How fast can I type?
+    heading: How fast acan we type?
+    subheading: How fast can we type?
     items:
       - heading: How fast can I type?
         image: /uploads/34750-s-bfp-0046-xx.jpg
@@ -49,7 +49,7 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1-1
-    heading: Heading
+    heading: Heading How fast can we teyp?
     subheading: Subheading goes here.
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     column_a:
@@ -72,6 +72,27 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/topper/hero-topper-test
+    label:
+    background_image: /uploads/34750-s-bfp-0046-xx.jpg
+    alt_text:
+    heading: []
+    subheading: How fast can we type?
+    body_text: ''
+    settings:
+      styles:
+        background_c:
+        gradient:
+        heading_c:
+        enable_blend: false
+        enable_pattern: false
+        tint_opacity: '0.5'
+      layout:
+        margin:
+        buffer:
+        text_placement:
+      config:
+        show_label: true
 uuid:
 type: guide
 ---
