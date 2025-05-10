@@ -5,7 +5,7 @@ content_blocks:
     label: Test Label
     background_image: /uploads/34750-s-bfp-0046-xx.jpg
     alt_text:
-    heading: Heading
+    heading: Heading How fast is this?
     subheading: How fast can we type?
     body_text: ''
     settings:
