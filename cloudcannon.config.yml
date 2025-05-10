@@ -336,7 +336,7 @@ collection_groups:
   - heading: Site
     collections:
       - masthead_footer
-      - primary_navigation
+      - primary_nav
       - default_content
       - navigation_menus
       - sitewide_components
