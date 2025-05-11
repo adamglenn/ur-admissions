@@ -55,9 +55,9 @@ content_blocks:
       article_tags:
         - Custom Label
       limit: 5
-      config:
-        edit_mode_only: false
-        show_content: false
+      settings:
+        config:
+          show_content: false
     column_c:
     postscript:
       copy:

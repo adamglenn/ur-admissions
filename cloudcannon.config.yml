@@ -181,14 +181,14 @@ collections_config:
         remove_extra_inputs: false
         icon: notes
         new_preview_url: live-editor-previews/guide/
-      guide_page_test:
-        path: .cloudcannon/schemas/guide-page-test.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        icon: notes
-        new_preview_url: live-editor-previews/guide-test/
+      # guide_page_test:
+      #   path: .cloudcannon/schemas/guide-page-test.md
+      #   reorder_inputs: true
+      #   hide_extra_inputs: false
+      #   remove_empty_inputs: false
+      #   remove_extra_inputs: false
+      #   icon: notes
+      #   new_preview_url: live-editor-previews/guide-test/
       guide_page_index:
         path: .cloudcannon/schemas/guide-page-index.md
         reorder_inputs: true

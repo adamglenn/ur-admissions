@@ -7,9 +7,7 @@ topper:
   label: ''
   background_image: ''
   alt_text: ''
-  heading:
-    - text: Heading
-      highlight: ''
+  heading: Heading
   subheading: Subheading.
   body_text: ''
   settings:
@@ -30,7 +28,7 @@ content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
     heading: Heading
-    name: Firstname Lastname How Fast Are We?
+    name: Firstname Lastname
     image: /uploads/jillian.png
     super_heading:
       - Class of 2026
@@ -51,21 +49,21 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        level: 1
+        tone: 1
         card_c:
       layout:
         is_cutout: true
         margin_no_bg: mt-n9
         buffer:
-        padding:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: false
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
     heading: Heading
-    name: Firstname Lastname We Still Fast?
-    image:
+    name: Firstname Lastname
+    image: /uploads/jillian.png
     super_heading:
       - Label
     info:
@@ -75,13 +73,13 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        level: 1
-        card_c: option-1
+        tone: 1
+        card_c: option-3
       layout:
-        is_cutout: false
+        is_cutout: true
         margin_no_bg:
         buffer:
-        padding:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: false
