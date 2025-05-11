@@ -32,7 +32,6 @@ content_blocks:
     column_a:
       _bookshop_name: design-system/column/faculty-members
       heading: Heading
-      subheading: Subheading goes here.
       tags:
         - Eberly Faculty
       postscript:
@@ -40,7 +39,17 @@ content_blocks:
         ctas:
       config:
         show_content: true
+      subheading: Subheading goes here.
     column_b:
+      _bookshop_name: design-system/column_sm/faculty-members
+      heading: Faculty
+      tags:
+        - Eberly Faculty
+      postscript:
+        copy:
+        ctas:
+      config:
+        show_content: false
     column_c:
     postscript:
       copy:
