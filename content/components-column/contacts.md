@@ -40,6 +40,13 @@ content_blocks:
       config:
         show_content: false
     column_b:
+      _bookshop_name: design-system/column_sm/contacts
+      heading: Contacts
+      people:
+        - label: For Inquiries, Contact
+          contact: 7e020d75-66f0-4628-8b44-f75931dd8bcf
+      config:
+        show_content: false
     column_c:
     postscript:
       copy:
