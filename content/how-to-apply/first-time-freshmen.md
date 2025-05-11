@@ -91,6 +91,21 @@ detail_sidebar_blocks:
     ctas:
       - text: Stuff
         url:
+  - _bookshop_name: design-system/column_sm/featurettes-vertical
+    heading: Heading
+    subheading: Subheading.
+    items:
+      - title: Item 1 Title
+        image: /uploads/34750-s-bfp-0046-xx.jpg
+        alt_text:
+        label:
+        badge:
+        url:
+    settings:
+      styles:
+        audience:
+      layout:
+      config:
 uuid: 76754904-203a-4510-b215-a62edc991edf
 type: detail
 ---
