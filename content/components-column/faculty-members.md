@@ -39,7 +39,7 @@ content_blocks:
         copy:
         ctas:
       config:
-        show_content: false
+        show_content: true
     column_b:
     column_c:
     postscript:
