@@ -38,17 +38,9 @@ content_blocks:
       postscript:
         copy:
         ctas:
-      settings:
-        styles:
-          background_c:
-        layout:
-          margin:
-          buffer:
-          max_cols:
-        config:
-          edit_mode_only: false
-          limit:
-          show_content: false
+      config:
+        limit:
+        show_content: false
     column_b:
       _bookshop_name: design-system/column_sm/article-collection
       heading: Articles
@@ -62,14 +54,8 @@ content_blocks:
     postscript:
       copy:
       ctas:
-    settings:
-      styles:
-        background_c:
-      layout:
-        margin:
-      config:
-        edit_mode_only: false
-        include_heading_postscript: true
+    config:
+      show_content: false
 uuid: cab525a2-6f5e-497f-9cf0-185bc7eafa9b
 type: guide
 ---
