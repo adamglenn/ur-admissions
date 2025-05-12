@@ -131,6 +131,8 @@ content_blocks:
         text_placement:
       config:
         show_label: true
+cascade:
+  audience: general
 uuid:
 type: guide
 ---

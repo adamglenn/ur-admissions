@@ -20,6 +20,10 @@ topper:
     tint_opacity: "0.5"
     container_margin:
 content_blocks:
+properties:
+  exclude_from_search_engines: false
+  meta_description:
+  social_image:
 uuid:
 type: profile
 metadata:

@@ -12,7 +12,7 @@ topper:
   body_text: ''
   settings:
     styles:
-      audience: prospective_students
+      audience:
       tone: 1
       color_palette: 3
       background_c:
@@ -44,9 +44,12 @@ content_blocks:
         items: []
     settings:
       styles:
+        audience: prospective_students
+        tone: 3
+        color_palette: 3
         background_c:
       layout:
-        margin: mt-n9 p-5 p-xl-6
+        margin: mt-n7 p-5 p-xl-6
         buffer:
       config:
         edit_mode_only: false

@@ -849,18 +849,18 @@ _select_data:
       class: py-6
   container_margins:
     - name: Pull Up
-      class: mt-n9 p-5 p-xl-6
+      class: mt-n7 p-5 p-xl-6
     - name: Pull Down
-      class: mb-n9 p-5 p-xl-6
+      class: mb-n7 p-5 p-xl-6
     - name: Pull Both
-      class: my-n9 p-5 p-xl-6
+      class: my-n7 p-5 p-xl-6
   container_margins_no_bg:
     - name: Pull Up
-      class: mt-n9
+      class: mt-n7
     - name: Pull Down
-      class: mb-n9
+      class: mb-n7
     - name: Pull Both
-      class: my-n9
+      class: my-n7
   list_styles:
     - name: Arrows
       class: wvu-ul-arrows

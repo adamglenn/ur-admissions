@@ -12,6 +12,8 @@ topper:
   body_text: ''
   settings:
     styles:
+      audience:
+      tone:
       background_c:
       gradient:
       heading_c:

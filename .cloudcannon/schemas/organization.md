@@ -27,6 +27,10 @@ detail_blocks:
   - _bookshop_name: design-system/column/rich-text
     text: Text.
 profile_sidebar_blocks:
+properties:
+  exclude_from_search_engines: false
+  meta_description:
+  social_image:
 type: organization
 uuid:
 metadata:

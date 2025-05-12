@@ -4,6 +4,7 @@ title: How to Apply
 description:
 topper:
 cascade:
+  audience: prospective_students
   secondary_nav:
     title:
     menu_id: how-to-apply-subnav

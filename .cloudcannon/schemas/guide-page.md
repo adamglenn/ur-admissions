@@ -1,6 +1,5 @@
 ---
 title: New Guide Page
-description:
 topper:
   _bookshop_name: design-system/topper/hero
   label: ""
@@ -26,6 +25,11 @@ topper:
     config:
       show_label: true
 content_blocks:
+properties:
+  exclude_from_navigation: false
+  exclude_from_search_engines: false
+  meta_description:
+  social_image:
 uuid:
 type: guide
 ---

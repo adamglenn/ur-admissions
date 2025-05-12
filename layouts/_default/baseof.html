@@ -16,7 +16,7 @@
   {{ end }}
 
   {{ if not .IsHome }}
-    {{ partial "breadcrumbs" (dict "rel_permalink" .RelPermalink) }}
+    {{ partial "breadcrumbs" (dict "rel_permalink" .RelPermalink "params" page.Params) }}
   {{ end }}
 
   <main>
