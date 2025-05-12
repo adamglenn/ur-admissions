@@ -7,11 +7,14 @@ topper:
   label: ''
   background_image: ''
   alt_text: ''
-  heading: Heading
+  heading: Heading Here is a Really Long Heading that Spans Multiple Lines
   subheading: Subheading.
   body_text: ''
   settings:
     styles:
+      audience: general
+      tone: 1
+      color_palette: 3
       background_c:
       gradient:
       heading_c:
@@ -27,7 +30,6 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     heading: Heading
-    subheading: Subheading goes here.
     background_image:
     column_a:
       _bookshop_name: design-system/column/faculty-members
@@ -66,10 +68,9 @@ content_blocks:
         margin:
         buffer:
         text_placement:
-        padding: py-6 py-xxl-7
+        padding: py-6
       config:
         show_label: true
-        include_heading_postscript: true
 uuid: f6059512-a45f-4e58-a87d-22634d92ff88
 type: guide
 ---

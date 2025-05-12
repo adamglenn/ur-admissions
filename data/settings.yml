@@ -1,0 +1,7 @@
+social_media_accounts:
+  - platform: Twitter
+    username:
+    url:
+  - platform: Facebook
+    username:
+    url:
