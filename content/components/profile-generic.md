@@ -3,6 +3,30 @@ _schema: guide_page_test
 title: Profile - Generic
 description:
 topper:
+  _bookshop_name: design-system/topper/hero
+  label:
+  background_image:
+  alt_text:
+  heading: Heading
+  subheading: Subheading.
+  body_text:
+  settings:
+    styles:
+      audience:
+      tone: 1
+      color_palette: 3
+      background_c:
+      gradient:
+      heading_c:
+      enable_blend: false
+      enable_pattern: false
+      tint_opacity: '0.5'
+    layout:
+      margin:
+      buffer:
+      text_placement:
+    config:
+      show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
