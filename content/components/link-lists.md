@@ -7,22 +7,23 @@ topper:
   label: ''
   background_image: ''
   alt_text: ''
-  heading:
-    - text: Heading
-      highlight: ''
+  heading: Heading
   subheading: Subheading.
   body_text: ''
   settings:
     styles:
+      audience: prospective_students
+      tone: 1
+      color_palette: 3
       background_c:
       gradient:
       heading_c:
       enable_blend: false
       enable_pattern: false
-      tint_opacity: "0.5"
+      tint_opacity: '0.5'
     layout:
       margin:
-      buffer:
+      buffer: pb-6
       text_placement:
     config:
       show_label: true
@@ -45,7 +46,7 @@ content_blocks:
       styles:
         background_c:
       layout:
-        margin:
+        margin: mt-n9 p-5 p-xl-6
         buffer:
       config:
         edit_mode_only: false
