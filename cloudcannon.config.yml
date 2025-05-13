@@ -377,7 +377,6 @@ _inputs:
   audience:
     type: select
     options:
-      allow_empty: false
       values:
         - name: General
           class: general
@@ -431,7 +430,6 @@ _inputs:
   color_palette:
     type: select
     options:
-      allow_empty: false
       values:
         - name: Option 1
           class: "option-1"
@@ -760,7 +758,6 @@ _inputs:
   tone:
     type: select
     options:
-      allow_empty: false
       values:
         - name: Default
           class: "1"

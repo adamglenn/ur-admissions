@@ -42,8 +42,8 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience: prospective_students
-        tone: '3'
+        audience: alumni
+        tone: '1'
         color_palette: option-2
       layout:
         butter:
