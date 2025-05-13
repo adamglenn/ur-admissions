@@ -23,7 +23,7 @@ topper:
       tint_opacity: '0.5'
     layout:
       margin:
-      buffer:
+      buffer: pb-6
       text_placement:
     config:
       show_label: true
