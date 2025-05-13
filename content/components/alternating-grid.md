@@ -7,44 +7,48 @@ topper:
   label: ''
   background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text: ''
-  heading:
-    - text: Heading
-      highlight: ''
+  heading: Heading
   subheading: Subheading.
   body_text: ''
   settings:
     styles:
-      background_c: wvu-blue
       gradient:
-      heading_c:
       enable_blend: false
       enable_pattern: false
       tint_opacity: '0.5'
+      background_c: wvu-blue
+      heading_c:
     layout:
-      margin:
       buffer:
       text_placement:
+      margin:
     config:
       show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/alternating-grid-test-2
-    heading: Alternating Grid Heading Test
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
     subheading: Subheading goes here.
     items:
       - heading: Item Heading
-        image: /uploads/34750-s-bfp-0046-xx.jpg
+        image: /uploads/guy-sitting-outside.jpg
         alt_text:
-        copy: ''
+        copy: How fast are we? Pretty darn fast.
         ctas:
+          - text: CTA Text
+            icon: book
+            url:
     postscript:
       copy:
       ctas:
     settings:
       styles:
-        background_c:
+        audience:
+        tone:
+        color_palette:
       layout:
         butter:
         margin:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
