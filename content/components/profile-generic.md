@@ -51,8 +51,8 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: prospective_students
-        tone: 1
+        audience:
+        tone:
         card_c:
       layout:
         is_cutout: true
