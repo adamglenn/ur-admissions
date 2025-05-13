@@ -42,9 +42,9 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: prospective_students
+        tone: '3'
+        color_palette: option-2
       layout:
         butter:
         margin:
