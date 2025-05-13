@@ -12,12 +12,10 @@ topper:
   body_text: ''
   settings:
     styles:
-      audience:
+      audience: prospective_students
       tone: 1
-      color_palette: 3
-      background_c:
+      color_palette: option-3
       gradient:
-      heading_c: dark
       enable_blend: true
       enable_pattern: false
       tint_opacity: '0.5'
