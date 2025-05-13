@@ -12,6 +12,9 @@ topper:
   body_text: ''
   settings:
     styles:
+      audience:
+      tone:
+      color_palette:
       gradient:
       enable_blend: false
       enable_pattern: false
