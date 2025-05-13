@@ -51,7 +51,7 @@ content_blocks:
         url:
     settings:
       styles:
-        audience:
+        audience: prospective_students
         tone:
         card_c:
       layout:
@@ -75,9 +75,9 @@ content_blocks:
     ctas:
     settings:
       styles:
-        audience: prospective_students
-        tone: 1
-        card_c: option-3
+        audience:
+        tone: 
+        card_c: 
       layout:
         is_cutout: true
         margin_no_bg:
