@@ -30,7 +30,7 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
-    heading: Heading
+    heading: Heading Test How Fast
     name: Firstname Lastname
     image: /uploads/jillian.png
     super_heading:
@@ -64,7 +64,7 @@ content_blocks:
         include_heading_postscript: false
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
-    heading: Heading
+    heading: Heading Test How Fast
     name: Firstname Lastname
     image: /uploads/jillian.png
     super_heading:
