@@ -5,11 +5,11 @@ description:
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/34750-s-bfp-0046-xx.jpg
   alt_text:
   heading: Heading
   subheading: Subheading.
-  body_text:
+  body_text: ''
   settings:
     styles:
       audience:
@@ -17,8 +17,8 @@ topper:
       color_palette: 3
       background_c:
       gradient:
-      heading_c:
-      enable_blend: false
+      heading_c: dark
+      enable_blend: true
       enable_pattern: false
       tint_opacity: '0.5'
     layout:
