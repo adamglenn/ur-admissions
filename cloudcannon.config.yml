@@ -374,6 +374,26 @@ _inputs:
       values: _select_data.article_tags
     label: Tags
     cascade: true
+  audience:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - name: General
+          class: general
+        - name: Current Students
+          class: current_students
+        - name: Faculty and Staff
+          class: faculty_staff
+        - name: Prospective Students
+          class: prospective_students
+        - name: Alumni
+          class: alumni
+        - name: Parents
+          class: parents
+        - name: State Leaders and Partners
+          class: state_leaders
+      value_key: class
   author:
     type: select
     options:
@@ -408,6 +428,18 @@ _inputs:
     options:
       values: _structures.color_overlay
     cascade: true
+  color_palette:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - name: Option 1
+          class: "option-1"
+        - name: Option 2
+          class: "option-2"
+        - name: Option 3
+          class: "option-3"
+      value_key: class
   column_a:
     type: object
     options:
@@ -725,6 +757,18 @@ _inputs:
     cascade: true
   tint_shade:
     type: switch
+  tone:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - name: Default
+          class: "1"
+        - name: Formal
+          class: "3"
+        - name: Fun
+          class: "3"
+      value_key: class
   topper:
     type: object
     options:
