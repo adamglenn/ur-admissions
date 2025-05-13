@@ -65,7 +65,7 @@ content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
     heading: Heading
-    name: Firstname Lastname
+    name: Firstname Lastname How Fast Am I?
     image: /uploads/jillian.png
     super_heading:
       - Label
@@ -75,9 +75,9 @@ content_blocks:
     ctas:
     settings:
       styles:
-        audience:
-        tone: 
-        card_c: 
+        audience: prospective_students
+        tone:
+        card_c: option-2
       layout:
         is_cutout: true
         margin_no_bg:
