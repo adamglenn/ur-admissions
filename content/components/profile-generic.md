@@ -30,7 +30,7 @@ topper:
 content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
-    heading:
+    heading: Heading
     name: Firstname Lastname
     image: /uploads/jillian.png
     super_heading:
@@ -51,9 +51,9 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: prospective_students
-        tone:
-        card_c:
+        audience: leaders_partners
+        tone: 1
+        card_c: option-1
       layout:
         is_cutout: true
         margin_no_bg: mt-n9
@@ -65,7 +65,41 @@ content_blocks:
   - _bookshop_name: design-system/section/profile-generic-css
     _component_name: profile-generic-css
     heading: Heading
-    name: Firstname Lastname How Fast Am I?
+    name: Firstname Lastname
+    image: /uploads/jillian.png
+    super_heading:
+      - Class of 2026
+      - Another Label
+    info:
+      - Morgantown, WV
+      - Chemical Engineering
+      - Biology
+    copy: |
+      Here is some test copy.
+    ctas:
+      - text: College of Creative Arts and Media
+        icon:
+        url:
+      - text: Cool News Story
+        icon:
+        url:
+    settings:
+      styles:
+        audience: alumni
+        tone: 1
+        card_c: option-1
+      layout:
+        is_cutout: true
+        margin_no_bg:
+        buffer:
+        padding: py-6 py-xxl-7
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
+  - _bookshop_name: design-system/section/profile-generic-css
+    _component_name: profile-generic-css
+    heading: Heading
+    name: Firstname Lastname
     image: /uploads/jillian.png
     super_heading:
       - Label
@@ -76,8 +110,56 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone:
+        tone: 3
+        card_c: option-1
+      layout:
+        is_cutout: true
+        margin_no_bg:
+        buffer:
+        padding: py-6 py-xxl-7
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
+  - _bookshop_name: design-system/section/profile-generic-css
+    _component_name: profile-generic-css
+    heading: Heading
+    name: Firstname Lastname
+    image: /uploads/jillian.png
+    super_heading:
+      - Label
+    info:
+      - Morgantown, WV
+    copy: Here is some copy.
+    ctas:
+    settings:
+      styles:
+        audience: prospective_students
+        tone: 3
         card_c: option-2
+      layout:
+        is_cutout: true
+        margin_no_bg:
+        buffer:
+        padding: py-6 py-xxl-7
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
+  - _bookshop_name: design-system/section/profile-generic-css
+    _component_name: profile-generic-css
+    heading: Heading
+    name: Firstname Lastname
+    image: /uploads/jillian.png
+    super_heading:
+      - Label
+    info:
+      - Morgantown, WV
+    copy: Here is some copy.
+    ctas:
+    settings:
+      styles:
+        audience: prospective_students
+        tone: 3
+        card_c: option-3
       layout:
         is_cutout: true
         margin_no_bg:
