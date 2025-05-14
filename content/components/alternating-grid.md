@@ -23,7 +23,7 @@ topper:
       heading_c:
     layout:
       buffer:
-      text_placement:
+      text_placement: mx-auto text-center
       margin:
     config:
       show_label: true
@@ -32,6 +32,41 @@ content_blocks:
     heading: Alternating Grid Heading
     subheading: Subheading goes here.
     items:
+      - heading: Item Heading
+        image: /uploads/guy-sitting-outside.jpg
+        alt_text:
+        copy: How fast are we? Pretty darn fast.
+        ctas:
+          - text: CTA Text
+            icon: book
+            url:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        audience: alumni
+        tone: '1'
+        color_palette: option-3
+      layout:
+        butter:
+        margin:
+        padding: py-6 py-xxl-7
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
+  - _bookshop_name: design-system/section/alternating-grid
+    heading: Alternating Grid Heading
+    subheading: Subheading goes here.
+    items:
+      - heading: Item Heading
+        image: /uploads/guy-sitting-outside.jpg
+        alt_text:
+        copy: How fast are we? Pretty darn fast.
+        ctas:
+          - text: CTA Text
+            icon: book
+            url:
       - heading: Item Heading
         image: /uploads/guy-sitting-outside.jpg
         alt_text:

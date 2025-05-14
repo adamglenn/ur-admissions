@@ -22,7 +22,7 @@ topper:
     layout:
       margin:
       buffer: pb-6
-      text_placement:
+      text_placement: mx-auto text-center
     config:
       show_label: true
 content_blocks:

@@ -68,5 +68,5 @@ menus:
       weight: 90
 
 params:
-  audience: general
+  audience: alumni
   tone: 1
