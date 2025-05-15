@@ -78,6 +78,7 @@ content_blocks:
       layout:
         buffer:
         margin: mt-n9 p-5 p-xl-6
+        pading: py-6 py-xxl-7
         padding: py-6 py-xxl-7
       styles:
         background_c:
@@ -88,15 +89,34 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1
-    heading: Heading
+    heading: Heading Test
     subheading: Subheading goes here.
     column_a:
+      _bookshop_name: design-system/column/cta-banner
+      heading: Heading
+      subheading: Subheading goes here.
+      buttons:
+        - text: Explore Scholarships
+          url:
+          icon:
+          button_c:
+      settings:
+        styles:
+          background_c:
+          buttons_c:
+        layout:
+          margin:
+          buffer:
+        config:
     column_b:
     postscript:
       copy:
       ctas:
     settings:
       styles:
+        audience: general
+        tone: '3'
+        color_palette: option-2
         background_c:
       layout:
         margin:
