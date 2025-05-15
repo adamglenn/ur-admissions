@@ -126,11 +126,13 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/hero
-    heading: Heading
+    heading: Go Big For Less
     background_image:
     alt_text:
-    lead:
-    copy: ''
+    lead: College should be the best years of your life, not the most expensive.
+    copy: >-
+      We have the perks and programs of a major research university at a price
+      within reach.
     ctas:
     postscript_links:
     settings:
@@ -144,9 +146,17 @@ content_blocks:
         edit_mode_only: false
         include_heading_postscript: false
   - _bookshop_name: design-system/section/cta-banner
-    heading: Heading
+    heading: Interested in talking to someone?
     subheading: Subheading goes here.
-    buttons: []
+    buttons:
+      - text: Connect with Your Admissions Counselor
+        url:
+        icon:
+        button_c:
+      - text: Contact WVU Admissions
+        url:
+        icon:
+        button_c:
     settings:
       styles:
         background_c:
@@ -204,6 +214,40 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+  - _bookshop_name: design-system/section/factoids
+    heading:
+    subheading:
+    items:
+      - pre:
+        stat: 210,000
+        post: >-
+          We're worldwide. We have more than 210,000 alumni living in 135
+          nations.
+        source:
+      - pre:
+        stat: R1
+        post: >-
+          We're one of 187 U.S. schools to earn the "very high research"
+          designation.
+        source:
+      - pre:
+        stat: Top 2.4%
+        post: >-
+          The Center for World University Rankings placed WVU in the top 2.4% of
+          universities worldwide.
+        source:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
 properties:
   exclude_from_navigation: false
   exclude_from_search_engines: false
