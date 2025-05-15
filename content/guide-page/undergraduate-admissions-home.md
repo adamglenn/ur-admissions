@@ -25,9 +25,52 @@ topper:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/cards
-    heading: Heading
-    subheading: Subheading.
-    items: []
+    heading:
+    subheading:
+    items:
+      - title: Browse Majors
+        image:
+        alt_text:
+        label:
+        badge:
+        text: >-
+          We have 129 undergraduate majors – everything from criminology to
+          engineering. Scan the list and you may find some options you hadn't
+          considered.
+        ctas:
+          - text: Majors List
+            icon:
+            url:
+        background_c:
+        accent_c:
+      - title: Explore Online Degrees
+        image:
+        alt_text:
+        label:
+        badge:
+        text: >-
+          We offer 9 fully online bachelor’s degree programs. Minors,
+          certificates and associate degrees are available online, too.
+        ctas:
+          - text: Online Programs
+            icon:
+            url:
+        background_c:
+        accent_c:
+      - title: Help Me Find a Major
+        image:
+        alt_text:
+        label:
+        badge:
+        text: >-
+          With so many options, we know it can be hard to decide. Your
+          admissions counselor can help you make a good choice.
+        ctas:
+          - text: Talk with a Counselor
+            icon:
+            url:
+        background_c:
+        accent_c:
     postscript:
       copy:
       ctas:
