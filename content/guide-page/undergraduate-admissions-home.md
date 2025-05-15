@@ -20,7 +20,7 @@ topper:
       tint_opacity: '0.5'
     layout:
       buffer:
-      text_placement:
+      text_placement: mx-auto
     config:
       show_label: true
 content_blocks:
@@ -77,7 +77,7 @@ content_blocks:
     settings:
       layout:
         buffer:
-        margin: mt-n7 p-5 p-xl-6
+        margin: mt-n9 p-5 p-xl-6
         padding: py-6 py-xxl-7
       styles:
         background_c:
