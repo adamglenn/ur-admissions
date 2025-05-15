@@ -199,14 +199,6 @@ collections_config:
         create:
           path: '[relative_base_path]/_index.md'
         new_preview_url: /live-editor-previews/guide-index/
-  primary_nav:
-    path: data/navigation
-    name: Primary Navigation
-    icon: toolbar
-    output: false
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: true
   people:
     path: content/people
     icon: group
@@ -321,6 +313,14 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         icon: notes
+  settings:
+    path: data/settings.yml
+    name: Settings
+    icon: toolbar
+    output: false
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
 collection_groups:
   - heading: Pages
     collections:
@@ -335,9 +335,8 @@ collection_groups:
       - places_and_spaces
   - heading: Site
     collections:
+      - settings
       - masthead_footer
-      - primary_nav
-      - default_content
       - navigation_menus
       - sitewide_components
 _enabled_editors:
@@ -816,7 +815,7 @@ _select_data:
     - name: WVU Gold
       background_classes: bg-wvu-gold text-dark
       class: wvu-gold
-      rgba: rgb(0, 0, 0)
+      rgba: 234,170,0
     - name: WVU Blue
       background_classes: bg-wvu-blue text-white
       class: wvu-blue

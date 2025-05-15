@@ -6,9 +6,7 @@ topper:
   label: ''
   background_image: ''
   alt_text: ''
-  heading:
-    - text: Heading
-      highlight: ''
+  heading: Accordion Examples
   subheading: Subheading.
   body_text: ''
   settings:

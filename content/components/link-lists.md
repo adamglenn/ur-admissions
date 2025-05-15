@@ -12,19 +12,17 @@ topper:
   body_text: ''
   settings:
     styles:
-      audience:
+      audience: general
       tone: 1
-      color_palette: 3
-      background_c:
+      color_palette: option-3
       gradient:
-      heading_c:
       enable_blend: false
       enable_pattern: false
       tint_opacity: '0.5'
     layout:
       margin:
       buffer: pb-6
-      text_placement:
+      text_placement: mx-auto
     config:
       show_label: true
 content_blocks:
@@ -44,13 +42,13 @@ content_blocks:
         items: []
     settings:
       styles:
-        audience: prospective_students
+        audience: general
         tone: 3
-        color_palette: 3
-        background_c:
+        color_palette: option-2
       layout:
-        margin: mt-n7 p-5 p-xl-6
-        buffer:
+        margin:
+        buffer: mt-n9
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: false

@@ -10,9 +10,9 @@ topper:
   body_text:
   settings:
     styles:
-      background_c: wvu-blue
-      gradient:
-      heading_c: wvu-gold
+      audience:
+      tone:
+      color_palette: option-3
       enable_blend: true
       enable_pattern: false
       tint_opacity: '0.5'
@@ -85,9 +85,10 @@ content_blocks:
         margin:
         buffer:
         text_placement:
+        padding: py-5 py-xxl-6
       config:
         show_label: true
-        include_heading_postscript: true
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/alternating-grid-test-2
     heading: Alternating Grid Heading
     subheading: Subheading goes here.

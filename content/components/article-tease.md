@@ -6,9 +6,7 @@ topper:
   label: ''
   background_image: ''
   alt_text: ''
-  heading:
-    - text: Heading
-      highlight: ''
+  heading: Article Tease Examples
   subheading: Subheading.
   body_text: ''
   settings:
@@ -36,6 +34,7 @@ content_blocks:
         margin:
         buffer:
         max_cols:
+        text_placement: mx-auto
       config:
         edit_mode_only: false
         include_heading_postscript: false

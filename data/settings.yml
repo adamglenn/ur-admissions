@@ -1,3 +1,8 @@
+meta_data:
+  description:
+  social_media_image:
+  keywords:
+google_analytics_id:
 social_media_accounts:
   - platform: Twitter
     username:
@@ -5,3 +10,76 @@ social_media_accounts:
   - platform: Facebook
     username:
     url:
+masthead:
+  lockup_type:
+  parent_org_title:
+  title:
+  alternate_logo:
+  buttons:
+    - text:
+      url:
+      button_c:
+primary_navigation:
+  status: active
+  enable_dropdowns: true
+  nav_links:
+    - text: Home
+      link: /
+      sub_nav_links: []
+    - text: Detail Page
+      link: /how-to-apply/first-time-freshmen/
+      sub_nav_links: []
+    - text: Guide Page
+      link: /test/new-guide-page-test/
+      sub_nav_links: []
+    - text: Article Index
+      link: /articles
+      sub_nav_links:
+        - text: Article
+          link: /articles/my-new-article/
+        - text: Photo Essay
+          link: /articles/my-new-photo-essay/
+    - text: Directory
+      link: /directory/
+      sub_nav_links: []
+    - text: Components
+      link: /components/
+      sub_nav_links:
+        - text: Accordion
+          link: /components/accordion/
+        - text: Alternating Grid
+          link: /components/alternating-grid/
+        - text: Article Tease
+          link: /components/article-tease/
+        - text: Cards
+          link: /components/cards/
+        - text: CTA Banner
+          link: /components/cta-banner/
+    - text: Programs
+      link: /programs
+      sub_nav_links:
+    - text: Gallery
+      link: /gallery/
+      sub_nav_links:
+    - text: Contact
+      link: /contact/
+      sub_nav_links:
+default_content:
+  cta_banner:
+    show: false
+    weight: 10
+  featurettes:
+    show: false
+    weight: 20
+  mailing_list:
+    show: false
+    weight: 30
+footer:
+  subheading:
+  contact_info:
+    info_blocks: []
+  quicklinks:
+  journey_text:
+  journey_links:
+extras:
+  chatbot_url:

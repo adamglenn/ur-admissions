@@ -7,7 +7,7 @@ topper:
   label: ''
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
-  heading: Heading
+  heading: Alternating Grid Examples
   subheading: Subheading.
   body_text: ''
   settings:
