@@ -35,6 +35,7 @@ content_blocks:
       layout:
         buffer:
         margin:
+        padding: py-6 py-xxl-7
       styles:
         background_c:
         tint_shade:
@@ -57,6 +58,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
