@@ -167,6 +167,40 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/section/factoids
+    heading:
+    subheading:
+    items:
+      - pre:
+        stat: 210,000
+        post: >-
+          We're worldwide. We have more than 210,000 alumni living in 135
+          nations.
+        source:
+      - pre:
+        stat: R1
+        post: >-
+          We're one of 187 U.S. schools to earn the "very high research"
+          designation.
+        source:
+      - pre:
+        stat: Top 2.4%
+        post: >-
+          The Center for World University Rankings placed WVU in the top 2.4% of
+          universities worldwide.
+        source:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        background_c:
+      layout:
+        margin:
+        buffer:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: true
   - _bookshop_name: design-system/section/featurettes-w-icons-2-column
     heading: Heading
     subheading: Subheading.
@@ -214,40 +248,6 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: false
-  - _bookshop_name: design-system/section/factoids
-    heading:
-    subheading:
-    items:
-      - pre:
-        stat: 210,000
-        post: >-
-          We're worldwide. We have more than 210,000 alumni living in 135
-          nations.
-        source:
-      - pre:
-        stat: R1
-        post: >-
-          We're one of 187 U.S. schools to earn the "very high research"
-          designation.
-        source:
-      - pre:
-        stat: Top 2.4%
-        post: >-
-          The Center for World University Rankings placed WVU in the top 2.4% of
-          universities worldwide.
-        source:
-    postscript:
-      copy:
-      ctas:
-    settings:
-      styles:
-        background_c:
-      layout:
-        margin:
-        buffer:
-      config:
-        edit_mode_only: false
-        include_heading_postscript: true
 properties:
   exclude_from_navigation: false
   exclude_from_search_engines: false
