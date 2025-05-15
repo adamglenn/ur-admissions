@@ -77,7 +77,7 @@ content_blocks:
     settings:
       layout:
         buffer:
-        margin:
+        margin: mt-n7 p-5 p-xl-6
         padding: py-6 py-xxl-7
       styles:
         background_c:
