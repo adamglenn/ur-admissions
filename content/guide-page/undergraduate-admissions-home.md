@@ -109,6 +109,28 @@ content_blocks:
           buffer:
         config:
     column_b:
+      _bookshop_name: design-system/column_sm/info-card
+      heading: Tuition Rates
+      subheading: Looking for a quick ballpark figure? We have you covered.
+      copy: >-
+        **In addition to the rates above, your program will charge college
+        tuition.** [Find your program's college tuition
+        rate](https://tuition.wvu.edu/undergraduate/morgantown-campus).
+
+
+        *Rates for 2024-2025. Rates are subject to change. Listed costs are
+        based on two semesters with a minimum of 12 credits each. Housing
+        expenses are based on residence hall double occupancy and the Go Anytime
+        dining plan. Visit* [*tuition.wvu.edu*](https://tuition.wvu.edu/) *for
+        rates by program.*
+
+
+        *Tuition and fees are usually not the only educational expenses you may
+        have while pursuing a degree. You may have other costs such as books,
+        supplies and living expenses. Please see the* [*Estimate Costs and Aid
+        webpage*](https://financialaid.wvu.edu/home/estimate-costs-aid) *for how
+        to estimate and plan for other potential expenses.*
+      card_c:
     postscript:
       copy:
       ctas:
