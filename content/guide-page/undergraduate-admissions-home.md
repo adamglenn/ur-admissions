@@ -4,16 +4,16 @@ title: Undergraduate Admissions Home
 topper:
   _bookshop_name: design-system/topper/hero
   label:
-  background_image:
+  background_image: /uploads/guy-sitting-outside.jpg
   alt_text:
   heading: Heading
   subheading: Subheading.
   body_text: ''
   settings:
     styles:
-      audience:
-      tone:
-      color_palette:
+      audience: general
+      tone: 3
+      color_palette: option-1
       gradient:
       enable_blend: false
       enable_pattern: false
@@ -91,6 +91,8 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1
     heading: Heading Test
     subheading: Subheading goes here.
+    background_image: /uploads/guy-sitting-outside.jpg
+    alt_text:
     column_a:
       _bookshop_name: design-system/column/cta-banner
       heading: Heading
@@ -130,16 +132,17 @@ content_blocks:
         supplies and living expenses. Please see the* [*Estimate Costs and Aid
         webpage*](https://financialaid.wvu.edu/home/estimate-costs-aid) *for how
         to estimate and plan for other potential expenses.*
-      card_c:
+      card_c: option-1
     postscript:
       copy:
       ctas:
     settings:
       styles:
         audience: general
-        tone: '3'
-        color_palette: option-2
-        background_c:
+        tone: 2
+        color_palette: option-3
+        enable_blend: true
+        tint_opacity: 0.7
       layout:
         margin:
         buffer:
@@ -220,7 +223,7 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience: prospective_students
+        audience:
         tone:
         color_palette:
       layout:
@@ -237,7 +240,7 @@ content_blocks:
       here.
     items:
       - title: Schedule a Tour
-        icon:
+        image: /uploads/guy-sitting-outside.jpg
         label:
         badge:
         text: >-
@@ -248,7 +251,7 @@ content_blocks:
             icon:
             url:
       - title: Virtual Tours
-        icon:
+        image: /uploads/guy-sitting-outside.jpg
         label:
         badge:
         text: Can't make it to Morgantown? Visit virtually via our tours and maps.
@@ -328,9 +331,10 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: prospective_students
+        tone: 2
+        color_palette: option-1
+        bg_subtle: true
       layout:
         buffer:
         margin:
@@ -366,9 +370,10 @@ content_blocks:
         url: /url
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: prospective_students
+        tone: 2
+        color_palette: option-1
+        bg_subtle:
       layout:
         margin:
         buffer:

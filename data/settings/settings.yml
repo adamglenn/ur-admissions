@@ -13,10 +13,16 @@ social_media_accounts:
 masthead:
   lockup_type:
   parent_org_title:
+  super_heading: Department of
   title:
+    - Physics and
+    - Astronomy
   alternate_logo:
   buttons:
-    - text:
+    - text: Call to Action
+      url:
+      button_c:
+    - text: Call to Action
       url:
       button_c:
 primary_navigation:
@@ -31,7 +37,9 @@ primary_navigation:
       sub_nav_links: []
     - text: Guide Page
       link: /test/new-guide-page-test/
-      sub_nav_links: []
+      sub_nav_links:
+        - text: Undergraduate Admissions Home Page
+          link: /guide-page/undergraduate-admissions-home
     - text: Article Index
       link: /articles
       sub_nav_links:
