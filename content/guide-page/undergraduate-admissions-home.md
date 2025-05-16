@@ -77,14 +77,14 @@ content_blocks:
     settings:
       layout:
         buffer:
-        margin: mt-n9 p-5 p-xl-6
+        margin: mt-n9
         pading: py-6 py-xxl-7
         padding: py-6 py-xxl-7
       styles:
-        background_c:
+        audience: alumni
+        tone: 1
+        color_palette: option-3
         tint_shade:
-        panel_font:
-        accent_c:
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -124,7 +124,7 @@ content_blocks:
         padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
-        include_heading_postscript: true
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/hero
     heading: Go Big For Less
     background_image:
@@ -160,7 +160,9 @@ content_blocks:
         button_c:
     settings:
       styles:
-        background_c:
+        audience: prospective_students
+        tone: 1
+        color_palette: option-3
         buttons_c:
       layout:
         margin:
@@ -168,7 +170,7 @@ content_blocks:
         padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
-        include_heading_postscript: true
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/factoids
     heading:
     subheading:
@@ -196,7 +198,9 @@ content_blocks:
       ctas:
     settings:
       styles:
-        background_c:
+        audience: prospective_students
+        tone:
+        color_palette:
       layout:
         margin:
         buffer:

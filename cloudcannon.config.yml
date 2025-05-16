@@ -889,11 +889,11 @@ _select_data:
       class: py-6
   container_margins:
     - name: Pull Up
-      class: mt-n9 p-5 p-xl-6
+      class: mt-n9
     - name: Pull Down
-      class: mb-n9 p-5 p-xl-6
+      class: mb-n9
     - name: Pull Both
-      class: my-n9 p-5 p-xl-6
+      class: my-n9
   container_margins_no_bg:
     - name: Pull Up
       class: mt-n9
