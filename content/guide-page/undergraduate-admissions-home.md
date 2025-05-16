@@ -142,6 +142,7 @@ content_blocks:
         text_align:
         margin:
         buffer:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: false
@@ -164,6 +165,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -198,6 +200,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -245,6 +248,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: false

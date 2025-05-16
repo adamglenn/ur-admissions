@@ -314,7 +314,7 @@ collections_config:
         remove_extra_inputs: false
         icon: notes
   settings:
-    path: data/settings.yml
+    path: data/settings
     name: Settings
     icon: toolbar
     output: false
