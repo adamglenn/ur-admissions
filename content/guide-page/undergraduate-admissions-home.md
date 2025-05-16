@@ -208,7 +208,7 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
-  - _bookshop_name: design-system/section/featurettes-w-icons-2-column
+  - _bookshop_name: design-system/section/featurettes-2-column
     heading: Explore Our Campus
     subheading: >-
       Visiting campus is the best way to see what it's like to study and live
@@ -245,11 +245,13 @@ content_blocks:
       ctas:
     settings:
       styles:
-        panel_font:
-        icon_c: wvu-blue
+        audience:
+        tone:
+        color_palette:
       layout:
         buffer:
         margin:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -305,10 +307,12 @@ content_blocks:
     settings:
       styles:
         audience:
-        background_c:
+        tone:
+        color_palette:
       layout:
         buffer:
         margin:
+        padding: py-6 py-xxl-7
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -340,7 +344,9 @@ content_blocks:
         url: /url
     settings:
       styles:
-        background_c:
+        audience:
+        tone:
+        color_palette:
       layout:
         margin:
         buffer:
