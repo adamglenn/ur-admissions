@@ -21,7 +21,7 @@ topper:
     layout:
       margin:
       buffer:
-      text_placement:
+      text_placement: mx-auto
     config:
       show_label: true
 cascade:

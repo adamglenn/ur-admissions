@@ -4,25 +4,22 @@ title: Alumni Home
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''
-  background_image: ''
+  background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
   heading: Heading
   subheading: Subheading.
   body_text: ''
   settings:
     styles:
-      audience: default
+      audience:
       tone: 1
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
       tint_opacity: '0.5'
-      background_c:
-      gradient:
-      heading_c:
     layout:
       buffer:
-      text_placement:
+      text_placement: mx-auto
       margin:
     config:
       show_label: true
@@ -46,6 +43,7 @@ content_blocks:
       layout:
         margin:
         buffer:
+        padding: py-5 py-xxl-6
       config:
         edit_mode_only: false
         include_heading_postscript: true
@@ -127,12 +125,15 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        background_c: dark
+        audience:
+        tone:
+        color_palette:
+        tint_opacity: "0.7"
       layout:
         text_align:
         margin:
         buffer:
-        padding: py-6 py-xxl-7
+        padding: py-7 py-xxl-9
       config:
         edit_mode_only: false
         include_heading_postscript: false
