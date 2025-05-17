@@ -379,10 +379,6 @@ _inputs:
       values:
         - name: General
           class: general
-        - name: Current Students
-          class: current_students
-        - name: Faculty and Staff
-          class: faculty_staff
         - name: Prospective Students
           class: prospective_students
         - name: Alumni
@@ -764,6 +760,8 @@ _inputs:
           class: "2"
         - name: Fun
           class: "3"
+        - name: Extra Fun
+          class: "4"
       value_key: class
   topper:
     type: object
