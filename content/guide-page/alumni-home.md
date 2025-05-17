@@ -6,8 +6,11 @@ topper:
   label: ''
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
-  heading: You're Always a Mountaineer!
-  subheading: Wherever you are, your WVU Alumni Association family is within reach. We have chapters from coast to coast. Join today to connect with fellow Mountaineers!
+  heading: Heading
+  subheading: >-
+    Wherever you are, your WVU Alumni Association family is within reach. We
+    have chapters from coast to coast. Join today to connect with fellow
+    Mountaineers!
   body_text: ''
   settings:
     styles:
@@ -49,6 +52,60 @@ content_blocks:
       config:
         edit_mode_only: false
         include_heading_postscript: true
+  - _bookshop_name: design-system/section/columns-2-1
+    column_a:
+      _bookshop_name: design-system/column/poster
+      heading: Heading
+      subheading: Subheading goes here.
+      image:
+      alt_text:
+      body:
+      ctas:
+      postscript_links:
+      settings:
+        styles:
+          background_c:
+        layout:
+          text_align:
+        config:
+    column_b:
+      _bookshop_name: design-system/column_sm/featurettes-w-icons-vertical
+      heading: Heading
+      subheading: Subheading.
+      items:
+        - title: Forge Lifelong Conncetions
+          icon: globe-americas
+          label:
+          badge:
+          text:
+          ctas:
+        - title: Access Exclusive Benefits
+          icon: ticket
+          label:
+          badge:
+          text:
+          ctas:
+      settings:
+        styles:
+          audience:
+        layout:
+        config:
+    postscript:
+      copy:
+      ctas:
+    settings:
+      styles:
+        audience:
+        tone:
+        color_palette:
+        enable_blend: false
+        tint_opacity: '0.5'
+      layout:
+        buffer:
+        padding: py-6 py-xxl-7
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
@@ -91,6 +148,36 @@ content_blocks:
       config:
         show_label: true
         include_heading_postscript: false
+  - _bookshop_name: design-system/section/hero
+    heading: LPEF Golf Tournament
+    background_image: /uploads/guy-sitting-outside.jpg
+    alt_text:
+    lead:
+    copy: >-
+      Tee off for a cause at the WVU LPEF Golf Tournament, where alumni and
+      supporters come together to raise funds for WVU student scholarships.
+      Enjoy a day of friendly competition, networking, and making a difference
+      in the lives of future Mountaineers.
+    ctas:
+      - text: More Info
+        icon:
+        url:
+    postscript_links:
+    settings:
+      styles:
+        audience:
+        tone:
+        color_palette:
+        tint_opacity: '0.7'
+      layout:
+        margin:
+        buffer:
+        padding: py-7 py-xxl-9
+        text_placement: mx-auto text-start
+        text_align:
+      config:
+        edit_mode_only: false
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
@@ -119,35 +206,6 @@ content_blocks:
         padding: py-5 py-xxl-6
       config:
         show_label: true
-        include_heading_postscript: false
-  - _bookshop_name: design-system/section/hero
-    heading: LPEF Golf Tournament
-    background_image: /uploads/guy-sitting-outside.jpg
-    alt_text:
-    lead:
-    copy: >-
-      Tee off for a cause at the WVU LPEF Golf Tournament, where alumni and
-      supporters come together to raise funds for WVU student scholarships.
-      Enjoy a day of friendly competition, networking, and making a difference
-      in the lives of future Mountaineers.
-    ctas:
-      - text: More Info
-        icon:
-        url:
-    postscript_links:
-    settings:
-      styles:
-        audience:
-        tone:
-        color_palette:
-        tint_opacity: "0.7"
-      layout:
-        text_align:
-        margin:
-        buffer:
-        padding: py-7 py-xxl-9
-      config:
-        edit_mode_only: false
         include_heading_postscript: false
 properties:
   exclude_from_navigation: false
