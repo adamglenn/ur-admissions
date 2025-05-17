@@ -10,6 +10,11 @@ social_media_accounts:
   - platform: Facebook
     username:
     url:
+alert_banner:
+  is_active: true
+  alert_style: info
+  home_page_only: false
+  message: Here is my message.
 masthead:
   lockup_type:
   parent_org_title:

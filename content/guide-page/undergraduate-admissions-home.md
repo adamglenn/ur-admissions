@@ -78,13 +78,13 @@ content_blocks:
       layout:
         buffer:
         margin: mt-n9
-        pading: py-6 py-xxl-7
         padding: py-6 py-xxl-7
       styles:
         audience: alumni
         color_palette: option-3
         tint_shade:
         tone: 1
+        remove_container_background: true
       config:
         edit_mode_only: false
         include_heading_postscript: true
