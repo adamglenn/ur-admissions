@@ -181,6 +181,16 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
+      _bookshop_name: design-system/column_sm/calendar-events
+      heading: Events
+      subheading:
+      event_feed: >-
+        <div id="localist-widget-58234144" class="localist-widget"></div><script
+        defer type="text/javascript"
+
+        src="https://cal.wvu.edu/widget/view?schools=wvu&departments=alumni&days=31&num=3&container=localist-widget-58234144&template=dsv2-vertical-mini"></script>
+      link_text:
+      url:
     column_b:
       _bookshop_name: design-system/column_sm/poster
       heading: Academy of Distinguished Alumni
