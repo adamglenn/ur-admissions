@@ -12,7 +12,7 @@ topper:
   settings:
     styles:
       audience: general
-      tone: 3
+      tone: "3"
       color_palette: option-1
       gradient:
       enable_blend: false
@@ -83,7 +83,7 @@ content_blocks:
         audience: alumni
         color_palette: option-3
         tint_shade:
-        tone: 1
+        tone: "1"
         remove_container_background: true
       config:
         edit_mode_only: false
@@ -139,10 +139,10 @@ content_blocks:
     settings:
       styles:
         audience: general
-        tone: 2
+        tone: "2"
         color_palette: option-3
         enable_blend: true
-        tint_opacity: 0.7
+        tint_opacity: "0.7"
       layout:
         margin:
         buffer:
@@ -186,7 +186,7 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: 1
+        tone: "1"
         color_palette: option-3
         buttons_c:
       layout:
@@ -332,7 +332,7 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: 2
+        tone: "2"
         color_palette: option-1
         bg_subtle: true
       layout:
@@ -371,7 +371,7 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: 2
+        tone: "2"
         color_palette: option-1
         bg_subtle:
       layout:

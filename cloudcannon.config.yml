@@ -374,7 +374,7 @@ _inputs:
     label: Tags
     cascade: true
   audience:
-    type: select
+    type: choice
     options:
       values:
         - name: General
@@ -427,7 +427,7 @@ _inputs:
       values: _structures.color_overlay
     cascade: true
   color_palette:
-    type: select
+    type: choice
     options:
       values:
         - name: Option 1
@@ -755,13 +755,13 @@ _inputs:
   tint_shade:
     type: switch
   tone:
-    type: select
+    type: choice
     options:
       values:
         - name: Default
           class: "1"
         - name: Formal
-          class: "3"
+          class: "2"
         - name: Fun
           class: "3"
       value_key: class
