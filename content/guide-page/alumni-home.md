@@ -112,7 +112,7 @@ content_blocks:
         include_heading_postscript: false
   - _bookshop_name: design-system/section/hero
     heading: LPEF Golf Tournament
-    background_image:
+    background_image: /uploads/guy-sitting-outside.jpg
     alt_text:
     lead:
     copy: >-
