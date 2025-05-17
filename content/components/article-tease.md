@@ -1,6 +1,8 @@
 ---
 title: Article Tease
 description:
+article_tags:
+  - Featured Podcast
 topper:
   _bookshop_name: design-system/topper/hero
   label: ''

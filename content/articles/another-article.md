@@ -11,6 +11,7 @@ authors:
   - author: 1431914c-f6cc-4749-b4db-06e585933d66
     article_role: Author
 article_tags:
+  - Featured Podcast
 article_topper:
   _bookshop_name: design-system/topper/article
   label:

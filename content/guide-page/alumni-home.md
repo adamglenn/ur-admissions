@@ -6,20 +6,20 @@ topper:
   label: ''
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
-  heading: Heading
-  subheading: Subheading.
+  heading: You're Always a Mountaineer!
+  subheading: Wherever you are, your WVU Alumni Association family is within reach. We have chapters from coast to coast. Join today to connect with fellow Mountaineers!
   body_text: ''
   settings:
     styles:
-      audience:
-      tone: 1
+      audience: alumni
+      tone: 3
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
       tint_opacity: '0.5'
     layout:
-      buffer:
-      text_placement: mx-auto
+      buffer: py-6
+      text_placement: me-auto text-start
       margin:
     config:
       show_label: true
@@ -39,7 +39,9 @@ content_blocks:
         url:
     settings:
       styles:
-        background_c:
+        audience: general
+        tone: 3
+        color_palette: option-2
       layout:
         margin:
         buffer:
@@ -65,6 +67,16 @@ content_blocks:
       body: ''
       ctas: []
     column_c:
+      _bookshop_name: design-system/column_sm/teasers-generic
+      items:
+        - heading: All 'EERRs Podcast
+          icon: podcast
+          tags:
+            - Featured Podcast
+          ctas:
+            - text: Listen
+              icon: arrow-circle-right
+              url:
     settings:
       styles:
         background_c:
