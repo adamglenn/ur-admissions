@@ -3,14 +3,14 @@ _schema: guide_page
 title: Alumni Home - Default
 topper:
   _bookshop_name: design-system/topper/hero
-  heading: Heading
+  heading: Heading Test
   subheading: Subheading.
   body_text: ''
   ctas: []
   settings:
     styles:
-      audience: default
-      tone: general
+      audience: general
+      tone: default
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
