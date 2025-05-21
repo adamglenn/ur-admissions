@@ -383,10 +383,6 @@ _inputs:
           class: prospective_students
         - name: Alumni
           class: alumni
-        - name: Parents
-          class: parents
-        - name: State Leaders and Partners
-          class: state_leaders
       value_key: class
   author:
     type: select
@@ -432,6 +428,20 @@ _inputs:
           class: "option-2"
         - name: Option 3
           class: "option-3"
+        - name: Option 4
+          class: "option-4"
+        - name: Option 5
+          class: "option-5"
+        - name: Option 6
+          class: "option-6"
+        - name: Option 7
+          class: "option-7"
+        - name: Option 8
+          class: "option-8"
+        - name: Option 9
+          class: "option-9"
+        - name: Option 10
+          class: "option-10"
       value_key: class
   column_a:
     type: object
@@ -755,13 +765,13 @@ _inputs:
     options:
       values:
         - name: Default
-          class: "1"
-        - name: Formal
-          class: "2"
-        - name: Fun
-          class: "3"
-        - name: Extra Fun
-          class: "4"
+          class: "general"
+        - name: Reserved
+          class: "reserved"
+        - name: Loud
+          class: "loud"
+        - name: Let’s Go!
+          class: "lets-go"
       value_key: class
   topper:
     type: object
