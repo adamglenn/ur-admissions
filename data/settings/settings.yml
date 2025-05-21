@@ -44,9 +44,9 @@ primary_navigation:
       link: /test/new-guide-page-test/
       sub_nav_links:
         - text: Undergraduate Admissions Home Page
-          link: /guide-page/undergraduate-admissions-home
+          link: /guide-page/undergraduate-admissions-home-default
         - text: Alumni Home Page
-          link: /guide-page/alumni-home
+          link: /guide-page/alumni-home-default
         - text: WVU Today Home Page
           link: /guide-page/wvu-today-home
     - text: Article Index
