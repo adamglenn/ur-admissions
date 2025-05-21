@@ -114,6 +114,8 @@ content_blocks:
       _bookshop_name: design-system/column_sm/poster
       heading: Alumni News
       subheading: Check out alumni news on WVUToday.
+      image:
+      image:
       body: ''
       ctas: []
     column_c:
@@ -188,11 +190,13 @@ content_blocks:
       _bookshop_name: design-system/column_sm/poster
       heading: Academy of Distinguished Alumni
       subheading:
+      image: /uploads/guy-sitting-outside.jpg
       body: ''
       ctas: []
     column_c:
       _bookshop_name: design-system/column_sm/poster
       heading: Homecoming and Alumni Service Awards
+      image: /uploads/guy-sitting-outside.jpg
       subheading:
       body: ''
       ctas: []

@@ -220,11 +220,11 @@ content_blocks:
     settings:
       styles:
         audience: default
-        tone: loud
-        color_palette: option-2
+        tone: lets-go
+        color_palette: option-9
         bg_subtle: true
       layout:
-        margin: mt-n9
+        margin: my-n9
         buffer:
         padding: py-6 py-xxl-7
       config:
@@ -268,8 +268,8 @@ content_blocks:
     settings:
       styles:
         audience: default
-        tone: default
-        color_palette: option-1
+        tone: lets-go
+        color_palette: option-6
       layout:
         buffer:
         margin:
@@ -330,7 +330,7 @@ content_blocks:
       styles:
         audience: default
         tone: loud
-        color_palette: option-11
+        color_palette: option-7
         bg_subtle: true
       layout:
         buffer:
@@ -369,7 +369,7 @@ content_blocks:
       styles:
         audience: default
         tone: loud
-        color_palette: option-11
+        color_palette: option-7
         bg_subtle:
       layout:
         margin:
@@ -383,6 +383,6 @@ properties:
   exclude_from_search_engines: false
   meta_description:
   social_image:
-uuid: c36b46ea-8b82-46c8-ab5a-b6de8f983fe1
+uuid: c36b46ea-8b82-46c8-ab5a-b6de8f983fe4
 type: guide
 ---

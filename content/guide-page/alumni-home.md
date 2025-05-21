@@ -225,6 +225,6 @@ properties:
   exclude_from_search_engines: false
   meta_description:
   social_image:
-uuid: e40d24f5-9d1a-4df0-8b00-eedb453d8635
+uuid: e40d24f5-9d1a-4df0-8b00-eedb453d8637
 type: guide
 ---
