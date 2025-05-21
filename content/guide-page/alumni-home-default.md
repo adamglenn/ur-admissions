@@ -115,7 +115,6 @@ content_blocks:
       heading: Alumni News
       subheading: Check out alumni news on WVUToday.
       image:
-      image:
       body: ''
       ctas: []
     column_c:
