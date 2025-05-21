@@ -6,30 +6,33 @@ topper:
   label: ''
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
-  heading: Heading
+  heading: You’re always a Mountaineer!
   subheading: >-
     Wherever you are, your WVU Alumni Association family is within reach. We
     have chapters from coast to coast. Join today to connect with fellow
     Mountaineers!
   body_text: ''
+  ctas:
+    - text: Find Your Chapter
+      button_c: wvu-gold
+      icon: arrow-circle-right
+      url:
   settings:
     styles:
       audience: alumni
-      tone: 3
+      tone: loud
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
-      tint_opacity: '0.5'
+      tint_opacity: '0.7'
     layout:
-      buffer: py-6
+      buffer:
       text_placement: me-auto text-start
       margin:
     config:
       show_label: true
 content_blocks:
   - _bookshop_name: design-system/section/icon-bar
-    heading:
-    subheading:
     items:
       - icon: diploma
         text: Scholarships
@@ -42,16 +45,16 @@ content_blocks:
         url:
     settings:
       styles:
-        audience: general
-        tone: 3
+        audience: alumni
+        tone: loud
         color_palette: option-2
       layout:
         margin:
         buffer:
-        padding: py-5 py-xxl-6
+        padding: py-5
       config:
         edit_mode_only: false
-        include_heading_postscript: true
+        include_heading_postscript: false
   - _bookshop_name: design-system/section/columns-2-1
     column_a:
       _bookshop_name: design-system/column/poster
@@ -69,7 +72,7 @@ content_blocks:
           text_align:
         config:
     column_b:
-      _bookshop_name: design-system/column_sm/featurettes-w-icons-vertical
+      _bookshop_name: design-system/column_sm/benefits-checklist
       heading: Heading
       subheading: Subheading.
       items:
@@ -95,9 +98,9 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: alumni
+        tone: default
+        color_palette: option-1
         enable_blend: false
         tint_opacity: '0.5'
       layout:
@@ -126,7 +129,7 @@ content_blocks:
     column_c:
       _bookshop_name: design-system/column_sm/teasers-generic
       items:
-        - heading: All 'EERRs Podcast
+        - heading: All 'EERs Podcast
           icon: podcast
           tags:
             - Featured Podcast
@@ -165,8 +168,8 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        audience:
-        tone:
+        audience: alumni
+        tone: loud
         color_palette:
         tint_opacity: '0.7'
       layout:
@@ -181,7 +184,7 @@ content_blocks:
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
-      _bookshop_name: design-system/column_sm/calendar-events
+      _bookshop_name: design-system/column/calendar-events
       heading: Events
       subheading:
       event_feed: >-

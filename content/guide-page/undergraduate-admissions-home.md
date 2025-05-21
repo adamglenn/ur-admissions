@@ -6,20 +6,20 @@ topper:
   label:
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text:
-  heading: Heading
-  subheading: Subheading.
+  heading: Be bold enough to dream big.
+  subheading: The first thing you’ll learn here is that “impossible” is just a challenge.
   body_text: ''
   settings:
     styles:
-      audience: general
-      tone: "3"
-      color_palette: option-1
+      audience: prospective_students
+      tone: default
+      color_palette: option-4
       gradient:
-      enable_blend: false
+      enable_blend: true
       enable_pattern: false
-      tint_opacity: '0.5'
+      tint_opacity: '0.7'
     layout:
-      buffer:
+      buffer: pb-6
       text_placement: mx-auto
     config:
       show_label: true
@@ -41,8 +41,6 @@ content_blocks:
           - text: Majors List
             icon:
             url:
-        background_c:
-        accent_c:
       - title: Explore Online Degrees
         image:
         alt_text:
@@ -80,23 +78,21 @@ content_blocks:
         margin: mt-n9
         padding: py-6 py-xxl-7
       styles:
-        audience: alumni
+        audience: prospective_students
+        tone: lets-go
         color_palette: option-3
-        tint_shade:
-        tone: "1"
+        bg_subtle:
         remove_container_background: true
       config:
         edit_mode_only: false
         include_heading_postscript: true
   - _bookshop_name: design-system/section/columns-2-1
-    heading: Heading Test
-    subheading: Subheading goes here.
     background_image: /uploads/guy-sitting-outside.jpg
     alt_text:
     column_a:
       _bookshop_name: design-system/column/cta-banner
-      heading: Heading
-      subheading: Subheading goes here.
+      heading: Estimate your scholarships.
+      subheading: We offer scholarships to first-time freshmen, transfers and international students.
       buttons:
         - text: Explore Scholarships
           url:
@@ -133,14 +129,11 @@ content_blocks:
         webpage*](https://financialaid.wvu.edu/home/estimate-costs-aid) *for how
         to estimate and plan for other potential expenses.*
       card_c: option-1
-    postscript:
-      copy:
-      ctas:
     settings:
       styles:
-        audience: general
-        tone: "2"
-        color_palette: option-3
+        audience: prospective_students
+        tone: loud
+        color_palette: option-8
         enable_blend: true
         tint_opacity: "0.7"
       layout:
@@ -162,12 +155,15 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        background_c: dark
+        audience: prospective_students
+        tone: reserved
+        color_palette: option-1
       layout:
         text_align:
         margin:
         buffer:
         padding: py-6 py-xxl-7
+        text_placement: mx-auto text-center
       config:
         edit_mode_only: false
         include_heading_postscript: false
@@ -186,8 +182,8 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: "1"
-        color_palette: option-3
+        tone: default
+        color_palette: option-1
         buttons_c:
       layout:
         margin:
@@ -223,9 +219,10 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: prospective_students
+        tone: loud
+        color_palette: option-2
+        bg_subtle: true
       layout:
         margin: mt-n9
         buffer:
@@ -270,9 +267,9 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience:
-        tone:
-        color_palette:
+        audience: prospective_students
+        tone: default
+        color_palette: option-1
       layout:
         buffer:
         margin:
@@ -332,8 +329,8 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: "2"
-        color_palette: option-1
+        tone: loud
+        color_palette: option-11
         bg_subtle: true
       layout:
         buffer:
@@ -371,8 +368,8 @@ content_blocks:
     settings:
       styles:
         audience: prospective_students
-        tone: "2"
-        color_palette: option-1
+        tone: loud
+        color_palette: option-11
         bg_subtle:
       layout:
         margin:
