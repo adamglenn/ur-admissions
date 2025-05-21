@@ -765,7 +765,7 @@ _inputs:
     options:
       values:
         - name: Default
-          class: "general"
+          class: "default"
         - name: Reserved
           class: "reserved"
         - name: Loud

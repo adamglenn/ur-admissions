@@ -9,8 +9,8 @@ topper:
   ctas: []
   settings:
     styles:
-      audience: default
-      tone: general
+      audience: general
+      tone: default
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
