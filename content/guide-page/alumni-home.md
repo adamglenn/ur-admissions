@@ -32,6 +32,12 @@ topper:
     config:
       show_label: true
 content_blocks:
+  - _bookshop_name: design-system/section/sitewide-section
+    sitewide_section: test-sitewide-quicklinks
+    show_content: false
+    show: 2024-09-01
+    hide: 2099-09-01
+    is_sitewide: true
   - _bookshop_name: design-system/section/icon-bar
     items:
       - icon: diploma
@@ -71,7 +77,7 @@ content_blocks:
         layout:
           text_align:
         config:
-    column_b:
+    column_aa:
       _bookshop_name: design-system/column_sm/benefits-checklist
       heading: Heading
       subheading: Subheading.
@@ -122,13 +128,13 @@ content_blocks:
         hide_author: false
         show_content: false
       is_dynamic: true
-    column_b:
+    column_aaa:
       _bookshop_name: design-system/column_sm/poster
       heading: Alumni News
       subheading: Check out alumni news on WVUToday.
       body: ''
       ctas: []
-    column_c:
+    column_bbb:
       _bookshop_name: design-system/column_sm/teasers-generic
       items:
         - heading: All 'EERs Podcast
@@ -198,13 +204,13 @@ content_blocks:
         src="https://cal.wvu.edu/widget/view?schools=wvu&departments=alumni&days=31&num=3&container=localist-widget-58234144&template=dsv2-vertical-mini"></script>
       link_text:
       url:
-    column_b:
+    column_aaa:
       _bookshop_name: design-system/column_sm/poster
       heading: Academy of Distinguished Alumni
       subheading:
       body: ''
       ctas: []
-    column_c:
+    column_bbb:
       _bookshop_name: design-system/column_sm/poster
       heading: Homecoming and Alumni Service Awards
       subheading:

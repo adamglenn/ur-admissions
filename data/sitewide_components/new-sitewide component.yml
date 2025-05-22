@@ -1,7 +1,0 @@
-heading: Quicklinks
-links:
-  - text: Text
-    url: /url
-config:
-  edit_mode_only: false
-_schema: sitewide_quicklinks

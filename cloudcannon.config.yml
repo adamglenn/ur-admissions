@@ -467,13 +467,25 @@ _inputs:
       structures: _structures.column_blocks_sm
     label: Column
     cascade: true
-  column_d:
+  column_aa:
     type: object
     options:
       structures: _structures.column_blocks_sm
     label: Column
     cascade: true
-  column_e:
+  column_aaa:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_bbb:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_aaaa:
     type: object
     options:
       structures: _structures.column_blocks_sm
