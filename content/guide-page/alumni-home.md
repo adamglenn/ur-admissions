@@ -93,6 +93,7 @@ content_blocks:
           audience:
         layout:
         config:
+      is_nested: true
     postscript:
       copy:
       ctas:
@@ -151,6 +152,7 @@ content_blocks:
       config:
         show_label: true
         include_heading_postscript: false
+    is_nested: true
   - _bookshop_name: design-system/section/hero
     heading: LPEF Golf Tournament
     background_image: /uploads/guy-sitting-outside.jpg
@@ -220,6 +222,7 @@ content_blocks:
       config:
         show_label: true
         include_heading_postscript: false
+    is_nested: true
 properties:
   exclude_from_navigation: false
   exclude_from_search_engines: false
