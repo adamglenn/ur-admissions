@@ -455,24 +455,6 @@ _inputs:
       structures: _structures.column_blocks
     label: Column
     cascade: true
-  column_b:
-    type: object
-    options:
-      structures: _structures.column_blocks_sm
-    label: Column
-    cascade: true
-  column_c:
-    type: object
-    options:
-      structures: _structures.column_blocks_sm
-    label: Column
-    cascade: true
-  column_aa:
-    type: object
-    options:
-      structures: _structures.column_blocks_sm
-    label: Column
-    cascade: true
   column_aaa:
     type: object
     options:
@@ -486,6 +468,18 @@ _inputs:
     label: Column
     cascade: true
   column_aaaa:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_b:
+    type: object
+    options:
+      structures: _structures.column_blocks_sm
+    label: Column
+    cascade: true
+  column_c:
     type: object
     options:
       structures: _structures.column_blocks_sm
