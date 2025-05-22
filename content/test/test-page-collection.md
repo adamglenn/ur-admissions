@@ -98,24 +98,6 @@ content_blocks:
         accent_c:
       config:
         edit_mode_only: false
-  - _bookshop_name: design-system/section/alumni-profile
-    heading: Heading
-    name: Firstname Lastname
-    image: /uploads/jillian.png
-    label:
-      - Label
-    info:
-      - Morgantown, WV
-    ctas:
-      - text: Call to Action
-        url:
-        icon:
-    settings:
-      layout:
-        is_cutout: true
-        margin_no_bg:
-      config:
-        edit_mode_only: false
 uuid: c85e10ef-4950-4b94-a6fa-2c1c1f9b28d4
 type: guide
 ---
