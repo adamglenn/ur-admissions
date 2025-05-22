@@ -23,7 +23,7 @@ topper:
     config:
       show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/alternating-grid-test-2
+  - _bookshop_name: design-system/section/alternating-grid
     heading: Is this fast?
     subheading: How fast can we type?
     items:
@@ -37,7 +37,10 @@ content_blocks:
       ctas:
     settings:
       styles:
-        background_c:
+        audience:
+        tone:
+        color_palette:
+        is_subtle:
       layout:
         butter:
         margin:
@@ -89,7 +92,7 @@ content_blocks:
       config:
         show_label: true
         include_heading_postscript: false
-  - _bookshop_name: design-system/section/alternating-grid-test-2
+  - _bookshop_name: design-system/section/alternating-grid
     heading: Alternating Grid Heading
     subheading: Subheading goes here.
     items:
@@ -103,7 +106,10 @@ content_blocks:
       ctas:
     settings:
       styles:
-        background_c:
+        audience:
+        tone:
+        color_palette:
+        is_subtle:
       layout:
         butter:
         margin:

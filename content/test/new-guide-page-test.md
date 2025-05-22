@@ -27,7 +27,7 @@ topper:
     config:
       show_label: true
 content_blocks:
-  - _bookshop_name: design-system/section/alternating-grid-test-2
+  - _bookshop_name: design-system/section/alternating-grid
     heading: Alternating Grid Heading Test
     subheading: Subheading goes here.
     items:

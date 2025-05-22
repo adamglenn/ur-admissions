@@ -12,7 +12,7 @@ social_media_accounts:
     url:
 alert_banner:
   is_active: true
-  alert_style: info
+  alert_type: info
   home_page_only: false
   message: Here is my message.
 masthead:

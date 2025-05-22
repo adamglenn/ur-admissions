@@ -11,7 +11,7 @@ topper:
   body_text: ''
   settings:
     styles:
-      audience: default
+      audience: general
       tone: default
       color_palette: option-4
       gradient:
@@ -78,7 +78,7 @@ content_blocks:
         margin: mt-n9
         padding: py-6 py-xxl-7
       styles:
-        audience: default
+        audience: general
         tone: lets-go
         color_palette: option-3
         bg_subtle:
@@ -131,7 +131,7 @@ content_blocks:
       card_c: option-1
     settings:
       styles:
-        audience: default
+        audience: general
         tone: loud
         color_palette: option-8
         enable_blend: true
@@ -155,7 +155,7 @@ content_blocks:
     postscript_links:
     settings:
       styles:
-        audience: default
+        audience: general
         tone: reserved
         color_palette: option-1
       layout:
@@ -181,7 +181,7 @@ content_blocks:
         button_c:
     settings:
       styles:
-        audience: default
+        audience: general
         tone: default
         color_palette: option-1
         buttons_c:
@@ -219,7 +219,7 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience: default
+        audience: general
         tone: lets-go
         color_palette: option-9
         bg_subtle: true
@@ -267,7 +267,7 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience: default
+        audience: general
         tone: lets-go
         color_palette: option-6
       layout:
@@ -328,7 +328,7 @@ content_blocks:
       ctas:
     settings:
       styles:
-        audience: default
+        audience: general
         tone: loud
         color_palette: option-7
         bg_subtle: true
@@ -367,7 +367,7 @@ content_blocks:
         url: /url
     settings:
       styles:
-        audience: default
+        audience: general
         tone: loud
         color_palette: option-7
         bg_subtle:

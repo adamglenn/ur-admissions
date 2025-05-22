@@ -20,7 +20,7 @@ topper:
   settings:
     styles:
       audience: alumni
-      tone: loud
+      tone: lets-go
       color_palette: option-1
       enable_blend: false
       enable_pattern: false
