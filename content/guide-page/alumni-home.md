@@ -6,7 +6,7 @@ topper:
   label: ''
   background_image: /uploads/guy-sitting-outside.jpg
   alt_text: ''
-  heading: You’re always a Mountaineer!
+  heading: You’re always a Mountaineer! How fast are we?
   subheading: >-
     Wherever you are, your WVU Alumni Association family is within reach. We
     have chapters from coast to coast. Join today to connect with fellow
@@ -35,8 +35,8 @@ content_blocks:
   - _bookshop_name: design-system/section/sitewide-section
     sitewide_section: test-sitewide-quicklinks
     show_content: false
-    show: 2024-09-01
-    hide: 2099-09-01
+    show: '2024-09-01'
+    hide: '2099-09-01'
     is_sitewide: true
   - _bookshop_name: design-system/section/icon-bar
     items:
@@ -54,10 +54,12 @@ content_blocks:
         audience: alumni
         tone: loud
         color_palette: option-2
+        enable_blend: false
+        tint_opacity: '0.7'
       layout:
         margin:
-        buffer:
         padding: py-5
+        buffer:
       config:
         edit_mode_only: false
         include_heading_postscript: false
@@ -100,9 +102,6 @@ content_blocks:
         layout:
         config:
       is_nested: true
-    postscript:
-      copy:
-      ctas:
     settings:
       styles:
         audience: alumni
@@ -111,11 +110,16 @@ content_blocks:
         enable_blend: false
         tint_opacity: '0.5'
       layout:
-        buffer:
         padding: py-6 py-xxl-7
+        buffer:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+        show: '2024-09-01'
+        hide: '2099-09-01'
+    postscript:
+      copy:
+      ctas:
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
@@ -148,18 +152,20 @@ content_blocks:
       is_dynamic: true
     settings:
       styles:
+        enable_blend: false
+        tint_opacity: '0.5'
         background_c:
         gradient:
         heading_c:
-        enable_blend: false
         enable_pattern: false
-        tint_opacity: '0.5'
       layout:
-        buffer:
         padding: py-5 py-xxl-6
+        buffer:
       config:
         show_label: true
         include_heading_postscript: false
+        show: '2024-09-01'
+        hide: '2099-09-01'
     is_nested: true
   - _bookshop_name: design-system/section/hero
     heading: LPEF Golf Tournament
@@ -181,16 +187,19 @@ content_blocks:
         audience: alumni
         tone: loud
         color_palette:
+        enable_blend: false
         tint_opacity: '0.7'
       layout:
         margin:
-        buffer:
         padding: py-7 py-xxl-9
         text_placement: mx-auto text-start
+        buffer:
         text_align:
       config:
         edit_mode_only: false
         include_heading_postscript: false
+        show: '2024-09-01'
+        hide: '2099-09-01'
   - _bookshop_name: design-system/section/columns-2-1-1
     background_image:
     column_a:
@@ -218,18 +227,20 @@ content_blocks:
       ctas: []
     settings:
       styles:
+        enable_blend: false
+        tint_opacity: '0.5'
         background_c:
         gradient:
         heading_c:
-        enable_blend: false
         enable_pattern: false
-        tint_opacity: '0.5'
       layout:
-        buffer:
         padding: py-5 py-xxl-6
+        buffer:
       config:
         show_label: true
         include_heading_postscript: false
+        show: '2024-09-01'
+        hide: '2099-09-01'
     is_nested: true
 properties:
   exclude_from_navigation: false
