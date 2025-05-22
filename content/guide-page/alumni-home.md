@@ -121,6 +121,7 @@ content_blocks:
         edit_mode_only: false
         hide_author: false
         show_content: false
+      is_dynamic: true
     column_b:
       _bookshop_name: design-system/column_sm/poster
       heading: Alumni News
@@ -138,6 +139,7 @@ content_blocks:
             - text: Listen
               icon: arrow-circle-right
               url:
+      is_dynamic: true
     settings:
       styles:
         background_c:
