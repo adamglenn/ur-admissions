@@ -715,7 +715,7 @@ _inputs:
     type: select
     options:
       allow_empty: true
-      values: data.sitewide_components
+      values: data.sitewide_components.sitewide_components
     cascade: true
   social_media_accounts:
     type: array
