@@ -302,17 +302,9 @@ collections_config:
     icon: globe
     output: false
     description: Sitewide components
-    disable_add: false
+    disable_add: true
     disable_add_folder: true
-    disable_file_actions: false
-    schemas:
-      sitewide_quicklinks:
-        path: .cloudcannon/schemas/sitewide-quicklinks.yml
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: false
-        icon: notes
+    disable_file_actions: true
   settings:
     path: data/settings
     name: Settings
