@@ -113,14 +113,6 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: false
         icon: notes
-  masthead_footer:
-    path: data/default_content
-    name: Masthead and Footer
-    icon: toolbar
-    output: false
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: false
   navigation_menus:
     path: data/menus
     name: Submenus
@@ -314,7 +306,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
 collection_groups:
-  - heading: Pages
+  - heading: Page Types
     collections:
       - pages
       - articles
@@ -328,7 +320,6 @@ collection_groups:
   - heading: Site
     collections:
       - settings
-      - masthead_footer
       - navigation_menus
       - sitewide_components
 _enabled_editors:
@@ -390,6 +381,8 @@ _inputs:
       value_key: class
     label: Background Color
     cascade: true
+  bg_subtle:
+    type: checkbox
   buffer:
     type: select
     options:

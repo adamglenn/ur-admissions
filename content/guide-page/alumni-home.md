@@ -127,10 +127,8 @@ content_blocks:
       heading: Top Story
       article_tags:
         - Custom Label
-      config:
-        edit_mode_only: false
-        hide_author: false
-        show_content: false
+      hide_author: false
+      show_content: false
       is_dynamic: true
     column_aaa:
       _bookshop_name: design-system/column_sm/poster
